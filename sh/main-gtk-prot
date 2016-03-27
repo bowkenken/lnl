@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot main-gtk.cpp | tee main-gtk-prot.h

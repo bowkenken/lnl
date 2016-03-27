@@ -1,0 +1,476 @@
+FileList.o: FileList.cpp /usr/include/stdc-predef.h spell.h gmain.h \
+ config.h /usr/include/stdlib.h /usr/include/features.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i586-linux-gnu/4.9/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i586-linux-gnu/4.9/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/lib/gcc/i586-linux-gnu/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/i586-linux-gnu/4.9/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
+ /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/i386-linux-gnu/bits/posix2_lim.h \
+ /usr/include/i386-linux-gnu/bits/xopen_lim.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/ctype.h \
+ /usr/include/i386-linux-gnu/bits/timex.h /usr/include/math.h \
+ /usr/include/i386-linux-gnu/bits/huge_val.h \
+ /usr/include/i386-linux-gnu/bits/huge_valf.h \
+ /usr/include/i386-linux-gnu/bits/huge_vall.h \
+ /usr/include/i386-linux-gnu/bits/inf.h \
+ /usr/include/i386-linux-gnu/bits/nan.h \
+ /usr/include/i386-linux-gnu/bits/mathdef.h \
+ /usr/include/i386-linux-gnu/bits/mathcalls.h \
+ /usr/include/i386-linux-gnu/bits/mathinline.h \
+ /usr/include/i386-linux-gnu/sys/stat.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/gpm.h /usr/include/paths.h \
+ /usr/include/i386-linux-gnu/sys/ioctl.h \
+ /usr/include/i386-linux-gnu/bits/ioctls.h \
+ /usr/include/i386-linux-gnu/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/i386-linux-gnu/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
+ /usr/include/i386-linux-gnu/bits/ioctl-types.h \
+ /usr/include/i386-linux-gnu/sys/ttydefaults.h misc.h turn.h msg-t.h \
+ music-kind.h sound-kind.h extern.h chr.h dun.h curs.h msg.h \
+ /usr/include/curses.h /usr/include/ncurses_dll.h \
+ /usr/lib/gcc/i586-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/unctrl.h \
+ /usr/include/curses.h fight.h spell-kind.h fx.h abl-kind.h resi.h \
+ skill.h mnstr-kind.h item-kind.h gfile.h replay.h key-item.h \
+ key-item-prot.h win-kind.h joy-kind.h vfx-kind.h menu.h item.h trap.h \
+ item-randm-art.h party.h stay-inn-kind.h amenu.h FileList.h \
+ /usr/include/dirent.h /usr/include/i386-linux-gnu/bits/dirent.h \
+ GtkWSCstring.h /usr/include/c++/4.9/string \
+ /usr/include/i386-linux-gnu/c++/4.9/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.9/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.9/bits/cpu_defines.h \
+ /usr/include/c++/4.9/bits/stringfwd.h \
+ /usr/include/c++/4.9/bits/memoryfwd.h \
+ /usr/include/c++/4.9/bits/char_traits.h \
+ /usr/include/c++/4.9/bits/stl_algobase.h \
+ /usr/include/c++/4.9/bits/functexcept.h \
+ /usr/include/c++/4.9/bits/exception_defines.h \
+ /usr/include/c++/4.9/bits/cpp_type_traits.h \
+ /usr/include/c++/4.9/ext/type_traits.h \
+ /usr/include/c++/4.9/ext/numeric_traits.h \
+ /usr/include/c++/4.9/bits/stl_pair.h /usr/include/c++/4.9/bits/move.h \
+ /usr/include/c++/4.9/bits/concept_check.h \
+ /usr/include/c++/4.9/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.9/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.9/debug/debug.h \
+ /usr/include/c++/4.9/bits/stl_iterator.h \
+ /usr/include/c++/4.9/bits/ptr_traits.h \
+ /usr/include/c++/4.9/bits/predefined_ops.h \
+ /usr/include/c++/4.9/bits/postypes.h /usr/include/c++/4.9/cwchar \
+ /usr/include/c++/4.9/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.9/bits/c++allocator.h \
+ /usr/include/c++/4.9/ext/new_allocator.h /usr/include/c++/4.9/new \
+ /usr/include/c++/4.9/exception \
+ /usr/include/c++/4.9/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.9/bits/localefwd.h \
+ /usr/include/i386-linux-gnu/c++/4.9/bits/c++locale.h \
+ /usr/include/c++/4.9/clocale /usr/include/locale.h \
+ /usr/include/i386-linux-gnu/bits/locale.h /usr/include/c++/4.9/iosfwd \
+ /usr/include/c++/4.9/cctype /usr/include/c++/4.9/bits/ostream_insert.h \
+ /usr/include/c++/4.9/bits/cxxabi_forced.h \
+ /usr/include/c++/4.9/bits/stl_function.h \
+ /usr/include/c++/4.9/backward/binders.h \
+ /usr/include/c++/4.9/bits/range_access.h \
+ /usr/include/c++/4.9/bits/basic_string.h \
+ /usr/include/c++/4.9/ext/atomicity.h \
+ /usr/include/i386-linux-gnu/c++/4.9/bits/gthr.h \
+ /usr/include/i386-linux-gnu/c++/4.9/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/i386-linux-gnu/bits/sched.h \
+ /usr/include/i386-linux-gnu/bits/setjmp.h \
+ /usr/include/i386-linux-gnu/c++/4.9/bits/atomic_word.h \
+ /usr/include/c++/4.9/bits/basic_string.tcc draw.h pet.h mnstr.h \
+ request.h town.h play-rep.h draw-prot.h gfile-prot.h play-rep-prot.h
+
+/usr/include/stdc-predef.h:
+
+spell.h:
+
+gmain.h:
+
+config.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/i386-linux-gnu/sys/cdefs.h:
+
+/usr/include/i386-linux-gnu/bits/wordsize.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
+
+/usr/lib/gcc/i586-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/i386-linux-gnu/bits/waitflags.h:
+
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/i386-linux-gnu/bits/endian.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/i386-linux-gnu/bits/types.h:
+
+/usr/include/i386-linux-gnu/bits/typesizes.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/i386-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/i386-linux-gnu/sys/select.h:
+
+/usr/include/i386-linux-gnu/bits/select.h:
+
+/usr/include/i386-linux-gnu/bits/sigset.h:
+
+/usr/include/i386-linux-gnu/bits/time.h:
+
+/usr/include/i386-linux-gnu/sys/sysmacros.h:
+
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i586-linux-gnu/4.9/include/stdarg.h:
+
+/usr/include/i386-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/i386-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed/limits.h:
+
+/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/i386-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/i386-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/i386-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/i386-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/ctype.h:
+
+/usr/include/i386-linux-gnu/bits/timex.h:
+
+/usr/include/math.h:
+
+/usr/include/i386-linux-gnu/bits/huge_val.h:
+
+/usr/include/i386-linux-gnu/bits/huge_valf.h:
+
+/usr/include/i386-linux-gnu/bits/huge_vall.h:
+
+/usr/include/i386-linux-gnu/bits/inf.h:
+
+/usr/include/i386-linux-gnu/bits/nan.h:
+
+/usr/include/i386-linux-gnu/bits/mathdef.h:
+
+/usr/include/i386-linux-gnu/bits/mathcalls.h:
+
+/usr/include/i386-linux-gnu/bits/mathinline.h:
+
+/usr/include/i386-linux-gnu/sys/stat.h:
+
+/usr/include/i386-linux-gnu/bits/stat.h:
+
+/usr/include/unistd.h:
+
+/usr/include/i386-linux-gnu/bits/posix_opt.h:
+
+/usr/include/i386-linux-gnu/bits/environments.h:
+
+/usr/include/i386-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/gpm.h:
+
+/usr/include/paths.h:
+
+/usr/include/i386-linux-gnu/sys/ioctl.h:
+
+/usr/include/i386-linux-gnu/bits/ioctls.h:
+
+/usr/include/i386-linux-gnu/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/i386-linux-gnu/asm/ioctl.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/i386-linux-gnu/bits/ioctl-types.h:
+
+/usr/include/i386-linux-gnu/sys/ttydefaults.h:
+
+misc.h:
+
+turn.h:
+
+msg-t.h:
+
+music-kind.h:
+
+sound-kind.h:
+
+extern.h:
+
+chr.h:
+
+dun.h:
+
+curs.h:
+
+msg.h:
+
+/usr/include/curses.h:
+
+/usr/include/ncurses_dll.h:
+
+/usr/lib/gcc/i586-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/i386-linux-gnu/bits/wchar.h:
+
+/usr/include/unctrl.h:
+
+/usr/include/curses.h:
+
+fight.h:
+
+spell-kind.h:
+
+fx.h:
+
+abl-kind.h:
+
+resi.h:
+
+skill.h:
+
+mnstr-kind.h:
+
+item-kind.h:
+
+gfile.h:
+
+replay.h:
+
+key-item.h:
+
+key-item-prot.h:
+
+win-kind.h:
+
+joy-kind.h:
+
+vfx-kind.h:
+
+menu.h:
+
+item.h:
+
+trap.h:
+
+item-randm-art.h:
+
+party.h:
+
+stay-inn-kind.h:
+
+amenu.h:
+
+FileList.h:
+
+/usr/include/dirent.h:
+
+/usr/include/i386-linux-gnu/bits/dirent.h:
+
+GtkWSCstring.h:
+
+/usr/include/c++/4.9/string:
+
+/usr/include/i386-linux-gnu/c++/4.9/bits/c++config.h:
+
+/usr/include/i386-linux-gnu/c++/4.9/bits/os_defines.h:
+
+/usr/include/i386-linux-gnu/c++/4.9/bits/cpu_defines.h:
+
+/usr/include/c++/4.9/bits/stringfwd.h:
+
+/usr/include/c++/4.9/bits/memoryfwd.h:
+
+/usr/include/c++/4.9/bits/char_traits.h:
+
+/usr/include/c++/4.9/bits/stl_algobase.h:
+
+/usr/include/c++/4.9/bits/functexcept.h:
+
+/usr/include/c++/4.9/bits/exception_defines.h:
+
+/usr/include/c++/4.9/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.9/ext/type_traits.h:
+
+/usr/include/c++/4.9/ext/numeric_traits.h:
+
+/usr/include/c++/4.9/bits/stl_pair.h:
+
+/usr/include/c++/4.9/bits/move.h:
+
+/usr/include/c++/4.9/bits/concept_check.h:
+
+/usr/include/c++/4.9/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.9/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.9/debug/debug.h:
+
+/usr/include/c++/4.9/bits/stl_iterator.h:
+
+/usr/include/c++/4.9/bits/ptr_traits.h:
+
+/usr/include/c++/4.9/bits/predefined_ops.h:
+
+/usr/include/c++/4.9/bits/postypes.h:
+
+/usr/include/c++/4.9/cwchar:
+
+/usr/include/c++/4.9/bits/allocator.h:
+
+/usr/include/i386-linux-gnu/c++/4.9/bits/c++allocator.h:
+
+/usr/include/c++/4.9/ext/new_allocator.h:
+
+/usr/include/c++/4.9/new:
+
+/usr/include/c++/4.9/exception:
+
+/usr/include/c++/4.9/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.9/bits/localefwd.h:
+
+/usr/include/i386-linux-gnu/c++/4.9/bits/c++locale.h:
+
+/usr/include/c++/4.9/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/i386-linux-gnu/bits/locale.h:
+
+/usr/include/c++/4.9/iosfwd:
+
+/usr/include/c++/4.9/cctype:
+
+/usr/include/c++/4.9/bits/ostream_insert.h:
+
+/usr/include/c++/4.9/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.9/bits/stl_function.h:
+
+/usr/include/c++/4.9/backward/binders.h:
+
+/usr/include/c++/4.9/bits/range_access.h:
+
+/usr/include/c++/4.9/bits/basic_string.h:
+
+/usr/include/c++/4.9/ext/atomicity.h:
+
+/usr/include/i386-linux-gnu/c++/4.9/bits/gthr.h:
+
+/usr/include/i386-linux-gnu/c++/4.9/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/i386-linux-gnu/bits/sched.h:
+
+/usr/include/i386-linux-gnu/bits/setjmp.h:
+
+/usr/include/i386-linux-gnu/c++/4.9/bits/atomic_word.h:
+
+/usr/include/c++/4.9/bits/basic_string.tcc:
+
+draw.h:
+
+pet.h:
+
+mnstr.h:
+
+request.h:
+
+town.h:
+
+play-rep.h:
+
+draw-prot.h:
+
+gfile-prot.h:
+
+play-rep-prot.h:

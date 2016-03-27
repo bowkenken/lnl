@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot main-unix.c | tee main-unix-prot.h

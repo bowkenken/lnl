@@ -1,0 +1,16 @@
+Source: lnl
+Section: games
+Priority: extra
+Maintainer: bowkenken <bowkenken@users.sourceforge.jp>
+Build-Depends: debhelper (>= 7), autotools-dev
+Standards-Version: 3.8.0
+Homepage: <http://lnl.sourceforge.jp/pukiwiki/>
+
+Package: lnl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <L&L - Labyrinths & Legends - Fantasy RPG>
+ Labyrinths & Legends is Rogue like RPG of the system such as
+ Rogue, Moria, NetHack and "Torneko's Great Adventure".
+ The "Put a party together." thing that it couldn't be done with
+ Rogue like is made.

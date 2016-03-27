@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot ending-space.c | tee ending-space-prot.h

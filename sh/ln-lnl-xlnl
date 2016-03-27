@@ -1,0 +1,233 @@
+#!/bin/sh
+
+src=~/src/lnl/lnl/src
+dst=~/src/lnl/xlnl/src
+
+# ./
+# ../
+# .cvsignore
+# .deps/
+# CVS/
+# Makefile
+# Makefile.am
+# Makefile.in
+ln -sf $src/abl-kind.h $dst
+ln -sf $src/amenu-prot.h $dst
+ln -sf $src/amenu-tab.h $dst
+ln -sf $src/amenu.c $dst
+ln -sf $src/amenu.h $dst
+# amenu.o
+ln -sf $src/autoscan.log $dst
+ln -sf $src/call-prot.h $dst
+ln -sf $src/call.cpp $dst
+# call.o
+ln -sf $src/chr-prot.h $dst
+ln -sf $src/chr.c $dst
+ln -sf $src/chr.h $dst
+# chr.o
+ln -sf $src/class-dflt-tab.h $dst
+ln -sf $src/class-tab.h $dst
+ln -sf $src/skill-prot.h $dst
+ln -sf $src/skill-tab.h $dst
+ln -sf $src/skill.c $dst
+ln -sf $src/skill.h $dst
+# config.h
+# config.h.in
+ln -sf $src/crsr-ptn.h $dst
+ln -sf $src/curs-def.h $dst
+ln -sf $src/curs-prot.h $dst
+ln -sf $src/curs.c $dst
+ln -sf $src/curs.h $dst
+# curs.o
+ln -sf $src/draw-prot.h $dst
+ln -sf $src/draw-tab.h $dst
+ln -sf $src/draw.c $dst
+ln -sf $src/draw.h $dst
+# draw.o
+ln -sf $src/dun-prot.h $dst
+ln -sf $src/dun-tab.h $dst
+ln -sf $src/dun.c $dst
+ln -sf $src/dun.h $dst
+# dun.o
+ln -sf $src/ending-ep-prot.h $dst
+ln -sf $src/ending-ep.c $dst
+ln -sf $src/ending-ep.h $dst
+ln -sf $src/ending-space-prot.h $dst
+ln -sf $src/ending-space.c $dst
+ln -sf $src/ending-space.h $dst
+ln -sf $src/extern.h $dst
+ln -sf $src/fight-prot.h $dst
+ln -sf $src/fight.c $dst
+ln -sf $src/fight.h $dst
+# fight.o
+ln -sf $src/fx-prot.h $dst
+ln -sf $src/fx.c $dst
+ln -sf $src/fx.h $dst
+ln -sf $src/fx-menu-tab.h $dst
+# fx.o
+ln -sf $src/gfile-prot.h $dst
+ln -sf $src/gfile-tab.h $dst
+ln -sf $src/gfile-ver.h $dst
+ln -sf $src/gfile.c $dst
+ln -sf $src/gfile.h $dst
+ln -sf $src/gf-conf.c $dst
+ln -sf $src/gf-crsr.c $dst
+ln -sf $src/gf-gconf.c $dst
+ln -sf $src/gf-outmap.c $dst
+ln -sf $src/gf-replay.c $dst
+ln -sf $src/gf-save.c $dst
+ln -sf $src/gf-town.c $dst
+# gfile.o
+ln -sf $src/gmain-prot.h $dst
+ln -sf $src/gmain.c $dst
+ln -sf $src/gmain.h $dst
+# gmain.o
+# gmon.out
+ln -sf $src/imenu-prot.h $dst
+ln -sf $src/imenu-tab.h $dst
+ln -sf $src/imenu.c $dst
+# imenu.o
+ln -sf $src/inc.h $dst
+ln -sf $src/item-acce-tab.h $dst
+ln -sf $src/item-anthology-tab.h $dst
+ln -sf $src/item-armor-tab.h $dst
+ln -sf $src/item-coin-tab.h $dst
+ln -sf $src/item-food-tab.h $dst
+ln -sf $src/item-inst-tab.h $dst
+ln -sf $src/item-kind.h $dst
+ln -sf $src/item-light-tab.h $dst
+ln -sf $src/item-pipe-tab.h $dst
+ln -sf $src/item-potion-tab.h $dst
+ln -sf $src/item-prot.h $dst
+ln -sf $src/item-range-tab.h $dst
+ln -sf $src/item-rare-goods-tab.h $dst
+ln -sf $src/item-scroll-tab.h $dst
+ln -sf $src/item-stick-tab.h $dst
+ln -sf $src/item-tab.h $dst
+ln -sf $src/item-tobacco-tab.h $dst
+ln -sf $src/item-wpn-tab.h $dst
+ln -sf $src/item-randm-art.h $dst
+ln -sf $src/item-randm-art-tab.h $dst
+ln -sf $src/item.c $dst
+ln -sf $src/item.h $dst
+# item.o
+ln -sf $src/last-boss-prot.h $dst
+ln -sf $src/last-boss-tab.h $dst
+ln -sf $src/last-boss.c $dst
+ln -sf $src/last-boss.h $dst
+ln -sf $src/key-item-prot.h $dst
+ln -sf $src/key-item.c $dst
+ln -sf $src/key-item.h $dst
+# lnl
+# lnl-dos/
+ln -sf $src/lnl.sh $dst
+ln -sf $src/main-dos-prot.h $dst
+ln -sf $src/main-dos.c $dst
+ln -sf $src/main-prot.h $dst
+ln -sf $src/main-unix-prot.h $dst
+ln -sf $src/main-unix.c $dst
+# main-unix.o
+# make.log
+ln -sf $src/map-event-prot.h $dst
+ln -sf $src/map-event.c $dst
+ln -sf $src/map-event.h $dst
+ln -sf $src/menu-prot.h $dst
+ln -sf $src/menu-tab.h $dst
+ln -sf $src/menu.c $dst
+ln -sf $src/menu.h $dst
+# menu.o
+ln -sf $src/misc-prot.h $dst
+ln -sf $src/misc.c $dst
+ln -sf $src/misc.h $dst
+# misc.o
+ln -sf $src/mmenu-prot.h $dst
+ln -sf $src/mmenu-tab.h $dst
+ln -sf $src/mmenu.c $dst
+# mmenu.o
+ln -sf $src/mnstr-act-prot.h $dst
+ln -sf $src/mnstr-act.c $dst
+# mnstr-act.o
+ln -sf $src/mnstr-gen-tab.h $dst
+ln -sf $src/mnstr-kind.h $dst
+ln -sf $src/mnstr-prot.h $dst
+ln -sf $src/mnstr-tab.h $dst
+ln -sf $src/mnstr.c $dst
+ln -sf $src/mnstr.h $dst
+# mnstr.o
+ln -sf $src/msg-cv-utf8 $dst
+ln -sf $src/msg-def $dst
+ln -sf $src/msg-def-sub $dst
+ln -sf $src/msg-eng.h $dst
+ln -sf $src/msg-jpn-sjis.h $dst
+ln -sf $src/msg-jpn-utf8.h $dst
+ln -sf $src/msg-jpn.h $dst
+ln -sf $src/msg-prot.h $dst
+ln -sf $src/msg-t.h $dst
+ln -sf $src/msg.c $dst
+ln -sf $src/msg.h $dst
+# msg.o
+ln -sf $src/nest-flg-prot.h $dst
+ln -sf $src/nest-flg.c $dst
+ln -sf $src/nest-flg.h $dst
+# nest-flg.o
+ln -sf $src/party-prot.h $dst
+ln -sf $src/party.c $dst
+ln -sf $src/party.h $dst
+# party.o
+ln -sf $src/pet-prot.h $dst
+ln -sf $src/pet.c $dst
+ln -sf $src/pet.h $dst
+# pet.o
+ln -sf $src/play-rep-prot.h $dst
+ln -sf $src/play-rep.c $dst
+ln -sf $src/play-rep.h $dst
+# play-rep.o
+ln -sf $src/replay-prot.h $dst
+ln -sf $src/replay.c $dst
+ln -sf $src/replay.h $dst
+# replay.o
+ln -sf $src/request-prot.h $dst
+ln -sf $src/request-tab.h $dst
+ln -sf $src/request.c $dst
+ln -sf $src/request.h $dst
+# request.o
+ln -sf $src/resi.h $dst
+ln -sf $src/rumor-tab.h $dst
+ln -sf $src/scene-prot.h $dst
+ln -sf $src/scene.c $dst
+ln -sf $src/scene.h $dst
+# scene.o
+ln -sf $src/spell-gen-tab.h $dst
+ln -sf $src/spell-kind.h $dst
+ln -sf $src/spell-prot.h $dst
+ln -sf $src/spell-tab.h $dst
+ln -sf $src/spell.c $dst
+ln -sf $src/spell.h $dst
+# spell.o
+ln -sf $src/stamp-h1 $dst
+ln -sf $src/stay-inn-kind.h $dst
+ln -sf $src/tmenu-prot.h $dst
+ln -sf $src/tmenu-tab.h $dst
+ln -sf $src/tmenu.c $dst
+# tmenu.o
+ln -sf $src/town-prot.h $dst
+ln -sf $src/town-ptn.xpm $dst
+ln -sf $src/town-tab.h $dst
+ln -sf $src/town.c $dst
+ln -sf $src/town.h $dst
+# town.o
+ln -sf $src/trap-prot.h $dst
+ln -sf $src/trap.c $dst
+ln -sf $src/trap.h $dst
+# trap.o
+ln -sf $src/turn-prot.h $dst
+ln -sf $src/turn.c $dst
+ln -sf $src/turn.h $dst
+# turn.o
+ln -sf $src/ver.h $dst
+ln -sf $src/vfx-kind.h $dst
+ln -sf $src/win-kind.h $dst
+ln -sf $src/music-kind.h $dst
+ln -sf $src/sound-kind.h $dst
+ln -sf $src/joy-kind.h $dst
+# xlnl/

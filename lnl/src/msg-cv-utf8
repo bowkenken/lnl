@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# convert from euc-jp to utf-8
+
+in_j=msg-jpn.h
+out_j_utf=msg-jpn-utf8.h
+
+#
+
+nkf -Ew $in_j > $out_j_utf
+#iconv -f EUC-JP -t UTF-8 $in_j > $out_j_utf
+
+exit 0

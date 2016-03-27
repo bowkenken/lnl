@@ -1,0 +1,18 @@
+#OBJ       MenuWin
+ #TYPE       WSCmainWindow
+ #PARENT   NULL
+ #PROC  MenuWinInit
+  #TRIG    0
+  #PRO   MenuWinInit.cpp
+
+ #RES      x
+100
+ #RES      y
+100
+ #RES      width
+400
+ #RES      height
+400
+ #RES      vis
+1
+

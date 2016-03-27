@@ -1,0 +1,8 @@
+The Debian Package lnl
+----------------------------
+
+lnl (3.4.18-1) stable; urgency=low
+
+  * Build on ubuntu.
+
+ -- bowkenken <bowkenken@users.sourceforge.jp>  Wed, 24 Jun 2009 07:22:37 +0900

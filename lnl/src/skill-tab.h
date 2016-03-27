@@ -1,0 +1,541 @@
+/***************************************************************
+* L&L - Labyrinths & Legends
+* Copyright (c) 1993-2014 YOSHIMURA Tomohiko All rights reserved.
+* 
+* Created by BowKenKen
+*   URL: https://sourceforge.jp/projects/lnl/
+* 
+* License is GPL
+* 
+* 本プログラムはフリー・ソフトウェアです。
+* あなたは、 Free Software Foundation が公表した
+*  GNU 一般公有使用許諾の「バージョン２」
+* 或はそれ以降の各バージョンの中からいずれかを選択し、
+* そのバージョンが定める条項に従って本プログラムを
+* 再頒布または変更することができます。
+* 
+* 本プログラムは有用とは思いますが、頒布にあたっては、
+* 市場性及び特定目的適合性についての暗黙の保証を含めて,
+* いかなる保証も行ないません。
+* 詳細については GNU 一般公有使用許諾書をお読みください。
+* 
+* あなたは、本プログラムと一緒に GNU 一般公有使用許諾書
+* の写しを受け取っているはずです。そうでない場合は、
+*   Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA 02111-1307, USA
+* へ手紙を書いてください。
+* 
+* $Id: skill-tab.h,v 1.5 2014/01/07 23:40:42 bowkenken Exp $
+***************************************************************/
+
+/***************************************************************
+* スキル
+***************************************************************/
+
+#if	0
+typedef struct {
+	/* 種類 */
+	skill_kind_t	kind;
+	skill_group_kind_t	group;
+
+	/* 名前 */
+	n_msg_t	n_name;
+	char	*name;
+
+	/* 発動条件 */
+	skill_cond_t	cond;
+	void	*cond_arg;
+
+	/* 有効フラグ */
+	bool_t	flg_ena;
+} skill_tab_t;
+#endif
+
+skill_tab_t	skill_tab[SKILL_KIND_MAX_N + 1] = {
+	{
+		SKILL_KIND_ATTACKER,
+		SKILL_GROUP_KIND_FIGHT,
+		N_MSG_SKILL_NAME_ATTACKER,
+		NULL,
+		SKILL_COND_HP_FEW,
+		(void *)(rate_t)75,
+		TRUE,
+	},
+	{
+		SKILL_KIND_BERSERKER,
+		SKILL_GROUP_KIND_FIGHT,
+		N_MSG_SKILL_NAME_BERSERKER,
+		NULL,
+		SKILL_COND_HP_FEW,
+		(void *)(rate_t)75,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DEFENDER,
+		SKILL_GROUP_KIND_FIGHT,
+		N_MSG_SKILL_NAME_DEFENDER,
+		NULL,
+		SKILL_COND_HP_FEW,
+		(void *)(rate_t)75,
+		TRUE,
+	},
+	{
+		SKILL_KIND_SENTINEL,
+		SKILL_GROUP_KIND_FIGHT,
+		N_MSG_SKILL_NAME_SENTINEL,
+		NULL,
+		SKILL_COND_HP_FEW,
+		(void *)(rate_t)75,
+		TRUE,
+	},
+	{
+		SKILL_KIND_ASSASSIN,
+		SKILL_GROUP_KIND_FIGHT,
+		N_MSG_SKILL_NAME_ASSASSIN,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_AEGIS,
+		SKILL_GROUP_KIND_FIGHT,
+		N_MSG_SKILL_NAME_AEGIS,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_SIEGE,
+		SKILL_GROUP_KIND_FIGHT,
+		N_MSG_SKILL_NAME_SIEGE,
+		NULL,
+		SKILL_COND_COMBI_ATTACK,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_PHALANX,
+		SKILL_GROUP_KIND_FIGHT,
+		N_MSG_SKILL_NAME_PHALANX,
+		NULL,
+		SKILL_COND_COMBI_DEFENSE,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DOUBLE_ATTACK,
+		SKILL_GROUP_KIND_COMBO,
+		N_MSG_SKILL_NAME_DOUBLE_ATTACK,
+		NULL,
+		SKILL_COND_FIG,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_COMBO,
+		SKILL_GROUP_KIND_COMBO,
+		N_MSG_SKILL_NAME_COMBO,
+		NULL,
+		SKILL_COND_MON,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RAPID_SHOOT,
+		SKILL_GROUP_KIND_COMBO,
+		N_MSG_SKILL_NAME_RAPID_SHOOT,
+		NULL,
+		SKILL_COND_HUN,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_COUNTER,
+		SKILL_GROUP_KIND_COMBO,
+		N_MSG_SKILL_NAME_COUNTER,
+		NULL,
+		SKILL_COND_MON,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_TWO_SWORD_FENCING,
+		SKILL_GROUP_KIND_COMBO,
+		N_MSG_SKILL_NAME_TWO_SWORD_FENCING,
+		NULL,
+		SKILL_COND_TWO_SWORD,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_KNOC,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_KNOC,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_SLAS,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_SLAS,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_STIN,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_STIN,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_HEAT,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_HEAT,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_COLD,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_COLD,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_MIND,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_MIND,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_ACID,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_ACID,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_ELEC,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_ELEC,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_DAM_POIS,
+		SKILL_GROUP_KIND_DAM,
+		N_MSG_SKILL_NAME_DAM_POIS,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_KNOC,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_KNOC,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_SLAS,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_SLAS,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_STIN,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_STIN,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_HEAT,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_HEAT,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_COLD,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_COLD,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_MIND,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_MIND,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_ACID,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_ACID,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_ELEC,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_ELEC,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RESI_POIS,
+		SKILL_GROUP_KIND_RESI,
+		N_MSG_SKILL_NAME_RESI_POIS,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_DEAD,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_DEAD,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_STONE,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_STONE,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_PARALYZE,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_PARALYZE,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_POISON,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_POISON,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_CONFUSION,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_CONFUSION,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_BLIND,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_BLIND,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_SLEEP,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_SLEEP,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_SILENCE,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_SILENCE,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_CAUGHT,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_CAUGHT,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_FEAR,
+		SKILL_GROUP_KIND_RESI_STAT_1,
+		N_MSG_SKILL_NAME_STAT_FEAR,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_HALLUCINATION,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_HALLUCINATION,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_CHARM,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_CHARM,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_FLY,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_FLY,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_HUNGRY,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_HUNGRY,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_STARVATION,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_STARVATION,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_FAINT,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_FAINT,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_DRUNK,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_DRUNK,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_VANISH,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_VANISH,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_IRON_BODY,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_IRON_BODY,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_PASSWALL,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_PASSWALL,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_STAT_SENSE_INVISIBLE,
+		SKILL_GROUP_KIND_RESI_STAT_2,
+		N_MSG_SKILL_NAME_STAT_SENSE_INVISIBLE,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_RUN_AWAY,
+		SKILL_GROUP_KIND_MISC,
+		N_MSG_SKILL_NAME_RUN_AWAY,
+		NULL,
+		SKILL_COND_ALWAYS,
+		(void *)NULL,
+		TRUE,
+	},
+	{
+		SKILL_KIND_NULL,
+		SKILL_GROUP_KIND_NULL,
+		N_MSG_NULL,
+		NULL,
+		SKILL_COND_NULL,
+		(void *)NULL,
+		TRUE,
+	},
+};

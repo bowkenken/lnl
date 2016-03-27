@@ -1,0 +1,110 @@
+#!/bin/bash
+
+
+######## begin ########
+
+
+tmp=/tmp/lnl_msg$$
+in=$1
+out=$2
+in_base='msg_*.h'
+
+
+######## header ########
+
+
+cp /dev/null $out
+
+echo '#ifndef	__MSG_H__' >> $out
+echo '#define	__MSG_H__' >> $out
+echo '' >> $out
+
+echo '/* This file is auto generated from $in_base by '$0' */' >> $out
+echo '' >> $out
+
+echo '#include	"extern.h"' >> $out
+echo '' >> $out
+
+
+######## enum list ########
+
+
+sed -n \
+	-e '/^#if	0/,/#endif/d' \
+	-e '/{ N_MSG/s/{ N_MSG/N_MSG/' \
+	-e '/N_MSG/p' \
+	$in > $tmp
+echo '	N_MSG_MAX_N' >> $tmp
+
+n_msg_t_n=0
+max_line=500
+bgn_line=0
+tail_line=`cat $tmp | wc -l | sed -e 's/ //g'`
+last_msg=''
+
+while [ 1 ] ; do
+	if (( `tail -$tail_line $tmp | head -$max_line | wc -l` == 0 )); then
+		break
+	fi
+
+	echo 'typedef enum {' >> $out
+	tail -$tail_line $tmp | head -$max_line | sed \
+		-e "1s/,/$last_msg,/" >> $out
+	last_msg=' = '`tail -1 $out | sed -e 's/,//' -e 's/\t//g'`' + 1'
+	echo "} n_msg_${n_msg_t_n}_t;" >> $out
+	echo '' >> $out
+
+	(( n_msg_t_n++ ))
+	(( bgn_line += $max_line ))
+	(( tail_line -= $max_line ))
+	if (( $tail_line < 0 )); then
+		break
+	fi
+done
+
+echo 'typedef int	n_msg_t;' >> $out
+echo '' >> $out
+
+######## define MSG() ########
+
+
+echo '/**********************************/' >> $out
+echo '' >> $out
+
+echo '#ifdef __cplusplus' >> $out
+echo 'extern "C" {' >> $out
+echo '#endif' >> $out
+
+echo 'EXTERN char	*ary_msg[N_MSG_MAX_N];' >> $out
+
+echo '#ifdef __cplusplus' >> $out
+echo '}' >> $out
+echo '#endif' >> $out
+
+echo '' >> $out
+echo '#define	MSG( n )	(ary_msg[n])' >> $out
+echo '' >> $out
+
+sed -n \
+	-e '/^#if	0/,/#endif/d' \
+	-e 's/,$//' \
+	-e 's/^	{ N_MSG/N_MSG/' -e '/^N_MSG/p' \
+	-e 's/^N_MSG/0N_MSG/' -e '/^0N_MSG/p' \
+	$in > $tmp
+
+sed -e '/^N_MSG/s/$/	\\/' -e '/^N_MSG/s/^N_MSG/#define	MSG/' \
+	-e '/0N_MSG/s/$/ )/' \
+	-e '/0N_MSG/s/^0N_MSG/		MSG( N_MSG/' \
+	$tmp >> $out
+
+
+######## footer ########
+
+
+echo '#endif	/* __MSG_H__ */' >> $out
+
+
+######## end ########
+
+
+rm $tmp

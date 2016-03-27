@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot scene.c | tee scene-prot.h

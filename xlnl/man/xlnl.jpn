@@ -1,0 +1,241 @@
+.\"
+.\" Copyright (c) 1993-2014 YOSHIMURA, Tomohiko
+.\"	all rights reserved.
+.\"
+.TH xlnl 6 "20 August 2010" "Ver. 3.4.17" "Fantasy RPG"
+.\"****************************************************************
+.SH 名前
+xlnl \- L&L, Labyrinths & Legends (ラビリンスズ＆レジェンズ)
+.\"****************************************************************
+.SH 書式
+.B xlnl
+.B [\-GCUl:e:s:p:m:cVvh]
+.B [\-\-gui]
+.B [\-\-cui]
+.B [\-\-gui\-and\-cui]
+.B [\-\-set\-graph\-dir=DIR]
+.B [\-\-graph\-scale=N]
+.B [\-\-clear\-key\-buf=FLAG]
+.B [\-\-echo\-key=FLAG]
+.B [\-\-use\-curses=FLAG]
+.B [\-\-use\-keypad=FLAG]
+.B [\-\-check\-memory=FLAG]
+.B [\-\-measure\-clock]
+.B [\-\-version]
+.B [\-\-help]
+.\"****************************************************************
+.SH 説明
+.B ラビリンスズ＆レジェンズ
+は、
+.B 「Rogue」、「Moria」、「Nethack」、「トルネコの大冒険」
+等の系統のローグライク(roguelike)と呼ばれる、
+ファンタジーRPGの一種です。
+.br
+.PP
+L&L は、これまでのローグライクと比較して次の様な特徴があります。
+.br
+.TP
+・＜パーティプレイ＞
+６人までのキャラクタでパーティを組める。
+.TP
+・＜オートバトル＞
+キャラクタの行動を指定して半自動で実行させる。
+.TP
+・＜かんたんメニュー＞
+メニューまたはショートカットキーで操作する。
+.br
+カーソルキーやテンキーを使い、片手で操作できる。
+.TP
+・＜死んでもOK＞
+パーティが全滅しないかぎり街の寺院で生き返れる。
+.TP
+・＜オリジナルジョブ＞
+クラス（職業）のパラメータを調整して、オリジナルのジョブを創れる。
+.TP
+・＜半角2文字でペア＞
+キャラクタを分類と種族の2文字で表示するので、種類が見分けやすい。
+.PP
+このゲームは 2009-03-14 公開の ver.3.4.0 で完成となりました。
+.br
+.PP
+ゲームを始めると予め用意されたメンバー達が、街の酒場に現れます。
+.br
+その周囲にいくつかの店があります。
+.PP
+酒場を出た目の前、街の中央には迷宮への入口が有ります。
+.PP
+.\"****************************************************************
+.SH マウスでの操作方法
+.B ・基本の操作
+.TP
+.B 操作
+意味(対応するキー)
+.TP
+.B 左クリック
+メニューの表示と選択(Enter)
+.TP
+.B 中クリック
+アンカーを設定(+)
+.TP
+.B 右クリック
+実行（ターンを進める）、またはキャンセル(.)
+.TP
+.B 左ドラッグ
+マップのスクロール
+.PP      		
+.B ・その他の操作
+.TP
+.B 操作
+意味(対応するキー)
+.TP
+.B 左方向へ右ボタン・ドラッグ
+作戦メニュー(/)
+.TP
+.B 右方向へ右ボタン・ドラッグ
+ユーザ・メニュー(*)
+.TP
+.B 上方向へ右ボタン・ドラッグ
+魔法メニュー(-)
+.TP
+.B 下方向へ右ボタン・ドラッグ
+アンカーを設定(+)
+.TP
+.B 左プレス + 右クリック
+アンカーを設定(+)
+.TP
+.B 右プレス + 左クリック
+連続実行
+.PP      		
+.\"****************************************************************
+.SH オプション
+.TP
+.B \-G, \-\-gui
+GUI モードにする
+.TP
+.B \-C, \-\-cui
+CUI モードにする
+.TP
+.B \-U, \-\-gui\-and\-cui
+GUI & CUI モードにする
+.TP
+.B \-D, \-\-sel\-graph\-dir=DIR
+画像ディレクトリを指定
+.TP
+.B DIR
+画像ディレクトリ
+.TP
+.B \-S, \-\-map\-scale=N
+画像の表示倍率を指定
+.TP
+.B N
+画像の表示倍率
+.TP
+.B \-k, \-\-clear\-key\-buf=FLAG
+キー入力時に標準入力のバッファをクリアするか。
+.TP
+.B \-e, \-\-echo\-key=FLAG
+入力されたキーを表示するか。
+.TP
+.B \-s, \-\-use\-curses=FLAG
+curses ライブラリを使用するか。
+.TP
+.B \-p, \-\-use\-keypad=FLAG
+カーソル・キーを有効にするか。
+.TP
+.B \-m, \-\-check\-memory=FLAG
+メモリ範囲のチェックをするか。
+.TP
+.B FLAG
+on, true, t, yes, 1 だったら有効。
+.br
+off, false, nil, no, 0 だったら無効。
+.TP
+.B \-c, \-\-measure\-clock
+フレーム・レートを計測する。
+.TP
+.B \-V, -v, \-\-version
+バージョンを標準出力に出力して正常終了する。
+.TP
+.B \-h, \-\-help
+利用法を標準出力に出力して正常終了する。
+.\"****************************************************************
+.SH ファイル
+.TP
+.I "~/.lnl/"
+各ユーザ毎のデータを保存するディレクトリ。
+.TP
+.I "~/.lnl/save/bin/save??.bin"
+キャラクタのセーブ・データ・ファイル。
+.TP
+.I "~/.lnl/save/txt/save??.txt"
+デバッグ用のキャラクタのセーブ・データ・ファイル。
+.TP
+.I "~/.lnl/save/cnf/conf??.txt"
+キャラクタの設定ファイル。
+.TP
+.I "~/.lnl/usr/lnl.conf"
+設定ファイル。
+.TP
+.I "~/.lnl/usr/town-ptn.xpm"
+町のマップ・データ。
+.TP
+.I "~/.lnl/usr/crsr-ptn.h"
+カーソルのパターン・データ。
+コンパイルしなおさなくて良いです。
+.TP
+.I "~/.lnl/out/map.???"
+ユーザが出力したマップ・データ。
+.TP
+.I "~/.lnl/xlnl/graph/"
+画像データを保存するディレクトリ。
+.\"****************************************************************
+.SH 環境変数
+.TP
+.B "HOME"
+ユーザのホーム・ディレクトリ。
+.TP
+.B "LANG"
+ゲーム中に表示する言語の指定。
+.br
+.I "C"
+.br
+.I "ja_JP.eucJP"
+.br
+.I "ja_JP.ujis"
+.br
+.I "ja_JP.UTF-8"
+.br
+.I "ja_JP.SJIS"
+.br
+に対応しています。
+.TP
+.B "SHELL"
+ユーザのシェル。
+.\"****************************************************************
+.SH バグ
+時々、表示が乱れることがあります。
+.\"****************************************************************
+.SH 著者
+.br
+L&L - Labyrinths & Legends
+.br
+Copyright (c) 1993-2014 YOSHIMURA, Tomohiko All rights reserved.
+.br
+
+.I URL   : http://lnl.sourceforge.jp/
+.br
+.I E-mail: bowkenken@users.sourceforge.jp
+.br
+
+          Created by  BowKenKen
+.br
+      Graphic Design  [RPG DOT], Whitecat, REFMAP
+.br
+                      kokusi(yujyu), hiyo, URARA and naramura
+.br
+          Photograph  Yoshinori Kamimura
+.br
+    Music Production  Presence of Music
+.br
+      Special Thanks  t-oikawa, TeaMiKL, nnn, lu and you
+.br

@@ -1,0 +1,34 @@
+gcc -o gmain.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR gmain.c
+
+gcc -o dun.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR dun.c
+
+gcc -o curs.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR curs.c
+
+gcc -o draw.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR draw.c
+
+gcc -o menu.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR menu.c
+
+gcc -o amenu.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR amenu.c
+
+gcc -o party.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR party.c
+
+gcc -o item.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR item.c
+
+gcc -o mnstr.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR mnstr.c
+
+gcc -o fight.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR fight.c
+
+gcc -o fx.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR fx.c
+
+gcc -o town.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR town.c
+
+gcc -o tmenu.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR tmenu.c
+
+gcc -o gfile.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR gfile.c
+
+gcc -o msg.o -O -c -Wall -Werror -g  -DD_UNIX -DD_CLK_TCK=1000000 -DD_USE_CURSES -DD_USE_TERMIOS -DD_USE_TC_ATTR msg.c
+
+gcc -o lnl gmain.o dun.o curs.o draw.o menu.o amenu.o party.o item.o mnstr.o fight.o fx.o town.o tmenu.o gfile.o msg.o  -lcurses -ltermcap
+chmod 755 lnl
+
+- OK -

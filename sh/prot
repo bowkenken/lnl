@@ -1,0 +1,18 @@
+#! /bin/sh
+
+echo "/* $* */"
+echo ''
+echo '#ifdef __cplusplus'
+echo 'extern "C" {'
+echo '#endif'
+echo ''
+
+sed -e 's/)$/);/' \
+	-e '/^[a-zA-Z$_0-9][a-zA-Z$_0-9 ]\+[ \*]*\	\**[a-zA-Z$_0-9]\+(.*);$/p' \
+	-e '/^[a-zA-Z$_0-9][a-zA-Z$_0-9 ]\+[ \*]*\	\**[a-zA-Z$_0-9]\+($/,/);$/p' -e 'd' \
+	$*
+
+echo ''
+echo '#ifdef __cplusplus'
+echo '}'
+echo '#endif'

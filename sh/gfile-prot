@@ -1,0 +1,13 @@
+#!/bin/sh
+
+../sh/prot gfile.c > gfile-prot.h
+
+../sh/prot gf-conf.c >> gfile-prot.h
+../sh/prot gf-crsr.c >> gfile-prot.h
+../sh/prot gf-gconf.c >> gfile-prot.h
+../sh/prot gf-outmap.c >> gfile-prot.h
+../sh/prot gf-replay.c >> gfile-prot.h
+../sh/prot gf-save.c >> gfile-prot.h
+../sh/prot gf-town.c >> gfile-prot.h
+
+cat gfile-prot.h

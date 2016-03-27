@@ -1,0 +1,4 @@
+#!/bin/sh
+
+mv `man -w lnl` `man -w lnl | sed -e 's#/man6/#/ja/man6/#'`
+mv `man -w lnl-faq` `man -w lnl-faq | sed -e 's#/man6/#/ja/man6/#'`

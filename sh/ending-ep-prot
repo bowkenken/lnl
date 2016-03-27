@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot ending-ep.c | tee ending-ep-prot.h

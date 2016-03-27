@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot map-event.c | tee map-event-prot.h

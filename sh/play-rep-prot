@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot play-rep.c | tee play-rep-prot.h

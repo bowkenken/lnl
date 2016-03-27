@@ -1,0 +1,50 @@
+UNIX 版です。
+
+**** インストール方法 ****
+
+1. 圧縮されたファイルを解凍する。
+   (このファイルを見ているなら、もう済んでいます。)
+
+  tar zxvf lnl-2.1.*.tar.gz
+
+2. 解凍したディレクトリに入る
+
+  cd lnl-2.1.*
+
+3. root になる。
+  su -
+
+4. Make する。
+
+  ./configure
+  make
+  make install
+
+5. root をぬける。
+  exit
+
+6. マニュアルを読む
+
+  man lnl
+  man lnl-faq
+
+7. ゲームを始める
+
+  lnl
+
+動作チェックは下記の環境で行ないました。
+
+Fedora Core 2
+Red Hat Linux 9
+Debian GNU Linux (woody)
+NetBSD 1.5.2
+MacOS X 10.2
+WindowsXP
+
+うまく行かなかったら下記へ、遠慮なく連絡下さい。
+
+e-mail:
+bowkenken@users.sourceforge.jp
+
+web:
+http://lnl.sourceforge.jp/

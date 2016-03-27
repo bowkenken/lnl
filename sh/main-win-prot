@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../../sh/prot main-win.c | tee main-win-prot.h

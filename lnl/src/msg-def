@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# init
+
+in_j=msg-jpn.h
+in_e=msg-eng.h
+
+out_j=/tmp/lnl-msg-$$-j
+out_e=/tmp/lnl-msg-$$-e
+
+out_head=msg.h
+
+# make msg.h
+
+./msg-def-sub $in_j $out_j
+./msg-def-sub $in_e $out_e
+
+diff $out_j $out_e || exit 1
+
+cp $out_j $out_head
+rm $out_j $out_e
+
+exit 0

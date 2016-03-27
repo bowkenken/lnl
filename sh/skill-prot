@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot skill.c | tee skill-prot.h

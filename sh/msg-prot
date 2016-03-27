@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot msg.c | tee msg-prot.h

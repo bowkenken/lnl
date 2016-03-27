@@ -1,0 +1,79 @@
+# Process this file with autoconf to produce a configure script.
+#AC_INIT([src/gmain.c])
+AC_INIT([lnl], [3.4.20],[bowkenken@users.sourceforge.jp])
+AC_CONFIG_AUX_DIR([config])
+AC_CONFIG_SRCDIR([src/gmain.c])
+#AC_CONFIG_HEADER([src/config.h])
+AM_CONFIG_HEADER([src/config.h])
+AM_INIT_AUTOMAKE()
+
+AC_CANONICAL_HOST
+
+# Define macros.
+# debug
+AM_CONDITIONAL([CHK_DEBUG], [test "$enable_debug" = yes])
+
+# Linux
+case "${host}" in
+*linux*)
+	clk_tck=yes
+	;;
+*)
+	clk_tck=no
+	;;
+esac
+AM_CONDITIONAL([CHK_DEF_CLK_TCK], [test "$clk_tck" = yes])
+
+# Mac
+case "${host}" in
+*darwin*)
+	mac=yes
+	;;
+*)
+	mac=no
+	;;
+esac
+AM_CONDITIONAL([CHK_MAC], [test "$mac" = yes])
+
+# Checks for programs.
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_LN_S
+AC_PROG_MAKE_SET
+
+# Checks for libraries.
+AC_CHECK_LIB([curses], [initscr])
+AC_CHECK_LIB([ncurses], [initscr])
+AC_CHECK_LIB([ncursesw], [initscr])
+AC_CHECK_LIB([termcap], [tcgetattr])
+AC_CHECK_LIB([m], [sin])
+
+# Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADERS([locale.h])
+AC_CHECK_HEADERS([curses.h ncurses.h ncursesw.h])
+AC_CHECK_HEADERS([stdlib.h stddef.h stdio.h stdarg.h])
+AC_CHECK_HEADERS([limits.h string.h ctype.h time.h math.h])
+AC_CHECK_HEADERS([sys/stat.h termio.h termios.h unistd.h])
+AC_CHECK_HEADERS([getopt.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+AC_TYPE_MODE_T
+AC_TYPE_SIZE_T
+
+# Checks for library functions.
+AC_PROG_GCC_TRADITIONAL
+AC_FUNC_VPRINTF
+AC_CHECK_FUNCS([mkdir strchr strrchr strspn strstr strtol])
+AC_CHECK_FUNCS([getenv setenv])
+AC_CHECK_FUNCS([sin cos tan])
+AC_CHECK_FUNCS([getopt_long getopt])
+AC_CHECK_FUNCS([sleep usleep nanosleep])
+AC_CHECK_FUNCS([has_colors start_color init_pair keypad])
+AC_CHECK_FUNCS([attrset attron attroff  getnstr])
+
+# End
+
+AC_CONFIG_FILES([Makefile man/Makefile src/Makefile])
+AC_OUTPUT

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot trap.c | tee trap-prot.h

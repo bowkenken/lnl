@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot gmain.c | tee gmain-prot.h

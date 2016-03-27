@@ -1,0 +1,22 @@
+#! /bin/sh
+
+set -x
+
+make dist
+
+if [ ! -d ~/rpm ]; then
+	mkdir ~/rpm
+fi
+if [ ! -d ~/rpm/SOURCES ]; then
+	mkdir ~/rpm/SOURCES
+fi
+if [ ! -d ~/rpm/SPECS ]; then
+	mkdir ~/rpm/SPECS
+fi
+
+rm ~/rpm/SOURCES/lnl-*.tar.gz
+rm -rf ~/rpm/BUILD/lnl-*
+
+cp ./lnl-*.tar.gz ~/rpm/SOURCES/
+cp ./lnl.spec ~/rpm/SPECS/
+rpmbuild -ba lnl.spec $* | tee ./spec.log

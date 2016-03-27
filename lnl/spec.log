@@ -1,0 +1,581 @@
+実行中(%prep): /bin/sh -e /var/tmp/rpm-tmp.yEpt3m
+drwxrwxrwx 500/500           0 2011-01-17 17:48 lnl-3.4.19/
+-rw-r--r-- 500/500        9236 2003-09-14 03:12 lnl-3.4.19/INSTALL
+-rw-r--r-- 500/500       35023 2011-01-09 11:05 lnl-3.4.19/aclocal.m4
+-rw-r--r-- 500/500      367737 2011-01-09 11:13 lnl-3.4.19/ChangeLog
+-rwxr-xr-x 500/500         103 2005-03-24 16:17 lnl-3.4.19/install-xlnl-mac.sh
+-rw-r--r-- 500/500        1801 2011-01-09 11:02 lnl-3.4.19/configure.in
+-rw-r--r-- 500/500        1063 2011-01-09 11:10 lnl-3.4.19/lnl.spec
+-rw-r--r-- 500/500         111 2007-02-25 22:16 lnl-3.4.19/AUTHORS
+drwxrwxrwx 500/500           0 2011-01-17 17:48 lnl-3.4.19/sh/
+-rwxr-xr-x 500/500         134 2004-07-26 19:02 lnl-3.4.19/sh/cv-rare-goods
+-rwxr-xr-x 500/500         403 2004-07-26 19:02 lnl-3.4.19/sh/rcv-food
+-rwxr-xr-x 500/500          45 2004-07-26 19:02 lnl-3.4.19/sh/msg-prot
+-rwxr-xr-x 500/500         122 2004-07-26 19:02 lnl-3.4.19/sh/cv-inst
+-rwxr-xr-x 500/500        1985 2004-12-23 15:12 lnl-3.4.19/sh/rcv-armor
+-rwxr-xr-x 500/500          50 2004-07-26 19:02 lnl-3.4.19/sh/spell-prot
+-rwxr-xr-x 500/500         258 2004-06-18 23:34 lnl-3.4.19/sh/rcv-item
+-rwxr-xr-x 500/500          45 2004-07-26 19:02 lnl-3.4.19/sh/pet-prot
+-rwxr-xr-x 500/500         122 2004-07-26 19:02 lnl-3.4.19/sh/cv-pipe
+-rwxr-xr-x 500/500        2451 2004-07-26 19:02 lnl-3.4.19/sh/rcv-mnstr
+-rwxr-xr-x 500/500         348 2004-07-26 19:02 lnl-3.4.19/sh/rcv-anthology
+-rwxr-xr-x 500/500         120 2004-07-26 19:02 lnl-3.4.19/sh/cv-wpn
+-rwxr-xr-x 500/500         132 2004-07-26 19:02 lnl-3.4.19/sh/cv-anthology
+-rwxr-xr-x 500/500          48 2004-07-26 19:02 lnl-3.4.19/sh/draw-prot
+-rwxr-xr-x 500/500          57 2004-07-26 19:02 lnl-3.4.19/sh/main-unix-prot
+-rwxr-xr-x 500/500         423 2004-07-26 19:02 lnl-3.4.19/sh/rcv-light
+-rwxr-xr-x 500/500         295 2004-03-18 18:58 lnl-3.4.19/sh/scp-web-img
+-rwxr-xr-x 500/500          47 2004-07-26 19:02 lnl-3.4.19/sh/curs-prot
+-rwxr-xr-x 500/500         359 2004-07-26 19:02 lnl-3.4.19/sh/rcv-coin
+-rwxr-xr-x 500/500         431 2004-07-26 19:02 lnl-3.4.19/sh/rcv-tobacco
+-rwxr-xr-x 500/500         295 2004-03-18 18:58 lnl-3.4.19/sh/scp-web-misc
+-rwxr-xr-x 500/500         124 2004-07-26 19:02 lnl-3.4.19/sh/cv-range
+-rwxr-xr-x 500/500         338 2004-07-21 22:02 lnl-3.4.19/sh/make-rpm
+-rwxr-xr-x 500/500          43 2004-03-18 18:56 lnl-3.4.19/sh/scp-web
+-rwxr-xr-x 500/500         143 2009-07-13 14:28 lnl-3.4.19/sh/make-change-log
+-rwxr-xr-x 500/500         124 2004-08-01 01:52 lnl-3.4.19/sh/cv-armor
+-rwxr-xr-x 500/500         714 2009-06-26 22:41 lnl-3.4.19/sh/all-prot
+-rwxr-xr-x 500/500          56 2010-05-29 22:15 lnl-3.4.19/sh/play-rep-prot
+-rwxr-xr-x 500/500        1269 2004-07-26 19:02 lnl-3.4.19/sh/rcv-acce
+-rwxr-xr-x 500/500          44 2004-07-26 19:02 lnl-3.4.19/sh/fx-prot
+-rwxr-xr-x 500/500         122 2004-07-26 19:02 lnl-3.4.19/sh/cv-coin
+-rwxr-xr-x 500/500          48 2004-07-26 19:02 lnl-3.4.19/sh/menu-prot
+-rwxr-xr-x 500/500          49 2004-07-26 19:02 lnl-3.4.19/sh/gmain-prot
+-rwxr-xr-x 500/500          54 2004-07-26 19:02 lnl-3.4.19/sh/request-prot
+-rwxr-xr-x 500/500          47 2004-07-26 19:02 lnl-3.4.19/sh/item-prot
+-rwxr-xr-x 500/500         224 2004-06-18 14:12 lnl-3.4.19/sh/cv-item
+-rwxr-xr-x 500/500         576 2004-07-29 22:40 lnl-3.4.19/sh/rcv-scroll
+-rwxr-xr-x 500/500          47 2004-07-26 19:02 lnl-3.4.19/sh/trap-prot
+-rwxr-xr-x 500/500          57 2004-07-26 19:02 lnl-3.4.19/sh/mnstr-act-prot
+-rwxr-xr-x 500/500          47 2004-07-26 19:02 lnl-3.4.19/sh/misc-prot
+-rwxr-xr-x 500/500         328 2008-05-07 16:31 lnl-3.4.19/sh/gfile-prot
+-rwxr-xr-x 500/500         321 2004-07-26 19:02 lnl-3.4.19/sh/rcv-range
+-rwxr-xr-x 500/500         344 2008-04-11 20:26 lnl-3.4.19/sh/prot
+-rwxr-xr-x 500/500         128 2004-07-26 19:02 lnl-3.4.19/sh/cv-tobacco
+-rwxr-xr-x 500/500        2073 2004-07-26 19:02 lnl-3.4.19/sh/rcv-wpn
+-rwxr-xr-x 500/500          50 2004-07-26 19:02 lnl-3.4.19/sh/tmenu-prot
+-rwxr-xr-x 500/500          46 2004-07-26 19:02 lnl-3.4.19/sh/chr-prot
+-rwxr-xr-x 500/500          50 2004-07-26 19:02 lnl-3.4.19/sh/fight-prot
+-rwxr-xr-x 500/500         652 2004-07-26 19:02 lnl-3.4.19/sh/rcv-tab.awk
+-rwxr-xr-x 500/500          50 2004-07-26 19:02 lnl-3.4.19/sh/party-prot
+-rwxr-xr-x 500/500         380 2004-07-26 19:02 lnl-3.4.19/sh/rcv-inst
+-rwxr-xr-x 500/500         124 2004-07-26 19:02 lnl-3.4.19/sh/cv-class-dflt
+-rwxr-xr-x 500/500         480 2004-07-26 19:02 lnl-3.4.19/sh/rcv-spell
+-rwxr-xr-x 500/500         122 2004-07-26 19:02 lnl-3.4.19/sh/cv-spell
+-rwxr-xr-x 500/500         543 2004-07-26 19:02 lnl-3.4.19/sh/rcv-class-dflt
+-rwxr-xr-x 500/500         124 2004-07-26 19:02 lnl-3.4.19/sh/cv-stick
+-rwxr-xr-x 500/500         467 2004-07-26 19:02 lnl-3.4.19/sh/rcv-potion
+-rwxr-xr-x 500/500          50 2004-07-26 19:02 lnl-3.4.19/sh/amenu-prot
+-rwxr-xr-x 500/500          47 2004-07-26 19:02 lnl-3.4.19/sh/turn-prot
+-rwxr-xr-x 500/500         126 2004-07-26 19:02 lnl-3.4.19/sh/cv-scroll
+-rwxr-xr-x 500/500         478 2004-07-26 19:02 lnl-3.4.19/sh/rcv-stick
+-rwxr-xr-x 500/500         476 2004-07-26 19:02 lnl-3.4.19/sh/rcv-gen-spell
+-rwxr-xr-x 500/500          46 2004-07-26 19:02 lnl-3.4.19/sh/dun-prot
+-rwxr-xr-x 500/500          48 2004-07-26 19:02 lnl-3.4.19/sh/town-prot
+-rwxr-xr-x 500/500          52 2007-03-23 08:30 lnl-3.4.19/sh/replay-prot
+-rwxr-xr-x 500/500         122 2004-07-26 19:02 lnl-3.4.19/sh/cv-food
+-rwxr-xr-x 500/500         124 2004-07-26 19:02 lnl-3.4.19/sh/cv-light
+-rwxr-xr-x 500/500         122 2004-07-26 19:02 lnl-3.4.19/sh/cv-acce
+-rwxr-xr-x 500/500         423 2004-07-26 19:02 lnl-3.4.19/sh/rcv-pipe
+-rwxr-xr-x 500/500         126 2004-07-26 19:02 lnl-3.4.19/sh/cv-potion
+-rwxr-xr-x 500/500          49 2004-07-26 19:02 lnl-3.4.19/sh/mnstr-prot
+-rwxr-xr-x 500/500        1163 2004-07-26 19:02 lnl-3.4.19/sh/cv-tab.awk
+-rwxr-xr-x 500/500         340 2004-07-26 19:02 lnl-3.4.19/sh/rcv-rare-goods
+-rw-r--r-- 500/500        1276 2010-05-29 22:14 lnl-3.4.19/Makefile.am
+drwxrwxrwx 500/500           0 2011-01-17 17:48 lnl-3.4.19/config/
+-rwxr-xr-x 500/500        1801 2003-09-13 20:11 lnl-3.4.19/config/mkinstalldirs
+-rwxr-xr-x 500/500       12123 2003-09-13 20:11 lnl-3.4.19/config/depcomp
+-rwxr-xr-x 500/500       38504 2003-09-27 23:00 lnl-3.4.19/config/config.guess
+-rwxr-xr-x 500/500        5569 2003-09-13 20:11 lnl-3.4.19/config/install-sh
+-rwxr-xr-x 500/500       10270 2003-09-13 20:11 lnl-3.4.19/config/missing
+-rwxr-xr-x 500/500       28224 2003-09-27 23:00 lnl-3.4.19/config/config.sub
+-rw-r--r-- 500/500         945 2004-12-24 05:54 lnl-3.4.19/README-MAC
+-rw-r--r-- 500/500       17992 2003-09-14 03:12 lnl-3.4.19/COPYING
+drwxrwxrwx 500/500           0 2011-01-17 17:48 lnl-3.4.19/src/
+-rw-r--r-- 500/500       10584 2011-01-09 10:58 lnl-3.4.19/src/item-tab.h
+-rw-r--r-- 500/500       25263 2011-01-09 10:58 lnl-3.4.19/src/request-tab.h
+-rw-r--r-- 500/500       40809 2011-01-09 10:58 lnl-3.4.19/src/spell-tab.h
+-rw-r--r-- 500/500        7933 2011-01-09 10:58 lnl-3.4.19/src/gfile-ver.h
+-rw-r--r-- 500/500         872 2009-06-26 22:41 lnl-3.4.19/src/scene-prot.h
+-rw-r--r-- 500/500      191468 2011-01-09 10:58 lnl-3.4.19/src/item.c
+-rw-r--r-- 500/500        8473 2011-01-09 10:58 lnl-3.4.19/src/ending-ep.c
+-rw-r--r-- 500/500        1605 2011-01-09 10:58 lnl-3.4.19/src/item-kind.h
+-rw-r--r-- 500/500        9967 2011-01-09 10:58 lnl-3.4.19/src/turn.c
+-rw-r--r-- 500/500       30446 2011-01-09 10:58 lnl-3.4.19/src/gmain.c
+-rw-r--r-- 500/500       38107 2011-01-09 10:58 lnl-3.4.19/src/mmenu-tab.h
+-rw-r--r-- 500/500        2385 2011-01-09 10:58 lnl-3.4.19/src/town.h
+-rw-r--r-- 500/500        1571 2011-01-09 10:58 lnl-3.4.19/src/class-tab.h
+-rw-r--r-- 500/500        1587 2008-05-19 04:49 lnl-3.4.19/src/item-light-tab.h
+-rw-r--r-- 500/500         329 2009-06-26 22:41 lnl-3.4.19/src/nest-flg-prot.h
+-rw-r--r-- 500/500      111197 2011-01-09 10:58 lnl-3.4.19/src/inc.h
+-rw-r--r-- 500/500        3025 2011-01-09 10:58 lnl-3.4.19/src/fight.h
+-rw-r--r-- 500/500        1548 2011-01-09 10:58 lnl-3.4.19/src/play-rep.h
+-rw-r--r-- 500/500       10143 2011-01-09 10:58 lnl-3.4.19/src/last-boss-tab.h
+-rw-r--r-- 500/500       86710 2011-01-09 10:58 lnl-3.4.19/src/town.c
+-rw-r--r-- 500/500        3891 2011-01-09 10:58 lnl-3.4.19/src/curs.h
+-rw-r--r-- 500/500        5155 2011-01-09 10:58 lnl-3.4.19/src/amenu.h
+-rw-r--r-- 500/500       34758 2007-05-30 05:47 lnl-3.4.19/src/item-armor-tab.h
+-rw-r--r-- 500/500       10287 2011-01-09 10:58 lnl-3.4.19/src/ending-space.c
+-rw-r--r-- 500/500      179199 2011-01-09 10:58 lnl-3.4.19/src/chr.c
+-rw-r--r-- 500/500       11993 2011-01-09 10:58 lnl-3.4.19/src/imenu-tab.h
+-rw-r--r-- 500/500        3049 2011-01-09 10:58 lnl-3.4.19/src/mnstr.h
+-rw-r--r-- 500/500        8736 2011-01-09 10:58 lnl-3.4.19/src/dun.h
+-rw-r--r-- 500/500       12638 2010-09-02 04:46 lnl-3.4.19/src/draw-prot.h
+-rw-r--r-- 500/500      366596 2011-01-09 11:06 lnl-3.4.19/src/msg.h
+-rw-r--r-- 500/500       12556 2004-07-26 19:02 lnl-3.4.19/src/item-tobacco-tab.h
+-rw-r--r-- 500/500       13411 2011-01-09 10:58 lnl-3.4.19/src/scene.c
+-rw-r--r-- 500/500        9280 2011-01-09 10:58 lnl-3.4.19/src/skill-tab.h
+-rw-r--r-- 500/500      213992 2011-01-09 10:58 lnl-3.4.19/src/msg-jpn.h
+-rw-r--r-- 500/500        2967 2010-06-03 19:56 lnl-3.4.19/src/Makefile.am
+-rw-r--r-- 500/500       13236 2011-01-09 10:58 lnl-3.4.19/src/mnstr-kind.h
+-rw-r--r-- 500/500        2251 2011-01-09 10:58 lnl-3.4.19/src/main-dos.c
+-rw-r--r-- 500/500        1987 2011-01-09 10:58 lnl-3.4.19/src/turn.h
+-rw-r--r-- 500/500       15642 2011-01-17 17:39 lnl-3.4.19/src/msg.c
+-rw-r--r-- 500/500        6909 2010-08-31 19:45 lnl-3.4.19/src/tmenu-prot.h
+-rw-r--r-- 500/500       41696 2011-01-09 10:02 lnl-3.4.19/src/spell-gen-tab.h
+-rw-r--r-- 500/500        1459 2010-05-17 04:30 lnl-3.4.19/src/misc-prot.h
+-rw-r--r-- 500/500        3184 2011-01-09 10:58 lnl-3.4.19/src/trap.h
+-rw-r--r-- 500/500       57218 2011-01-09 10:58 lnl-3.4.19/src/menu.c
+-rw-r--r-- 500/500      218967 2011-01-09 10:58 lnl-3.4.19/src/msg-eng.h
+-rw-r--r-- 500/500      239890 2011-01-09 10:58 lnl-3.4.19/src/msg-jpn-utf8.h
+-rw-r--r-- 500/500        1591 2009-06-26 22:41 lnl-3.4.19/src/skill-prot.h
+-rw-r--r-- 500/500        3340 2011-01-09 10:58 lnl-3.4.19/src/misc.h
+-rw-r--r-- 500/500       53832 2011-01-09 10:58 lnl-3.4.19/src/gfile-tab.h
+-rw-r--r-- 500/500        3809 2010-05-19 07:13 lnl-3.4.19/src/party-prot.h
+-rw-r--r-- 500/500        2251 2011-01-09 10:58 lnl-3.4.19/src/main-unix.c
+-rw-r--r-- 500/500       13708 2011-01-09 10:58 lnl-3.4.19/src/gf-replay.c
+-rw-r--r-- 500/500        3890 2009-01-05 16:40 lnl-3.4.19/src/item-food-tab.h
+-rw-r--r-- 500/500        1909 2010-07-21 09:48 lnl-3.4.19/src/curs-prot.h
+-rw-r--r-- 500/500        1499 2011-01-09 10:58 lnl-3.4.19/src/crsr-ptn.h
+-rw-r--r-- 500/500         992 2010-08-05 09:44 lnl-3.4.19/src/play-rep-prot.h
+-rw-r--r-- 500/500         133 2010-07-09 11:00 lnl-3.4.19/src/main-prot.h
+-rw-r--r-- 500/500       15378 2011-01-09 10:58 lnl-3.4.19/src/misc.c
+-rw-r--r-- 500/500        1674 2011-01-09 10:58 lnl-3.4.19/src/music-kind.h
+-rw-r--r-- 500/500       14328 2008-05-13 09:52 lnl-3.4.19/src/town-ptn.xpm
+-rw-r--r-- 500/500        2011 2009-06-26 22:41 lnl-3.4.19/src/trap-prot.h
+-rw-r--r-- 500/500        7416 2011-01-09 10:58 lnl-3.4.19/src/spell-kind.h
+-rw-r--r-- 500/500        1155 2011-01-09 10:58 lnl-3.4.19/src/extern.h
+-rw-r--r-- 500/500        6357 2011-01-09 10:58 lnl-3.4.19/src/gf-crsr.c
+-rw-r--r-- 500/500        3785 2011-01-09 10:58 lnl-3.4.19/src/nest-flg.c
+-rw-r--r-- 500/500        3968 2009-07-23 23:12 lnl-3.4.19/src/mnstr-prot.h
+-rw-r--r-- 500/500        1716 2011-01-09 10:58 lnl-3.4.19/src/replay.h
+-rw-r--r-- 500/500         728 2004-07-26 19:02 lnl-3.4.19/src/item-pipe-tab.h
+-rw-r--r-- 500/500         508 2004-07-26 19:02 lnl-3.4.19/src/item-anthology-tab.h
+-rw-r--r-- 500/500       77931 2011-01-09 10:58 lnl-3.4.19/src/party.c
+-rw-r--r-- 500/500        5802 2011-01-09 10:58 lnl-3.4.19/src/skill.h
+-rw-r--r-- 500/500        2035 2011-01-09 10:58 lnl-3.4.19/src/rumor-tab.h
+-rw-r--r-- 500/500        9135 2010-07-31 11:05 lnl-3.4.19/src/chr-prot.h
+-rw-r--r-- 500/500       31499 2011-01-09 10:58 lnl-3.4.19/src/tmenu-tab.h
+-rw-r--r-- 500/500        6447 2011-01-09 10:58 lnl-3.4.19/src/gmain.h
+-rw-r--r-- 500/500       70456 2011-01-09 10:58 lnl-3.4.19/src/mnstr.c
+-rw-r--r-- 500/500        4345 2011-01-09 10:58 lnl-3.4.19/src/gf-outmap.c
+-rw-r--r-- 500/500        1328 2011-01-09 10:58 lnl-3.4.19/src/stay-inn-kind.h
+-rw-r--r-- 500/500        4719 2010-05-13 22:33 lnl-3.4.19/src/request-prot.h
+-rw-r--r-- 500/500      102795 2011-01-09 10:58 lnl-3.4.19/src/dun.c
+-rw-r--r-- 500/500        4706 2011-01-09 10:58 lnl-3.4.19/src/item-randm-art-tab.h
+-rw-r--r-- 500/500       30291 2011-01-09 10:58 lnl-3.4.19/src/curs.c
+-rw-r--r-- 500/500       18335 2011-01-09 10:58 lnl-3.4.19/src/replay.c
+-rw-r--r-- 500/500        3592 2009-05-20 13:45 lnl-3.4.19/src/class-dflt-tab.h
+-rw-r--r-- 500/500        2945 2011-01-09 10:58 lnl-3.4.19/src/menu-tab.h
+-rw-r--r-- 500/500       17010 2009-10-05 18:57 lnl-3.4.19/src/item-prot.h
+-rwxr-xr-x 500/500         167 2007-03-19 17:12 lnl-3.4.19/src/msg-cv-utf8
+-rw-r--r-- 500/500        1276 2011-01-09 10:58 lnl-3.4.19/src/joy-kind.h
+-rw-r--r-- 500/500      206847 2011-01-09 10:58 lnl-3.4.19/src/fx.c
+-rw-r--r-- 500/500        1064 2005-01-02 19:48 lnl-3.4.19/src/item-range-tab.h
+-rw-r--r-- 500/500        1632 2011-01-09 10:58 lnl-3.4.19/src/key-item.h
+-rw-r--r-- 500/500         488 2009-09-13 06:45 lnl-3.4.19/src/ending-space-prot.h
+-rw-r--r-- 500/500        6075 2010-07-21 05:11 lnl-3.4.19/src/mmenu-prot.h
+-rw-r--r-- 500/500        5554 2011-01-09 10:58 lnl-3.4.19/src/fx.h
+-rw-r--r-- 500/500        5788 2011-01-09 10:58 lnl-3.4.19/src/menu.h
+-rw-r--r-- 500/500        1311 2011-01-09 10:58 lnl-3.4.19/src/ending-ep.h
+-rw-r--r-- 500/500         613 2009-06-26 22:41 lnl-3.4.19/src/map-event-prot.h
+-rw-r--r-- 500/500        3724 2010-08-05 06:58 lnl-3.4.19/src/town-prot.h
+-rw-r--r-- 500/500        5374 2011-01-09 10:58 lnl-3.4.19/src/item-randm-art.h
+-rw-r--r-- 500/500       32104 2011-01-09 10:58 lnl-3.4.19/src/trap.c
+-rw-r--r-- 500/500        5084 2011-01-09 11:06 lnl-3.4.19/src/config.h.in
+-rw-r--r-- 500/500        5833 2011-01-09 10:58 lnl-3.4.19/src/last-boss.h
+-rw-r--r-- 500/500        1476 2011-01-09 10:58 lnl-3.4.19/src/map-event.h
+-rw-r--r-- 500/500        1925 2011-01-09 10:58 lnl-3.4.19/src/resi.h
+-rw-r--r-- 500/500       47863 2011-01-09 10:58 lnl-3.4.19/src/town-tab.h
+-rw-r--r-- 500/500       40160 2011-01-09 10:58 lnl-3.4.19/src/call.cpp
+-rw-r--r-- 500/500       29505 2010-08-05 07:52 lnl-3.4.19/src/gfile-prot.h
+drwxrwxrwx 500/500           0 2011-01-17 17:48 lnl-3.4.19/src/lnl-dos/
+-rw-r--r-- 500/500         113 2004-01-26 02:51 lnl-3.4.19/src/lnl-dos/resource.h
+-rw-r--r-- 500/500         308 2004-01-27 15:12 lnl-3.4.19/src/lnl-dos/stdafx.h
+-rw-r--r-- 500/500        2190 2004-01-26 02:51 lnl-3.4.19/src/lnl-dos/AssemblyInfo.cpp
+-rw-r--r-- 500/500        1126 2004-01-26 02:51 lnl-3.4.19/src/lnl-dos/ReadMe.txt
+-rw-r--r-- 500/500        1595 2007-03-02 14:19 lnl-3.4.19/src/lnl-dos/lnl-dos.cpp
+-rw-r--r-- 500/500        1180 2004-01-26 02:51 lnl-3.4.19/src/lnl-dos/app.rc
+-rw-r--r-- 500/500        1642 2011-01-09 11:03 lnl-3.4.19/src/lnl-dos/config-dos.h
+-rw-r--r-- 500/500        1078 2004-01-26 02:51 lnl-3.4.19/src/lnl-dos/app.ico
+-rw-r--r-- 500/500         198 2004-01-26 02:51 lnl-3.4.19/src/lnl-dos/stdafx.cpp
+-rw-r--r-- 500/500       97707 2011-01-09 10:58 lnl-3.4.19/src/amenu.c
+-rw-r--r-- 500/500        4191 2010-05-19 09:12 lnl-3.4.19/src/spell-prot.h
+-rw-r--r-- 500/500        4109 2011-01-09 10:58 lnl-3.4.19/src/request.h
+-rw-r--r-- 500/500        9096 2011-01-09 10:58 lnl-3.4.19/src/play-rep.c
+-rw-r--r-- 500/500      122813 2011-01-09 10:58 lnl-3.4.19/src/imenu.c
+-rw-r--r-- 500/500        1550 2011-01-09 10:58 lnl-3.4.19/src/msg-t.h
+-rw-r--r-- 500/500       32174 2006-01-27 13:35 lnl-3.4.19/src/item-acce-tab.h
+-rw-r--r-- 500/500       20190 2011-01-09 10:58 lnl-3.4.19/src/mnstr-act.c
+-rw-r--r-- 500/500       31521 2011-01-09 10:58 lnl-3.4.19/src/item.h
+-rw-r--r-- 500/500        6031 2011-01-09 10:58 lnl-3.4.19/src/key-item.c
+-rw-r--r-- 500/500      107960 2009-09-13 02:02 lnl-3.4.19/src/item-wpn-tab.h
+-rw-r--r-- 500/500        3025 2009-06-26 22:41 lnl-3.4.19/src/last-boss-prot.h
+-rw-r--r-- 500/500        9332 2011-01-09 10:58 lnl-3.4.19/src/amenu-tab.h
+-rw-r--r-- 500/500        2818 2011-01-09 10:58 lnl-3.4.19/src/sound-kind.h
+-rw-r--r-- 500/500        4639 2009-09-03 19:55 lnl-3.4.19/src/item-inst-tab.h
+-rw-r--r-- 500/500        1982 2011-01-09 10:58 lnl-3.4.19/src/abl-kind.h
+-rw-r--r-- 500/500        1259 2009-06-26 22:41 lnl-3.4.19/src/replay-prot.h
+-rw-r--r-- 500/500       94384 2011-01-09 10:58 lnl-3.4.19/src/last-boss.c
+-rw-r--r-- 500/500         761 2009-06-26 22:41 lnl-3.4.19/src/turn-prot.h
+-rw-r--r-- 500/500        1401 2009-06-26 22:41 lnl-3.4.19/src/mnstr-act-prot.h
+-rw-r--r-- 500/500        4159 2011-01-09 10:58 lnl-3.4.19/src/spell.h
+-rw-r--r-- 500/500         367 2009-09-13 04:26 lnl-3.4.19/src/ending-ep-prot.h
+-rw-r--r-- 500/500        3306 2010-05-14 01:42 lnl-3.4.19/src/menu-prot.h
+-rwxr-xr-x 500/500         259 2004-08-03 01:46 lnl-3.4.19/src/msg-def
+-rw-r--r-- 500/500      315223 2010-08-05 04:27 lnl-3.4.19/src/mnstr-gen-tab.h
+-rw-r--r-- 500/500         533 2004-07-26 19:02 lnl-3.4.19/src/item-coin-tab.h
+-rw-r--r-- 500/500        1465 2011-01-09 10:58 lnl-3.4.19/src/ending-space.h
+-rw-r--r-- 500/500        1178 2005-07-31 01:11 lnl-3.4.19/src/item-rare-goods-tab.h
+-rw-r--r-- 500/500        1364 2011-01-09 10:58 lnl-3.4.19/src/vfx-kind.h
+-rw-r--r-- 500/500        3345 2011-01-09 10:58 lnl-3.4.19/src/ver.h
+-rw-r--r-- 500/500        1759 2011-01-09 10:58 lnl-3.4.19/src/pet.h
+-rw-r--r-- 500/500       92691 2011-01-09 10:58 lnl-3.4.19/src/tmenu.c
+-rw-r--r-- 500/500       38677 2011-01-09 10:58 lnl-3.4.19/src/draw-tab.h
+-rw-r--r-- 500/500       70080 2011-01-09 10:58 lnl-3.4.19/src/mmenu.c
+-rw-r--r-- 500/500      214189 2011-01-09 10:58 lnl-3.4.19/src/msg-jpn-sjis.h
+-rw-r--r-- 500/500       15264 2011-01-09 10:58 lnl-3.4.19/src/draw.h
+-rw-r--r-- 500/500      197242 2011-01-09 10:58 lnl-3.4.19/src/gf-save.c
+-rw-r--r-- 500/500        5902 2011-01-09 10:58 lnl-3.4.19/src/gfile.h
+-rw-r--r-- 500/500       78791 2011-01-09 10:58 lnl-3.4.19/src/request.c
+-rw-r--r-- 500/500       85939 2011-01-09 10:58 lnl-3.4.19/src/gfile.c
+-rw-r--r-- 500/500        2825 2011-01-09 10:58 lnl-3.4.19/src/party.h
+-rw-r--r-- 500/500        5425 2011-01-09 11:06 lnl-3.4.19/src/config.h
+-rw-r--r-- 500/500       27992 2011-01-09 10:58 lnl-3.4.19/src/skill.c
+-rw-r--r-- 500/500        2137 2011-01-09 10:58 lnl-3.4.19/src/fx-menu-tab.h
+-rw-r--r-- 500/500       22452 2011-01-09 11:05 lnl-3.4.19/src/Makefile.in
+-rw-r--r-- 500/500        1214 2011-01-09 10:58 lnl-3.4.19/src/nest-flg.h
+-rw-r--r-- 500/500        3098 2011-01-09 10:58 lnl-3.4.19/src/scene.h
+-rw-r--r-- 500/500        1355 2010-08-31 20:08 lnl-3.4.19/src/pet-prot.h
+-rw-r--r-- 500/500       20543 2011-01-09 10:58 lnl-3.4.19/src/mnstr-tab.h
+-rw-r--r-- 500/500        5733 2010-07-22 05:39 lnl-3.4.19/src/dun-prot.h
+-rw-r--r-- 500/500        7661 2011-01-09 10:58 lnl-3.4.19/src/gf-town.c
+-rw-r--r-- 500/500       16541 2010-05-19 09:21 lnl-3.4.19/src/item-stick-tab.h
+-rw-r--r-- 500/500        1537 2009-09-12 18:33 lnl-3.4.19/src/gmain-prot.h
+-rw-r--r-- 500/500       18297 2011-01-09 10:58 lnl-3.4.19/src/pet.c
+-rw-r--r-- 500/500        7133 2011-01-09 10:58 lnl-3.4.19/src/curs-def.h
+-rwxr-xr-x 500/500        1912 2007-12-10 00:24 lnl-3.4.19/src/msg-def-sub
+-rw-r--r-- 500/500       10316 2011-01-09 10:58 lnl-3.4.19/src/gf-gconf.c
+-rw-r--r-- 500/500        6323 2011-01-09 10:58 lnl-3.4.19/src/map-event.c
+-rw-r--r-- 500/500       86966 2011-01-09 10:58 lnl-3.4.19/src/spell.c
+-rw-r--r-- 500/500       13928 2010-08-31 21:16 lnl-3.4.19/src/imenu-prot.h
+-rw-r--r-- 500/500         224 2009-06-26 22:41 lnl-3.4.19/src/main-unix-prot.h
+-rw-r--r-- 500/500        4435 2010-06-24 12:28 lnl-3.4.19/src/amenu-prot.h
+-rw-r--r-- 500/500        4465 2010-08-02 00:21 lnl-3.4.19/src/call-prot.h
+-rw-r--r-- 500/500       20726 2011-01-09 10:58 lnl-3.4.19/src/chr.h
+-rw-r--r-- 500/500         832 2009-06-26 22:41 lnl-3.4.19/src/msg-prot.h
+-rw-r--r-- 500/500      256522 2011-01-09 10:58 lnl-3.4.19/src/draw.c
+-rw-r--r-- 500/500         427 2009-06-26 22:41 lnl-3.4.19/src/key-item-prot.h
+-rw-r--r-- 500/500        1565 2011-01-09 10:58 lnl-3.4.19/src/win-kind.h
+-rw-r--r-- 500/500       56681 2011-01-09 10:58 lnl-3.4.19/src/dun-tab.h
+-rw-r--r-- 500/500       10411 2004-07-26 19:02 lnl-3.4.19/src/item-potion-tab.h
+-rw-r--r-- 500/500        4066 2009-09-28 17:34 lnl-3.4.19/src/fight-prot.h
+-rw-r--r-- 500/500       11892 2010-05-19 09:12 lnl-3.4.19/src/fx-prot.h
+-rw-r--r-- 500/500       77595 2011-01-09 10:58 lnl-3.4.19/src/fight.c
+-rw-r--r-- 500/500         225 2009-06-26 22:41 lnl-3.4.19/src/main-dos-prot.h
+-rw-r--r-- 500/500        4941 2009-09-18 07:00 lnl-3.4.19/src/item-scroll-tab.h
+-rw-r--r-- 500/500       83410 2011-01-09 10:58 lnl-3.4.19/src/gf-conf.c
+-rw-r--r-- 500/500         742 2007-02-01 15:49 lnl-3.4.19/README-DOS
+drwxrwxrwx 500/500           0 2011-01-17 17:48 lnl-3.4.19/play-lnl/
+-rwxr-xr-x 500/500          65 2007-03-02 00:50 lnl-3.4.19/play-lnl/lnl-utf-8-mono
+-rwxr-xr-x 500/500          38 2007-03-02 00:50 lnl-3.4.19/play-lnl/lnl-english
+-rwxr-xr-x 500/500          65 2007-03-02 00:50 lnl-3.4.19/play-lnl/lnl-eucjp-mono
+-rwxr-xr-x 500/500          55 2007-03-02 00:50 lnl-3.4.19/play-lnl/lnl-english-mono
+-rwxr-xr-x 500/500          48 2007-03-02 00:50 lnl-3.4.19/play-lnl/lnl-utf-8
+-rwxr-xr-x 500/500          48 2007-03-02 00:50 lnl-3.4.19/play-lnl/lnl-eucjp
+drwxrwxrwx 500/500           0 2011-01-17 17:48 lnl-3.4.19/man/
+-rw-r--r-- 500/500        6282 2010-08-21 00:01 lnl-3.4.19/man/lnl-faq.eng
+-rw-r--r-- 500/500         196 2010-10-11 05:11 lnl-3.4.19/man/Makefile.am
+-rw-r--r-- 500/500       12157 2010-08-21 00:01 lnl-3.4.19/man/lnl.eng
+-rw-r--r-- 500/500       12482 2011-01-09 11:05 lnl-3.4.19/man/Makefile.in
+-rw-r--r-- 500/500           0 2003-09-23 08:32 lnl-3.4.19/NEWS
+-rw-r--r-- 500/500       22540 2011-01-09 11:05 lnl-3.4.19/Makefile.in
+-rw-r--r-- 500/500         639 2004-12-24 05:54 lnl-3.4.19/README
+-rwxr-xr-x 500/500      255287 2011-01-09 11:05 lnl-3.4.19/configure
+-rwxr-xr-x 500/500          52 2005-03-13 06:15 lnl-3.4.19/install.sh
+実行中(%build): /bin/sh -e /var/tmp/rpm-tmp.NH5PKB
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for i686-pc-linux-gnu-gcc... no
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for i686-pc-linux-gnu-g++... no
+checking for i686-pc-linux-gnu-c++... no
+checking for i686-pc-linux-gnu-gpp... no
+checking for i686-pc-linux-gnu-aCC... no
+checking for i686-pc-linux-gnu-CC... no
+checking for i686-pc-linux-gnu-cxx... no
+checking for i686-pc-linux-gnu-cc++... no
+checking for i686-pc-linux-gnu-cl.exe... no
+checking for i686-pc-linux-gnu-FCC... no
+checking for i686-pc-linux-gnu-KCC... no
+checking for i686-pc-linux-gnu-RCC... no
+checking for i686-pc-linux-gnu-xlC_r... no
+checking for i686-pc-linux-gnu-xlC... no
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for initscr in -lcurses... yes
+checking for initscr in -lncurses... yes
+checking for initscr in -lncursesw... yes
+checking for tcgetattr in -ltermcap... yes
+checking for sin in -lm... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking curses.h usability... yes
+checking curses.h presence... yes
+checking for curses.h... yes
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking ncursesw.h usability... no
+checking ncursesw.h presence... no
+checking for ncursesw.h... no
+checking for stdlib.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for string.h... (cached) yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking for sys/stat.h... (cached) yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for an ANSI C-conforming const... yes
+checking for mode_t... yes
+checking for size_t... yes
+checking whether gcc needs -traditional... no
+checking for vprintf... yes
+checking for _doprnt... no
+checking for mkdir... yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for getenv... yes
+checking for setenv... yes
+checking for sin... yes
+checking for cos... yes
+checking for tan... yes
+checking for getopt_long... yes
+checking for getopt... yes
+checking for sleep... yes
+checking for usleep... yes
+checking for nanosleep... yes
+checking for has_colors... yes
+checking for start_color... yes
+checking for init_pair... yes
+checking for keypad... yes
+checking for attrset... yes
+checking for attron... yes
+checking for attroff... yes
+checking for getnstr... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating man/Makefile
+config.status: creating src/Makefile
+config.status: creating src/config.h
+config.status: src/config.h is unchanged
+config.status: executing depfiles commands
+Making all in man
+make[1]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19/man'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19/man'
+Making all in src
+make[1]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19/src'
+make  all-am
+make[2]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19/src'
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT amenu.o -MD -MP -MF .deps/amenu.Tpo -c -o amenu.o amenu.c
+mv -f .deps/amenu.Tpo .deps/amenu.Po
+g++ -DHAVE_CONFIG_H -I.     -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT call.o -MD -MP -MF .deps/call.Tpo -c -o call.o call.cpp
+mv -f .deps/call.Tpo .deps/call.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT chr.o -MD -MP -MF .deps/chr.Tpo -c -o chr.o chr.c
+mv -f .deps/chr.Tpo .deps/chr.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT skill.o -MD -MP -MF .deps/skill.Tpo -c -o skill.o skill.c
+mv -f .deps/skill.Tpo .deps/skill.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT curs.o -MD -MP -MF .deps/curs.Tpo -c -o curs.o curs.c
+mv -f .deps/curs.Tpo .deps/curs.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT draw.o -MD -MP -MF .deps/draw.Tpo -c -o draw.o draw.c
+mv -f .deps/draw.Tpo .deps/draw.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT dun.o -MD -MP -MF .deps/dun.Tpo -c -o dun.o dun.c
+mv -f .deps/dun.Tpo .deps/dun.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT map-event.o -MD -MP -MF .deps/map-event.Tpo -c -o map-event.o map-event.c
+mv -f .deps/map-event.Tpo .deps/map-event.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT fight.o -MD -MP -MF .deps/fight.Tpo -c -o fight.o fight.c
+mv -f .deps/fight.Tpo .deps/fight.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT fx.o -MD -MP -MF .deps/fx.Tpo -c -o fx.o fx.c
+mv -f .deps/fx.Tpo .deps/fx.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-conf.o -MD -MP -MF .deps/gf-conf.Tpo -c -o gf-conf.o gf-conf.c
+mv -f .deps/gf-conf.Tpo .deps/gf-conf.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-crsr.o -MD -MP -MF .deps/gf-crsr.Tpo -c -o gf-crsr.o gf-crsr.c
+mv -f .deps/gf-crsr.Tpo .deps/gf-crsr.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-gconf.o -MD -MP -MF .deps/gf-gconf.Tpo -c -o gf-gconf.o gf-gconf.c
+mv -f .deps/gf-gconf.Tpo .deps/gf-gconf.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-outmap.o -MD -MP -MF .deps/gf-outmap.Tpo -c -o gf-outmap.o gf-outmap.c
+mv -f .deps/gf-outmap.Tpo .deps/gf-outmap.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-replay.o -MD -MP -MF .deps/gf-replay.Tpo -c -o gf-replay.o gf-replay.c
+mv -f .deps/gf-replay.Tpo .deps/gf-replay.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-save.o -MD -MP -MF .deps/gf-save.Tpo -c -o gf-save.o gf-save.c
+mv -f .deps/gf-save.Tpo .deps/gf-save.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-town.o -MD -MP -MF .deps/gf-town.Tpo -c -o gf-town.o gf-town.c
+mv -f .deps/gf-town.Tpo .deps/gf-town.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gfile.o -MD -MP -MF .deps/gfile.Tpo -c -o gfile.o gfile.c
+mv -f .deps/gfile.Tpo .deps/gfile.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gmain.o -MD -MP -MF .deps/gmain.Tpo -c -o gmain.o gmain.c
+mv -f .deps/gmain.Tpo .deps/gmain.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT imenu.o -MD -MP -MF .deps/imenu.Tpo -c -o imenu.o imenu.c
+mv -f .deps/imenu.Tpo .deps/imenu.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT item.o -MD -MP -MF .deps/item.Tpo -c -o item.o item.c
+mv -f .deps/item.Tpo .deps/item.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT main-unix.o -MD -MP -MF .deps/main-unix.Tpo -c -o main-unix.o main-unix.c
+mv -f .deps/main-unix.Tpo .deps/main-unix.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT menu.o -MD -MP -MF .deps/menu.Tpo -c -o menu.o menu.c
+mv -f .deps/menu.Tpo .deps/menu.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+mv -f .deps/misc.Tpo .deps/misc.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT mmenu.o -MD -MP -MF .deps/mmenu.Tpo -c -o mmenu.o mmenu.c
+mv -f .deps/mmenu.Tpo .deps/mmenu.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT mnstr-act.o -MD -MP -MF .deps/mnstr-act.Tpo -c -o mnstr-act.o mnstr-act.c
+mv -f .deps/mnstr-act.Tpo .deps/mnstr-act.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT mnstr.o -MD -MP -MF .deps/mnstr.Tpo -c -o mnstr.o mnstr.c
+mv -f .deps/mnstr.Tpo .deps/mnstr.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT msg.o -MD -MP -MF .deps/msg.Tpo -c -o msg.o msg.c
+mv -f .deps/msg.Tpo .deps/msg.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT nest-flg.o -MD -MP -MF .deps/nest-flg.Tpo -c -o nest-flg.o nest-flg.c
+mv -f .deps/nest-flg.Tpo .deps/nest-flg.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT party.o -MD -MP -MF .deps/party.Tpo -c -o party.o party.c
+mv -f .deps/party.Tpo .deps/party.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT pet.o -MD -MP -MF .deps/pet.Tpo -c -o pet.o pet.c
+mv -f .deps/pet.Tpo .deps/pet.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT play-rep.o -MD -MP -MF .deps/play-rep.Tpo -c -o play-rep.o play-rep.c
+mv -f .deps/play-rep.Tpo .deps/play-rep.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT replay.o -MD -MP -MF .deps/replay.Tpo -c -o replay.o replay.c
+mv -f .deps/replay.Tpo .deps/replay.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT request.o -MD -MP -MF .deps/request.Tpo -c -o request.o request.c
+mv -f .deps/request.Tpo .deps/request.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT scene.o -MD -MP -MF .deps/scene.Tpo -c -o scene.o scene.c
+mv -f .deps/scene.Tpo .deps/scene.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT spell.o -MD -MP -MF .deps/spell.Tpo -c -o spell.o spell.c
+mv -f .deps/spell.Tpo .deps/spell.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT tmenu.o -MD -MP -MF .deps/tmenu.Tpo -c -o tmenu.o tmenu.c
+mv -f .deps/tmenu.Tpo .deps/tmenu.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT town.o -MD -MP -MF .deps/town.Tpo -c -o town.o town.c
+mv -f .deps/town.Tpo .deps/town.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT trap.o -MD -MP -MF .deps/trap.Tpo -c -o trap.o trap.c
+mv -f .deps/trap.Tpo .deps/trap.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT turn.o -MD -MP -MF .deps/turn.Tpo -c -o turn.o turn.c
+mv -f .deps/turn.Tpo .deps/turn.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT key-item.o -MD -MP -MF .deps/key-item.Tpo -c -o key-item.o key-item.c
+mv -f .deps/key-item.Tpo .deps/key-item.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT last-boss.o -MD -MP -MF .deps/last-boss.Tpo -c -o last-boss.o last-boss.c
+mv -f .deps/last-boss.Tpo .deps/last-boss.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT ending-ep.o -MD -MP -MF .deps/ending-ep.Tpo -c -o ending-ep.o ending-ep.c
+mv -f .deps/ending-ep.Tpo .deps/ending-ep.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000'  -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT ending-space.o -MD -MP -MF .deps/ending-space.Tpo -c -o ending-space.o ending-space.c
+mv -f .deps/ending-space.Tpo .deps/ending-space.Po
+g++  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables   -o lnl amenu.o call.o chr.o skill.o curs.o draw.o dun.o map-event.o fight.o fx.o gf-conf.o gf-crsr.o gf-gconf.o gf-outmap.o gf-replay.o gf-save.o gf-town.o gfile.o gmain.o imenu.o item.o main-unix.o menu.o misc.o mmenu.o mnstr-act.o mnstr.o msg.o nest-flg.o party.o pet.o play-rep.o replay.o request.o scene.o spell.o tmenu.o town.o trap.o turn.o key-item.o last-boss.o ending-ep.o ending-space.o  -lm -ltermcap -lncursesw -lncurses -lcurses 
+make[2]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19/src'
+make[1]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19/src'
+make[1]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19'
+実行中(%install): /bin/sh -e /var/tmp/rpm-tmp.zBZ8Q7
+Making install in man
+make[1]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19/man'
+make[2]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19/man'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386/usr/share/man/man6" || /bin/mkdir -p "/home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386/usr/share/man/man6"
+ /usr/bin/install -c -m 644 'lnl.eng' '/home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386/usr/share/man/man6/lnl.6'
+ /usr/bin/install -c -m 644 'lnl-faq.eng' '/home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386/usr/share/man/man6/lnl-faq.6'
+make[2]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19/man'
+make[1]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19/man'
+Making install in src
+make[1]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19/src'
+make[2]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19/src'
+test -z "/home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386/usr/bin" || /bin/mkdir -p "/home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386/usr/bin"
+  /usr/bin/install -c lnl '/home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386/usr/bin'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19/src'
+make[1]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19/src'
+make[1]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19'
+make[2]: Entering directory `/home/dud/rpm/BUILD/lnl-3.4.19'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19'
+make[1]: Leaving directory `/home/dud/rpm/BUILD/lnl-3.4.19'
+extracting debug info from /home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386/usr/bin/lnl
+ファイルの処理中: lnl-3.4.19-1
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: libc.so.6 libc.so.6(GLIBC_2.0) libc.so.6(GLIBC_2.1) libc.so.6(GLIBC_2.3) libc.so.6(GLIBC_2.3.4) libc.so.6(GLIBC_2.4) libgcc_s.so.1 libm.so.6 libm.so.6(GLIBC_2.0) libm.so.6(GLIBC_2.1) libncurses.so.5 libncursesw.so.5 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libtinfo.so.5 rtld(GNU_HASH)
+ファイルの処理中: lnl-debuginfo-3.4.19-1
+伸張ファイルの検査中: /usr/lib/rpm/check-files /home/dud/rpm/BUILDROOT/lnl-3.4.19-1.i386
+書き込み完了: /home/dud/rpm/SRPMS/lnl-3.4.19-1.src.rpm
+書き込み完了: /home/dud/rpm/RPMS/i386/lnl-3.4.19-1.i386.rpm
+書き込み完了: /home/dud/rpm/RPMS/i386/lnl-debuginfo-3.4.19-1.i386.rpm
+実行中(%clean): /bin/sh -e /var/tmp/rpm-tmp.YqXDAy

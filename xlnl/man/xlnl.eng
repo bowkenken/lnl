@@ -1,0 +1,264 @@
+.\"
+.\" Copyright (c) 1993-2014 YOSHIMURA, Tomohiko
+.\"	all rights reserved.
+.\"
+.TH xlnl 6 "21 August 2010" "Ver. 3.4.18" "Fantasy RPG"
+.\"****************************************************************
+.SH NAME
+xlnl \- L&L, Labyrinths & Legends
+.\"****************************************************************
+.SH SYNOPSIS
+.B "xlnl"
+.\".B "[\-GCUT:D:S:l:k:e:s:p:m:cd:Vvh]"
+.B "[\-GCUl:e:s:p:m:cVvh]"
+.B "[\-\-gui]"
+.B "[\-\-cui]"
+.B "[\-\-gui\-and\-cui]"
+.\".B "[\-\-text\-mode=POINT]"
+.\".B "[\-\-sel\-graph\-dir=DIR]"
+.\".B "[\-\-map\-scale=N]"
+.B "[\-\-language=LANGUAGE]"
+.\".B "[\-\-clear\-key\-buf=FLAG]"
+.B "[\-\-echo\-key=FLAG]"
+.B "[\-\-use\-curses=FLAG]"
+.B "[\-\-use\-keypad=FLAG]"
+.B "[\-\-check\-memory=FLAG]"
+.B "[\-\-measure\-clock]"
+.B "[\-\-version]"
+.B "[\-\-help]"
+.\"****************************************************************
+.SH DESCRIPTION
+.B "L&L - Labyrinths & Legends"
+is fantasy RPG which is a kind of Roguelike.
+.br
+The following example is typical Roguelike.
+.br
+.B "Rogue"
+.br
+.B "Moria"
+.br
+.B "Net Hack"
+.br
+.B "Torneko's Great Adventure"
+.br
+.PP
+There are the following features when L&L is compared with current Roguelike.
+.br
+.TP
+.B "<Party play>"
+The party can be united by the character up to six character.
+.TP
+.B "<Auto battle>"
+Direct the strategy of the character.
+.br
+And execute it as it is semiautomatic.
+.TP
+.B "<Easy menu>"
+Operate it with the menu or the shortcut key.
+.br
+You can operate it by one hand with cursor keys or ten keys.
+.TP
+.B "<It is OK even if dying>"
+It is possible to revive in the church in the town as long as
+the party is not annihilated.
+.TP
+.B "<Editable class>"
+You can create a unique class by adjusting the parameter of the class.
+.TP
+.B "<It is a pair by two characters>"
+It is easy to distinguish the kind because the character is displayed
+.br
+by two characters (the classification and the race).
+.PP
+This game was completed in ver.3.4.0 open to the public to 2009-03-14.
+.br
+.PP
+Our members are prepared in advance and start the game,
+appears to bar the town.
+.br
+There are several shops around it.
+.br
+Front of the bar was the center of the city.
+.br
+there is an entrance to the Labyrinth.
+.br
+.PP
+.\"****************************************************************
+.SH Mouse operation
+Basic operations
+.TP
+.B "Operation"
+Meaning
+.TP
+.B "Left click"
+Set the anchor
+.TP
+.B "Left double click"
+Display the menu or select it
+.TP
+.B "Right click"
+Execute the turn or close menu
+.TP
+.B "Right press"
+Continuous execute the turn
+.TP
+.B "Left drug"
+Scroll the map
+.PP
+When you right-click in the button of the menu, the menu is canceled.
+.PP
+Other operations
+.br
+Meaning			iPod touch	Mouse			key
+.br
+Move the cursor		Tap		Point			<1>-<9>
+.br
+Set the anchor		Double tap	Left click		<+> <v>
+.br
+Menu					Left double click	<Enter>
+.br
+Cancel					Right click		<0> <Esc>
+.br
+Execute					Right click		<5> <.>
+.br
+Continuous execute			Right press		<,>
+.br
+Scroll					Wheel			
+.br
+Scroll with drug	drug		Left drug		
+.br
+Page scroll		Flick					
+.br
+Strategy menu				R drug to left dir.	</> <z>
+.br
+User menu				R drug to right dir.	<*> <x>
+.br
+Spell menu				R drug to upper dir.	<-> <c>
+.br
+Set the anchor				R drug to lower dir.	<+> <v>
+.br
+Zoom in window		Pinch out				
+.br
+Zoom out window		Pinch in				
+.br
+.PP
+Please refer to the manual and FAQ for the operation method in the keyboard.
+.PP      		
+.\"****************************************************************
+.SH OPTIONS
+.TP
+.B "\-G, \-\-gui"
+Mode to GUI
+.TP
+.B "\-C, \-\-cui"
+Mode to CUI
+.TP
+.B "\-U, \-\-gui\-and\-cui"
+Mode to GUI & CUI
+.TP
+.B "\-l, \-\-language=LANGUAGE"
+Specify the language of the message
+.TP
+.B "LANGUAGE"
+Language
+.TP
+.B "\-e, \-\-echo\-key=FLAG"
+Do you see the keys you entered?
+.TP
+.B "\-s, \-\-use\-curses=FLAG"
+How to use the curses library
+.TP
+.B "\-p, \-\-use\-keypad=FLAG"
+How to enable the cursor keys
+.TP
+.B "\-m, \-\-check\-memory=FLAG"
+How to enable to check memory
+.TP
+.B "FLAG"
+on, true, t, yes, 1 if enabled.
+.br
+off, false, nil, no, 0 if disabled.
+.TP
+.B "\-c, \-\-measure\-clock"
+To measure the frame rate.
+.TP
+.B "\-V, \-v, \-\-version"
+It outputs the version to a standard output.
+And, it exits normally.
+.TP
+.B "\-h, \-\-help"
+It outputs the usage to a standard output.
+And, it exits normally.
+.\"****************************************************************
+.SH FILES
+.TP
+.I "~/.lnl/"
+Data directory for each user.
+.TP
+.I "~/.lnl/save/bin/save??.bin"
+Save the character data file.
+.TP
+.I "~/.lnl/save/txt/save??.txt"
+Save the character data file for debugging.
+.TP
+.I "~/.lnl/save/cnf/conf??.txt"
+Character configuration file.
+.TP
+.I "~/.lnl/save/rep/rply??.txt"
+Save the replay file.
+.TP
+.I "~/.lnl/usr/lnl.conf"
+The default configuration file.
+.TP
+.I "~/.lnl/usr/town-ptn.xpm"
+Map data of the town.
+.TP
+.I "~/.lnl/usr/crsr-ptn.h"
+Pattern data of the cursor.
+.TP
+.I "~/.lnl/out/map.???"
+Map data generated by the user.
+.\"****************************************************************
+.SH ENVIRONMENT
+.TP
+.B "HOME"
+User's home directory.
+.TP
+.B "LANG"
+This specifies the language displayed while playing a game.
+"C"
+"ja_JP.eucJP"
+"ja_JP.ujis"
+"ja_JP.UTF-8"
+"ja_JP.SJIS"
+.TP
+.B "SHELL"
+User's shell.
+.\"****************************************************************
+.SH BUGS
+The terminal software may have trouble.
+.\"****************************************************************
+.SH AUTHOR
+.br
+L&L - Labyrinths & Legends
+.br
+Copyright (c) 1993-2014 YOSHIMURA, Tomohiko All rights reserved.
+.br
+
+.I URL   : http://lnl.sourceforge.jp/
+.br
+.I E-mail: bowkenken@users.sourceforge.jp
+.br
+
+          Created by  BowKenKen
+.br
+      Graphic Design  [RPG DOT], Whitecat, REFMAP
+.br
+                      kokusi(yujyu), hiyo, URARA and naramura
+.br
+          Photograph  Yoshinori Kamimura
+.br
+    Music Production  Presence of Music
+.br
+      Special Thanks  t-oikawa, TeaMiKL, nnn, lu and you
+.br

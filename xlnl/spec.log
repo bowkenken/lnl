@@ -1,0 +1,765 @@
+実行中(%prep): /bin/sh -e /var/tmp/rpm-tmp.wquXpd
+drwxrwxrwx 500/500           0 2011-01-17 17:46 xlnl-3.4.19/
+-rw-r--r-- 500/500        9236 2006-08-04 21:27 xlnl-3.4.19/INSTALL
+-rw-r--r-- 500/500       35023 2011-01-09 11:06 xlnl-3.4.19/aclocal.m4
+drwxrwxrwx 500/500           0 2011-01-17 17:46 xlnl-3.4.19/play-xlnl/
+-rwxr-xr-x 500/500          81 2009-05-15 01:03 xlnl-3.4.19/play-xlnl/xlnl-english
+-rwxr-xr-x 500/500          91 2009-05-15 01:03 xlnl-3.4.19/play-xlnl/xlnl-eucjp
+-rwxr-xr-x 500/500          91 2009-05-15 01:03 xlnl-3.4.19/play-xlnl/xlnl-utf-8
+-rw-r--r-- 500/500      103921 2011-01-09 11:14 xlnl-3.4.19/ChangeLog
+-rw-r--r-- 500/500        2130 2011-01-09 11:00 xlnl-3.4.19/configure.in
+-rw-r--r-- 500/500         111 2007-02-25 18:39 xlnl-3.4.19/AUTHORS
+drwxrwxrwx 500/500           0 2011-01-17 17:46 xlnl-3.4.19/sh/
+-rwxr-xr-x 500/500         137 2007-02-25 18:39 xlnl-3.4.19/sh/cv-rare-goods
+-rwxr-xr-x 500/500         406 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-food
+-rwxr-xr-x 500/500          45 2006-08-04 21:27 xlnl-3.4.19/sh/msg-prot
+-rwxr-xr-x 500/500         125 2007-02-25 18:39 xlnl-3.4.19/sh/cv-inst
+-rwxr-xr-x 500/500        1988 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-armor
+-rwxr-xr-x 500/500          50 2006-08-04 21:27 xlnl-3.4.19/sh/spell-prot
+-rwxr-xr-x 500/500         258 2006-08-04 21:27 xlnl-3.4.19/sh/rcv-item
+-rwxr-xr-x 500/500          45 2006-08-04 21:27 xlnl-3.4.19/sh/pet-prot
+-rwxr-xr-x 500/500         125 2007-02-25 18:39 xlnl-3.4.19/sh/cv-pipe
+-rwxr-xr-x 500/500        2454 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-mnstr
+-rwxr-xr-x 500/500         351 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-anthology
+-rwxr-xr-x 500/500         123 2007-02-25 18:39 xlnl-3.4.19/sh/cv-wpn
+-rwxr-xr-x 500/500         135 2007-02-25 18:39 xlnl-3.4.19/sh/cv-anthology
+-rwxr-xr-x 500/500          48 2006-08-04 21:27 xlnl-3.4.19/sh/draw-prot
+-rwxr-xr-x 500/500          57 2006-08-04 21:27 xlnl-3.4.19/sh/main-unix-prot
+-rwxr-xr-x 500/500         426 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-light
+-rwxr-xr-x 500/500         295 2006-08-04 21:27 xlnl-3.4.19/sh/scp-web-img
+-rwxr-xr-x 500/500          47 2006-08-04 21:27 xlnl-3.4.19/sh/curs-prot
+-rwxr-xr-x 500/500         362 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-coin
+-rwxr-xr-x 500/500         434 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-tobacco
+-rwxr-xr-x 500/500         295 2006-08-04 21:27 xlnl-3.4.19/sh/scp-web-misc
+-rwxr-xr-x 500/500         127 2007-02-25 18:39 xlnl-3.4.19/sh/cv-range
+-rwxr-xr-x 500/500         343 2007-03-02 08:10 xlnl-3.4.19/sh/make-rpm
+-rwxr-xr-x 500/500          43 2006-08-04 21:27 xlnl-3.4.19/sh/scp-web
+-rwxr-xr-x 500/500         143 2009-07-13 14:28 xlnl-3.4.19/sh/make-change-log
+-rwxr-xr-x 500/500         127 2007-02-25 18:39 xlnl-3.4.19/sh/cv-armor
+-rwxr-xr-x 500/500         422 2006-08-04 21:27 xlnl-3.4.19/sh/all-prot
+-rwxr-xr-x 500/500        1272 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-acce
+-rwxr-xr-x 500/500          44 2006-08-04 21:27 xlnl-3.4.19/sh/fx-prot
+-rwxr-xr-x 500/500         125 2007-02-25 18:39 xlnl-3.4.19/sh/cv-coin
+-rwxr-xr-x 500/500          48 2006-08-04 21:27 xlnl-3.4.19/sh/menu-prot
+-rwxr-xr-x 500/500          49 2006-08-04 21:27 xlnl-3.4.19/sh/gmain-prot
+-rwxr-xr-x 500/500          54 2006-08-04 21:27 xlnl-3.4.19/sh/request-prot
+-rwxr-xr-x 500/500          47 2006-08-04 21:27 xlnl-3.4.19/sh/item-prot
+-rwxr-xr-x 500/500         224 2006-08-04 21:27 xlnl-3.4.19/sh/cv-item
+-rwxr-xr-x 500/500         579 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-scroll
+-rwxr-xr-x 500/500          47 2006-08-04 21:27 xlnl-3.4.19/sh/trap-prot
+-rwxr-xr-x 500/500          57 2006-08-04 21:27 xlnl-3.4.19/sh/mnstr-act-prot
+-rwxr-xr-x 500/500          47 2006-08-04 21:27 xlnl-3.4.19/sh/misc-prot
+-rwxr-xr-x 500/500         328 2008-05-08 19:13 xlnl-3.4.19/sh/gfile-prot
+-rwxr-xr-x 500/500         324 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-range
+-rwxr-xr-x 500/500         318 2006-08-12 12:21 xlnl-3.4.19/sh/prot
+-rwxr-xr-x 500/500         131 2007-02-25 18:39 xlnl-3.4.19/sh/cv-tobacco
+-rwxr-xr-x 500/500        2076 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-wpn
+-rwxr-xr-x 500/500          50 2006-08-04 21:27 xlnl-3.4.19/sh/tmenu-prot
+-rwxr-xr-x 500/500          46 2006-08-04 21:27 xlnl-3.4.19/sh/chr-prot
+-rwxr-xr-x 500/500          50 2006-08-04 21:27 xlnl-3.4.19/sh/fight-prot
+-rwxr-xr-x 500/500         652 2006-08-04 21:27 xlnl-3.4.19/sh/rcv-tab.awk
+-rwxr-xr-x 500/500          50 2006-08-04 21:27 xlnl-3.4.19/sh/party-prot
+-rwxr-xr-x 500/500         383 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-inst
+-rwxr-xr-x 500/500         127 2007-02-25 18:39 xlnl-3.4.19/sh/cv-class-dflt
+-rwxr-xr-x 500/500         483 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-spell
+-rwxr-xr-x 500/500         125 2007-02-25 18:39 xlnl-3.4.19/sh/cv-spell
+-rwxr-xr-x 500/500         546 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-class-dflt
+-rwxr-xr-x 500/500         127 2007-02-25 18:39 xlnl-3.4.19/sh/cv-stick
+-rwxr-xr-x 500/500         470 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-potion
+-rwxr-xr-x 500/500          50 2006-08-04 21:27 xlnl-3.4.19/sh/amenu-prot
+-rwxr-xr-x 500/500          47 2006-08-04 21:27 xlnl-3.4.19/sh/turn-prot
+-rwxr-xr-x 500/500         129 2007-02-25 18:39 xlnl-3.4.19/sh/cv-scroll
+-rwxr-xr-x 500/500         481 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-stick
+-rwxr-xr-x 500/500         479 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-gen-spell
+-rwxr-xr-x 500/500          46 2006-08-04 21:27 xlnl-3.4.19/sh/dun-prot
+-rwxr-xr-x 500/500          48 2006-08-04 21:27 xlnl-3.4.19/sh/town-prot
+-rwxr-xr-x 500/500         125 2007-02-25 18:39 xlnl-3.4.19/sh/cv-food
+-rwxr-xr-x 500/500         127 2007-02-25 18:39 xlnl-3.4.19/sh/cv-light
+-rwxr-xr-x 500/500         125 2007-02-25 18:39 xlnl-3.4.19/sh/cv-acce
+-rwxr-xr-x 500/500         426 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-pipe
+-rwxr-xr-x 500/500         129 2007-02-25 18:39 xlnl-3.4.19/sh/cv-potion
+-rwxr-xr-x 500/500          49 2006-08-04 21:27 xlnl-3.4.19/sh/mnstr-prot
+-rwxr-xr-x 500/500        1163 2006-08-04 21:27 xlnl-3.4.19/sh/cv-tab.awk
+-rwxr-xr-x 500/500         343 2007-02-25 18:39 xlnl-3.4.19/sh/rcv-rare-goods
+-rw-r--r-- 500/500        1218 2009-05-25 13:50 xlnl-3.4.19/Makefile.am
+-rw-r--r-- 500/500        1056 2011-01-09 11:10 xlnl-3.4.19/xlnl.spec
+drwxrwxrwx 500/500           0 2011-01-17 17:46 xlnl-3.4.19/config/
+-rwxr-xr-x 500/500        1801 2006-08-04 21:27 xlnl-3.4.19/config/mkinstalldirs
+-rwxr-xr-x 500/500       12123 2006-08-04 21:27 xlnl-3.4.19/config/depcomp
+-rwxr-xr-x 500/500       38504 2006-08-04 21:27 xlnl-3.4.19/config/config.guess
+-rwxr-xr-x 500/500        5569 2006-08-04 21:27 xlnl-3.4.19/config/install-sh
+-rwxr-xr-x 500/500       10270 2006-08-04 21:27 xlnl-3.4.19/config/missing
+-rwxr-xr-x 500/500       28224 2006-08-04 21:27 xlnl-3.4.19/config/config.sub
+-rw-r--r-- 500/500         930 2008-04-03 21:15 xlnl-3.4.19/README-MAC
+-rw-r--r-- 500/500       17992 2006-08-04 21:27 xlnl-3.4.19/COPYING
+drwxrwxrwx 500/500           0 2011-01-17 17:46 xlnl-3.4.19/src/
+-rw-r--r-- 500/500         213 2006-08-04 21:27 xlnl-3.4.19/src/StatWinIdx.h
+-rw-r--r-- 500/500       10584 2011-01-09 10:58 xlnl-3.4.19/src/item-tab.h
+-rw-r--r-- 500/500        9093 2011-01-09 10:59 xlnl-3.4.19/src/GuiInputString.cpp
+-rw-r--r-- 500/500       25263 2011-01-09 10:58 xlnl-3.4.19/src/request-tab.h
+-rw-r--r-- 500/500       15849 2011-01-09 10:59 xlnl-3.4.19/src/DemoSpace.cpp
+-rw-r--r-- 500/500       40809 2011-01-09 10:58 xlnl-3.4.19/src/spell-tab.h
+-rw-r--r-- 500/500       10625 2011-01-09 10:59 xlnl-3.4.19/src/GuiMisc.cpp
+-rw-r--r-- 500/500        7820 2011-01-09 10:59 xlnl-3.4.19/src/WinPos.cpp
+-rw-r--r-- 500/500        1967 2011-01-09 10:59 xlnl-3.4.19/src/GtkWSDmwindowDev.cpp
+-rw-r--r-- 500/500         621 2006-08-04 21:27 xlnl-3.4.19/src/MenuBtnNextPageActivate.cpp
+-rw-r--r-- 500/500        7933 2011-01-09 10:58 xlnl-3.4.19/src/gfile-ver.h
+-rw-r--r-- 500/500        4701 2011-01-09 10:59 xlnl-3.4.19/src/GuiLastBoss.h
+-rw-r--r-- 500/500         872 2009-06-26 22:41 xlnl-3.4.19/src/scene-prot.h
+-rw-r--r-- 500/500      191468 2011-01-09 10:58 xlnl-3.4.19/src/item.c
+-rw-r--r-- 500/500        8473 2011-01-09 10:58 xlnl-3.4.19/src/ending-ep.c
+-rw-r--r-- 500/500        1605 2011-01-09 10:58 xlnl-3.4.19/src/item-kind.h
+-rw-r--r-- 500/500       16913 2011-01-09 10:59 xlnl-3.4.19/src/SelConf.cpp
+-rw-r--r-- 500/500        2592 2011-01-09 10:59 xlnl-3.4.19/src/GraphConf.h
+-rw-r--r-- 500/500        9967 2011-01-09 10:58 xlnl-3.4.19/src/turn.c
+-rw-r--r-- 500/500        4116 2009-02-19 12:42 xlnl-3.4.19/src/StatWinDAInit.cpp
+-rw-r--r-- 500/500        3065 2011-01-09 10:59 xlnl-3.4.19/src/FileList.h
+-rw-r--r-- 500/500       30446 2011-01-09 10:58 xlnl-3.4.19/src/gmain.c
+-rw-r--r-- 500/500       38107 2011-01-09 10:58 xlnl-3.4.19/src/mmenu-tab.h
+-rw-r--r-- 500/500        2385 2011-01-09 10:58 xlnl-3.4.19/src/town.h
+-rw-r--r-- 500/500        1571 2011-01-09 10:58 xlnl-3.4.19/src/class-tab.h
+-rw-r--r-- 500/500         143 2007-10-23 23:26 xlnl-3.4.19/src/main-ws-prot.h
+-rw-r--r-- 500/500        1587 2008-05-19 04:49 xlnl-3.4.19/src/item-light-tab.h
+-rw-r--r-- 500/500      157313 2011-01-09 10:59 xlnl-3.4.19/src/PcgDun.cpp
+-rw-r--r-- 500/500         329 2009-06-26 22:41 xlnl-3.4.19/src/nest-flg-prot.h
+-rw-r--r-- 500/500       16651 2011-01-09 10:59 xlnl-3.4.19/src/GameSound.cpp
+-rw-r--r-- 500/500      111197 2011-01-09 10:58 xlnl-3.4.19/src/inc.h
+-rw-r--r-- 500/500         458 2006-08-04 21:27 xlnl-3.4.19/src/MenuWin.h
+-rw-r--r-- 500/500        3025 2011-01-09 10:58 xlnl-3.4.19/src/fight.h
+-rw-r--r-- 500/500        1548 2011-01-09 10:58 xlnl-3.4.19/src/play-rep.h
+-rw-r--r-- 500/500       10143 2011-01-09 10:58 xlnl-3.4.19/src/last-boss-tab.h
+-rw-r--r-- 500/500       86710 2011-01-09 10:58 xlnl-3.4.19/src/town.c
+-rw-r--r-- 500/500        3891 2011-01-09 10:58 xlnl-3.4.19/src/curs.h
+-rw-r--r-- 500/500        5155 2011-01-09 10:58 xlnl-3.4.19/src/amenu.h
+-rw-r--r-- 500/500       34758 2007-05-30 05:47 xlnl-3.4.19/src/item-armor-tab.h
+-rw-r--r-- 500/500       10287 2011-01-09 10:58 xlnl-3.4.19/src/ending-space.c
+-rw-r--r-- 500/500       18427 2011-01-09 10:59 xlnl-3.4.19/src/MouseMap.cpp
+-rw-r--r-- 500/500        3295 2011-01-09 10:59 xlnl-3.4.19/src/SelConf.h
+-rw-r--r-- 500/500       96589 2011-01-09 10:59 xlnl-3.4.19/src/GuiChrSheet.cpp
+-rw-r--r-- 500/500      179199 2011-01-09 10:58 xlnl-3.4.19/src/chr.c
+-rw-r--r-- 500/500        9135 2006-08-04 21:27 xlnl-3.4.19/src/StatWinDADraw.cpp
+-rw-r--r-- 500/500        2512 2011-01-09 10:59 xlnl-3.4.19/src/GuiClassEdit.h
+-rw-r--r-- 500/500        3409 2011-01-09 10:59 xlnl-3.4.19/src/GameThread.cpp
+-rw-r--r-- 500/500       11993 2011-01-09 10:58 xlnl-3.4.19/src/imenu-tab.h
+-rw-r--r-- 500/500        1561 2011-01-09 10:59 xlnl-3.4.19/src/MapScrollYValCh.cpp
+-rw-r--r-- 500/500        3049 2011-01-09 10:58 xlnl-3.4.19/src/mnstr.h
+-rw-r--r-- 500/500        8447 2011-01-09 10:59 xlnl-3.4.19/src/GraphConf.cpp
+-rw-r--r-- 500/500        8736 2011-01-09 10:58 xlnl-3.4.19/src/dun.h
+-rw-r--r-- 500/500       12638 2010-09-02 04:46 xlnl-3.4.19/src/draw-prot.h
+-rw-r--r-- 500/500      366596 2011-01-09 11:06 xlnl-3.4.19/src/msg.h
+-rw-r--r-- 500/500        2944 2011-01-09 10:59 xlnl-3.4.19/src/GuiNum.h
+-rw-r--r-- 500/500        1330 2011-01-09 10:59 xlnl-3.4.19/src/main-x.h
+-rw-r--r-- 500/500        4911 2011-01-09 10:59 xlnl-3.4.19/src/MouseMotion.h
+-rw-r--r-- 500/500       12556 2004-07-26 19:02 xlnl-3.4.19/src/item-tobacco-tab.h
+-rw-r--r-- 500/500        4165 2011-01-09 10:59 xlnl-3.4.19/src/GuiChrSheet.h
+-rw-r--r-- 500/500       17740 2011-01-09 10:59 xlnl-3.4.19/src/DemoTitle.cpp
+-rw-r--r-- 500/500        2212 2011-01-09 10:59 xlnl-3.4.19/src/GlobalVar.cpp
+-rw-r--r-- 500/500        1561 2011-01-09 10:59 xlnl-3.4.19/src/MapScrollXValCh.cpp
+-rw-r--r-- 500/500       13411 2011-01-09 10:58 xlnl-3.4.19/src/scene.c
+-rw-r--r-- 500/500        9280 2011-01-09 10:58 xlnl-3.4.19/src/skill-tab.h
+-rw-r--r-- 500/500        2232 2011-01-09 10:59 xlnl-3.4.19/src/GuiMisc.h
+-rw-r--r-- 500/500      213992 2011-01-09 10:58 xlnl-3.4.19/src/msg-jpn.h
+-rw-r--r-- 500/500        5600 2010-06-27 07:14 xlnl-3.4.19/src/Makefile.am
+-rw-r--r-- 500/500       13236 2011-01-09 10:58 xlnl-3.4.19/src/mnstr-kind.h
+-rw-r--r-- 500/500        2251 2011-01-09 10:58 xlnl-3.4.19/src/main-dos.c
+-rw-r--r-- 500/500        1987 2011-01-09 10:58 xlnl-3.4.19/src/turn.h
+-rw-r--r-- 500/500       17519 2011-01-09 10:59 xlnl-3.4.19/src/GameMusic.cpp
+-rw-r--r-- 500/500        2046 2011-01-09 10:59 xlnl-3.4.19/src/MapScrollXDraw.cpp
+-rw-r--r-- 500/500        1433 2011-01-09 10:59 xlnl-3.4.19/src/GameThread.h
+-rw-r--r-- 500/500       15642 2011-01-17 17:39 xlnl-3.4.19/src/msg.c
+-rw-r--r-- 500/500        2136 2011-01-09 10:59 xlnl-3.4.19/src/GuiInputString.h
+-rw-r--r-- 500/500        6909 2010-08-31 19:45 xlnl-3.4.19/src/tmenu-prot.h
+-rw-r--r-- 500/500       41696 2011-01-09 10:02 xlnl-3.4.19/src/spell-gen-tab.h
+-rw-r--r-- 500/500        2144 2011-01-09 10:59 xlnl-3.4.19/src/DemoCutIn.h
+-rw-r--r-- 500/500        1459 2010-05-17 04:30 xlnl-3.4.19/src/misc-prot.h
+-rw-r--r-- 500/500       21688 2011-01-09 10:59 xlnl-3.4.19/src/GuiMessage.cpp
+-rw-r--r-- 500/500       29272 2011-01-09 10:59 xlnl-3.4.19/src/GuiStat.cpp
+-rw-r--r-- 500/500        3184 2011-01-09 10:58 xlnl-3.4.19/src/trap.h
+-rw-r--r-- 500/500       57218 2011-01-09 10:58 xlnl-3.4.19/src/menu.c
+-rw-r--r-- 500/500      218967 2011-01-09 10:58 xlnl-3.4.19/src/msg-eng.h
+-rw-r--r-- 500/500      239890 2011-01-09 10:58 xlnl-3.4.19/src/msg-jpn-utf8.h
+-rw-r--r-- 500/500        1591 2009-06-26 22:41 xlnl-3.4.19/src/skill-prot.h
+-rw-r--r-- 500/500        3340 2011-01-09 10:58 xlnl-3.4.19/src/misc.h
+-rw-r--r-- 500/500       53832 2011-01-09 10:58 xlnl-3.4.19/src/gfile-tab.h
+-rw-r--r-- 500/500        3809 2010-05-19 07:13 xlnl-3.4.19/src/party-prot.h
+-rw-r--r-- 500/500        2251 2011-01-09 10:58 xlnl-3.4.19/src/main-unix.c
+-rw-r--r-- 500/500       13708 2011-01-09 10:58 xlnl-3.4.19/src/gf-replay.c
+-rw-r--r-- 500/500        9763 2011-01-09 10:59 xlnl-3.4.19/src/GuiWords.cpp
+-rw-r--r-- 500/500        3890 2009-01-05 16:40 xlnl-3.4.19/src/item-food-tab.h
+-rw-r--r-- 500/500       15529 2011-01-09 10:59 xlnl-3.4.19/src/GuiClassEdit.cpp
+-rw-r--r-- 500/500        1759 2011-01-09 10:59 xlnl-3.4.19/src/GraphConfToken.h
+-rw-r--r-- 500/500        1909 2010-07-21 09:48 xlnl-3.4.19/src/curs-prot.h
+-rw-r--r-- 500/500        1499 2011-01-09 10:58 xlnl-3.4.19/src/crsr-ptn.h
+-rw-r--r-- 500/500       30789 2011-01-09 10:59 xlnl-3.4.19/src/main-gtk.cpp
+-rw-r--r-- 500/500         992 2010-08-05 09:44 xlnl-3.4.19/src/play-rep-prot.h
+-rw-r--r-- 500/500         133 2010-07-09 11:00 xlnl-3.4.19/src/main-prot.h
+-rw-r--r-- 500/500       11257 2011-01-09 10:59 xlnl-3.4.19/src/SelMbrGraph.cpp
+-rw-r--r-- 500/500       15378 2011-01-09 10:58 xlnl-3.4.19/src/misc.c
+-rw-r--r-- 500/500        1674 2011-01-09 10:58 xlnl-3.4.19/src/music-kind.h
+-rw-r--r-- 500/500       14328 2008-05-13 09:52 xlnl-3.4.19/src/town-ptn.xpm
+-rw-r--r-- 500/500        1518 2011-01-09 10:59 xlnl-3.4.19/src/MenuWinInit.cpp
+-rw-r--r-- 500/500        2011 2009-06-26 22:41 xlnl-3.4.19/src/trap-prot.h
+-rw-r--r-- 500/500        7416 2011-01-09 10:58 xlnl-3.4.19/src/spell-kind.h
+-rw-r--r-- 500/500       12194 2011-01-09 10:59 xlnl-3.4.19/src/DemoEnding.cpp
+-rw-r--r-- 500/500        1155 2011-01-09 10:58 xlnl-3.4.19/src/extern.h
+-rw-r--r-- 500/500        6357 2011-01-09 10:58 xlnl-3.4.19/src/gf-crsr.c
+-rw-r--r-- 500/500        3785 2011-01-09 10:58 xlnl-3.4.19/src/nest-flg.c
+-rw-r--r-- 500/500        1647 2011-01-09 10:59 xlnl-3.4.19/src/MapFormResize.cpp
+-rw-r--r-- 500/500       16541 2011-01-09 10:59 xlnl-3.4.19/src/MouseMotion.cpp
+-rw-r--r-- 500/500         178 2007-11-08 12:42 xlnl-3.4.19/src/main-x-prot.h
+-rw-r--r-- 500/500        3968 2009-07-23 23:12 xlnl-3.4.19/src/mnstr-prot.h
+-rw-r--r-- 500/500        1716 2011-01-09 10:58 xlnl-3.4.19/src/replay.h
+-rw-r--r-- 500/500         621 2006-08-04 21:27 xlnl-3.4.19/src/MenuBtnPrevPageActivate.cpp
+-rw-r--r-- 500/500        1943 2011-01-09 10:59 xlnl-3.4.19/src/MapWinInit.cpp
+-rw-r--r-- 500/500        2479 2011-01-09 10:59 xlnl-3.4.19/src/Key.h
+-rw-r--r-- 500/500         728 2004-07-26 19:02 xlnl-3.4.19/src/item-pipe-tab.h
+-rw-r--r-- 500/500        2126 2011-01-09 10:59 xlnl-3.4.19/src/GuiWords.h
+-rw-r--r-- 500/500        2371 2011-01-09 10:59 xlnl-3.4.19/src/MapFormMousePress.cpp
+-rw-r--r-- 500/500       14240 2011-01-09 10:59 xlnl-3.4.19/src/GuiSkillEdit.cpp
+-rw-r--r-- 500/500         508 2004-07-26 19:02 xlnl-3.4.19/src/item-anthology-tab.h
+-rw-r--r-- 500/500        8597 2011-01-09 10:59 xlnl-3.4.19/src/FileList.cpp
+-rw-r--r-- 500/500       77931 2011-01-09 10:58 xlnl-3.4.19/src/party.c
+-rw-r--r-- 500/500        5802 2011-01-09 10:58 xlnl-3.4.19/src/skill.h
+-rw-r--r-- 500/500        2035 2011-01-09 10:58 xlnl-3.4.19/src/rumor-tab.h
+-rw-r--r-- 500/500        3326 2011-01-09 10:59 xlnl-3.4.19/src/DemoSpace.h
+-rw-r--r-- 500/500        9135 2010-07-31 11:05 xlnl-3.4.19/src/chr-prot.h
+-rw-r--r-- 500/500       31499 2011-01-09 10:58 xlnl-3.4.19/src/tmenu-tab.h
+-rw-r--r-- 500/500        6447 2011-01-09 10:58 xlnl-3.4.19/src/gmain.h
+-rw-r--r-- 500/500       70456 2011-01-09 10:58 xlnl-3.4.19/src/mnstr.c
+-rw-r--r-- 500/500        4345 2011-01-09 10:58 xlnl-3.4.19/src/gf-outmap.c
+-rw-r--r-- 500/500        1090 2007-02-25 11:13 xlnl-3.4.19/src/xlnl.cpp
+-rw-r--r-- 500/500        1328 2011-01-09 10:58 xlnl-3.4.19/src/stay-inn-kind.h
+-rw-r--r-- 500/500        1728 2011-01-09 10:59 xlnl-3.4.19/src/GtkWSDimage.h
+-rw-r--r-- 500/500        3351 2011-01-09 10:59 xlnl-3.4.19/src/CuiMouse.h
+-rw-r--r-- 500/500        4719 2010-05-13 22:33 xlnl-3.4.19/src/request-prot.h
+-rw-r--r-- 500/500        1875 2011-01-09 10:59 xlnl-3.4.19/src/WinPos.h
+-rw-r--r-- 500/500      102795 2011-01-09 10:58 xlnl-3.4.19/src/dun.c
+-rw-r--r-- 500/500        4706 2011-01-09 10:58 xlnl-3.4.19/src/item-randm-art-tab.h
+-rw-r--r-- 500/500       30291 2011-01-09 10:58 xlnl-3.4.19/src/curs.c
+-rw-r--r-- 500/500       18335 2011-01-09 10:58 xlnl-3.4.19/src/replay.c
+-rw-r--r-- 500/500        3592 2009-05-20 13:45 xlnl-3.4.19/src/class-dflt-tab.h
+-rw-r--r-- 500/500        2945 2011-01-09 10:58 xlnl-3.4.19/src/menu-tab.h
+-rw-r--r-- 500/500       17010 2009-10-05 18:57 xlnl-3.4.19/src/item-prot.h
+-rwxr-xr-x 500/500         167 2007-03-19 17:12 xlnl-3.4.19/src/msg-cv-utf8
+-rw-r--r-- 500/500        1276 2011-01-09 10:58 xlnl-3.4.19/src/joy-kind.h
+-rw-r--r-- 500/500      206847 2011-01-09 10:58 xlnl-3.4.19/src/fx.c
+-rw-r--r-- 500/500        1064 2005-01-02 19:48 xlnl-3.4.19/src/item-range-tab.h
+-rw-r--r-- 500/500         993 2006-08-04 21:27 xlnl-3.4.19/src/MenuWin.cpp
+-rw-r--r-- 500/500        1632 2011-01-09 10:58 xlnl-3.4.19/src/key-item.h
+-rw-r--r-- 500/500        2321 2011-01-09 10:59 xlnl-3.4.19/src/GuiReplay.h
+-rw-r--r-- 500/500        1182 2011-01-09 10:59 xlnl-3.4.19/src/GtkMisc.h
+-rw-r--r-- 500/500       16469 2011-01-09 10:59 xlnl-3.4.19/src/PcgDun.h
+-rw-r--r-- 500/500         488 2009-09-13 06:45 xlnl-3.4.19/src/ending-space-prot.h
+-rw-r--r-- 500/500       12329 2011-01-09 10:59 xlnl-3.4.19/src/CuiMouse.cpp
+-rw-r--r-- 500/500        6075 2010-07-21 05:11 xlnl-3.4.19/src/mmenu-prot.h
+-rw-r--r-- 500/500        5554 2011-01-09 10:58 xlnl-3.4.19/src/fx.h
+-rw-r--r-- 500/500        5788 2011-01-09 10:58 xlnl-3.4.19/src/menu.h
+-rw-r--r-- 500/500       24046 2011-01-09 10:59 xlnl-3.4.19/src/GuiNum.cpp
+-rw-r--r-- 500/500        1311 2011-01-09 10:58 xlnl-3.4.19/src/ending-ep.h
+-rw-r--r-- 500/500         613 2009-06-26 22:41 xlnl-3.4.19/src/map-event-prot.h
+-rw-r--r-- 500/500        3724 2010-08-05 06:58 xlnl-3.4.19/src/town-prot.h
+-rw-r--r-- 500/500        5374 2011-01-09 10:58 xlnl-3.4.19/src/item-randm-art.h
+-rw-r--r-- 500/500       32104 2011-01-09 10:58 xlnl-3.4.19/src/trap.c
+-rw-r--r-- 500/500        5936 2011-01-09 11:07 xlnl-3.4.19/src/config.h.in
+-rw-r--r-- 500/500        5833 2011-01-09 10:58 xlnl-3.4.19/src/last-boss.h
+-rw-r--r-- 500/500        1476 2011-01-09 10:58 xlnl-3.4.19/src/map-event.h
+-rw-r--r-- 500/500        1613 2011-01-09 10:59 xlnl-3.4.19/src/GtkWSDmwindowDev.h
+-rw-r--r-- 500/500        2672 2011-01-09 10:59 xlnl-3.4.19/src/DemoTitle.h
+-rw-r--r-- 500/500        1925 2011-01-09 10:58 xlnl-3.4.19/src/resi.h
+-rw-r--r-- 500/500       47863 2011-01-09 10:58 xlnl-3.4.19/src/town-tab.h
+-rw-r--r-- 500/500       40160 2011-01-09 10:58 xlnl-3.4.19/src/call.cpp
+-rw-r--r-- 500/500       29505 2010-08-05 07:52 xlnl-3.4.19/src/gfile-prot.h
+-rw-r--r-- 500/500        2047 2011-01-09 10:59 xlnl-3.4.19/src/MapScrollYDraw.cpp
+-rw-r--r-- 500/500       97707 2011-01-09 10:58 xlnl-3.4.19/src/amenu.c
+-rw-r--r-- 500/500        4191 2010-05-19 09:12 xlnl-3.4.19/src/spell-prot.h
+-rw-r--r-- 500/500        4109 2011-01-09 10:58 xlnl-3.4.19/src/request.h
+-rw-r--r-- 500/500        9096 2011-01-09 10:58 xlnl-3.4.19/src/play-rep.c
+-rw-r--r-- 500/500        2467 2011-01-09 10:59 xlnl-3.4.19/src/main-x.c
+-rw-r--r-- 500/500        2645 2011-01-09 10:59 xlnl-3.4.19/src/MouseMap.h
+-rw-r--r-- 500/500      122813 2011-01-09 10:58 xlnl-3.4.19/src/imenu.c
+-rw-r--r-- 500/500        1550 2011-01-09 10:58 xlnl-3.4.19/src/msg-t.h
+-rw-r--r-- 500/500       32174 2006-01-27 13:35 xlnl-3.4.19/src/item-acce-tab.h
+-rw-r--r-- 500/500       11101 2011-01-09 10:59 xlnl-3.4.19/src/DemoLastBoss.cpp
+-rw-r--r-- 500/500       20190 2011-01-09 10:58 xlnl-3.4.19/src/mnstr-act.c
+-rw-r--r-- 500/500        1765 2011-01-09 10:59 xlnl-3.4.19/src/MapFormInit.cpp
+-rw-r--r-- 500/500       31521 2011-01-09 10:58 xlnl-3.4.19/src/item.h
+-rw-r--r-- 500/500        6031 2011-01-09 10:58 xlnl-3.4.19/src/key-item.c
+-rw-r--r-- 500/500      107960 2009-09-13 02:02 xlnl-3.4.19/src/item-wpn-tab.h
+-rw-r--r-- 500/500        2638 2011-01-09 10:59 xlnl-3.4.19/src/DemoGameOver.h
+-rw-r--r-- 500/500        3018 2011-01-09 10:59 xlnl-3.4.19/src/SelMbrGraph.h
+-rw-r--r-- 500/500        3025 2009-06-26 22:41 xlnl-3.4.19/src/last-boss-prot.h
+-rw-r--r-- 500/500        9332 2011-01-09 10:58 xlnl-3.4.19/src/amenu-tab.h
+-rw-r--r-- 500/500        2025 2011-01-09 10:59 xlnl-3.4.19/src/DemoLastBoss.h
+-rw-r--r-- 500/500        2818 2011-01-09 10:58 xlnl-3.4.19/src/sound-kind.h
+-rw-r--r-- 500/500       17627 2011-01-09 10:59 xlnl-3.4.19/src/Pcg.cpp
+-rw-r--r-- 500/500        4639 2009-09-03 19:55 xlnl-3.4.19/src/item-inst-tab.h
+-rw-r--r-- 500/500        1982 2011-01-09 10:58 xlnl-3.4.19/src/abl-kind.h
+-rw-r--r-- 500/500        1259 2009-06-26 22:41 xlnl-3.4.19/src/replay-prot.h
+-rw-r--r-- 500/500       13130 2007-03-01 00:21 xlnl-3.4.19/src/MapWin.cpp
+-rw-r--r-- 500/500       94384 2011-01-09 10:58 xlnl-3.4.19/src/last-boss.c
+-rw-r--r-- 500/500        2755 2011-01-09 10:59 xlnl-3.4.19/src/GuiMessage.h
+-rw-r--r-- 500/500         761 2009-06-26 22:41 xlnl-3.4.19/src/turn-prot.h
+-rw-r--r-- 500/500        1401 2009-06-26 22:41 xlnl-3.4.19/src/mnstr-act-prot.h
+-rw-r--r-- 500/500        2961 2011-01-09 10:59 xlnl-3.4.19/src/GuiMenu.h
+-rw-r--r-- 500/500        1620 2011-01-09 10:59 xlnl-3.4.19/src/config-win.h
+-rw-r--r-- 500/500       27598 2011-01-09 10:59 xlnl-3.4.19/src/GuiMenu.cpp
+-rw-r--r-- 500/500        4159 2011-01-09 10:58 xlnl-3.4.19/src/spell.h
+-rw-r--r-- 500/500         367 2009-09-13 04:26 xlnl-3.4.19/src/ending-ep-prot.h
+-rw-r--r-- 500/500        2293 2006-08-04 21:27 xlnl-3.4.19/src/StatWinResize.cpp
+-rw-r--r-- 500/500        2353 2011-01-09 10:59 xlnl-3.4.19/src/GameJoystick.h
+-rw-r--r-- 500/500        3306 2010-05-14 01:42 xlnl-3.4.19/src/menu-prot.h
+-rwxr-xr-x 500/500         259 2004-08-03 01:46 xlnl-3.4.19/src/msg-def
+-rw-r--r-- 500/500        1968 2011-01-09 10:59 xlnl-3.4.19/src/GtkWSCstring.h
+-rw-r--r-- 500/500      315223 2010-08-05 04:27 xlnl-3.4.19/src/mnstr-gen-tab.h
+-rw-r--r-- 500/500         533 2004-07-26 19:02 xlnl-3.4.19/src/item-coin-tab.h
+-rw-r--r-- 500/500        1465 2011-01-09 10:58 xlnl-3.4.19/src/ending-space.h
+-rw-r--r-- 500/500        1178 2005-07-31 01:11 xlnl-3.4.19/src/item-rare-goods-tab.h
+-rw-r--r-- 500/500        1364 2011-01-09 10:58 xlnl-3.4.19/src/vfx-kind.h
+-rw-r--r-- 500/500        3345 2011-01-09 10:58 xlnl-3.4.19/src/ver.h
+-rw-r--r-- 500/500        1759 2011-01-09 10:58 xlnl-3.4.19/src/pet.h
+-rw-r--r-- 500/500       92691 2011-01-09 10:58 xlnl-3.4.19/src/tmenu.c
+-rw-r--r-- 500/500       38677 2011-01-09 10:58 xlnl-3.4.19/src/draw-tab.h
+-rw-r--r-- 500/500       34015 2011-01-09 10:59 xlnl-3.4.19/src/PcgDunTab.h
+-rw-r--r-- 500/500        2194 2011-01-09 10:59 xlnl-3.4.19/src/MapFormMouseRellease.cpp
+-rw-r--r-- 500/500       70080 2011-01-09 10:58 xlnl-3.4.19/src/mmenu.c
+-rw-r--r-- 500/500      214189 2011-01-09 10:58 xlnl-3.4.19/src/msg-jpn-sjis.h
+-rw-r--r-- 500/500       15264 2011-01-09 10:58 xlnl-3.4.19/src/draw.h
+-rw-r--r-- 500/500       12213 2011-01-09 10:59 xlnl-3.4.19/src/GuiReplay.cpp
+-rw-r--r-- 500/500       17448 2011-01-09 10:59 xlnl-3.4.19/src/Key.cpp
+-rw-r--r-- 500/500        1077 2007-02-23 14:30 xlnl-3.4.19/src/MapWin.h
+-rw-r--r-- 500/500        2821 2011-01-09 10:59 xlnl-3.4.19/src/DemoEnding.h
+-rw-r--r-- 500/500      197242 2011-01-09 10:58 xlnl-3.4.19/src/gf-save.c
+-rw-r--r-- 500/500        5902 2011-01-09 10:58 xlnl-3.4.19/src/gfile.h
+-rw-r--r-- 500/500       78791 2011-01-09 10:58 xlnl-3.4.19/src/request.c
+-rw-r--r-- 500/500       85939 2011-01-09 10:58 xlnl-3.4.19/src/gfile.c
+-rw-r--r-- 500/500        2825 2011-01-09 10:58 xlnl-3.4.19/src/party.h
+-rw-r--r-- 500/500        6311 2011-01-09 11:07 xlnl-3.4.19/src/config.h
+-rw-r--r-- 500/500       26971 2011-01-09 10:59 xlnl-3.4.19/src/GuiLastBoss.cpp
+-rw-r--r-- 500/500        2405 2011-01-09 10:59 xlnl-3.4.19/src/GuiSkillEdit.h
+-rw-r--r-- 500/500       27992 2011-01-09 10:58 xlnl-3.4.19/src/skill.c
+-rw-r--r-- 500/500        3133 2011-01-09 10:59 xlnl-3.4.19/src/GuiStat.h
+-rw-r--r-- 500/500        2137 2011-01-09 10:58 xlnl-3.4.19/src/fx-menu-tab.h
+-rw-r--r-- 500/500        5521 2011-01-09 10:59 xlnl-3.4.19/src/main-dows.cpp
+-rw-r--r-- 500/500       28481 2011-01-09 11:06 xlnl-3.4.19/src/Makefile.in
+-rw-r--r-- 500/500        1214 2011-01-09 10:58 xlnl-3.4.19/src/nest-flg.h
+-rw-r--r-- 500/500       10227 2011-01-09 10:59 xlnl-3.4.19/src/DemoGameOver.cpp
+-rw-r--r-- 500/500        4488 2011-01-09 10:59 xlnl-3.4.19/src/GlobalVar.h
+-rw-r--r-- 500/500        3098 2011-01-09 10:58 xlnl-3.4.19/src/scene.h
+-rw-r--r-- 500/500        1825 2010-06-30 10:09 xlnl-3.4.19/src/main-gtk-prot.h
+-rw-r--r-- 500/500        1355 2010-08-31 20:08 xlnl-3.4.19/src/pet-prot.h
+-rw-r--r-- 500/500         360 2009-07-03 20:10 xlnl-3.4.19/src/main-dows-prot.h
+-rw-r--r-- 500/500       20543 2011-01-09 10:58 xlnl-3.4.19/src/mnstr-tab.h
+-rw-r--r-- 500/500        5733 2010-07-22 05:39 xlnl-3.4.19/src/dun-prot.h
+-rw-r--r-- 500/500        7661 2011-01-09 10:58 xlnl-3.4.19/src/gf-town.c
+-rw-r--r-- 500/500       16541 2010-05-19 09:21 xlnl-3.4.19/src/item-stick-tab.h
+-rw-r--r-- 500/500        1537 2009-09-12 18:33 xlnl-3.4.19/src/gmain-prot.h
+-rw-r--r-- 500/500        1676 2011-01-09 10:59 xlnl-3.4.19/src/MapFormMouseMove.cpp
+-rw-r--r-- 500/500       18297 2011-01-09 10:58 xlnl-3.4.19/src/pet.c
+-rw-r--r-- 500/500        7133 2011-01-09 10:58 xlnl-3.4.19/src/curs-def.h
+-rw-r--r-- 500/500       11442 2011-01-09 10:59 xlnl-3.4.19/src/GameJoystick.cpp
+-rwxr-xr-x 500/500        1912 2007-12-10 00:24 xlnl-3.4.19/src/msg-def-sub
+-rw-r--r-- 500/500         615 2006-08-04 21:27 xlnl-3.4.19/src/MenuBtnCancelActivate.cpp
+-rw-r--r-- 500/500         355 2007-02-23 14:30 xlnl-3.4.19/src/InpStrWinInit.cpp
+-rw-r--r-- 500/500       10316 2011-01-09 10:58 xlnl-3.4.19/src/gf-gconf.c
+-rw-r--r-- 500/500        3314 2011-01-09 10:59 xlnl-3.4.19/src/GtkWSCstring.cpp
+-rw-r--r-- 500/500        6323 2011-01-09 10:58 xlnl-3.4.19/src/map-event.c
+-rw-r--r-- 500/500        3393 2011-01-09 10:59 xlnl-3.4.19/src/GameMusic.h
+-rw-r--r-- 500/500       86966 2011-01-09 10:58 xlnl-3.4.19/src/spell.c
+-rw-r--r-- 500/500        3379 2011-01-09 10:59 xlnl-3.4.19/src/Pcg.h
+-rw-r--r-- 500/500       13928 2010-08-31 21:16 xlnl-3.4.19/src/imenu-prot.h
+-rw-r--r-- 500/500         224 2009-06-26 22:41 xlnl-3.4.19/src/main-unix-prot.h
+-rw-r--r-- 500/500        4435 2010-06-24 12:28 xlnl-3.4.19/src/amenu-prot.h
+-rw-r--r-- 500/500        4465 2010-08-02 00:21 xlnl-3.4.19/src/call-prot.h
+-rw-r--r-- 500/500        3700 2011-01-09 10:59 xlnl-3.4.19/src/GameSound.h
+-rw-r--r-- 500/500       20726 2011-01-09 10:58 xlnl-3.4.19/src/chr.h
+-rw-r--r-- 500/500         832 2009-06-26 22:41 xlnl-3.4.19/src/msg-prot.h
+-rw-r--r-- 500/500      256522 2011-01-09 10:58 xlnl-3.4.19/src/draw.c
+-rw-r--r-- 500/500         427 2009-06-26 22:41 xlnl-3.4.19/src/key-item-prot.h
+-rw-r--r-- 500/500        1565 2011-01-09 10:58 xlnl-3.4.19/src/win-kind.h
+-rw-r--r-- 500/500       56681 2011-01-09 10:58 xlnl-3.4.19/src/dun-tab.h
+-rw-r--r-- 500/500        5251 2011-01-09 10:59 xlnl-3.4.19/src/DemoCutIn.cpp
+-rw-r--r-- 500/500       10411 2004-07-26 19:02 xlnl-3.4.19/src/item-potion-tab.h
+-rw-r--r-- 500/500        1905 2011-01-09 10:59 xlnl-3.4.19/src/MapFormDraw.cpp
+-rw-r--r-- 500/500        4066 2009-09-28 17:34 xlnl-3.4.19/src/fight-prot.h
+-rw-r--r-- 500/500       11892 2010-05-19 09:12 xlnl-3.4.19/src/fx-prot.h
+-rw-r--r-- 500/500       77595 2011-01-09 10:58 xlnl-3.4.19/src/fight.c
+-rw-r--r-- 500/500         225 2009-06-26 22:41 xlnl-3.4.19/src/main-dos-prot.h
+-rw-r--r-- 500/500        4941 2009-09-18 07:00 xlnl-3.4.19/src/item-scroll-tab.h
+-rw-r--r-- 500/500       83410 2011-01-09 10:58 xlnl-3.4.19/src/gf-conf.c
+-rw-r--r-- 500/500         415 2008-04-03 21:15 xlnl-3.4.19/README-DOS
+drwxrwxrwx 500/500           0 2011-01-17 17:46 xlnl-3.4.19/man/
+-rw-r--r-- 500/500        5880 2010-08-21 00:00 xlnl-3.4.19/man/xlnl.eng
+-rw-r--r-- 500/500         134 2010-10-11 05:15 xlnl-3.4.19/man/Makefile.am
+-rw-r--r-- 500/500       12420 2011-01-09 11:06 xlnl-3.4.19/man/Makefile.in
+-rw-r--r-- 500/500           0 2006-08-04 21:27 xlnl-3.4.19/NEWS
+-rw-r--r-- 500/500       22483 2011-01-09 11:06 xlnl-3.4.19/Makefile.in
+-rw-r--r-- 500/500         601 2008-04-03 21:15 xlnl-3.4.19/README
+-rwxr-xr-x 500/500      281772 2011-01-09 11:06 xlnl-3.4.19/configure
+-rwxr-xr-x 500/500          52 2006-08-04 21:27 xlnl-3.4.19/install.sh
+実行中(%build): /bin/sh -e /var/tmp/rpm-tmp.En0kFa
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for i686-pc-linux-gnu-gcc... no
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for i686-pc-linux-gnu-g++... no
+checking for i686-pc-linux-gnu-c++... no
+checking for i686-pc-linux-gnu-gpp... no
+checking for i686-pc-linux-gnu-aCC... no
+checking for i686-pc-linux-gnu-CC... no
+checking for i686-pc-linux-gnu-cxx... no
+checking for i686-pc-linux-gnu-cc++... no
+checking for i686-pc-linux-gnu-cl.exe... no
+checking for i686-pc-linux-gnu-FCC... no
+checking for i686-pc-linux-gnu-KCC... no
+checking for i686-pc-linux-gnu-RCC... no
+checking for i686-pc-linux-gnu-xlC_r... no
+checking for i686-pc-linux-gnu-xlC... no
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for initscr in -lcurses... yes
+checking for initscr in -lncurses... yes
+checking for initscr in -lncursesw... yes
+checking for tcgetattr in -ltermcap... yes
+checking for sin in -lm... yes
+checking for pthread_create in -lpthread... yes
+checking for Gpm_Open in -lgpm... yes
+checking for Mix_PlayMusic in -lSDL_mixer... yes
+checking for SDL_JoystickOpen in -lSDL... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking curses.h usability... yes
+checking curses.h presence... yes
+checking for curses.h... yes
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking ncursesw.h usability... no
+checking ncursesw.h presence... no
+checking for ncursesw.h... no
+checking for stdlib.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for string.h... (cached) yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking for sys/stat.h... (cached) yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking sys/fcntl.h usability... yes
+checking sys/fcntl.h presence... yes
+checking for sys/fcntl.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking gpm.h usability... yes
+checking gpm.h presence... yes
+checking for gpm.h... yes
+checking SDL/SDL.h usability... yes
+checking SDL/SDL.h presence... yes
+checking for SDL/SDL.h... yes
+checking SDL/SDL_mixer.h usability... yes
+checking SDL/SDL_mixer.h presence... yes
+checking for SDL/SDL_mixer.h... yes
+checking for an ANSI C-conforming const... yes
+checking for mode_t... yes
+checking for size_t... yes
+checking whether gcc needs -traditional... no
+checking for vprintf... yes
+checking for _doprnt... no
+checking for mkdir... yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for getenv... yes
+checking for setenv... yes
+checking for sin... yes
+checking for cos... yes
+checking for tan... yes
+checking for getopt_long... yes
+checking for getopt... yes
+checking for sleep... yes
+checking for usleep... yes
+checking for nanosleep... yes
+checking for has_colors... yes
+checking for start_color... yes
+checking for init_pair... yes
+checking for keypad... yes
+checking for attrset... yes
+checking for attron... yes
+checking for attroff... yes
+checking for getnstr... yes
+checking for pthread_create... yes
+checking for pthread_detach... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating man/Makefile
+config.status: creating src/Makefile
+config.status: creating src/config.h
+config.status: src/config.h is unchanged
+config.status: executing depfiles commands
+Making all in src
+make[1]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19/src'
+make  all-am
+make[2]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19/src'
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT FileList.o -MD -MP -MF .deps/FileList.Tpo -c -o FileList.o FileList.cpp
+mv -f .deps/FileList.Tpo .deps/FileList.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GameThread.o -MD -MP -MF .deps/GameThread.Tpo -c -o GameThread.o GameThread.cpp
+mv -f .deps/GameThread.Tpo .deps/GameThread.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GlobalVar.o -MD -MP -MF .deps/GlobalVar.Tpo -c -o GlobalVar.o GlobalVar.cpp
+mv -f .deps/GlobalVar.Tpo .deps/GlobalVar.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GtkWSCstring.o -MD -MP -MF .deps/GtkWSCstring.Tpo -c -o GtkWSCstring.o GtkWSCstring.cpp
+mv -f .deps/GtkWSCstring.Tpo .deps/GtkWSCstring.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GtkWSDmwindowDev.o -MD -MP -MF .deps/GtkWSDmwindowDev.Tpo -c -o GtkWSDmwindowDev.o GtkWSDmwindowDev.cpp
+mv -f .deps/GtkWSDmwindowDev.Tpo .deps/GtkWSDmwindowDev.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiInputString.o -MD -MP -MF .deps/GuiInputString.Tpo -c -o GuiInputString.o GuiInputString.cpp
+mv -f .deps/GuiInputString.Tpo .deps/GuiInputString.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiMenu.o -MD -MP -MF .deps/GuiMenu.Tpo -c -o GuiMenu.o GuiMenu.cpp
+mv -f .deps/GuiMenu.Tpo .deps/GuiMenu.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiMessage.o -MD -MP -MF .deps/GuiMessage.Tpo -c -o GuiMessage.o GuiMessage.cpp
+mv -f .deps/GuiMessage.Tpo .deps/GuiMessage.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiMisc.o -MD -MP -MF .deps/GuiMisc.Tpo -c -o GuiMisc.o GuiMisc.cpp
+mv -f .deps/GuiMisc.Tpo .deps/GuiMisc.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiNum.o -MD -MP -MF .deps/GuiNum.Tpo -c -o GuiNum.o GuiNum.cpp
+mv -f .deps/GuiNum.Tpo .deps/GuiNum.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiStat.o -MD -MP -MF .deps/GuiStat.Tpo -c -o GuiStat.o GuiStat.cpp
+mv -f .deps/GuiStat.Tpo .deps/GuiStat.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiWords.o -MD -MP -MF .deps/GuiWords.Tpo -c -o GuiWords.o GuiWords.cpp
+mv -f .deps/GuiWords.Tpo .deps/GuiWords.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiReplay.o -MD -MP -MF .deps/GuiReplay.Tpo -c -o GuiReplay.o GuiReplay.cpp
+mv -f .deps/GuiReplay.Tpo .deps/GuiReplay.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiClassEdit.o -MD -MP -MF .deps/GuiClassEdit.Tpo -c -o GuiClassEdit.o GuiClassEdit.cpp
+mv -f .deps/GuiClassEdit.Tpo .deps/GuiClassEdit.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiSkillEdit.o -MD -MP -MF .deps/GuiSkillEdit.Tpo -c -o GuiSkillEdit.o GuiSkillEdit.cpp
+mv -f .deps/GuiSkillEdit.Tpo .deps/GuiSkillEdit.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiChrSheet.o -MD -MP -MF .deps/GuiChrSheet.Tpo -c -o GuiChrSheet.o GuiChrSheet.cpp
+mv -f .deps/GuiChrSheet.Tpo .deps/GuiChrSheet.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT Key.o -MD -MP -MF .deps/Key.Tpo -c -o Key.o Key.cpp
+mv -f .deps/Key.Tpo .deps/Key.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT CuiMouse.o -MD -MP -MF .deps/CuiMouse.Tpo -c -o CuiMouse.o CuiMouse.cpp
+mv -f .deps/CuiMouse.Tpo .deps/CuiMouse.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT MouseMap.o -MD -MP -MF .deps/MouseMap.Tpo -c -o MouseMap.o MouseMap.cpp
+mv -f .deps/MouseMap.Tpo .deps/MouseMap.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT MouseMotion.o -MD -MP -MF .deps/MouseMotion.Tpo -c -o MouseMotion.o MouseMotion.cpp
+mv -f .deps/MouseMotion.Tpo .deps/MouseMotion.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT Pcg.o -MD -MP -MF .deps/Pcg.Tpo -c -o Pcg.o Pcg.cpp
+mv -f .deps/Pcg.Tpo .deps/Pcg.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT PcgDun.o -MD -MP -MF .deps/PcgDun.Tpo -c -o PcgDun.o PcgDun.cpp
+mv -f .deps/PcgDun.Tpo .deps/PcgDun.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT DemoTitle.o -MD -MP -MF .deps/DemoTitle.Tpo -c -o DemoTitle.o DemoTitle.cpp
+mv -f .deps/DemoTitle.Tpo .deps/DemoTitle.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT DemoGameOver.o -MD -MP -MF .deps/DemoGameOver.Tpo -c -o DemoGameOver.o DemoGameOver.cpp
+mv -f .deps/DemoGameOver.Tpo .deps/DemoGameOver.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT DemoEnding.o -MD -MP -MF .deps/DemoEnding.Tpo -c -o DemoEnding.o DemoEnding.cpp
+mv -f .deps/DemoEnding.Tpo .deps/DemoEnding.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT DemoSpace.o -MD -MP -MF .deps/DemoSpace.Tpo -c -o DemoSpace.o DemoSpace.cpp
+mv -f .deps/DemoSpace.Tpo .deps/DemoSpace.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT DemoLastBoss.o -MD -MP -MF .deps/DemoLastBoss.Tpo -c -o DemoLastBoss.o DemoLastBoss.cpp
+mv -f .deps/DemoLastBoss.Tpo .deps/DemoLastBoss.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT DemoCutIn.o -MD -MP -MF .deps/DemoCutIn.Tpo -c -o DemoCutIn.o DemoCutIn.cpp
+mv -f .deps/DemoCutIn.Tpo .deps/DemoCutIn.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GuiLastBoss.o -MD -MP -MF .deps/GuiLastBoss.Tpo -c -o GuiLastBoss.o GuiLastBoss.cpp
+mv -f .deps/GuiLastBoss.Tpo .deps/GuiLastBoss.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT SelConf.o -MD -MP -MF .deps/SelConf.Tpo -c -o SelConf.o SelConf.cpp
+mv -f .deps/SelConf.Tpo .deps/SelConf.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GraphConf.o -MD -MP -MF .deps/GraphConf.Tpo -c -o GraphConf.o GraphConf.cpp
+mv -f .deps/GraphConf.Tpo .deps/GraphConf.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT SelMbrGraph.o -MD -MP -MF .deps/SelMbrGraph.Tpo -c -o SelMbrGraph.o SelMbrGraph.cpp
+mv -f .deps/SelMbrGraph.Tpo .deps/SelMbrGraph.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GameMusic.o -MD -MP -MF .deps/GameMusic.Tpo -c -o GameMusic.o GameMusic.cpp
+mv -f .deps/GameMusic.Tpo .deps/GameMusic.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GameSound.o -MD -MP -MF .deps/GameSound.Tpo -c -o GameSound.o GameSound.cpp
+mv -f .deps/GameSound.Tpo .deps/GameSound.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT GameJoystick.o -MD -MP -MF .deps/GameJoystick.Tpo -c -o GameJoystick.o GameJoystick.cpp
+mv -f .deps/GameJoystick.Tpo .deps/GameJoystick.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT WinPos.o -MD -MP -MF .deps/WinPos.Tpo -c -o WinPos.o WinPos.cpp
+mv -f .deps/WinPos.Tpo .deps/WinPos.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT amenu.o -MD -MP -MF .deps/amenu.Tpo -c -o amenu.o amenu.c
+mv -f .deps/amenu.Tpo .deps/amenu.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT call.o -MD -MP -MF .deps/call.Tpo -c -o call.o call.cpp
+mv -f .deps/call.Tpo .deps/call.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT chr.o -MD -MP -MF .deps/chr.Tpo -c -o chr.o chr.c
+mv -f .deps/chr.Tpo .deps/chr.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT skill.o -MD -MP -MF .deps/skill.Tpo -c -o skill.o skill.c
+mv -f .deps/skill.Tpo .deps/skill.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT curs.o -MD -MP -MF .deps/curs.Tpo -c -o curs.o curs.c
+mv -f .deps/curs.Tpo .deps/curs.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT draw.o -MD -MP -MF .deps/draw.Tpo -c -o draw.o draw.c
+mv -f .deps/draw.Tpo .deps/draw.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT dun.o -MD -MP -MF .deps/dun.Tpo -c -o dun.o dun.c
+mv -f .deps/dun.Tpo .deps/dun.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT map-event.o -MD -MP -MF .deps/map-event.Tpo -c -o map-event.o map-event.c
+mv -f .deps/map-event.Tpo .deps/map-event.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT fight.o -MD -MP -MF .deps/fight.Tpo -c -o fight.o fight.c
+mv -f .deps/fight.Tpo .deps/fight.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT fx.o -MD -MP -MF .deps/fx.Tpo -c -o fx.o fx.c
+mv -f .deps/fx.Tpo .deps/fx.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-conf.o -MD -MP -MF .deps/gf-conf.Tpo -c -o gf-conf.o gf-conf.c
+mv -f .deps/gf-conf.Tpo .deps/gf-conf.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-crsr.o -MD -MP -MF .deps/gf-crsr.Tpo -c -o gf-crsr.o gf-crsr.c
+mv -f .deps/gf-crsr.Tpo .deps/gf-crsr.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-gconf.o -MD -MP -MF .deps/gf-gconf.Tpo -c -o gf-gconf.o gf-gconf.c
+mv -f .deps/gf-gconf.Tpo .deps/gf-gconf.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-outmap.o -MD -MP -MF .deps/gf-outmap.Tpo -c -o gf-outmap.o gf-outmap.c
+mv -f .deps/gf-outmap.Tpo .deps/gf-outmap.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-replay.o -MD -MP -MF .deps/gf-replay.Tpo -c -o gf-replay.o gf-replay.c
+mv -f .deps/gf-replay.Tpo .deps/gf-replay.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-save.o -MD -MP -MF .deps/gf-save.Tpo -c -o gf-save.o gf-save.c
+mv -f .deps/gf-save.Tpo .deps/gf-save.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gf-town.o -MD -MP -MF .deps/gf-town.Tpo -c -o gf-town.o gf-town.c
+mv -f .deps/gf-town.Tpo .deps/gf-town.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gfile.o -MD -MP -MF .deps/gfile.Tpo -c -o gfile.o gfile.c
+mv -f .deps/gfile.Tpo .deps/gfile.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT gmain.o -MD -MP -MF .deps/gmain.Tpo -c -o gmain.o gmain.c
+mv -f .deps/gmain.Tpo .deps/gmain.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT imenu.o -MD -MP -MF .deps/imenu.Tpo -c -o imenu.o imenu.c
+mv -f .deps/imenu.Tpo .deps/imenu.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT item.o -MD -MP -MF .deps/item.Tpo -c -o item.o item.c
+mv -f .deps/item.Tpo .deps/item.Po
+g++ -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT main-gtk.o -MD -MP -MF .deps/main-gtk.Tpo -c -o main-gtk.o main-gtk.cpp
+mv -f .deps/main-gtk.Tpo .deps/main-gtk.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT main-x.o -MD -MP -MF .deps/main-x.Tpo -c -o main-x.o main-x.c
+mv -f .deps/main-x.Tpo .deps/main-x.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT menu.o -MD -MP -MF .deps/menu.Tpo -c -o menu.o menu.c
+mv -f .deps/menu.Tpo .deps/menu.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+mv -f .deps/misc.Tpo .deps/misc.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT mmenu.o -MD -MP -MF .deps/mmenu.Tpo -c -o mmenu.o mmenu.c
+mv -f .deps/mmenu.Tpo .deps/mmenu.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT mnstr-act.o -MD -MP -MF .deps/mnstr-act.Tpo -c -o mnstr-act.o mnstr-act.c
+mv -f .deps/mnstr-act.Tpo .deps/mnstr-act.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT mnstr.o -MD -MP -MF .deps/mnstr.Tpo -c -o mnstr.o mnstr.c
+mv -f .deps/mnstr.Tpo .deps/mnstr.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT msg.o -MD -MP -MF .deps/msg.Tpo -c -o msg.o msg.c
+mv -f .deps/msg.Tpo .deps/msg.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT nest-flg.o -MD -MP -MF .deps/nest-flg.Tpo -c -o nest-flg.o nest-flg.c
+mv -f .deps/nest-flg.Tpo .deps/nest-flg.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT party.o -MD -MP -MF .deps/party.Tpo -c -o party.o party.c
+mv -f .deps/party.Tpo .deps/party.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT pet.o -MD -MP -MF .deps/pet.Tpo -c -o pet.o pet.c
+mv -f .deps/pet.Tpo .deps/pet.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT play-rep.o -MD -MP -MF .deps/play-rep.Tpo -c -o play-rep.o play-rep.c
+mv -f .deps/play-rep.Tpo .deps/play-rep.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT replay.o -MD -MP -MF .deps/replay.Tpo -c -o replay.o replay.c
+mv -f .deps/replay.Tpo .deps/replay.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT request.o -MD -MP -MF .deps/request.Tpo -c -o request.o request.c
+mv -f .deps/request.Tpo .deps/request.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT scene.o -MD -MP -MF .deps/scene.Tpo -c -o scene.o scene.c
+mv -f .deps/scene.Tpo .deps/scene.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT spell.o -MD -MP -MF .deps/spell.Tpo -c -o spell.o spell.c
+mv -f .deps/spell.Tpo .deps/spell.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT tmenu.o -MD -MP -MF .deps/tmenu.Tpo -c -o tmenu.o tmenu.c
+mv -f .deps/tmenu.Tpo .deps/tmenu.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT town.o -MD -MP -MF .deps/town.Tpo -c -o town.o town.c
+mv -f .deps/town.Tpo .deps/town.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT trap.o -MD -MP -MF .deps/trap.Tpo -c -o trap.o trap.c
+mv -f .deps/trap.Tpo .deps/trap.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT turn.o -MD -MP -MF .deps/turn.Tpo -c -o turn.o turn.c
+mv -f .deps/turn.Tpo .deps/turn.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT key-item.o -MD -MP -MF .deps/key-item.Tpo -c -o key-item.o key-item.c
+mv -f .deps/key-item.Tpo .deps/key-item.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT last-boss.o -MD -MP -MF .deps/last-boss.Tpo -c -o last-boss.o last-boss.c
+mv -f .deps/last-boss.Tpo .deps/last-boss.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT ending-ep.o -MD -MP -MF .deps/ending-ep.Tpo -c -o ending-ep.o ending-ep.c
+mv -f .deps/ending-ep.Tpo .deps/ending-ep.Po
+gcc -DHAVE_CONFIG_H -I.    -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables -MT ending-space.o -MD -MP -MF .deps/ending-space.Tpo -c -o ending-space.o ending-space.c
+mv -f .deps/ending-space.Tpo .deps/ending-space.Po
+g++ -DNDEBUG '-DCLK_TCK=1000000' -Wall -DD_GTK `pkg-config --cflags gtk+-2.0` `sdl-config --cflags ` -DD_CUI_MOUSE -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m32 -march=i386 -mtune=generic -fasynchronous-unwind-tables `pkg-config \--libs gtk+-2.0 \--libs gthread-2.0` `sdl-config --libs` -lSDL_mixer  -o xlnl FileList.o GameThread.o GlobalVar.o GtkWSCstring.o GtkWSDmwindowDev.o GuiInputString.o GuiMenu.o GuiMessage.o GuiMisc.o GuiNum.o GuiStat.o GuiWords.o GuiReplay.o GuiClassEdit.o GuiSkillEdit.o GuiChrSheet.o Key.o CuiMouse.o MouseMap.o MouseMotion.o Pcg.o PcgDun.o DemoTitle.o DemoGameOver.o DemoEnding.o DemoSpace.o DemoLastBoss.o DemoCutIn.o GuiLastBoss.o SelConf.o GraphConf.o SelMbrGraph.o GameMusic.o GameSound.o GameJoystick.o WinPos.o amenu.o call.o chr.o skill.o curs.o draw.o dun.o map-event.o fight.o fx.o gf-conf.o gf-crsr.o gf-gconf.o gf-outmap.o gf-replay.o gf-save.o gf-town.o gfile.o gmain.o imenu.o item.o main-gtk.o main-x.o menu.o misc.o mmenu.o mnstr-act.o mnstr.o msg.o nest-flg.o party.o pet.o play-rep.o replay.o request.o scene.o spell.o tmenu.o town.o trap.o turn.o key-item.o last-boss.o ending-ep.o ending-space.o  -lSDL -lSDL_mixer -lgpm -lpthread -lm -ltermcap -lncursesw -lncurses -lcurses 
+make[2]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19/src'
+make[1]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19/src'
+Making all in man
+make[1]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19/man'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19/man'
+make[1]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19'
+実行中(%install): /bin/sh -e /var/tmp/rpm-tmp.JIsDfM
+Making install in src
+make[1]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19/src'
+make[2]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19/src'
+test -z "/home/dud/rpm/BUILDROOT/xlnl-3.4.19-1.i386/usr/bin" || /bin/mkdir -p "/home/dud/rpm/BUILDROOT/xlnl-3.4.19-1.i386/usr/bin"
+  /usr/bin/install -c xlnl '/home/dud/rpm/BUILDROOT/xlnl-3.4.19-1.i386/usr/bin'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19/src'
+make[1]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19/src'
+Making install in man
+make[1]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19/man'
+make[2]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19/man'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/home/dud/rpm/BUILDROOT/xlnl-3.4.19-1.i386/usr/share/man/man6" || /bin/mkdir -p "/home/dud/rpm/BUILDROOT/xlnl-3.4.19-1.i386/usr/share/man/man6"
+ /usr/bin/install -c -m 644 'xlnl.eng' '/home/dud/rpm/BUILDROOT/xlnl-3.4.19-1.i386/usr/share/man/man6/xlnl.6'
+make[2]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19/man'
+make[1]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19/man'
+make[1]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19'
+make[2]: Entering directory `/home/dud/rpm/BUILD/xlnl-3.4.19'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19'
+make[1]: Leaving directory `/home/dud/rpm/BUILD/xlnl-3.4.19'
+extracting debug info from /home/dud/rpm/BUILDROOT/xlnl-3.4.19-1.i386/usr/bin/xlnl
+ファイルの処理中: xlnl-3.4.19-1
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: libSDL-1.2.so.0 libSDL_mixer-1.2.so.0 libX11.so.6 libatk-1.0.so.0 libc.so.6 libc.so.6(GLIBC_2.0) libc.so.6(GLIBC_2.1) libc.so.6(GLIBC_2.1.3) libc.so.6(GLIBC_2.3) libc.so.6(GLIBC_2.3.4) libc.so.6(GLIBC_2.4) libcairo.so.2 libfontconfig.so.1 libfreetype.so.6 libgcc_s.so.1 libgcc_s.so.1(GCC_3.0) libgdk-x11-2.0.so.0 libgdk_pixbuf-2.0.so.0 libgio-2.0.so.0 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libgpm.so.2 libgthread-2.0.so.0 libgtk-x11-2.0.so.0 libm.so.6 libm.so.6(GLIBC_2.0) libm.so.6(GLIBC_2.1) libncurses.so.5 libncursesw.so.5 libpango-1.0.so.0 libpangocairo-1.0.so.0 libpangoft2-1.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.0) libpthread.so.0(GLIBC_2.1) librt.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libtinfo.so.5 rtld(GNU_HASH)
+ファイルの処理中: xlnl-debuginfo-3.4.19-1
+伸張ファイルの検査中: /usr/lib/rpm/check-files /home/dud/rpm/BUILDROOT/xlnl-3.4.19-1.i386
+書き込み完了: /home/dud/rpm/SRPMS/xlnl-3.4.19-1.src.rpm
+書き込み完了: /home/dud/rpm/RPMS/i386/xlnl-3.4.19-1.i386.rpm
+書き込み完了: /home/dud/rpm/RPMS/i386/xlnl-debuginfo-3.4.19-1.i386.rpm
+実行中(%clean): /bin/sh -e /var/tmp/rpm-tmp.F3R8fQ

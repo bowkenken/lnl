@@ -1,0 +1,1 @@
+/home/dud/src/lnl/lnl/src/stay-inn-kind.h

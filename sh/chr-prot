@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot chr.c | tee chr-prot.h

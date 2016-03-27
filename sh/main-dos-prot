@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot main-dos.c | tee main-dos-prot.h

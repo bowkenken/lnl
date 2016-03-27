@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot main-dows.cpp | tee main-dows-prot.h

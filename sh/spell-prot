@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot spell.c | tee spell-prot.h

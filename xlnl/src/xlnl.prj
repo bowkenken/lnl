@@ -1,0 +1,94 @@
+#ID
+55707B20
+#STLINK
+1
+#CMODE
+1
+#OUTPUT
+xlnl-ws
+#STOUTPUT
+xlnl-ws
+#DBG_OUTPUT
+xlnl-wsd
+#DBG_STOUTPUT
+xlnl-wsd
+#DTHICKNESS
+2
+#GRIDX
+1
+#GRIDY
+1
+#DWIDTH
+100
+#DHEIGHT
+30
+#WS_DLL
+
+#WINC_NAME
+WSCmainWindow
+#OBJS
+
+#COMPAT
+0
+#WS_FILES
+GameThread.cpp GuiMenu.cpp Pcg.cpp PcgDun.cpp Key.cpp MouseMotion.cpp FileList.cpp GlobalVar.cpp amenu.c call.cpp chr.c curs.c draw.c dun.c fight.c fx.c gfile.c gmain.c imenu.c item.c main-x.c menu.c misc.c mmenu.c mnstr-act.c mnstr.c msg.c party.c pet.c request.c spell.c tmenu.c town.c trap.c turn.c nest-flg.c MouseMap.cpp GuiInputString.cpp GuiNum.cpp
+#JAVA_PKG_NAME
+
+#MPFC_COMPAT
+0
+#ENCODING
+DEFAULT
+#POLICY
+
+#LIB_CREATE
+0
+#LANG
+C++
+#MAKE
+make
+#CC1
+gcc
+#CC
+g++
+#LD
+g++
+#USER_INCLUDE
+-I. -I$(WSDIR)/include -I$(WS_DEFAULT_DIR)/include
+#USER_FL
+-Wall -Wno-format -fPIC -DHAVE_CONFIG_H -DD_WS
+#USER_RT_INCLUDE
+
+#USER_RT_FL
+-O3 -DNDEBUG 
+#USER_DBG_INCLUDE
+
+#USER_DBG_FL
+-g -ggdb -DDEBUG
+#USER_LIB
+-lcurses -lpthread
+#USER_LD_FL
+
+#USER_RT_LIB
+-L$(WSDIR)/lib -L$(WS_DEFAULT_DIR)/lib -lws -lwsc
+#USER_DBG_LIB
+-L$(WSDIR)/lib -L$(WS_DEFAULT_DIR)/lib -lws -lwsc
+#USER_RT_STLIB
+-L$(WSDIR)/lib -L$(WS_DEFAULT_DIR)/lib $(XLIBS) $(WSDIR)/lib/libws.a $(WSDIR)/lib/libwsc.a
+#USER_DBG_STLIB
+-L$(WSDIR)/lib -L$(WS_DEFAULT_DIR)/lib $(XLIBS) $(WSDIR)/lib/libws.a $(WSDIR)/lib/libwsc.a
+#FONT0
+14 * 0 0 
+#FONT1
+16 iso8859 * * * r *
+#FONT2
+18 iso8859 * * * r *
+#FONT3
+20 iso8859 * * * r *
+#FONT4
+22 iso8859 * * * r *
+#FONT5
+24 iso8859 * * * r *
+#FONT6
+26 iso8859 * * * r *
+#FONT7
+30 iso8859 * * * r *

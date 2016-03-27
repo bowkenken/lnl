@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot nest-flg.c | tee nest-flg-prot.h

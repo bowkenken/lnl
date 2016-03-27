@@ -1,0 +1,76 @@
+# L&L - graphic configure - version 1.0.0
+
+################
+
+def {
+	title = "TEXT MODE - SMALL"
+	text_mode = 1
+	font_size_point = 24
+	font_size_dot = 32
+	scale = 50
+	tile_size_x = 32
+	tile_size_y = 32
+}
+
+################
+
+def {
+	title = "TEXT MODE"
+	text_mode = 1
+	font_size_point = 24
+	font_size_dot = 32
+	scale = 100
+	tile_size_x = 32
+	tile_size_y = 32
+}
+
+################
+
+def {
+	title = "TILE GRAPHIC MODE - SMALL"
+	scale = 50
+	tile_size_x = 32
+	tile_size_y = 32
+	character_patern = "tile"
+	town_wall_patern = "type_b"
+	dungeon_wall_patern = "type_a"
+	door_patern = "type_a"
+	signboard_patern = "type_a"
+}
+
+################
+
+def {
+	title = "TILE GRAPHIC MODE"
+
+	// GUI text mode (1:ON, 0:OFF)
+	text_mode = 0
+
+	// font size UNIX/Linux (point)
+	font_size_point = 24
+
+	// font size MS-Windows (dot)
+	font_size_dot = 32
+
+	// map scale (%)
+	scale = 100
+
+	// tile size (dot)
+	tile_size_x = 32
+	tile_size_y = 32
+
+	// tile (1x1), RPG_XP (4x4) or RPG_2000 (3x4)
+	character_patern = "tile"
+
+	// tile (1x1), type_a (4x4) or type_b (6x4)
+	town_wall_patern = "type_b"
+
+	// tile (1x1), type_a (4x4) or type_b (6x4)
+	dungeon_wall_patern = "type_a"
+
+	// tile (1x1) or type_a (3x3)
+	door_patern = "type_a"
+
+	// tile (1x1) or type_a (3x1)
+	signboard_patern = "type_a"
+}

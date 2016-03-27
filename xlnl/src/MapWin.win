@@ -1,0 +1,402 @@
+#OBJ       MapWin
+ #TYPE       WSCmainWindow
+ #PARENT   NULL
+ #PROC  MapWinInit
+  #TRIG    0
+  #PRO   MapWinInit.cpp
+
+ #RES      titleString
+Map
+ #RES      x
+100
+ #RES      y
+100
+ #RES      width
+656
+ #RES      height
+656
+
+#OBJ       MapScrollY
+ #TYPE       WSCvscrBar
+ #PARENT   MapWin
+ #PROC  MapScrollYDraw
+  #TRIG    2
+  #PRO   MapScrollYDraw.cpp
+
+ #PROC  MapScrollYValCh
+  #TRIG    3
+  #PRO   MapScrollYValCh.cpp
+
+ #RES      value
+640
+ #RES      orientation
+1
+ #RES      vis
+1
+ #RES      x
+640
+ #RES      width
+16
+ #RES      height
+640
+ #RES      anchorBottom
+16
+ #RES      anchorTopFlag
+1
+ #RES      anchorBottomFlag
+1
+ #RES      anchorRightFlag
+1
+
+#OBJ       MapScrollX
+ #TYPE       WSCvscrBar
+ #PARENT   MapWin
+ #PROC  MapScrollXDraw
+  #TRIG    2
+  #PRO   MapScrollXDraw.cpp
+
+ #PROC  MapScrollXValCh
+  #TRIG    3
+  #PRO   MapScrollXValCh.cpp
+
+ #RES      value
+640
+ #RES      vis
+1
+ #RES      y
+640
+ #RES      width
+640
+ #RES      height
+16
+ #RES      anchorRight
+16
+ #RES      anchorBottomFlag
+1
+ #RES      anchorLeftFlag
+1
+ #RES      anchorRightFlag
+1
+
+#OBJ       MapForm
+ #TYPE       WSCform
+ #PARENT   MapWin
+ #PROC  MapFormDraw
+  #TRIG    9
+  #PRO   MapFormDraw.cpp
+
+ #PROC  MapFormInit
+  #TRIG    0
+  #PRO   MapFormInit.cpp
+
+ #PROC  MapFormMouseMove
+  #TRIG    15
+  #PRO   MapFormMouseMove.cpp
+
+ #PROC  MapFormMousePress
+  #TRIG    13
+  #PRO   MapFormMousePress.cpp
+
+ #PROC  MapFormMouseRellease
+  #TRIG    14
+  #PRO   MapFormMouseRellease.cpp
+
+ #PROC  MapFormResize
+  #TRIG    10
+  #PRO   MapFormResize.cpp
+
+ #RES      x
+0
+ #RES      y
+0
+ #RES      width
+640
+ #RES      height
+640
+ #RES      vis
+1
+ #RES      anchorBottom
+16
+ #RES      anchorRight
+16
+ #RES      anchorTopFlag
+1
+ #RES      anchorBottomFlag
+1
+ #RES      anchorLeftFlag
+1
+ #RES      anchorRightFlag
+1
+
+#OBJ       MenuWin
+ #TYPE       WSCwindow
+ #PARENT   MapForm
+ #PROC  MenuWinInit
+  #TRIG    0
+  #PRO   MenuWinInit.cpp
+
+ #RES      titleString
+Menu
+ #RES      width
+480
+ #RES      height
+480
+ #RES      shadowThickness
+2
+
+#OBJ       MenuBtnPrevPage
+ #TYPE       WSCvbtn
+ #PARENT   MenuWin
+ #PROC  MenuBtnPrevPageActivate
+  #TRIG    2
+  #PRO   MenuBtnPrevPageActivate.cpp
+
+ #RES      labelString
+<<
+ #RES      vis
+1
+ #RES      x
+4
+ #RES      y
+4
+ #RES      width
+50
+ #RES      height
+24
+ #RES      anchorTop
+4
+ #RES      anchorLeft
+4
+ #RES      anchorTopFlag
+1
+ #RES      anchorLeftFlag
+1
+
+#OBJ       MenuBtnNextPage
+ #TYPE       WSCvbtn
+ #PARENT   MenuWin
+ #PROC  MenuBtnNextPageActivate
+  #TRIG    2
+  #PRO   MenuBtnNextPageActivate.cpp
+
+ #RES      labelString
+>>
+ #RES      vis
+1
+ #RES      x
+112
+ #RES      y
+4
+ #RES      width
+50
+ #RES      height
+24
+ #RES      anchorTop
+4
+ #RES      anchorLeft
+112
+ #RES      anchorTopFlag
+1
+ #RES      anchorLeftFlag
+1
+
+#OBJ       MenuBtnCancel
+ #TYPE       WSCvbtn
+ #PARENT   MenuWin
+ #PROC  MenuBtnCancelActivate
+  #TRIG    2
+  #PRO   MenuBtnCancelActivate.cpp
+
+ #RES      labelString
+Cancel
+ #RES      vis
+1
+ #RES      x
+166
+ #RES      y
+4
+ #RES      height
+24
+ #RES      anchorTop
+4
+ #RES      anchorLeft
+166
+ #RES      anchorTopFlag
+1
+ #RES      anchorLeftFlag
+1
+
+#OBJ       MenuLabelPage
+ #TYPE       WSCvlabel
+ #PARENT   MenuWin
+ #RES      labelString
+/
+ #RES      vis
+1
+ #RES      x
+58
+ #RES      y
+4
+ #RES      width
+50
+ #RES      height
+24
+ #RES      anchorTop
+4
+ #RES      anchorLeft
+58
+ #RES      anchorTopFlag
+1
+ #RES      anchorLeftFlag
+1
+
+#OBJ       StatWin
+ #TYPE       WSCwindow
+ #PARENT   MapForm
+ #PROC  StatWinResize
+  #TRIG    10
+  #PRO   StatWinResize.cpp
+
+ #RES      titleString
+Status
+ #RES      x
+100
+ #RES      y
+100
+ #RES      width
+330
+ #RES      height
+576
+ #RES      shadowThickness
+2
+ #RES      vis
+1
+
+#OBJ       StatWinDrawArea
+ #TYPE       WSCvdrawingArea
+ #PARENT   StatWin
+ #PROC  StatWinDAInit
+  #TRIG    0
+  #PRO   StatWinDAInit.cpp
+
+ #PROC  StatWinDADraw
+  #TRIG    9
+  #PRO   StatWinDADraw.cpp
+
+ #RES      vis
+1
+ #RES      width
+330
+ #RES      height
+576
+ #RES      anchorTopFlag
+1
+ #RES      anchorBottomFlag
+1
+ #RES      anchorLeftFlag
+1
+ #RES      anchorRightFlag
+1
+
+#OBJ       InpStrWin
+ #TYPE       WSCwindow
+ #PARENT   MapForm
+ #PROC  InpStrWinInit
+  #TRIG    0
+  #PRO   InpStrWinInit.cpp
+
+ #RES      titleString
+title1
+ #RES      x
+100
+ #RES      y
+100
+ #RES      width
+413
+ #RES      height
+209
+ #RES      shadowThickness
+2
+
+#OBJ       InpStrTtl
+ #TYPE       WSCvlabel
+ #PARENT   InpStrWin
+ #RES      vis
+1
+ #RES      y
+16
+ #RES      width
+413
+ #RES      height
+32
+ #RES      anchorTop
+16
+ #RES      anchorTopFlag
+1
+ #RES      anchorLeftFlag
+1
+ #RES      anchorRightFlag
+1
+
+#OBJ       InpStrField
+ #TYPE       WSCvifield
+ #PARENT   InpStrWin
+ #RES      vis
+1
+ #RES      y
+48
+ #RES      width
+413
+ #RES      anchorTop
+48
+ #RES      anchorTopFlag
+1
+ #RES      anchorLeftFlag
+1
+ #RES      anchorRightFlag
+1
+
+#OBJ       InpStrCancel
+ #TYPE       WSCvbtn
+ #PARENT   InpStrWin
+ #RES      labelString
+Cancel
+ #RES      vis
+1
+ #RES      x
+205
+ #RES      y
+181
+ #RES      height
+24
+ #RES      anchorBottom
+4
+ #RES      anchorRight
+108
+ #RES      anchorBottomFlag
+1
+ #RES      anchorRightFlag
+1
+
+#OBJ       InpStrOk
+ #TYPE       WSCvbtn
+ #PARENT   InpStrWin
+ #RES      labelString
+OK
+ #RES      vis
+1
+ #RES      x
+309
+ #RES      y
+181
+ #RES      height
+24
+ #RES      anchorBottom
+4
+ #RES      anchorRight
+4
+ #RES      anchorBottomFlag
+1
+ #RES      anchorRightFlag
+1
+

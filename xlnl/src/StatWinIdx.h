@@ -1,0 +1,13 @@
+#ifndef STAT_WIN_IDX_H
+#define STAT_WIN_IDX_H
+
+enum StatWinIdx {
+	STAT_WIN_IDX_NAME,
+	STAT_WIN_IDX_HP,
+	STAT_WIN_IDX_MP,
+	STAT_WIN_IDX_ACT,
+	STAT_WIN_IDX_COND,
+	STAT_WIN_IDX_MAX_N,
+};
+
+#endif /* STAT_WIN_IDX_H */

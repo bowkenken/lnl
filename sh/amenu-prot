@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot amenu.c | tee amenu-prot.h

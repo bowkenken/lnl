@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot menu.c | tee menu-prot.h

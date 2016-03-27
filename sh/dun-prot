@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot dun.c | tee dun-prot.h

@@ -1,0 +1,626 @@
+.\"
+.\" Copyright (c) 1993-2014 YOSHIMURA, Tomohiko
+.\"	all rights reserved.
+.\"
+.TH lnl 6 "21 August 2010" "Ver. 3.4.18" "Fantasy RPG"
+.\"****************************************************************
+.SH NAME
+lnl \- L&L, Labyrinths & Legends
+.\"****************************************************************
+.SH SYNOPSIS
+.B "lnl"
+.\".B "[\-GCUT:D:S:l:k:e:s:p:m:cd:Vvh]"
+.B "[\-GCUl:e:s:p:m:cVvh]"
+.B "[\-\-gui]"
+.B "[\-\-cui]"
+.B "[\-\-gui\-and\-cui]"
+.\".B "[\-\-text\-mode=POINT]"
+.\".B "[\-\-sel\-graph\-dir=DIR]"
+.\".B "[\-\-map\-scale=N]"
+.B "[\-\-language=LANGUAGE]"
+.\".B "[\-\-clear\-key\-buf=FLAG]"
+.B "[\-\-echo\-key=FLAG]"
+.B "[\-\-use\-curses=FLAG]"
+.B "[\-\-use\-keypad=FLAG]"
+.B "[\-\-check\-memory=FLAG]"
+.B "[\-\-measure\-clock]"
+.B "[\-\-version]"
+.B "[\-\-help]"
+.\"****************************************************************
+.SH DESCRIPTION
+.B "L&L - Labyrinths & Legends"
+is fantasy RPG which is a kind of Roguelike.
+.br
+The following example is typical Roguelike.
+.br
+.B "Rogue"
+.br
+.B "Moria"
+.br
+.B "Net Hack"
+.br
+.B "Torneko's Great Adventure"
+.br
+.PP
+There are the following features when L&L is compared with current Roguelike.
+.br
+.TP
+.B "<Party play>"
+The party can be united by the character up to six character.
+.TP
+.B "<Auto battle>"
+Direct the strategy of the character.
+.br
+And execute it as it is semiautomatic.
+.TP
+.B "<Easy menu>"
+Operate it with the menu or the shortcut key.
+.br
+You can operate it by one hand with cursor keys or ten keys.
+.TP
+.B "<It is OK even if dying>"
+It is possible to revive in the church in the town as long as
+the party is not annihilated.
+.TP
+.B "<Editable class>"
+You can create a unique class by adjusting the parameter of the class.
+.TP
+.B "<It is a pair by two characters>"
+It is easy to distinguish the kind because the character is displayed
+.br
+by two characters (the classification and the race).
+.PP
+This game was completed in ver.3.4.0 open to the public to 2009-03-14.
+.br
+.PP
+Our members are prepared in advance and start the game,
+appears to bar the town.
+.B "[@B]"
+or
+.B "[@D]"
+This is it.
+.br
+There are several shops around it.
+.br
+Front of the bar was the center of the city.
+.br
+there is an entrance to the Labyrinth.
+.br
+.\"****************************************************************
+.SH Character
+On the screen, the character represents a single object.
+.TP
+.B "[@ ]"
+Members
+.TP
+.B "[% ]"
+Destination member (anchor)
+.TP
+.B "[##]"
+Wall
+.TP
+.B "[. ]"
+Floor
+.TP
+.B "[+ ]"
+Closed door
+.TP
+.B "[' ]"
+Open door
+.TP
+.B "[^ ]"
+Trap
+.TP
+.B "[<u]"
+up Stairs
+.TP
+.B "[>d]"
+Down stairs
+.TP
+.B "[) ]"
+Weapons
+.TP
+.B "[] ]"
+Armor
+.TP
+.B "[! ]"
+Potion
+.TP
+.B "[? ]"
+Scroll
+.TP
+.B "[-w]"
+Wand
+.TP
+.B "[-r]"
+Rod
+.TP
+.B "[-s]"
+Staff
+.TP
+.B "[=r]"
+Ring
+.TP
+.B "[=a]"
+Amulet
+.TP
+.B "[=n]"
+Necklace
+.TP
+.B "[: ]"
+Food
+.TP
+.B "[& ]"
+Treasure Chest
+.TP
+.B "[$ ]"
+Gold
+.TP
+.B "[* ]"
+Jewelry
+.TP
+.B "Alphabet"
+Monster
+.PP
+When the type of character is lost, with the cursor to the character,
+press <?> key.
+.\"****************************************************************
+.SH Operation
+In lowercase letters and press the following keys or ten keys or cursor keys,
+move the cursor.
+.br
+Please note that the character does not run directly.
+.br
+<^A> is to mean <A> key is pushed while pushing the <Ctrl> key.
+.TP
+Arrow
+.br
+7 8 9
+.br
+ \\|/ 
+.br
+4\- \-6
+.br
+ /|\\ 
+.br
+1 2 3
+.TP
+.PP
+y k u
+.br
+ \\|/ 
+.br
+h\- \-l
+.br
+ /|\\ 
+.br
+b j n
+.TP
+.PP
+  ^P
+.br
+   |
+.br
+^B- -^F
+.br
+   |
+.br
+  ^N
+.TP
+Cursors
+.br
+  |
+.br
+\-   \-
+.br
+  |
+.TP
+Anchor
+.br
+%B  %D
+.br
+%E  %C
+.br
+%F  %U
+.TP
+Members
+.br
+@B  @D
+.br
+@E  @C
+.br
+@H  @U
+.PP
+Press the following key in capital letters,
+move the cursor to the next object.
+.TP
+Arrow
+.br
+Y K U
+.br
+ \\|/
+.br
+H\- \-L
+.br
+ /|\\
+.br
+B J N
+.PP
+Operate it as follows for all parties to stir.
+Move the cursor to the place that you want to move.
+Please push <v> key.
+Then, the anchor (%B, %D) moves to the place.
+And, when turn passes pushing <.> key,
+members (@B, @D) move toward the anchor.
+.PP
+Operate it as follows when you want to execute the command of something.
+Push <enter> key on the member that you want to have it execute.
+Then, the menu is displayed.
+Move the direction key up and down and choose the item.
+And, please execute the item chosen by pushing <ENTER> key.
+Please shut the menu by pushing <ESC> or <BACK_SPACE> key
+when you want to cancel.
+.PP
+You can display other pages by pushing the direction key right and left
+if there are several-page menu.
+.PP
+You can select the item directly by pushing the access key
+of the capital ~ letter displayed on the "left edge" of each item
+when the menu is "displayed".
+.br
+You can select it without using the menu by pushing the shortcut key displayed
+in parentheses on the "right edge" of each item when the menu
+is "not displayed".
+.PP
+Time passes if you push <.> key.
+And, the specified command is executed.
+.PP
+Execute the mark of the menu on the member
+if you want to pick up the item or fight against the monster.
+Next, Move the cursor on the object and push <ENTER> key again.
+After that, please choose the action that you want to execute.
+And, please execute turn pushing <.> key.
+.PP
+If turn doesn't execute, the command is not executed.
+.PP
+Besides this, there are the following commands.
+.TP
+.B "<ENTER>, <^M>, <M>, <m>, <^J>"
+Select View menu.
+.TP
+.B "<ESC>, <BACK_SPACE>, <^H>, <^G>"
+To cancel the menu.
+.TP
+.B "<.>"
+Increment turn.
+.TP
+.B "<z>"
+Open the operation menu.
+.TP
+.B "<x>"
+Open the user menu.
+.TP
+.B "<c>"
+Open a list of spells.
+.TP
+.B "<v>"
+Set the anchor to the cursor position.
+.TP
+.B "<V>"
+Move the cursor to the anchor.
+.TP
+.B "<P>"
+Move the cursor to the next member.
+.TP
+.B "<X>, <TAB>, <^I>"
+Move the cursor to the next monster.
+.TP
+.B "<I>"
+Move the cursor to the next item.
+.TP
+.B "<D>"
+Move the cursor to the next door.
+.TP
+.B "<O>"
+Move the cursor to the next object.
+.TP
+.B "<A>"
+Move the cursor to the next goal.
+.TP
+.B "<R>"
+Move the cursor to the goal.
+.TP
+.B "<!>"
+Invoking the shell.
+.TP
+.B "<F1> - <F15>"
+Run keyboard macros set by the user.
+.TP
+.B "<Q>, <^Q>, <^C>"
+Quit the game.
+.\"****************************************************************
+.SH When you play with ten key.
+.TP
+.B "<0>"
+To cancel the menu.
+.TP
+.B "<.>, <5>"
+Increment turn.
+.TP
+.B "</>"
+Open the operation menu.
+.TP
+.B "<*>"
+Open the user menu.
+.TP
+.B "<->"
+Open a list of spells.
+.TP
+.B "<+>"
+Set the anchor to the cursor position.
+.\"****************************************************************
+.SH When you play with cursor keys
+.TP
+.B "<DELETE>"
+To cancel the menu.
+.TP
+.B "<END>"
+Increment turn.
+.TP
+.B "<INSERT>"
+Open the operation menu.
+.TP
+.B "<HOME>"
+Open the user menu.
+.TP
+.B "<PAGE_UP>"
+Open a list of spells.
+.TP
+.B "<PAGE_DOWN>"
+Set the anchor to the cursor position.
+.\"****************************************************************
+.SH Ability value
+The experience value is allotted to each ability value.
+And, the level of the ability value goes up separately.
+.PP
+If the numerical value of each data is large,
+it is shown that the ability value is high.
+.PP
+.TP
+.B "HP"
+Hit Point (physical)
+.br
+0 will die.
+.TP
+.B "MP"
+Mana Point (magic)
+.br
+Consume during cast a play or magic spell.
+.TP
+.B "DEX"
+DEXterity (degree of dexterity)
+.br
+This is a hit rate.
+This is a technique for disermming the trap.
+And, this is a damage rate of shooting.
+.TP
+.B "STR"
+STRength (degree of muscle strength)
+.br
+Give a lot of damage to adjacent enemies when attacked.
+.TP
+.B "AGI"
+AGIlity (degrees Agility)
+.br
+This is an avoiding rate of the attack.
+.TP
+.B "INT"
+INTelligence (intellectual powers)
+.br
+Affects basic magic, magical combat ,support magic and summon magic.
+.TP
+.B "WIS"
+WISdom (judge's)
+.br
+Affect the prayers.
+.TP
+.B "CHA"
+CHArisma (appeal)
+.br
+Affects magical spirits and song.
+.TP
+.B "FIG"
+FIGhter (combat)
+.br
+Fighting skills with weapons.
+.TP
+.B "MON"
+MONk (Fight)
+.br
+Fighting skills with hands and feet.
+.TP
+.B "HUN"
+HUNter (fire)
+.br
+Distance fighting skills with weapons fire.
+.TP
+.B "THI"
+THIef (thieves)
+.br
+Looking for a lift and trap skills.
+.TP
+.B "MAG"
+MAGician (magic based)
+.br
+Cast general magic skills.
+.TP
+.B "SOR"
+SORcerer (combat magic)
+.br
+Cast the magic skills of the attack.
+.TP
+.B "ENC"
+ENChanter (Support Magic)
+.br
+Cast the magic skills of the support system.
+.TP
+.B "SUM"
+SUMmoner (summon magic)
+.br
+You summon the monster of the different dimension.
+And, it is a skill of magic to make them fight with the enemy.
+.TP
+.B "PRI"
+PRIest (prayer)
+.br
+Praying to God, miraculous skill.
+.TP
+.B "SHA"
+SHAman (Spirit Magic)
+.br
+This is a skill of magic that manipulates power of spirits.
+This consumes a resistant value instead of MP.
+.TP
+.B "BAR"
+BARd (song)
+.br
+Magic skills to cover the side with songs full of magic and music.
+MP is not consumed, followed by the effects while continuing to sing.
+.TP
+.B "NIN"
+NINja (ninjitsu)
+.br
+This is a skill to be able to cast the ninjuthu by consuming HP instead of MP.
+When you cause the crytical by the combat, you make neck chop to enemy.
+.\"****************************************************************
+.SH Class
+The class is an occupation and a role of the character
+like the soldier and the wizard, etc.
+The experience value that the character acquired is added
+to each ability value at the rate decided beforehand.
+The class decides the added ratio.
+.PP
+You can edit the class in the bar in the town.
+You can adjust each ability value of the class within the range of 0%-20%.
+If the total of the ability value is 100%, you can freely decide it.
+.PP
+There is no penalty at all even if the character changes the class.
+To which ability value you add the experience value is only decided.
+.\"****************************************************************
+.SH OPTIONS
+.TP
+.B "\-G, \-\-gui"
+Mode to GUI
+.TP
+.B "\-C, \-\-cui"
+Mode to CUI
+.TP
+.B "\-U, \-\-gui\-and\-cui"
+Mode to GUI & CUI
+.TP
+.B "\-l, \-\-language=LANGUAGE"
+Specify the language of the message
+.TP
+.B "LANGUAGE"
+Language
+.TP
+.B "\-e, \-\-echo\-key=FLAG"
+Do you see the keys you entered?
+.TP
+.B "\-s, \-\-use\-curses=FLAG"
+How to use the curses library
+.TP
+.B "\-p, \-\-use\-keypad=FLAG"
+How to enable the cursor keys
+.TP
+.B "\-m, \-\-check\-memory=FLAG"
+How to enable to check memory
+.TP
+.B "FLAG"
+on, true, t, yes, 1 if enabled.
+.br
+off, false, nil, no, 0 if disabled.
+.TP
+.B "\-c, \-\-measure\-clock"
+To measure the frame rate.
+.TP
+.B "\-V, \-v, \-\-version"
+It outputs the version to a standard output.
+And, it exits normally.
+.TP
+.B "\-h, \-\-help"
+It outputs the usage to a standard output.
+And, it exits normally.
+.\"****************************************************************
+.SH FILES
+.TP
+.I "~/.lnl/"
+Data directory for each user.
+.TP
+.I "~/.lnl/save/bin/save??.bin"
+Save the character data file.
+.TP
+.I "~/.lnl/save/txt/save??.txt"
+Save the character data file for debugging.
+.TP
+.I "~/.lnl/save/cnf/conf??.txt"
+Character configuration file.
+.TP
+.I "~/.lnl/save/rep/rply??.txt"
+Save the replay file.
+.TP
+.I "~/.lnl/usr/lnl.conf"
+The default configuration file.
+.TP
+.I "~/.lnl/usr/town-ptn.xpm"
+Map data of the town.
+.TP
+.I "~/.lnl/usr/crsr-ptn.h"
+Pattern data of the cursor.
+.TP
+.I "~/.lnl/out/map.???"
+Map data generated by the user.
+.\"****************************************************************
+.SH ENVIRONMENT
+.TP
+.B "HOME"
+User's home directory.
+.TP
+.B "LANG"
+This specifies the language displayed while playing a game.
+"C"
+"ja_JP.eucJP"
+"ja_JP.ujis"
+"ja_JP.UTF-8"
+"ja_JP.SJIS"
+.TP
+.B "SHELL"
+User's shell.
+.\"****************************************************************
+.SH BUGS
+The terminal software may have trouble.
+.\"****************************************************************
+.SH AUTHOR
+.br
+L&L - Labyrinths & Legends
+.br
+Copyright (c) 1993-2014 YOSHIMURA, Tomohiko All rights reserved.
+.br
+
+.I URL   : http://lnl.sourceforge.jp/
+.br
+.I E-mail: bowkenken@users.sourceforge.jp
+.br
+
+          Created by  BowKenKen
+.br
+      Graphic Design  [RPG DOT], Whitecat, REFMAP
+.br
+                      kokusi(yujyu), hiyo, URARA and naramura
+.br
+          Photograph  Yoshinori Kamimura
+.br
+    Music Production  Presence of Music
+.br
+      Special Thanks  t-oikawa, TeaMiKL, nnn, lu and you
+.br

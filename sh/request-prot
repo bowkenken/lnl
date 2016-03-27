@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot request.c | tee request-prot.h

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot last-boss.c | tee last-boss-prot.h

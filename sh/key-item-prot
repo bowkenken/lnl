@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot key-item.c | tee key-item-prot.h

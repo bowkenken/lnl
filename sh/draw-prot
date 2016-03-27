@@ -1,0 +1,3 @@
+#! /bin/sh
+
+../sh/prot draw.c | tee draw-prot.h

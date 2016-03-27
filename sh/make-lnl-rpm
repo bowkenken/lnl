@@ -1,0 +1,22 @@
+#! /bin/sh
+
+set -x
+
+make dist
+
+if [ ! -d ~/rpm ]; then
+	mkdir ~/rpm
+fi
+if [ ! -d ~/rpm/SOURCES ]; then
+	mkdir ~/rpm/SOURCES
+fi
+if [ ! -d ~/rpm/SPECS ]; then
+	mkdir ~/rpm/SPECS
+fi
+
+rm ~/rpm/SOURCES/xlnl-*.tar.gz
+rm -rf ~/rpm/BUILD/xlnl-*
+
+cp ./xlnl-*.tar.gz ~/rpm/SOURCES/
+cp ./xlnl.spec ~/rpm/SPECS/
+rpmbuild -ba xlnl.spec $* | tee ./spec.log

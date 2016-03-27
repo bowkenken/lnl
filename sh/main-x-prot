@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../sh/prot main-x.c | tee main-x-prot.h

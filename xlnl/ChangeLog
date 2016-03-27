@@ -1,0 +1,4429 @@
+2013-12-03 00:56  bowkenken
+
+	* configure, configure.in, src/GameSound.cpp, src/GameSound.h:
+
+	GUI: е╞еье▌б╝е╚╖╧д╬╕·▓╠▓╗дЄ─╔▓├
+
+2013-12-02 21:51  bowkenken
+
+	* ChangeLog, src/PcgDun.cpp:
+
+	еиеєе╟егеєе░├цд╦е╔еще├е░д╣дыд╚е▐е├е╫дм╔┴▓шд╡дьд╞д╖д▐джд╬дЄ╜д└╡
+
+2013-11-13 12:28  bowkenken
+
+	* ChangeLog:
+
+	╣╣┐╖
+
+2013-10-10 05:45  bowkenken
+
+	* src/PcgDun.cpp:
+
+	уВиуГйуГ╝уБоцЬЙчДбуВТш┐ФуБЩщЦвцХ░уБМхЫ║хоЪуБохАдуВТш┐ФуБЧуБжуБДуБЯуБоуВТф┐оцнг
+
+2013-10-10 05:05  bowkenken
+
+	* src/: GuiMisc.cpp, GuiNum.cpp, MouseMap.cpp:
+
+	GUI: уГЮуВжуВ╣уБоуГЬуВ┐уГ│чХкхП╖уБоцМЗхоЪщЦУщБХуБДуВТф┐оцнг
+
+2013-10-10 04:33  bowkenken
+
+	* src/GuiMisc.cpp:
+
+	GTK+: gdkуБошЙ▓уВТцпОхЫЮхЙ▓уВКх╜УуБжуВЛцзШуБлуБЧуБЯ
+
+2013-10-10 04:00  bowkenken
+
+	* src/: GtkWSDimage.h, Pcg.cpp:
+
+	GTK+: хПдуБДщЦвцХ░хРНуВТцЫ┤цЦ░
+
+2013-09-22 21:22  bowkenken
+
+	* Makefile.in, configure, man/Makefile.in, src/Makefile.in,
+	src/config.h.in:
+
+	│л╚п║╞│л
+
+2011-12-28 08:46  bowkenken
+
+	* src/: DemoTitle.cpp, GlobalVar.cpp, GlobalVar.h, MacMapView.cpp,
+	MacMapView.h, MacWSDmwindowDev.cpp, MacWSDmwindowDev.h, Pcg.cpp,
+	PcgDun.cpp, PcgDun.h, config-mac.h, main-mac.cpp, main-mac.h:
+
+	[no log message]
+
+2011-05-06 04:58  bowkenken
+
+	* src/: DemoEnding.h, DemoGameOver.h, DemoSpace.h, DemoTitle.h,
+	FileList.h, GlobalVar.cpp, GlobalVar.h, GraphConf.h, GuiChrSheet.h,
+	GuiClassEdit.h, GuiMenu.h, GuiMessage.h, GuiNum.cpp, GuiNum.h,
+	GuiReplay.h, GuiSkillEdit.h, GuiStat.h, GuiWords.h, Key.h,
+	MacMisc.h, MacWSCstring.cpp, MacWSCstring.h, MacWSDimage.h,
+	MacWSDmwindowDev.cpp, MacWSDmwindowDev.h, Pcg.h, PcgDun.h,
+	SelConf.h, config-mac.h, main-mac-prot.h, main-mac.cpp, main-mac.h:
+
+	Mac: MacOSX ═╤GUI╚╟│л╚п│л╗╧
+
+2011-01-09 11:14  bowkenken
+
+	* ChangeLog:
+
+	е╨б╝е╕ече╩е├е╫ ver.3.4.19
+
+2011-01-09 11:11  bowkenken
+
+	* configure, xlnl.spec:
+
+	е╨б╝е╕ече╩е├е╫ ver.3.4.19
+
+2011-01-09 11:04  bowkenken
+
+	* configure.in, src/config-dows.h:
+
+	е╨б╝е╕ече╩е├е╫ ver.3.4.19
+
+2011-01-09 10:59  bowkenken
+
+	* src/: CuiMouse.cpp, CuiMouse.h, DemoCutIn.cpp, DemoCutIn.h,
+	DemoEnding.cpp, DemoEnding.h, DemoGameOver.cpp, DemoGameOver.h,
+	DemoLastBoss.cpp, DemoLastBoss.h, DemoSpace.cpp, DemoSpace.h,
+	DemoTitle.cpp, DemoTitle.h, FileList.cpp, FileList.h,
+	GameJoystick.cpp, GameJoystick.h, GameMusic.cpp, GameMusic.h,
+	GameSound.cpp, GameSound.h, GameThread.cpp, GameThread.h,
+	GlobalVar.cpp, GlobalVar.h, GraphConf.cpp, GraphConf.h,
+	GraphConfToken.h, GtkMisc.h, GtkWSCstring.cpp, GtkWSCstring.h,
+	GtkWSDimage.h, GtkWSDmwindowDev.cpp, GtkWSDmwindowDev.h,
+	GuiChrSheet.cpp, GuiChrSheet.h, GuiClassEdit.cpp, GuiClassEdit.h,
+	GuiInputString.cpp, GuiInputString.h, GuiLastBoss.cpp,
+	GuiLastBoss.h, GuiMenu.cpp, GuiMenu.h, GuiMessage.cpp,
+	GuiMessage.h, GuiMisc.cpp, GuiMisc.h, GuiNum.cpp, GuiNum.h,
+	GuiReplay.cpp, GuiReplay.h, GuiSkillEdit.cpp, GuiSkillEdit.h,
+	GuiStat.cpp, GuiStat.h, GuiWords.cpp, GuiWords.h, IPhoneMisc.h,
+	IPhoneWSCstring.cpp, IPhoneWSCstring.h, IPhoneWSDimage.h,
+	IPhoneWSDmwindowDev.cpp, IPhoneWSDmwindowDev.h, Key.cpp, Key.h,
+	MapFormDraw.cpp, MapFormInit.cpp, MapFormMouseMove.cpp,
+	MapFormMousePress.cpp, MapFormMouseRellease.cpp, MapFormResize.cpp,
+	MapScrollXDraw.cpp, MapScrollXValCh.cpp, MapScrollYDraw.cpp,
+	MapScrollYValCh.cpp, MapWinInit.cpp, MenuWinInit.cpp, MfcMisc.h,
+	MfcWSCstring.cpp, MfcWSCstring.h, MfcWSDimage.h,
+	MfcWSDmwindowDev.cpp, MfcWSDmwindowDev.h, MouseMap.cpp, MouseMap.h,
+	MouseMotion.cpp, MouseMotion.h, Pcg.cpp, Pcg.h, PcgDun.cpp,
+	PcgDun.h, PcgDunTab.h, SelConf.cpp, SelConf.h, SelMbrGraph.cpp,
+	SelMbrGraph.h, WinPos.cpp, WinPos.h, config-dows.h, config-win.h,
+	main-dows.cpp, main-gtk.cpp, main-iphone.cpp, main-iphone.h,
+	main-x.c, main-x.h:
+
+	┐╖╟пдвд▒д▐д╖д╞дкдсд╟д╚джд┤д╢ддд▐д╣
+
+2010-11-12 16:13  bowkenken
+
+	* src/: GuiClassEdit.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: епеще╣бжеие╟еге┐д╟епеще╣╠╛дм╩▌┬╕д╟днд╩ддд╬дЄ╜д└╡
+
+2010-11-12 15:31  bowkenken
+
+	* src/xlnl-dows/: MessageWnd.cpp, MessageWnd.h, xlnl-dows.ncb:
+
+	DX: есе├е╗б╝е╕бжежегеєе╔еждменб╝╞■╬╧дЄ╝їд▒╔╒д▒д╩ддд╬дЄ╜д└╡
+
+2010-11-12 15:10  bowkenken
+
+	* src/GuiClassEdit.cpp:
+
+	GUI: епеще╣бжеие╟еге┐д╟епеще╣╠╛дм╩▌┬╕д╟днд╩ддд╬дЄ╜д└╡
+
+2010-10-22 15:58  bowkenken
+
+	* ChangeLog, man/Makefile.am, man/Makefile.in, src/GuiNum.cpp:
+
+	64bit ┬╨▒■
+
+2010-09-03 21:00  bowkenken
+
+	* ChangeLog, xlnl.spec:
+
+	ver.3.4.18 еъеъб╝е╣
+
+2010-09-03 02:38  bowkenken
+
+	* src/PcgDunTab.h:
+
+	GUI: ╣┐┐хд╬╟ж╜╤д╬╗ы│╨╕·▓╠дЄе░еще╒еге├еп▓╜д╖д┐
+
+2010-09-02 04:12  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	GUI: ▓╨║╥д╚═ы▒└д╬╟ж╜╤д╬╗ы│╨╕·▓╠дЄе░еще╒еге├еп▓╜д╖д┐
+
+2010-09-01 20:15  bowkenken
+
+	* src/: PcgDun.cpp, PcgDunTab.h:
+
+	┤╪╧вд╬двды╩╤┐Їд╬─ъ╡┴░╠├╓дЄ╢сдпд╦д▐д╚дсд┐
+
+2010-09-01 17:57  bowkenken
+
+	* configure, configure.in, src/CuiMouse.cpp, src/config.h.in:
+
+	GUI: е╪е├е└д╬┬╕║▀е┴езе├епдЄ─╔▓├
+
+2010-09-01 17:39  bowkenken
+
+	* src/: GuiChrSheet.cpp, MfcWSCstring.cpp, MfcWSCstring.h,
+	config-dows.h, main-dows.cpp, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	$B%&%#%s%I%&%:BP1~(B
+
+2010-09-01 07:04  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	GUI: ╣╢╖тд╚епеъе╞егелеыд╬╗ы│╨╕·▓╠дЄе░еще╒еге├еп▓╜д╖д┐
+
+2010-09-01 02:00  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: ╝є└┌дъд╬╗ы│╨╕·▓╠дЄе░еще╒еге├еп▓╜д╖д┐
+
+2010-08-21 01:58  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GTK+: iPhone ╚╟д╬▒╞╢┴д╟е╣епеэб╝еыдм├┘дпд╩д├д┐д╬дЄ╜д└╡
+
+2010-08-21 01:18  bowkenken
+
+	* src/PcgDun.cpp:
+
+	└▒│жд╬╩╔д╬е╤е┐б╝еєбже┐еде╫дЄ└▀─ъ▓─╟╜д╦д╖д┐
+
+2010-08-21 00:39  bowkenken
+
+	* configure, configure.in, man/xlnl.eng, man/xlnl.jpn,
+	src/PcgDun.cpp, src/PcgDun.h:
+
+	Denzi д╡дєд╬е┐едеыд╦┬╨▒■
+
+2010-08-18 10:44  bowkenken
+
+	* src/PcgDun.cpp:
+
+	╝Ў╩╕д╬─ё╣│├═д╬╝я╬рдЄ─┤└░
+
+2010-08-18 09:43  bowkenken
+
+	* src/PcgDunTab.h:
+
+	GUI: ╟·╔ўд╬╗ы│╨╕·▓╠дЄе░еще╒еге├еп▓╜д╖д┐
+
+2010-08-17 22:57  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	GUI: ╠Ёд╚╝Ў╩╕д╬╗ы│╨╕·▓╠дЄе░еще╒еге├еп▓╜д╖д┐
+
+2010-08-05 09:08  bowkenken
+
+	* src/: FileList.cpp, Pcg.cpp:
+
+	┼¤╖╫д╬е╗б╝е╓дЄ╝┬┴ї
+
+2010-08-02 04:52  bowkenken
+
+	* src/CuiMouse.cpp:
+
+	GTK+: 1 ╣╘есе├е╗б╝е╕д╬╛ь╣чбв╡п╞░╗■д╦CUI е▐еже╣дм╕·длд╩ддд╬дЄ╜д└╡
+
+2010-08-02 03:51  bowkenken
+
+	* src/: CuiMouse.cpp, MouseMap.cpp:
+
+	GTK+: CUI е▐еже╣д╬е▐е├е╫▓ш╠╠д╬е█едб╝еы┴р║юдЄ╝┬┴ї
+
+2010-08-02 01:55  bowkenken
+
+	* src/: CuiMouse.cpp, CuiMouse.h:
+
+	GTK+: CUI е▐еже╣д╬есе╦ехб╝┼∙д╬е█едб╝еы┴р║юдЄ╝┬┴ї
+
+2010-08-01 16:55  bowkenken
+
+	* src/GuiStat.cpp:
+
+	GTK+: ╩╤┐Їд╬╜щ┤№▓╜╦║дьдЄ╜д└╡
+
+2010-08-01 15:48  bowkenken
+
+	* src/: GlobalVar.h, GuiStat.cpp, GuiStat.h:
+
+	GTK+: е╣е╞б╝е┐е╣╔╜╝ид╬└┌дъ┤╣дие▄е┐еєдЄ╝┬┴ї
+
+2010-08-01 13:44  bowkenken
+
+	* ChangeLog, src/GuiChrSheet.cpp:
+
+	енеуещепе┐бже╖б╝е╚д╬┤щ╩╕╗·д╟╩м╬рд╚╝я┬▓д╬╬╛╩¤дЄ╔╜╝ид╣ды══д╦д╖д┐
+
+2010-08-01 06:09  bowkenken
+
+	* src/GuiChrSheet.cpp:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╟╩м╬рд╚╝я┬▓дЄ╔╜╝ид╣ды══д╦д╖д┐
+
+2010-07-31 12:27  bowkenken
+
+	* src/GuiChrSheet.cpp:
+
+	е┌е├е╚д╬╝я┬▓д╦▒■д╕д╞б╓├╦╜ўб╫д╚б╓╗є═║б╫д╬╔╜╝идЄ╗╚дд╩мд▒ды
+
+2010-07-31 08:59  bowkenken
+
+	* ChangeLog:
+
+	GTK+: CUI е▐еже╣д╬▒жепеъе├епд╟д╬е╣е╞б╝е┐е╣╔╜╝ид╬└┌дъ┤╣дидЄ╝┬┴ї
+
+2010-07-27 00:00  bowkenken
+
+	* src/: CuiMouse.cpp, CuiMouse.h:
+
+	е╣е╞б╝е┐е╣д╬╔╜╝идЄесеєе╨б╝д╚е┌е├е╚д╬┤╓д╟└┌дъ┤╣дидщдьды══д╦д╖д┐
+
+2010-07-26 17:04  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiMenu.cpp:
+
+	GTK+: е┌е├е╚д╬енеуещепе┐бже╖б╝е╚дЄ╝┬┴ї
+
+2010-07-21 07:53  bowkenken
+
+	* src/: Key.cpp, PcgDun.cpp, main-gtk.cpp:
+
+	елб╝е╜еыд╬е╤е┐б╝еє╚╓╣цд╬е╗б╝е╓дЄ╝┬┴ї
+
+2010-07-21 03:17  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, PcgDun.cpp, PcgDun.h,
+	main-iphone.cpp:
+
+	iPhone: е▐е├е╫д╬╔┴▓шдЄ╣т┬о▓╜
+
+2010-07-18 23:29  bowkenken
+
+	* src/: CuiMouse.cpp, CuiMouse.h:
+
+	GTK+: CUI е▐еже╣д╬е└е╓еыбжепеъе├епд╬ежезеде╚дЄ└▀─ъд╟днды══д╦д╖д┐
+
+2010-07-18 18:07  bowkenken
+
+	* src/GuiMenu.cpp:
+
+	GTK+:
+	есе╦ехб╝д╬епеэб╝е║бже▄е├епе╣д╬╜ш═¤дЄенеуеєе╗еыбженб╝░╖ддд╦╩╤╣╣
+
+2010-07-18 16:12  bowkenken
+
+	* src/GuiNum.cpp:
+
+	GTK+: ┐Ї├═╞■╬╧д╬е▄е┐еєдЄ▒жепеъе├епд╟ежегеєе╔еждЄ╩─д╕ды══д╦д╖д┐
+
+2010-07-17 12:35  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, main-iphone.cpp, main-iphone.h:
+
+	iPhone: е─б╝еые╨б╝дЄ╝┬┴ї
+
+2010-07-16 17:52  bowkenken
+
+	* src/: PcgDun.cpp, main-iphone.cpp:
+
+	iPhone: е▐е├е╫д╬║┬╔╕╗╪─ъе╣епеэб╝еыдЄ╝┬┴ї
+
+2010-07-16 05:09  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, main-iphone.cpp:
+
+	iPhone: е▐е├е╫д╬е┐е├е╫дЄ╝┬┴ї
+
+2010-07-15 23:11  bowkenken
+
+	* ChangeLog, src/GuiMenu.cpp:
+
+	GTK+: е╟е╨е├е░═╤е│б╝е╔┴▐╞■
+
+2010-07-15 21:10  bowkenken
+
+	* src/: CuiMouse.cpp, CuiMouse.h:
+
+	GTK+: CUI е▐еже╣д╟д╬е╣е╞б╝е┐е╣▓ш╠╠д╬┴р║юдЄ╝┬┴ї
+
+2010-07-15 17:23  bowkenken
+
+	* src/CuiMouse.cpp:
+
+	GTK+: CUI е▐еже╣д╬▒жд╚├цд╬е▄е┐еєдЄ╞■дь┬╪дидыеке╫е╖ечеєдЄ╝┬┴ї
+
+2010-07-15 16:10  bowkenken
+
+	* sh/ln-lnl-xlnl:
+
+	GUI: е╖еєе▄еъе├епбжеъеєепдЄ─едые╣епеъе╫е╚д╬╚┤д▒═юд┴дЄ╜д└╡
+
+2010-07-15 15:08  bowkenken
+
+	* src/: DemoTitle.h, GraphConf.cpp, Pcg.cpp, PcgDun.cpp, PcgDun.h,
+	main-iphone-prot.h, main-iphone.cpp:
+
+	iPhone: е▐е├е╫д╬╔┴▓шдЄ╝┬┴ї
+
+2010-07-13 19:19  bowkenken
+
+	* src/: main-iphone.cpp, main-iphone.h:
+
+	iPhone: е╣еье├е╔д╬└╕└одЄ╝┬┴ї
+
+2010-07-13 17:47  bowkenken
+
+	* src/: DemoTitle.cpp, GlobalVar.cpp, GlobalVar.h, PcgDun.cpp,
+	PcgDun.h, main-iphone.cpp, main-iphone.h:
+
+	iPhone: е░еще╒еге├еп└▀─ъд╬еэб╝е╔дЄ╝┬┴ї
+
+2010-07-13 13:07  bowkenken
+
+	* src/: DemoTitle.cpp, PcgDun.cpp, main-iphone.cpp:
+
+	iPhone: е┐еде╚еы▓ш╠╠д╬╩╕╗·╔┴▓шдЄ╝┬┴ї
+
+2010-07-09 11:11  bowkenken
+
+	* src/PcgDun.h:
+
+	GUI: iPhone д╬е│б╝е╔дм│░╔Їд╦╕лдид╞ддд┐д╬дЄ╜д└╡
+
+2010-07-09 03:16  bowkenken
+
+	* src/: CuiMouse.cpp, DemoEnding.h, DemoGameOver.h, DemoSpace.h,
+	DemoTitle.cpp, DemoTitle.h, FileList.h, GlobalVar.cpp, GlobalVar.h,
+	GraphConf.h, GuiChrSheet.h, GuiClassEdit.h, GuiMenu.h,
+	GuiMessage.h, GuiNum.cpp, GuiNum.h, GuiReplay.h, GuiSkillEdit.h,
+	GuiStat.h, GuiWords.h, IPhoneMisc.h, IPhoneWSCstring.cpp,
+	IPhoneWSCstring.h, IPhoneWSDimage.h, IPhoneWSDmwindowDev.cpp,
+	IPhoneWSDmwindowDev.h, Key.h, Pcg.cpp, Pcg.h, PcgDun.cpp, PcgDun.h,
+	SelConf.h, config-iphone.h, main-iphone-prot.h, main-iphone.cpp:
+
+	iPhone: е┐еде╚еы▓ш╠╠д╬╟╪╖╩дЄ╝┬┴ї
+
+2010-07-06 09:21  bowkenken
+
+	* src/CuiMouse.cpp:
+
+	GTK+: CUI е▐еже╣д╟д╬еъе╫еьедд╬┴р║юдЄ╝┬┴ї
+
+2010-07-06 08:33  bowkenken
+
+	* ChangeLog, sh/ln-lnl-xlnl:
+
+	е╣епеъе╫е╚д╦е┤е▀дм║од╢д├д╞ддд┐д╬дЄ╜д└╡
+
+2010-07-03 10:31  bowkenken
+
+	* src/CuiMouse.cpp:
+
+	GTK+: CUI е▐еже╣д╟д╬енеуещепе┐бже╖б╝е╚д╬┴р║юдЄ╝┬┴ї
+
+2010-07-03 01:51  bowkenken
+
+	* src/CuiMouse.cpp:
+
+	GTK+: CUI е▐еже╣д╟есе╦ехб╝д╬епеъе├епдЄенеуеєе╗еы╜╨═шды══д╦д╖д┐
+
+2010-07-02 23:21  bowkenken
+
+	* src/: CuiMouse.cpp, CuiMouse.h:
+
+	GTK+: CUI е▐еже╣д╟д╬есе╦ехб╝д╬епеъе├епд╚е▌едеєе╚дЄ╩мд▒д┐
+
+2010-07-02 13:32  bowkenken
+
+	* ChangeLog, src/CuiMouse.cpp, src/CuiMouse.h:
+
+	GTK+: CUI е▐еже╣д╟д╬есе╦ехб╝д╬епеъе├епдЄ╝┬┴ї
+
+2010-06-30 10:20  bowkenken
+
+	* src/: CuiMouse.cpp, main-gtk-prot.h, main-gtk.cpp:
+
+	GTK+: CUI етб╝е╔д╟е▐еже╣дЄ╗╚дяд╩дд╗■д╧ GTK+
+	д╬╜щ┤№▓╜дЄд╖д╩дд══д╦д╖д┐
+
+2010-06-30 08:25  bowkenken
+
+	* configure, configure.in, src/CuiMouse.cpp, src/CuiMouse.h,
+	src/GameSound.cpp, src/GameSound.h, src/GlobalVar.cpp,
+	src/GlobalVar.h, src/Key.cpp, src/Key.h, src/Makefile.am,
+	src/Makefile.in, src/MouseMap.cpp, src/MouseMotion.cpp,
+	src/PcgDun.cpp, src/PcgDun.h, src/config.h.in, src/main-dows.cpp,
+	src/main-gtk-prot.h, src/main-gtk.cpp:
+
+	GTK+: CUI етб╝е╔╗■д╬е▐еже╣┴р║юд╦░ь╔Ї┬╨▒■д╖д┐
+
+2010-06-26 11:38  bowkenken
+
+	* src/GuiLastBoss.cpp:
+
+	XX д╬╣╢╖те╟б╝е┐д╦ double д╟д╩дп long дЄ╗╚дж══д╦д╖д┐
+
+2010-06-21 00:45  bowkenken
+
+	* ChangeLog, sh/ln-lnl-xlnl:
+
+	е╖еєе▄еъе├епбжеъеєепдЄ─едые╣епеъе╫е╚д╬╚┤д▒═юд┴дЄ╜д└╡
+
+2010-06-04 23:06  bowkenken
+
+	* src/: config-dows.h, xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2010-06-04 21:49  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, man/xlnl.eng,
+	man/xlnl.jpn:
+
+	ver.3.4.17 еъеъб╝е╣
+
+2010-06-04 13:46  bowkenken
+
+	* ChangeLog, xlnl.spec, src/Makefile.in:
+
+	ver.3.4.16 еъеъб╝е╣
+
+2010-06-03 21:46  bowkenken
+
+	* src/xlnl-dows/: MenuWnd.cpp, MenuWnd.h, MessageView.cpp,
+	MessageView.h, StatWnd.cpp, StatWnd.h, xlnl-dows.ncb,
+	xlnl-dows.vcproj:
+
+	DX: е▐е├е╫бжежегеєе╔еж░╩│░д╟дтенб╝╞■╬╧дЄ▓─╟╜д╦д╖д┐
+
+2010-06-03 20:01  bowkenken
+
+	* src/: Makefile.am, Makefile.in:
+
+	е╒ебедеы╠╛д╬╬єд╙дЄ─┤└░
+
+2010-05-19 11:05  bowkenken
+
+	* ChangeLog, configure, configure.in, man/xlnl.jpn,
+	src/config-dows.h:
+
+	е╨б╝е╕ече╩е├е╫ ver.3.4.16
+
+2010-05-11 00:31  bowkenken
+
+	* ChangeLog, man/Makefile.am, man/Makefile.in, src/MouseMap.cpp,
+	src/PcgDun.cpp, src/PcgDun.h:
+
+	GUI: е▐еже╣бже█едб╝еыд╬╞■╬╧дЄенб╝д╦╩╤┤╣д╗д║д╦е╣епеэб╝еыд╣ды══д╦д╖д┐
+
+2010-02-24 01:48  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, src/GameMusic.cpp,
+	src/GameMusic.h:
+
+	GUI: ▓╗╢┴д╬е╨е├е╒еббже╡еде║дЄеке╫е╖ечеєд╟└▀─ъд╟днды══д╦д╖д┐
+
+2010-02-01 19:38  bowkenken
+
+	* src/xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2010-02-01 18:26  bowkenken
+
+	* configure, configure.in, xlnl.spec, src/config-dows.h:
+
+	ver.3.4.14 еъеъб╝е╣
+
+2010-02-01 17:28  bowkenken
+
+	* man/xlnl.eng, man/xlnl.jpn, src/DemoEnding.cpp,
+	src/DemoGameOver.cpp, src/DemoSpace.cpp, src/DemoTitle.cpp,
+	src/GuiMessage.cpp, src/PcgDun.cpp:
+
+	▒╤╕ье▐е╦ехевеыдЄ║ю└о
+
+2010-02-01 01:59  bowkenken
+
+	* src/GameMusic.cpp:
+
+	GUI: ╕·▓╠▓╗д╬║╞└╕дм├┘дьдыд╬дЄ╜д└╡
+
+2010-01-13 18:51  bowkenken
+
+	* src/: DemoEnding.cpp, DemoEnding.h, DemoSpace.cpp, DemoSpace.h:
+
+	GUI: еиеєе╟егеєе░д╬╔┴▓ш░╠├╓дЄежегеєе╔ежд╬├ц┐┤д╦╣чд╗д┐
+
+2010-01-12 18:45  bowkenken
+
+	* src/: Makefile.am, Makefile.in:
+
+	е╤е├е▒б╝е╕длдщ╚┤д▒═юд┴д╞ддд┐е╒ебедеыдЄ─╔▓├
+
+2010-01-07 16:22  bowkenken
+
+	* src/: DemoCutIn.cpp, DemoCutIn.h, DemoEnding.cpp, DemoEnding.h,
+	DemoGameOver.cpp, DemoGameOver.h, DemoLastBoss.cpp, DemoLastBoss.h,
+	DemoSpace.cpp, DemoSpace.h, DemoTitle.cpp, DemoTitle.h,
+	FileList.cpp, FileList.h, GameJoystick.cpp, GameJoystick.h,
+	GameMusic.cpp, GameMusic.h, GameSound.cpp, GameSound.h,
+	GameThread.cpp, GameThread.h, GlobalVar.cpp, GlobalVar.h,
+	GraphConf.cpp, GraphConf.h, GraphConfToken.h, GtkMisc.h,
+	GtkWSCstring.cpp, GtkWSCstring.h, GtkWSDimage.h,
+	GtkWSDmwindowDev.cpp, GtkWSDmwindowDev.h, GuiChrSheet.cpp,
+	GuiChrSheet.h, GuiClassEdit.cpp, GuiClassEdit.h,
+	GuiInputString.cpp, GuiInputString.h, GuiLastBoss.cpp,
+	GuiLastBoss.h, GuiMenu.cpp, GuiMenu.h, GuiMessage.cpp,
+	GuiMessage.h, GuiMisc.cpp, GuiMisc.h, GuiNum.cpp, GuiNum.h,
+	GuiReplay.cpp, GuiReplay.h, GuiSkillEdit.cpp, GuiSkillEdit.h,
+	GuiStat.cpp, GuiStat.h, GuiWords.cpp, GuiWords.h, Key.cpp, Key.h,
+	MapFormDraw.cpp, MapFormInit.cpp, MapFormMouseMove.cpp,
+	MapFormMousePress.cpp, MapFormMouseRellease.cpp, MapFormResize.cpp,
+	MapScrollXDraw.cpp, MapScrollXValCh.cpp, MapScrollYDraw.cpp,
+	MapScrollYValCh.cpp, MapWinInit.cpp, MenuWinInit.cpp, MfcMisc.h,
+	MfcWSCstring.cpp, MfcWSCstring.h, MfcWSDimage.h,
+	MfcWSDmwindowDev.cpp, MfcWSDmwindowDev.h, MouseMap.cpp, MouseMap.h,
+	MouseMotion.cpp, MouseMotion.h, Pcg.cpp, Pcg.h, PcgDun.cpp,
+	PcgDun.h, PcgDunTab.h, SelConf.cpp, SelConf.h, SelMbrGraph.cpp,
+	SelMbrGraph.h, WinPos.cpp, WinPos.h, config-dows.h, config-win.h,
+	main-dows.cpp, main-gtk.cpp, main-x.c, main-x.h:
+
+	╢р▓ь┐╖╟п
+
+2010-01-07 15:52  bowkenken
+
+	* sh/ln-lnl-xlnl:
+
+	е╖еєе▄еъе├епбжеъеєепдЄ─едые╣епеъе╫е╚д╦─╔▓├
+
+2009-10-13 05:32  bowkenken
+
+	* .cvsignore, man/.cvsignore, src/.cvsignore, src/msg-jpn-sjis.h:
+
+	Shift-JIS есе├е╗б╝е╕бже╒ебедеыдЄе╖еєе▄еъе├епбжеъеєепд╦д╖д┐
+
+2009-10-13 05:26  bowkenken
+
+	* ChangeLog:
+
+	Shift-JIS есе├е╗б╝е╕бже╒ебедеыдЄе╖еєе▄еъе├епбжеъеєепд╦д╖д┐
+
+2009-10-05 23:21  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	╩ї╚вд╬еведе╞ербжеъе╣е╚дЄ╝┬┴ї
+
+2009-10-05 19:52  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	еведе╞ербжеъе╣е╚длдщ╩ї╚вд╦─╛└▄еведе╞ердЄд╖д▐диды══д╦д╖д┐
+
+2009-10-04 20:04  bowkenken
+
+	* src/: GameMusic.cpp, GameMusic.h, GameSound.cpp, GameSound.h,
+	msg-jpn-sjis.h:
+
+	BGM/SE д╬▓╗╬╠└▀─ъдЄ╝┬┴ї
+
+2009-10-01 00:56  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	║ю└яд╬е│е╘б╝д╟есе╦ехб╝╠╛д╬┬чб┐╛одЄ╢ш╩╠д╖д┐
+
+2009-09-28 19:02  bowkenken
+
+	* configure, configure.in, src/config.h.in:
+
+	GTK+: е╟е╒ейеые╚д╬╕└╕ьдЄ UTF-8 д╦д╖д┐
+
+2009-09-25 12:02  bowkenken
+
+	* src/PcgDunTab.h:
+
+	░ь╔Їд╬├це▄е╣д╬е┐едеыдм└▀─ъд╡дьд╞ддд╩длд├д┐д╬дЄ╜д└╡
+
+2009-09-21 10:18  bowkenken
+
+	* src/: config-dows.h, xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2009-09-21 09:37  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, man/xlnl.jpn:
+
+	ver.3.4.13 еъеъб╝е╣
+
+2009-09-19 11:13  bowkenken
+
+	* src/main-gtk.cpp:
+
+	GTK+: е▐е├е╫д╬е┐еде▐╔┴▓шд╦╟╙┬╛└й╕цдЄ─╔▓├
+
+2009-09-19 09:47  bowkenken
+
+	* src/main-gtk.cpp:
+
+	е▐е├е╫д╬е┐еде▐╔┴▓шд╦╟╙┬╛└й╕цдЄ╝┬┴ї
+
+2009-09-18 07:30  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	е╓б╝есещеєд╬┤м╩кдЄ╝┬┴ї
+
+2009-09-14 02:48  bowkenken
+
+	* src/: DemoCutIn.cpp, msg-jpn-sjis.h:
+
+	еле├е╚едеєдЄе╣ене├е╫╜╨═шды══д╦д╖д┐
+
+2009-09-13 07:50  bowkenken
+
+	* src/: DemoSpace.cpp, DemoSpace.h, msg-jpn-sjis.h:
+
+	└▒д╬┐ЇдЄ└▀─ъд╟днды══д╦д╖д┐
+
+2009-09-13 04:48  bowkenken
+
+	* src/: DemoEnding.cpp, DemoEnding.h:
+
+	еиеєе╟егеєе░д╬│╞е╖б╝еєдЄе╣ене├е╫╜╨═шды══д╦д╖д┐
+
+2009-09-12 17:53  bowkenken
+
+	* src/DemoSpace.cpp:
+
+	GUI: е╟етд╬└▒д╬┐здЄ╠└дыдп─┤└░
+
+2009-09-12 08:27  bowkenken
+
+	* ChangeLog:
+
+	ver.3.4.12 еъеъб╝е╣
+
+2009-09-12 01:40  bowkenken
+
+	* src/GuiWords.cpp:
+
+	GUI: ╜щ┤№╛ї┬╓д╬┬ц╗ьежегеєе╔еждЄ┬чдндпд╖д┐
+
+2009-09-07 00:35  bowkenken
+
+	* src/: DemoCutIn.cpp, PcgDun.cpp:
+
+	GUI: еле├е╚едеєд╬╜к╬╗е┴езе├епдЄ╜д└╡
+
+2009-09-06 22:54  bowkenken
+
+	* man/xlnl.jpn:
+
+	епеье╕е├е╚дЄ─┤└░
+
+2009-09-06 21:17  bowkenken
+
+	* man/xlnl.jpn:
+
+	Usage д╬╔╜╝идЄ─┤└░
+
+2009-09-05 21:06  bowkenken
+
+	* src/: config-dows.h, xlnl-dows/ButtonR.cpp, xlnl-dows/ButtonR.h,
+	xlnl-dows/xlnl-dows.ncb:
+
+	DX: ├цепеъе├епд╟д╬есе╦ехб╝бже╤е╣д╬е│е╘б╝дЄ╝┬┴ї
+
+2009-09-05 20:40  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h:
+
+	GUI: ├цепеъе├епд╟д╬есе╦ехб╝бжелб╝е╜еыд╬░▄╞░дЄ╩╠есе╜е├е╔д╦│чдъ╜╨д╖д┐
+
+2009-09-05 04:34  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, man/xlnl.jpn:
+
+	е╨б╝е╕ече╩е├е╫ ver.3.4.12
+
+2009-09-05 00:26  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	┼╣д╬╛ж╔╩д╬├═├╩д╬╔╜╝идЄ┬╖дид┐
+
+2009-09-04 21:37  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h:
+
+	GTK+: ├цепеъе├епд╟д╬есе╦ехб╝бже╤е╣д╬е│е╘б╝дЄ╝┬┴ї
+
+2009-09-04 20:35  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	─╛┴░д╦╛здид┐╝Ў╩╕дЄ║╞┼┘▒╙╛зд╣дыесе╦ехб╝дЄ╝┬┴ї
+
+2009-09-03 20:47  bowkenken
+
+	* ChangeLog, src/msg-jpn-sjis.h:
+
+	╢у═╖╗э┐═дм│┌┤я╠╡д╖д╟б╓╕┬─ъ▓─б╫д╦д╩дыеье┘еыдЄ─┤└░
+
+2009-08-31 17:05  bowkenken
+
+	* src/Key.cpp:
+
+	GUI: е╠еыбжеде┘еєе╚═╤д╬енб╝дЄе▐епеэ┼╕│лд╖д╩дд══д╦╜д└╡
+
+2009-08-30 04:26  bowkenken
+
+	* src/Key.cpp:
+
+	е╒ебеєепе╖ечеєбженб╝дЄенб╝бже╨е├е╒ебд╦─╔▓├д╣ды╗■д╦е▐епеэ┼╕│лд╖д╞ддд┐д╬дЄ╜д└╡
+
+2009-08-29 18:05  bowkenken
+
+	* src/GuiInputString.cpp:
+
+	GUI: 1 ╣╘╞■╬╧д╟еие╣е▒б╝е╫╠╡д╖д╟▓■╣╘дЄ╞■╬╧д╟днды══д╦д╖д┐
+
+2009-08-29 15:11  bowkenken
+
+	* sh/ln-lnl-xlnl:
+
+	lnl длдщ xlnl д╪д╬е╜б╝е╣д╬е╖еєе▄еъе├епбжеъеєепбже╣епеъе╫е╚дЄ╣╣┐╖
+
+2009-08-28 14:40  bowkenken
+
+	* ChangeLog, src/PcgDun.cpp, src/PcgDun.h, src/PcgDunTab.h:
+
+	GUI: ┼идл╠г╩¤длд╦дшд├д╞елб╝е╜еыд╬┐здЄ╩╤диды══д╦д╖д┐
+
+2009-08-22 13:01  bowkenken
+
+	* src/: WinPos.cpp, main-dows.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2009-08-21 19:34  bowkenken
+
+	* src/GameJoystick.cpp:
+
+	е╒ебеєепе╖ечеєбже╖б╝е▒еєе╣д╬е╗б╝е╓б┐еэб╝е╔дЄ╝┬┴ї
+
+2009-08-18 20:25  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	XX д╬╞╔д▀дмд╩дЄ─┤└░
+
+2009-08-16 14:15  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	е╕ечеде╣е╞еге├епд╬е▄е┐еє│фдъ┼Ўд╞д╬есе╦ехб╝дЄ╝┬┴ї
+
+2009-08-16 13:20  bowkenken
+
+	* src/: GameJoystick.cpp, msg-jpn-sjis.h:
+
+	е╕ечеде╣е╞еге├епд╬е╒ебеєепе╖ечеєбже╖б╝е▒еєе╣дЄ╝┬┴ї
+
+2009-08-15 13:46  bowkenken
+
+	* src/: Key.cpp, MouseMap.cpp, WinPos.cpp, msg-jpn-sjis.h:
+
+	е╒ебеєепе╖ечеєбженб╝д╚е▐еже╣д╬е╒ебеєепе╖ечеєбже╖б╝е▒еєе╣дЄ╝┬┴ї
+
+2009-08-09 16:37  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	е▐е├е╫▓ш╠╠д╬е╡еде║дЄ╩╤╣╣▓─╟╜д╦д╖д┐
+
+2009-08-09 10:43  bowkenken
+
+	* src/: DemoCutIn.cpp, GuiLastBoss.cpp, PcgDun.cpp:
+
+	GUI: GUI ═╤д╬═Ё┐ЇдЄ╗╚═╤д╖д╞ддд╩дд╔Ї╩мдЄ╜д└╡
+
+2009-08-09 08:45  bowkenken
+
+	* src/: Key.cpp, MouseMap.cpp:
+
+	GUI: е╒ебеєепе╖ечеєбженб╝дЄ╟з╝▒д╖д╩ддд╬дЄ╜д└╡
+
+2009-08-05 01:32  bowkenken
+
+	* src/MouseMap.cpp:
+
+	GUI: е▐еже╣бже█едб╝еыд╟е╣епеэб╝еы╜╨═шд╩длд├д┐д╬дЄ╜д└╡
+
+2009-08-01 04:03  bowkenken
+
+	* src/: DemoEnding.h, DemoSpace.cpp, DemoSpace.h, MouseMap.cpp:
+
+	еиеєе╟егеєе░д╬▒з├шдЄ┴р║ю▓─╟╜д╦д╖д┐
+
+2009-08-01 03:01  bowkenken
+
+	* src/: SelConf.cpp, SelConf.h:
+
+	е░еще╒еге├еп└▀─ъд╬еъе╣е╚д╬е╣епеэб╝еыдЄ╝┬┴ї
+
+2009-08-01 02:07  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, man/xlnl.jpn,
+	src/config-dows.h:
+
+	е╨б╝е╕ече╩е├е╫ ver.3.4.11
+
+2009-08-01 01:32  bowkenken
+
+	* src/: DemoEnding.cpp, msg-jpn-sjis.h:
+
+	GUI: еие╘еэб╝е░дЄ▒╤╕ьд╦┬╨▒■
+
+2009-07-31 21:10  bowkenken
+
+	* src/: GuiInputString.cpp, msg-jpn-sjis.h:
+
+	GTK+: Enter енб╝д╟╩╕╗·╬є╞■╬╧д╬ OK е▄е┐еєдЄ╝┬╣╘д╟днды══д╦д╖д┐
+
+2009-07-30 23:24  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	GUI: есе╦ехб╝бже╤е╣д╬е│е▐еєе╔дм╞■╬╧д╟днд╩ддд╬дЄ╜д└╡
+
+2009-07-28 19:49  bowkenken
+
+	* ChangeLog, src/SelConf.cpp:
+
+	GTK+: е░еще╒еге├еп└▀─ъд╬└ё┬Єд╟ Enter енб╝д╦дшды│л╗╧дЄ╝┬┴ї
+
+2009-07-26 05:59  bowkenken
+
+	* configure, configure.in, src/config.h.in:
+
+	ver.3.4.10 еъеъб╝е╣
+
+2009-07-26 05:47  bowkenken
+
+	* src/: config-dows.h, main-dows.cpp, xlnl-dows/MainFrm.cpp,
+	xlnl-dows/MainFrm.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2009-07-25 20:32  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	еведе╞ерд╦╠╛╔╒д▒ды╗■д╦╩╠╠╛д╬епеъев╩¤╦бдЄ╔╜╝ид╣ды══д╦д╖д┐
+
+2009-07-25 19:20  bowkenken
+
+	* configure, configure.in, xlnl.spec, man/xlnl.jpn:
+
+	е╨б╝е╕ече╩е├е╫ ver.3.4.10
+
+2009-07-23 21:25  bowkenken
+
+	* src/: main-gtk-prot.h, main-gtk.cpp, msg-jpn-sjis.h:
+
+	GTK+: ╕└╕ьдм▒╤╕ьд╬╗■б√б▀е▄е┐еєд╬░╒╠гдЄ╞■дь┬╪дид┐
+
+2009-07-18 22:16  bowkenken
+
+	* src/: main-gtk.cpp, msg-jpn-sjis.h:
+
+	GTK+: е▐е├е╫д╬е─б╝еыбже╨б╝дЄ─┤└░
+
+2009-07-13 15:38  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	░══ъд╟├ч┤╓дм▓├дяды╗■д╦└й╕┬┐═┐ЇдЄ─╢дидыд╚░══ъдм░█╛яд╦д╩дыд╬дЄ╜д└╡
+
+2009-07-13 14:30  bowkenken
+
+	* ChangeLog, sh/make-change-log:
+
+	ChangeLog д╬е╒ейб╝е▐е├е╚дЄ─┤└░
+
+2009-07-13 02:27  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	╚┤д▒═юд┴д╞ддд┐╝Ў╩╕дЄ─╔▓├
+
+2009-07-12 20:45  bowkenken
+
+	* ChangeLog:
+
+	ver.3.4.9 еъеъб╝е╣
+
+2009-07-12 20:38  bowkenken
+
+	* src/: GuiMenu.cpp, config-dows.h, main-dows.cpp,
+	xlnl-dows/Dir3d.cpp, xlnl-dows/xlnl-dows.cpp,
+	xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2009-07-11 22:57  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h, WinPos.cpp, WinPos.h, main-gtk.cpp,
+	msg-jpn-sjis.h:
+
+	GTK+: есе╦ехб╝д╬е╟е╒ейеые╚╣р╠▄д╪д╬е▐еже╣д╬╝л╞░░▄╞░дЄ▓╛╝┬┴ї
+
+2009-07-11 12:24  bowkenken
+
+	* src/: GuiSkillEdit.cpp, GuiSkillEdit.h:
+
+	GTK+: е╣енеы╩╘╜╕ежегеєе╔ежд╬е╥еєе╚д╬╔╜╝идЄ╝┬┴ї
+
+2009-07-04 18:19  bowkenken
+
+	* src/: main-gtk-prot.h, main-gtk.cpp, msg-jpn-sjis.h:
+
+	GTK+: е▐е├е╫бжежегеєе╔ежд╬е─б╝еыбже╨б╝д╬е▄е┐еєд╬еще┘еыдЄ╩╤╣╣
+
+2009-07-04 17:17  bowkenken
+
+	* src/Key.cpp:
+
+	есе╜е├е╔д╬░·┐Їд╬е│есеєе╚дЄ─╔▓├
+
+2009-07-04 10:23  bowkenken
+
+	* src/: MouseMap.cpp, main-dows-prot.h, main-dows.cpp,
+	main-gtk-prot.h, main-gtk.cpp:
+
+	GUI:
+	енб╝е▄б╝е╔д╟┴р║юд╖д┐╗■д╦дте╣е╞б╝е┐е╣бже╨б╝д╦е╥еєе╚дЄ╔╜╝ид╣ды══д╦д╖д┐
+
+2009-07-03 19:36  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMessage.cpp, GuiMessage.h, GuiNum.cpp,
+	GuiStat.cpp, GuiStat.h, GuiWords.cpp, Key.cpp, Key.h, main-gtk.cpp:
+
+	GTK+: │╞ежегеєе╔еждЄенб╝╞■╬╧д╦┬╨▒■
+
+2009-07-02 10:44  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiSkillEdit.cpp, msg-jpn-sjis.h:
+
+	е╣е┌б╝е╣бже╨б╝д╟└ё┬Єд╦┬╨▒■д╖д╞ддд╩дд▓ш╠╠дмдвдыд╬дЄдЄ╜д└╡
+
+2009-06-30 04:12  bowkenken
+
+	* configure, configure.in, xlnl.spec, man/xlnl.jpn:
+
+	е╨б╝е╕ече╩е├е╫ ver.3.4.9
+
+2009-06-28 18:37  bowkenken
+
+	* ChangeLog, src/GameJoystick.cpp, src/GuiMenu.cpp, src/Key.cpp,
+	src/Key.h, src/main-gtk.cpp:
+
+	GUI: ╕╟─ъд╬енб╝бже│е▐еєе╔дме▐епеэ┼╕│лд╡дьд╞д╖д▐джд╬дЄ╜д└╡
+
+2009-06-24 19:44  bowkenken
+
+	* src/: GuiWords.cpp, config-dows.h, xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2009-06-24 11:44  bowkenken
+
+	* configure, src/GuiWords.cpp, src/GuiWords.h:
+
+	GUI: ┬ц╗ьежегеєе╔ежд╦енеуещепе┐╠╛дЄ╔╜╝ид╟днды══д╦д╖д┐
+
+2009-06-22 08:49  bowkenken
+
+	* configure.in, xlnl.spec, man/xlnl.jpn:
+
+	е╨б╝е╕ече╩е├е╫
+
+2009-06-21 23:55  bowkenken
+
+	* ChangeLog, Makefile.in, configure, configure.in, man/Makefile.in,
+	src/Makefile.in, src/config.h.in:
+
+	UTF-8 д╟дтелещб╝╔╜╝идм╜╨═шды══д╦д╖д┐
+
+2009-06-21 22:47  bowkenken
+
+	* ChangeLog, src/GameMusic.cpp, src/GuiMenu.cpp,
+	src/msg-jpn-sjis.h:
+
+	GUI: есе╦ехб╝д╬┴к┬Є╣р╠▄д╦╠▄░їдЄ╔┴▓шд╣ды══д╦д╖д┐
+
+2009-06-06 19:58  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GTK+: ╗ы│╨╕·▓╠д╬╔┴▓шдЄ╝┬┴ї
+
+2009-06-06 19:19  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, man/xlnl.jpn,
+	src/main-dows.cpp, src/main-gtk.cpp:
+
+	UTF-8 ┬╨▒■
+
+2009-06-06 15:27  bowkenken
+
+	* src/: GuiLastBoss.cpp, GuiLastBoss.h:
+
+	GUI: ╜╠╛о╔╜╝ид╬╗■д╦ XX д╬┤╪└сд╬║┬╔╕дмд║дьдыд╬дЄ╜д└╡
+
+2009-06-06 14:48  bowkenken
+
+	* src/GuiLastBoss.cpp:
+
+	GUI: XX дм┼╨╛ь┴░д╦░ь╔Ї╔┴▓шд╡дьд╞ддд┐д╬дЄ╜д└╡
+
+2009-06-06 14:37  bowkenken
+
+	* ChangeLog, src/DemoLastBoss.cpp:
+
+	GUI: еле├е╚едеєд╬║╟╕хд╬е╒еьб╝ердм╔┴▓шд╡дьд╩ддд╬дЄ╜д└╡
+
+2009-06-04 04:25  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, man/xlnl.jpn,
+	src/DemoEnding.cpp, src/DemoGameOver.cpp, src/DemoSpace.cpp,
+	src/GameMusic.cpp, src/SelMbrGraph.cpp, src/main-dows.cpp,
+	src/main-gtk.cpp:
+
+	GTK+: ╕·▓╠▓╗д╚ BGM д╦ GUI д╬╟╙┬╛╜ш═¤дЄ─╔▓├
+
+2009-06-04 03:09  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiStat.cpp:
+
+	GTK+: еще┘еы┼∙д╬╜щ┤№▓╜╩╕╗·╬єдм─╣▓сдод┐д╬дЄ╜д└╡
+
+2009-06-04 02:48  bowkenken
+
+	* src/GameJoystick.cpp:
+
+	GUI: SDL дм╗╚═╤▓─╟╜длд╬е┴езе├епдтдьдЄ╜д└╡
+
+2009-06-04 02:21  bowkenken
+
+	* src/main-gtk.cpp:
+
+	GUI: CUI етб╝е╔д╟╕·▓╠▓╗д╚ BGM дЄ║╞└╕д╟днды══д╦д╖д┐
+
+2009-06-04 01:56  bowkenken
+
+	* ChangeLog, src/GuiNum.cpp:
+
+	GTK+:
+	┐Ї├═╞■╬╧дЄ│лдпд╚б╓GtkSpinButtonб╫д╬╖┘╣Ёесе├е╗б╝е╕дм╜╨дыд╬дЄ╜д└╡
+
+2009-06-01 15:29  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiClassEdit.cpp, GuiSkillEdit.cpp,
+	GuiStat.cpp:
+
+	еце╦е│б╝е╔д╬╩╕╗·┐Їд╚е╨еде╚┐ЇдЄ╩мдыд╬дЄ┼░─ьд╖д┐
+
+2009-05-31 16:23  bowkenken
+
+	* src/: GameSound.cpp, GameSound.h:
+
+	GUI: ╕·▓╠▓╗дЄ┬┐┐Ї─╔▓├
+
+2009-05-29 13:53  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	GUI: есеєе╨б╝бжевеєелб╝д╬╔┴▓шдЄ╝┬┴ї
+
+2009-05-29 11:03  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	б╓╕─╩╠д╬евеєелб╝б╫дЄб╓есеєе╨б╝бжевеєелб╝б╫д╦╕╞╛╬╩╤╣╣
+
+2009-05-29 09:00  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: е╡е╓бжелб╝е╜еыд╬▓ш┴№дЄ╞╔д▀╣■дрд╬дЄ╦║дьд╞ддд┐д╬дЄ╜д└╡
+
+2009-05-28 23:22  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h:
+
+	GUI:
+	е┐едеы╚╟д╚е╞ене╣е╚╚╟д╟елб╝е╜еыд╬е╡еде║дм░уджд╚╔┴▓шд╬е┤е▀дм╜╨дыд╬дЄ╜д└╡
+
+2009-05-28 17:44  bowkenken
+
+	* src/: MouseMap.cpp, MouseMap.h, MouseMotion.cpp, msg-jpn-sjis.h:
+
+	GUI: е┐б╝еєд╬╝┬╣╘├цд╧е▐еже╣д╬епеъе├епдЄ╝їд▒╔╒д▒д╩дд══д╦д╖д┐
+
+2009-05-27 15:26  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiStat.cpp:
+
+	еце╦е│б╝е╔д╬╩╕╗·┐Їд╚е╨еде╚┐ЇдЄ╩мд▒д╞┤╔═¤д╣ды══д╦╜д└╡
+
+2009-05-27 10:57  bowkenken
+
+	* src/: GuiChrSheet.cpp, msg-jpn-sjis.h:
+
+	GTK+:
+	енеуещепе┐бже╖б╝е╚д╬еведе╞ерб┐┴ї╚ўбже┐е╓д╬╔╜╝ид╦е┤е▀дм╗─дыд╬дЄ╜д└╡
+
+2009-05-26 18:39  bowkenken
+
+	* .cvsignore, Makefile.am, Makefile.in, configure, configure.in,
+	xlnl.spec, src/GameSound.cpp, src/GameSound.h,
+	src/GtkWSCstring.cpp, src/GtkWSCstring.h, src/msg-jpn-sjis.h:
+
+	╕·▓╠▓╗дЄ─╔▓├
+
+2009-05-25 09:32  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, man/xlnl.jpn,
+	src/PcgDun.cpp:
+
+	╗ы│╨╕·▓╠д╬╔┴▓ш╕хд╦▓ш╠╠д╦е┤е▀дм╗─дыд╬дЄ╜д└╡
+
+2009-05-24 21:39  bowkenken
+
+	* src/: config-dows.h, xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2009-05-24 20:28  bowkenken
+
+	* configure.in, xlnl.spec, man/xlnl.jpn:
+
+	ver.3.4.4 еъеъб╝е╣
+
+2009-05-24 20:03  bowkenken
+
+	* src/: PcgDun.cpp, xlnl-dows/Dir3d.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: е╞ене╣е╚бжетб╝е╔д╟д╬╗ы│╨╕·▓╠д╬╔┴▓шдЄ╝┬┴ї
+
+2009-05-24 00:59  bowkenken
+
+	* src/GuiWords.cpp:
+
+	есе├е╗б╝е╕д╬еъеєе░бже╨е├е╒ебдм░ь╝■д╣ды┼┘д╦╟█╬є│░д╦╜ёдн╣■дрд╬дЄ╜д└╡
+
+2009-05-20 14:58  bowkenken
+
+	* src/: config-dows.h, xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2009-05-20 14:17  bowkenken
+
+	* ChangeLog, Makefile.am, Makefile.in, configure, configure.in:
+
+	ver.3.4.3 еъеъб╝е╣
+
+2009-05-20 13:11  bowkenken
+
+	* Makefile.in, configure, configure.in, xlnl.spec,
+	data/Makefile.in, man/Makefile.in, man/xlnl.jpn, src/GameSound.h,
+	src/Makefile.in:
+
+	Fedora 10 д╟е│еєе╤едеы
+
+2009-05-15 01:03  bowkenken
+
+	* ChangeLog, play-xlnl/xlnl-english, play-xlnl/xlnl-eucjp,
+	play-xlnl/xlnl-utf-8:
+
+	е╨б╝е╕ече╩е├е╫
+
+2009-05-14 20:26  bowkenken
+
+	* src/: config-dows.h, xlnl-dows/xlnl-dows.ncb:
+
+	ежегеєе╔еже║┬╨▒■
+
+2009-05-14 18:21  bowkenken
+
+	* src/: GameJoystick.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: е╕ечеде╣е╞еге├епд╬е╡е┐б╝еєбже╤е├е╔д╦┬╨▒■д╖д┐
+
+2009-05-14 17:33  bowkenken
+
+	* src/: GuiChrSheet.cpp, SelMbrGraph.cpp,
+	xlnl-dows/ChrSheetStat.cpp, xlnl-dows/ChrSheetStat.h,
+	xlnl-dows/resource.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc:
+
+	DX: енеуещепе┐бже╖б╝е╚д╬▓ш┴№е╒ебедеы┴к┬ЄдЄ╝┬┴ї
+
+2009-05-14 11:29  bowkenken
+
+	* src/: GuiStat.cpp, xlnl-dows/StatWnd.cpp, xlnl-dows/StatWnd.h,
+	xlnl-dows/resource.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb:
+
+	DX: е╣е╞б╝е┐е╣бжежегеєе╔ежд╬│м┴╪д╚╗■┤╓д╬╔╜╝идЄ╝┬┴ї
+
+2009-05-14 09:26  bowkenken
+
+	* configure, configure.in, xlnl.spec, man/xlnl.jpn:
+
+	е╨б╝е╕ече╩е├е╫
+
+2009-05-14 08:37  bowkenken
+
+	* src/: PcgDun.cpp, SelMbrGraph.cpp, SelMbrGraph.h, main-gtk.cpp:
+
+	GTK+: енеуеще░ещ┴к┬Єд╬╔┴▓шдм╜┼ддд╬дЄ╜д└╡
+
+2009-05-12 13:08  bowkenken
+
+	* ChangeLog, src/GuiStat.cpp, src/GuiStat.h:
+
+	GTK+: е╣е╞б╝е┐е╣бжежегеєе╔ежд╬│м┴╪д╚╗■┤╓д╬╔╜╝идЄ╝┬┴ї
+
+2009-05-12 09:34  bowkenken
+
+	* src/WinPos.cpp:
+
+	ежегеєе╔ежд╬║┬╔╕дЄ└▀─ъд╖д╩ддеке╫е╖ечеєдЄ─╔▓├
+
+2009-04-11 15:56  bowkenken
+
+	* src/WinPos.cpp:
+
+	GTK+: ежегеєе╔ежбже╡еде║дЄ└▀─ъд╟днды══д╦д╩д├д┐
+
+2009-04-02 19:53  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, man/xlnl.jpn,
+	src/WinPos.cpp:
+
+	GTK+: GNOME ░╩│░д╟ежегеєе╔еждм╛б╝ъд╦░▄╞░д╣дыд╬дЄ╜д└╡бг
+
+2009-03-13 23:54  bowkenken
+
+	* src/: WinPos.cpp, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb:
+
+	DX: е└едевеэе░д╧ежегеєе╔ежбже╡еде║дЄ└▀─ъд╖д╩дд══д╦д╖д┐
+
+2009-03-12 04:00  bowkenken
+
+	* ChangeLog, src/MouseMap.cpp:
+
+	GUI: е▐е├е╫д╬├╝дЄе▌едеєе╚д╣дыд╚е╣епеэб╝еыд╖д╞д╖д▐джд╬дЄ╜д└╡
+
+2009-03-12 02:19  bowkenken
+
+	* src/: GuiNum.cpp, xlnl-dows/InputNumDlg.cpp,
+	xlnl-dows/xlnl-dows.ncb:
+
+	DX: ┐Ї├═╞■╬╧д╬ежегеєе╔еже║┬╨▒■
+
+2009-03-11 19:51  bowkenken
+
+	* src/: GuiNum.cpp, GuiNum.h:
+
+	GTK+: ┐Ї├═╞■╬╧ежегеєе╔еждм╕э║ю╞░д╣дыд╬дЄ╜д└╡
+
+2009-03-10 20:51  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	Shift-JIS ╩╤┤╣
+
+2009-03-04 20:47  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiClassEdit.cpp, GuiInputString.cpp,
+	GuiMenu.cpp, GuiMessage.cpp, GuiNum.cpp, GuiReplay.cpp,
+	GuiSkillEdit.cpp, GuiStat.cpp, GuiWords.cpp:
+
+	GTK+: есе├е╗б╝е╕бжежегеєе╔ежд╬╜щ┤№░╠├╓дм└▀─ъд╟днд╩ддд╬дЄ╜д└╡бг
+	GTK+: е╣е╞б╝е┐е╣бжежегеєе╔еждм╔╜╝ид╟днд╩ддд╬дЄ╜д└╡бг
+
+2009-02-24 19:13  bowkenken
+
+	* ChangeLog, src/PcgDun.cpp:
+
+	GUI: еще╣е▄е╣д╬│м┐Їд╬░╖дддЄ╩╤╣╣
+
+2009-02-20 16:23  bowkenken
+
+	* src/GuiStat.cpp:
+
+	есе╦ехб╝дЄ╩─д╕ды╜ш═¤дЄ╕╡д╦╠сд╖д┐
+
+2009-02-19 12:42  bowkenken
+
+	* src/: GuiInputString.cpp, GuiStat.cpp, Key.cpp,
+	StatWinDAInit.cpp:
+
+	енб╝бже╨е├е╒ебд╪д╬─╔▓├╜ш═¤дЄ└ш╞мд╚╦Ў╚°д╟╩╠┤╪┐Їд╦╩мд▒д┐
+
+2009-02-19 11:11  bowkenken
+
+	* src/: Pcg.cpp, Pcg.h:
+
+	GUI: ╚∙╠пд╦║╟┼м▓╜ (╕·▓╠╠╡д╖)
+
+2009-02-17 09:59  bowkenken
+
+	* src/xlnl-dows/xlnl-dows.ncb:
+
+	DX: ежегеєе╔еже║┬╨▒■
+
+2009-02-17 07:11  bowkenken
+
+	* src/: GuiClassEdit.cpp, GuiClassEdit.h, GuiSkillEdit.cpp,
+	GuiSkillEdit.h:
+
+	GTK+: епеще╣б┐е╣енеыбжеие╟еге┐д╟╩╘╜╕д╖д┐епеще╣╠╛дЄ╩▌┬╕▓─╟╜д╦д╖д┐
+
+2009-02-17 06:39  bowkenken
+
+	* src/: GuiClassEdit.cpp, GuiSkillEdit.cpp, msg-jpn-sjis.h:
+
+	GTK+: е▄е┐еєд╬еще┘еыдЄ╣ё║▌▓╜
+
+2009-02-16 17:09  bowkenken
+
+	* src/: GameSound.cpp, GuiSkillEdit.cpp, GuiSkillEdit.h,
+	xlnl-dows/SkillEditDlg.cpp, xlnl-dows/SkillEditDlg.h,
+	xlnl-dows/resource.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: е╣енеыбжеие╟еге┐д╬ежегеєе╔еждЄ╝┬┴ї
+
+2009-02-14 15:07  bowkenken
+
+	* src/: GuiSkillEdit.cpp, GuiSkillEdit.h:
+
+	GTK+: е╣енеыбжеие╟еге┐д╬е┌б╝е╕└┌дъ┬╪дие▄е┐еєдЄ╝┬┴ї
+
+2009-02-14 13:44  bowkenken
+
+	* xlnl.spec, src/GlobalVar.cpp, src/GlobalVar.h,
+	src/GuiClassEdit.cpp, src/GuiSkillEdit.cpp, src/GuiSkillEdit.h,
+	src/Makefile.am, src/Makefile.in, src/WinPos.cpp:
+
+	GTK+: е╣енеыбжеие╟еге┐дЄ╝┬┴ї
+
+2009-02-12 15:45  bowkenken
+
+	* src/: GuiChrSheet.cpp, xlnl-dows/ChrSheetSheet.cpp,
+	xlnl-dows/ChrSheetSheet.h, xlnl-dows/ChrSheetSkillA.cpp,
+	xlnl-dows/ChrSheetSkillA.h, xlnl-dows/resource.h,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: енеуещепе┐бже╖б╝е╚д╬е╣енеыдЄ╝┬┴ї
+
+2009-02-09 18:04  bowkenken
+
+	* src/: DemoSpace.cpp, DemoTitle.cpp:
+
+	DX: ежегеєе╔еже║┬╨▒■
+
+2009-02-09 17:08  bowkenken
+
+	* src/: DemoSpace.cpp, DemoSpace.h, DemoTitle.cpp, GuiChrSheet.cpp,
+	config-dows.h, main-dows.cpp, xlnl-dows/ChrSheetAbl.cpp,
+	xlnl-dows/ChrSheetEquip.cpp, xlnl-dows/ChrSheetItem.cpp,
+	xlnl-dows/ChrSheetStat.cpp, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: ежегеєе╔еже║┬╨▒■
+
+2009-02-06 10:46  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╬е╣енеыд╬е╥еєе╚д╬╔╜╝идЄ╝┬┴ї
+
+2009-02-06 07:34  bowkenken
+
+	* src/GuiWords.cpp:
+
+	GTK+: ░══ъдм└╡д╖дп╔╜╝ид╡дьд╩ддд╬дЄ╜д└╡
+
+2009-02-06 06:09  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╬е╣енеыбже┐е╓дЄ╝┬┴ї
+
+2009-02-04 03:13  bowkenken
+
+	* ChangeLog, src/Makefile.am, src/Makefile.in, src/msg-jpn-sjis.h:
+
+	е╒ебедеыдЄ─╔▓├
+
+2009-01-25 15:15  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	RAF дЄ╟╦▓ї╔╘╟╜д╦д╖д┐
+
+2009-01-25 14:13  bowkenken
+
+	* src/: DemoEnding.cpp, DemoEnding.h, msg-jpn-sjis.h:
+
+	GUI: еие╘еэб╝е░д╬╩╕╗·╬єдЄе╗еєе┐еъеєе░д╖д╞╔┴▓шд╣ды══д╦д╖д┐
+
+2009-01-25 13:05  bowkenken
+
+	* src/DemoSpace.cpp:
+
+	GUI: е╣е┐е├е╒бжеэб╝еыд╬┬од╡дЄ─┤└░
+
+2009-01-25 08:36  bowkenken
+
+	* configure, configure.in, src/config.h.in:
+
+	GUI: CUI етб╝е╔д╟д╩дд╗■д╧енб╝╞■╬╧д╦ежезеде╚дЄ╞■дьды══д╦д╖д┐
+
+2009-01-25 06:12  bowkenken
+
+	* src/GuiNum.cpp:
+
+	GUI: ┐Ї├═╞■╬╧дЄенеуеєе╗еы╜╨═шды══д╦д╖д┐
+
+2009-01-25 01:15  bowkenken
+
+	* src/: GuiLastBoss.cpp, GuiLastBoss.h:
+
+	GUI: XX д╬еве┤д╬│л╩─дЄ╝┬┴ї
+
+2009-01-25 00:01  bowkenken
+
+	* src/PcgDunTab.h:
+
+	GUI: XX д╬е│евбженеуещепе┐д╬╔┴▓шдЄ╝┬┴ї
+
+2009-01-24 22:51  bowkenken
+
+	* src/: GuiLastBoss.cpp, GuiLastBoss.h, PcgDun.cpp:
+
+	GUI: XX д╬╩┐╝ъ┬╟д┴╣╢╖тдЄ╝┬┴ї
+
+2009-01-19 17:05  bowkenken
+
+	* src/GuiLastBoss.cpp:
+
+	GUI: XX д╬┐ч╠▓╣╢╖тдЄ╝┬┴ї
+
+2009-01-19 16:42  bowkenken
+
+	* src/GuiLastBoss.cpp:
+
+	GUI: XX д╬╞╟╣╢╖тдЄ╝┬┴ї
+
+2009-01-19 16:27  bowkenken
+
+	* src/: GuiLastBoss.cpp, msg-jpn-sjis.h:
+
+	GUI: XX д╬╦усу╣╢╖тдЄ╝┬┴ї
+
+2009-01-16 23:06  bowkenken
+
+	* configure, configure.in, xlnl.spec, src/GuiLastBoss.cpp,
+	src/GuiLastBoss.h:
+
+	GUI: XX д╬┐х╬ф┬░└нд╬╣╢╖тдЄ╝┬┴ї
+
+2009-01-15 23:59  bowkenken
+
+	* src/GuiLastBoss.cpp:
+
+	GUI: XX д╬┼┌╗└┬░└нд╬╣╢╖тдЄ╝┬┴ї
+
+2009-01-15 23:35  bowkenken
+
+	* src/GuiLastBoss.cpp:
+
+	GUI: XX д╬╔ў┐┤┬░└нд╬╣╢╖тдЄ╝┬┴ї
+
+2009-01-15 19:11  bowkenken
+
+	* src/: GuiLastBoss.cpp, GuiLastBoss.h, Makefile.am, Makefile.in,
+	PcgDun.cpp, PcgDun.h, PcgDunTab.h, msg-jpn-sjis.h:
+
+	GUI: XX д╬▓╨╟о┬░└нд╬╣╢╖тдЄ╝┬┴ї
+
+2009-01-04 09:26  bowkenken
+
+	* ChangeLog, src/DemoCutIn.cpp, src/DemoCutIn.h,
+	src/DemoEnding.cpp, src/DemoEnding.h, src/DemoGameOver.cpp,
+	src/DemoGameOver.h, src/DemoLastBoss.cpp, src/DemoLastBoss.h,
+	src/DemoSpace.cpp, src/DemoSpace.h, src/DemoTitle.cpp,
+	src/DemoTitle.h, src/FileList.cpp, src/FileList.h,
+	src/GameJoystick.cpp, src/GameJoystick.h, src/GameMusic.cpp,
+	src/GameMusic.h, src/GameSound.cpp, src/GameSound.h,
+	src/GameThread.cpp, src/GameThread.h, src/GlobalVar.cpp,
+	src/GlobalVar.h, src/GraphConf.cpp, src/GraphConf.h,
+	src/GraphConfToken.h, src/GtkMisc.h, src/GtkWSCstring.cpp,
+	src/GtkWSCstring.h, src/GtkWSDimage.h, src/GtkWSDmwindowDev.cpp,
+	src/GtkWSDmwindowDev.h, src/GuiChrSheet.cpp, src/GuiChrSheet.h,
+	src/GuiClassEdit.cpp, src/GuiClassEdit.h, src/GuiInputString.cpp,
+	src/GuiInputString.h, src/GuiLastBoss.cpp, src/GuiLastBoss.h,
+	src/GuiMenu.cpp, src/GuiMenu.h, src/GuiMessage.cpp,
+	src/GuiMessage.h, src/GuiMisc.cpp, src/GuiMisc.h, src/GuiNum.cpp,
+	src/GuiNum.h, src/GuiReplay.cpp, src/GuiReplay.h, src/GuiStat.cpp,
+	src/GuiStat.h, src/GuiWords.cpp, src/GuiWords.h, src/Key.cpp,
+	src/Key.h, src/MapFormDraw.cpp, src/MapFormInit.cpp,
+	src/MapFormMouseMove.cpp, src/MapFormMousePress.cpp,
+	src/MapFormMouseRellease.cpp, src/MapFormResize.cpp,
+	src/MapScrollXDraw.cpp, src/MapScrollXValCh.cpp,
+	src/MapScrollYDraw.cpp, src/MapScrollYValCh.cpp,
+	src/MapWinInit.cpp, src/MenuWinInit.cpp, src/MfcMisc.h,
+	src/MfcWSCstring.cpp, src/MfcWSCstring.h, src/MfcWSDimage.h,
+	src/MfcWSDmwindowDev.cpp, src/MfcWSDmwindowDev.h, src/MouseMap.cpp,
+	src/MouseMap.h, src/MouseMotion.cpp, src/MouseMotion.h,
+	src/Pcg.cpp, src/Pcg.h, src/PcgDun.cpp, src/PcgDun.h,
+	src/PcgDunTab.h, src/SelConf.cpp, src/SelConf.h,
+	src/SelMbrGraph.cpp, src/SelMbrGraph.h, src/WinPos.cpp,
+	src/WinPos.h, src/config-dows.h, src/config-win.h,
+	src/main-dows.cpp, src/main-gtk.cpp, src/main-x.c, src/main-x.h,
+	src/msg-jpn-sjis.h:
+
+	двд▒д▐д╖д╞дкдсд╟д╚джд┤д╢ддд▐д╣
+
+2008-12-27 08:22  bowkenken
+
+	* sh/ln-lnl-xlnl, src/DemoSpace.cpp, src/Makefile.am,
+	src/Makefile.in, src/msg-jpn-sjis.h:
+
+	└▒д╬╝╢д╟╡п╞░┴ї├╓дм║ю╞░д╣ды══д╦д╖д┐
+
+2008-12-25 17:41  bowkenken
+
+	* src/: DemoSpace.cpp, Makefile.am:
+
+	еиеєе╟егеєе░д╬е╣е┐е├е╒бжеэб╝еыдЄ╝┬┴ї
+
+2008-12-25 10:49  bowkenken
+
+	* src/: Makefile.am, Makefile.in:
+
+	еиеєе╟егеєе░д╬▒з├шдЄ╝┬┴ї
+
+2008-12-22 09:11  bowkenken
+
+	* src/: DemoEnding.cpp, Makefile.am, Makefile.in:
+
+	еиеєе╟егеєе░д╬еие╘еэб╝е░дЄ╝┬┴ї
+
+2008-12-22 05:18  bowkenken
+
+	* src/: DemoSpace.cpp, DemoSpace.h:
+
+	GUI: The End дЄ╔┴▓шд╣ды╗■д╦е╣е┐е├е╒бжеэб╝еыдЄ╛├д╣══д╦д╖д┐
+
+2008-12-22 03:54  bowkenken
+
+	* ChangeLog, src/DemoEnding.cpp, src/DemoSpace.cpp,
+	src/DemoSpace.h, src/GameMusic.cpp:
+
+	GUI: еиеєе╟егеєе░д╬е╣е┐е├е╒бжеэб╝еыдЄ╝┬┴ї
+
+2008-12-21 10:19  bowkenken
+
+	* src/xlnl-dows/xlnl-dows.ncb:
+
+	DX: еще╣е▄е╣д╬е╟етд╟е▐е├е╫д╬е╣епеэб╝еыдмдкдлд╖ддд╬дЄ╜д└╡
+
+2008-12-21 06:15  bowkenken
+
+	* src/: DemoEnding.cpp, DemoGameOver.cpp, DemoSpace.cpp,
+	DemoTitle.cpp, GameSound.cpp, GuiMisc.cpp, GuiMisc.h, PcgDun.cpp,
+	PcgDun.h, main-dows.cpp, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc:
+
+	DX: ╗ы│╨╕·▓╠д╬╔┴▓ш
+
+2008-12-18 08:22  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: ╗ы│╨╕·▓╠д╬╔╜╝идм╖чд▒дыд╬дЄ╜д└╡
+
+2008-12-18 06:33  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: ╗ы│╨╕·▓╠д╬еве╦есб╝е╖ечеєдЄ╝┬┴ї
+
+2008-12-12 09:09  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: ╗ы│╨╕·▓╠д╬╔┴▓ш┬░└ндЄ╝┬┴ї
+
+2008-12-12 08:33  bowkenken
+
+	* ChangeLog, src/GuiLastBoss.cpp, src/PcgDun.cpp, src/PcgDun.h:
+
+	GUI: ╗ы│╨╕·▓╠д╬╔┴▓шдЄ╝┬┴ї
+
+2008-11-24 15:14  bowkenken
+
+	* src/: GuiLastBoss.cpp, GuiLastBoss.h, msg-jpn-sjis.h:
+
+	GUI: XX д╬╝ъд╬╔┴▓шдЄ╝┬┴ї
+
+2008-11-22 16:52  bowkenken
+
+	* src/xlnl-dows/: xlnl-dows.ncb, xlnl-dows.vcproj:
+
+	DX: ежегеєе╔еже║┬╨▒■
+
+2008-11-22 14:53  bowkenken
+
+	* src/: GuiLastBoss.cpp, GuiLastBoss.h:
+
+	GUI: XX д╬╧╙д╬╔┴▓шдЄ╝┬┴ї
+
+2008-10-23 22:45  bowkenken
+
+	* src/: GuiLastBoss.cpp, GuiLastBoss.h:
+
+	GUI: XX д╬┬╬д╬╔┴▓шдЄ╝┬┴ї
+
+2008-10-23 04:59  bowkenken
+
+	* src/GuiLastBoss.cpp:
+
+	GUI: XX д╬╔┴▓ш░╠├╓дЄ╚∙─┤└░
+
+2008-10-23 04:30  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiLastBoss.cpp, GuiLastBoss.h,
+	Makefile.am, Makefile.in, PcgDun.cpp, PcgDun.h:
+
+	GUI: XX д╬╞мд╬╔┴▓шдЄ╝┬┴ї
+
+2008-10-21 23:11  bowkenken
+
+	* sh/ln-lnl-xlnl, src/DemoLastBoss.cpp, src/GameMusic.cpp,
+	src/GameMusic.h, src/Makefile.am, src/Makefile.in:
+
+	GUI: ╕╜║▀д╬ BGM дЄдтдж░ь┼┘║╞└╕д╣дыесе╦ехб╝дЄ╝┬┴ї
+
+2008-10-14 20:13  bowkenken
+
+	* src/: config-dows.h, main-dows.cpp, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: ежегеєе╔еже║┬╨▒■
+
+2008-10-14 08:12  bowkenken
+
+	* src/: GameSound.cpp, GameSound.h:
+
+	GUI: ┼╣д╚е╔евд╬ SE дЄ╝┬┴ї
+
+2008-10-14 06:33  bowkenken
+
+	* sh/ln-lnl-xlnl, src/FileList.cpp, src/FileList.h,
+	src/GameMusic.cpp, src/GameSound.cpp, src/GameSound.h,
+	src/GlobalVar.cpp, src/GlobalVar.h, src/Makefile.am,
+	src/Makefile.in, src/main-gtk.cpp:
+
+	GUI: ╕·▓╠▓╗д╬║╞└╕дЄ╝┬┴ї
+
+2008-10-13 23:33  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	GUI: ═╧┤фд╬╔┴▓шдЄ╝┬┴їд╖д┐
+
+2008-10-12 21:33  bowkenken
+
+	* src/: Key.cpp, Key.h:
+
+	GUI:
+	енб╝╞■╬╧д╟д╬елб╝е╜еы░▄╞░д╟е▐е├е╫дме╣епеэб╝еы╜╨═шд╩дпд╩д├д╞ддд┐д╬дЄ╜д└╡
+
+2008-10-12 14:18  bowkenken
+
+	* src/: DemoLastBoss.cpp, GameMusic.cpp, msg-jpn-sjis.h:
+
+	GUI: XEX д╬еиеъев╩°▓їд╬е╟етдЄ╝┬┴ї
+
+2008-10-11 14:08  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	GUI: еще╣е▄е╣д╬е▐е├е╫д╬╡п╞░┴ї├╓дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2008-10-11 12:40  bowkenken
+
+	* src/main-gtk.cpp:
+
+	е▓б╝ер╜к╬╗┴░д╦▓ш╠╠╣╣┐╖═╤е┐еде▐б╝дЄ╗▀дсды══д╦д╖д┐
+
+2008-10-10 18:24  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: EXEL д╚ EXELER д╬┼╨╛ье╖б╝еєд╬е╟етдЄ╝┬┴ї
+
+2008-10-09 23:28  bowkenken
+
+	* ChangeLog, configure, configure.in, xlnl.spec, src/GameMusic.cpp,
+	src/GameMusic.h, src/Makefile.am, src/Makefile.in, src/config.h.in,
+	src/main-gtk-prot.h, src/main-gtk.cpp:
+
+	е▓б╝ер╜к╬╗╗■д╦ BGM дЄ▓Є╩№д╣ды══д╦д╖д┐
+
+2008-10-09 16:36  bowkenken
+
+	* src/: GuiChrSheet.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: енеуещепе┐бже╖б╝е╚дмеъе╗е├е╚д╡дьды╜д└╡д╬╔╘═╫д╩╜ш═¤дЄ║я╜№
+
+2008-10-09 16:02  bowkenken
+
+	* src/: GuiChrSheet.cpp, Makefile.am, Makefile.in:
+
+	ifdef дм╡╒д╬ ifndef д╦д╩д├д╞ддд┐д╬дЄ╜д└╡
+
+2008-10-09 14:48  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX:
+	$B%-%c%i%/%?!&%7!<%H$rJT=8$9$kEY$K9`L\$,%j%;%C%H$5$l$k$N$r=$@5(B
+
+2008-10-07 11:34  bowkenken
+
+	* src/: DemoCutIn.cpp, DemoLastBoss.cpp, DemoLastBoss.h,
+	PcgDun.cpp:
+
+	GUI: еще╣е▄е╣д╬е╟етд╬╜ш═¤дЄ╖┌дпд╖д┐
+
+2008-10-07 09:41  bowkenken
+
+	* src/: Pcg.h, PcgDun.cpp, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: еще╣е▄е╣д╬е╟етдЄ╝┬┴ї
+
+2008-10-07 08:03  bowkenken
+
+	* src/: DemoLastBoss.cpp, GameMusic.cpp, PcgDun.cpp, main-gtk.cpp:
+
+	GUI: еле├е╚евеже╚дЄе┴ещд─длд╩дпд╖д┐
+
+2008-10-07 05:53  bowkenken
+
+	* src/DemoLastBoss.cpp:
+
+	еле├е╚едеєд╬╔╜╝и░╠├╓дЄ─┤└░
+
+2008-10-06 17:32  bowkenken
+
+	* src/: DemoCutIn.cpp, DemoCutIn.h, DemoLastBoss.cpp,
+	DemoLastBoss.h:
+
+	еще╣е▄е╣д╬е╟етд╬еле├е╚евеже╚дЄ╝┬┴ї
+
+2008-10-06 16:07  bowkenken
+
+	* src/: DemoLastBoss.cpp, GameMusic.cpp:
+
+	еще╣е▄е╣д╬е╟етд╬┬ц╗ьдЄ╝┬┴ї
+
+2008-10-06 05:09  bowkenken
+
+	* src/: DemoLastBoss.cpp, PcgDun.cpp, PcgDun.h, main-gtk.cpp:
+
+	GUI: еле├е╚едеєдЄе┴ещд─длд╩дпд╖д┐
+
+2008-10-06 03:39  bowkenken
+
+	* sh/ln-lnl-xlnl, src/DemoCutIn.cpp, src/DemoCutIn.h,
+	src/DemoLastBoss.cpp, src/DemoLastBoss.h, src/GameMusic.cpp,
+	src/Makefile.am, src/Makefile.in, src/PcgDun.cpp, src/PcgDun.h,
+	src/main-gtk.cpp:
+
+	еще╣е▄е╣д╬е╟етд╬еле├е╚едеєдЄ╝┬┴ї
+
+2008-10-05 20:00  bowkenken
+
+	* src/GameMusic.cpp:
+
+	еще╣е▄е╣д╬е╡е╓бже╖б╝еєд╦б╓┴°╢°б╫дЄ─╔▓├
+
+2008-10-05 15:59  bowkenken
+
+	* src/GameMusic.cpp:
+
+	е╟е╨е├е░бжесе╦ехб╝длдщеще╣е▄е╣═╤д╬е╡е╓бже╖б╝еєдЄ└┌дъ┤╣дидщдьды══д╦д╖д┐
+
+2008-10-05 15:02  bowkenken
+
+	* src/: GameMusic.cpp, GameMusic.h:
+
+	еще╣е▄е╣═╤д╬е╡е╓бже╖б╝еєдЄ└┌дъ┤╣дидщдьды══д╦д╖д┐
+
+2008-10-04 20:07  bowkenken
+
+	* ChangeLog, src/Pcg.h, src/PcgDun.cpp, src/PcgDunTab.h:
+
+	GUI: еще╣е▄е╣дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2008-10-02 19:59  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h, msg-jpn-sjis.h:
+
+	GUI: ╞р═юд╬├╧╖┴дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2008-10-02 14:57  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	GUI: еще╣е╚бже╣е╞б╝е╕д╪д╬│м├╩дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2008-09-29 16:47  bowkenken
+
+	* src/: GameMusic.cpp, GameMusic.h, PcgDun.cpp, PcgDun.h,
+	PcgDunTab.h, msg-jpn-sjis.h:
+
+	GUI: еще╣е╚бже╣е╞б╝е╕д╬е▐е├е╫дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2008-09-27 17:48  bowkenken
+
+	* src/: GameJoystick.cpp, Key.cpp, MouseMotion.cpp, PcgDun.cpp,
+	config-dows.h, xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: е╕ечеде╣е╞еге├епд╦┬╨▒■д╖д┐
+
+2008-09-27 15:59  bowkenken
+
+	* src/Key.cpp:
+
+	╕┼дде│б╝е╔дЄ║я╜№
+
+2008-09-27 15:16  bowkenken
+
+	* src/: GameJoystick.cpp, Key.cpp, Key.h, PcgDun.cpp, main-gtk.cpp:
+
+	GUI: е╕ечеде╣е╞еге├епд╟е▐е├е╫д╬е╣епеэб╝еыдм╜╨═шды══д╦д╖д┐
+
+2008-09-26 19:07  bowkenken
+
+	* src/GameJoystick.cpp:
+
+	GUI: е╕ечеде╣е╞еге├епд╬└▀─ъдЄе╗б╝е╓б┐еэб╝е╔д╟днды══д╦д╖д┐
+
+2008-09-26 16:50  bowkenken
+
+	* src/: GameJoystick.cpp, GameJoystick.h:
+
+	GUI: └▄┬│├цд╬е╕ечеде╣е╞еге├епд╬├цдлдщг▒д─дЄ┴к┬Єд╟днды══д╦д╖д┐
+
+2008-09-26 14:41  bowkenken
+
+	* src/: GameJoystick.cpp, GameJoystick.h:
+
+	GUI: е╕ечеде╣е╞еге├епд╬╝я╬рдЄесе╦ехб╝д╟└┌дъ┬╪дидщдьды══д╦д╖д┐
+
+2008-09-26 11:49  bowkenken
+
+	* src/: GameJoystick.cpp, GameJoystick.h, Makefile.am, Makefile.in,
+	main-gtk.cpp:
+
+	GUI: е╕ечеде╣е╞еге├епд╬ REAL ARCADE PRO.3 д╦┬╨▒■д╖д┐
+
+2008-09-25 21:23  bowkenken
+
+	* src/: GameJoystick.cpp, GameJoystick.h, main-gtk.cpp:
+
+	GUI: е╕ечеде╣е╞еге├епд╬е▄е┐еєд╦┬╨▒■д╖д┐
+
+2008-09-25 15:47  bowkenken
+
+	* configure, configure.in, src/GameJoystick.cpp,
+	src/GameJoystick.h, src/GameMusic.cpp, src/GlobalVar.cpp,
+	src/GlobalVar.h, src/Key.cpp, src/Makefile.am, src/Makefile.in,
+	src/main-gtk.cpp:
+
+	GUI: е╕ечеде╣е╞еге├епд╦┬╨▒■д╖д┐
+
+2008-09-23 12:22  bowkenken
+
+	* ChangeLog, xlnl.spec, man/xlnl.jpn:
+
+	ver.3.3.4 еъеъб╝е╣
+
+2008-09-23 06:38  bowkenken
+
+	* src/xlnl-dows/xlnl-dows.ncb:
+
+	DX: 1 $B9TF~NO%&%#%s%I%&$GF|K\8l$rF~NO$G$-$kMM$K$7$?(B
+
+2008-09-22 17:17  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GTK+: е╣епеэб╝еы╗■д╦е▐е├е╫дЄ║╞╔┴▓шд╣ды══д╦д╖д┐
+
+2008-09-22 16:51  bowkenken
+
+	* src/: DemoEnding.cpp, DemoTitle.cpp, main-gtk.cpp:
+
+	GTK+: е╟етд╬е╒еьб╝ербжеьб╝е╚дЄ═юд╖д╞ежегеєе╔еже║═╤д╚╞▒д╕д╦д╖д┐
+
+2008-09-22 16:09  bowkenken
+
+	* src/: DemoEnding.cpp, DemoGameOver.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%G%b$N%?%$%_%s%0$rD4@0$7$?(B
+
+2008-09-22 15:31  bowkenken
+
+	* src/: DemoEnding.cpp, DemoGameOver.cpp:
+
+	GTK+: е▓б╝ербжекб╝е╨б╝д╚еиеєе╟егеєе░д╬е╟ет▓ш╠╠д╬╜ш═¤дЄ╖┌дпд╖д┐
+
+2008-09-22 07:58  bowkenken
+
+	* src/GuiStat.cpp:
+
+	ежегеєе╔еже║┬╨▒■
+
+2008-09-21 11:37  bowkenken
+
+	* src/MouseMotion.cpp:
+
+	GUI:
+	е▐еже╣бже╫еье╣д╬е┴езе├епд╦═╖д╙дЄ╗¤д┐д╗д╞бвелб╝е╜еыдме╓еьд╞дт├ц├╟д╖д╩дд══д╦д╖д┐
+
+2008-09-21 07:36  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMessage.cpp, GuiStat.cpp:
+
+	GTK+: ежегеєе╔ежд╬║┬╔╕└▀─ъд╟╕╜║▀░╠├╓дЄ═е└шд╣ды══д╦д╖д┐
+
+2008-09-20 10:53  bowkenken
+
+	* src/: WinPos.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%&%#%s%I%&$NI=<(;~$K<jA0$X0\F0$9$kMM$K$7$?(B
+
+2008-09-20 10:20  bowkenken
+
+	* src/MouseMap.cpp:
+
+	GUI: е▐б╝еп┬╨╛▌д╬╗╪─ъ╗■д╦евеєелб╝дм╞░ддд╞д╖д▐джд╬дЄ╜д└╡
+
+2008-09-20 08:13  bowkenken
+
+	* src/WinPos.cpp:
+
+	GTK+: ежегеєе╔ежд╬╔╜╝и╗■д╦╝ъ┴░д╦╗¤д├д╞дпды══д╦д╖д┐
+
+2008-09-20 06:15  bowkenken
+
+	* src/: GameMusic.cpp, GameMusic.h, Makefile.am, Makefile.in:
+
+	GTK+: ╜╔▓░д╚╗√▒бд╬╕·▓╠▓╗│┌дЄ╝┬┴ї
+
+2008-09-19 10:05  bowkenken
+
+	* src/GameMusic.cpp:
+
+	GTK+: ┼╣д╬ BGM дЄ╝┬┴ї
+
+2008-09-19 08:51  bowkenken
+
+	* src/: GameMusic.cpp, GameMusic.h:
+
+	GTK+: е▄е╣└яд╬ BGM дЄ╝┬┴ї
+
+2008-09-19 08:33  bowkenken
+
+	* ChangeLog, src/GameMusic.cpp, src/GameMusic.h:
+
+	GTK+: └я╞о├цд╬ BGM дЄ╝┬┴ї
+
+2008-09-16 18:41  bowkenken
+
+	* src/: GuiChrSheet.h, xlnl-dows/ChrSheetAbl.cpp,
+	xlnl-dows/ChrSheetAbl.h, xlnl-dows/ChrSheetEquip.cpp,
+	xlnl-dows/ChrSheetEquip.h, xlnl-dows/ChrSheetItem.cpp,
+	xlnl-dows/ChrSheetItem.h, xlnl-dows/ChrSheetStat.cpp,
+	xlnl-dows/ChrSheetStat.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc:
+
+	DX: $B%-%c%i%/%?!&%7!<%H$NJT=85!G=$r<BAu(B
+
+2008-09-16 16:43  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h, xlnl-dows/ChrSheetStat.cpp,
+	xlnl-dows/ChrSheetStat.h, xlnl-dows/resource.h,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc:
+
+	DX: $B%-%c%i%/%?!&%7!<%H$N%9%F!<%?%9!&%?%V$r<BAu(B
+
+2008-09-15 18:49  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h, xlnl-dows/ChrSheetAbl.cpp,
+	xlnl-dows/ChrSheetAbl.h, xlnl-dows/ChrSheetEquip.cpp,
+	xlnl-dows/ChrSheetEquip.h, xlnl-dows/ChrSheetItem.cpp,
+	xlnl-dows/ChrSheetItem.h, xlnl-dows/resource.h,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc:
+
+	DX: $B%-%c%i%/%?!&%7!<%H$N%l%Y%k!&%?%V$r<BAu(B
+
+2008-09-15 07:39  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h, xlnl-dows/ChrSheetAbl.cpp,
+	xlnl-dows/ChrSheetAbl.h, xlnl-dows/ChrSheetEquip.cpp,
+	xlnl-dows/ChrSheetEquip.h, xlnl-dows/ChrSheetItem.cpp,
+	xlnl-dows/ChrSheetItem.h, xlnl-dows/ChrSheetSheet.cpp,
+	xlnl-dows/ChrSheetSheet.h, xlnl-dows/ChrSheetStat.cpp,
+	xlnl-dows/ChrSheetStat.h, xlnl-dows/ClassEditDlg.cpp,
+	xlnl-dows/ClassEditDlg.h, xlnl-dows/ReplayWnd.cpp,
+	xlnl-dows/ReplayWnd.h, xlnl-dows/WordsDlg.cpp,
+	xlnl-dows/WordsDlg.h, xlnl-dows/resource.h,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc:
+
+	DX: $B%U%!%$%k$rDI2C(B
+
+2008-09-14 13:19  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h, xlnl-dows/resource.h,
+	xlnl-dows/stdafx.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%-%c%i%/%?!&%7!<%H$N%"%$%F%`!&%?%V$r<BAu(B
+
+2008-09-14 02:14  bowkenken
+
+	* src/GuiChrSheet.cpp:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╬╩╘╜╕▓─╟╜е┴езе├епдЄ╝┬┴ї
+
+2008-09-14 00:21  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╬╩╘╜╕╡б╟╜дЄ╝┬┴ї
+
+2008-09-13 09:56  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╬е╣е╞б╝е┐е╣бже┐е╓дЄ╝┬┴ї
+
+2008-09-12 06:15  bowkenken
+
+	* ChangeLog, src/GuiChrSheet.cpp, src/GuiChrSheet.h:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╬еье┘еыбже┐е╓дЄ╝┬┴ї
+
+2008-09-11 08:30  bowkenken
+
+	* src/: GuiChrSheet.cpp, GuiChrSheet.h:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╬┴ї╚ўе┐е╓дЄ╝┬┴ї
+
+2008-09-11 08:10  bowkenken
+
+	* src/: DemoSpace.cpp, GlobalVar.cpp, GlobalVar.h, GuiChrSheet.cpp,
+	GuiChrSheet.h, Makefile.am, Makefile.in, WinPos.cpp:
+
+	GTK+: енеуещепе┐бже╖б╝е╚д╬еведе╞ербже┐е╓дЄ╝┬┴ї
+
+2008-09-09 16:38  bowkenken
+
+	* src/: DemoEnding.cpp, DemoSpace.cpp, DemoSpace.h,
+	xlnl-dows/Dir3d.cpp, xlnl-dows/Dir3d.h, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%(%s%G%#%s%0$K@11@$rIA2h$9$kMM$K$7$?(B
+
+2008-09-09 12:51  bowkenken
+
+	* src/: DemoSpace.cpp, DemoSpace.h, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/Dir3dText.cpp, xlnl-dows/Dir3dText.h,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%(%s%G%#%s%02hLL$r<BAu(B
+
+2008-09-08 19:11  bowkenken
+
+	* src/DemoGameOver.cpp:
+
+	GUI: е▓б╝ербжекб╝е╨б╝д╬▓ш┴№д╬е╟егеьепе╚еъдЄ╩╤╣╣
+
+2008-09-08 19:03  bowkenken
+
+	* src/: DemoEnding.cpp, GameMusic.cpp, GameMusic.h:
+
+	GUI: еиеєе╟егеєе░д╬ 2 ╢╩╠▄дЄ║╞└╕д╟днды══д╦д╖д┐бг
+
+2008-09-08 17:38  bowkenken
+
+	* src/: DemoEnding.cpp, DemoEnding.h, DemoSpace.cpp, DemoSpace.h,
+	GameMusic.cpp, Makefile.am, Makefile.in, main-gtk.cpp:
+
+	GUI: еиеєе╟егеєе░д╬▒з├шдЄ╝┬┴ї
+
+2008-09-08 10:36  bowkenken
+
+	* src/: DemoEnding.cpp, GameMusic.cpp, GameMusic.h:
+
+	GUI: еиеєе╟егеєе░д╬╢╩дЄ─╔▓├
+
+2008-09-08 10:21  bowkenken
+
+	* src/: DemoEnding.cpp, DemoEnding.h, DemoGameOver.cpp,
+	GameMusic.cpp, Makefile.am, Makefile.in, PcgDun.cpp, PcgDun.h,
+	main-gtk.cpp:
+
+	GUI: еиеєе╟егеєе░д╬еие╘еэб╝е░дЄ╝┬┴ї
+
+2008-09-07 20:31  bowkenken
+
+	* src/: GameMusic.cpp, GameMusic.h, config-dows.h, main-dows.cpp,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: BGM $B:F@85!G=$r<BAu(B
+
+2008-09-06 23:59  bowkenken
+
+	* src/GameMusic.cpp:
+
+	GUI: BGM д╬е╟егеьепе╚еъ╠╛дЄ─┤└░
+
+2008-09-06 23:49  bowkenken
+
+	* src/: GameMusic.cpp, GameMusic.h, main-gtk.cpp:
+
+	GUI: е╖б╝еєд╦╣чд╗д╞ BGM дЄ└┌дъ┤╣диды══д╦д╖д┐
+
+2008-09-06 21:07  bowkenken
+
+	* configure, configure.in, src/FileList.cpp, src/FileList.h,
+	src/GameMusic.cpp, src/GameMusic.h, src/GlobalVar.cpp,
+	src/GlobalVar.h, src/Makefile.am, src/Makefile.in, src/PcgDun.cpp,
+	src/PcgDun.h, src/SelConf.cpp, src/config.h.in, src/main-gtk.cpp:
+
+	GTK+: BGM ║╞└╕дЄ╝┬┴ї
+
+2008-09-06 09:38  bowkenken
+
+	* src/xlnl-dows/: Dir3d.cpp, MainFrm.cpp, xlnl-dows.ncb,
+	xlnl-dows.vcproj:
+
+	DX: $B%2!<%`!&%*!<%P!<2hLL$r<BAu(B
+
+2008-09-06 08:56  bowkenken
+
+	* src/DemoGameOver.cpp:
+
+	GUI: е▓б╝ербжекб╝е╨б╝д╬еве╦есдЄ╛пд╖┬одпд╖д┐
+
+2008-09-06 08:44  bowkenken
+
+	* src/DemoGameOver.cpp:
+
+	GUI: е╟егеьепе╚еъ╠╛дЄ─┤└░
+
+2008-09-06 07:58  bowkenken
+
+	* src/: DemoGameOver.cpp, DemoGameOver.h:
+
+	е╒ебедеыдЄ─╔▓├
+
+2008-09-06 07:57  bowkenken
+
+	* src/: DemoTitle.cpp, DemoTitle.h, Makefile.am, Makefile.in,
+	MouseMap.cpp, PcgDun.cpp, PcgDun.h, main-gtk-prot.h, main-gtk.cpp:
+
+	GTK+: е▓б╝ербжекб╝е╨б╝▓ш╠╠дЄ╝┬┴ї
+
+2008-09-04 18:26  bowkenken
+
+	* src/: GuiClassEdit.cpp, GuiClassEdit.h, xlnl-dows/resource.h,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%/%i%9!&%(%G%#%?!&%&%#%s%I%&$r<BAu(B
+
+2008-09-04 14:33  bowkenken
+
+	* src/: GuiClassEdit.cpp, GuiClassEdit.h:
+
+	GTK+: епеще╣бжеие╟еге┐д╬╡б╟╜дЄ╝┬┴ї
+
+2008-09-04 12:58  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, GuiClassEdit.cpp,
+	GuiClassEdit.h, Makefile.am, Makefile.in, WinPos.cpp:
+
+	GTK+: епеще╣бжеие╟еге┐д╬ежегеєе╔еждЄ╝┬┴ї
+
+2008-09-02 15:23  bowkenken
+
+	* src/: GuiWords.cpp, GuiWords.h:
+
+	GUI: ├°║ю╕вдЄежегеєе╔еж╛хд╦╔╜╝ид╟днды══д╦д╖д┐
+
+2008-09-01 23:51  bowkenken
+
+	* src/: GuiReplay.cpp, GuiReplay.h, xlnl-dows/MenuWnd.cpp,
+	xlnl-dows/MenuWnd.h, xlnl-dows/resource.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.h,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%j%W%l%$!&%&%#%s%I%&$r<BAu(B
+
+2008-09-01 19:13  bowkenken
+
+	* src/GuiReplay.cpp:
+
+	GTK+: еъе╫еьедбжежегеєе╔ежд╬есе├е╗б╝е╕дЄ╣ё║▌▓╜
+
+2008-09-01 18:42  bowkenken
+
+	* src/GuiReplay.cpp:
+
+	GTK+: еъе╫еьедбжежегеєе╔ежд╦енб╝бжеъе╣е╚дЄ╔╜╝ид╟днды══д╦д╖д┐
+
+2008-09-01 09:09  bowkenken
+
+	* src/: GuiReplay.cpp, GuiReplay.h:
+
+	GUI: е╒ебедеыдЄ─╔▓├
+
+2008-09-01 09:07  bowkenken
+
+	* ChangeLog, src/GlobalVar.cpp, src/GlobalVar.h, src/Makefile.am,
+	src/Makefile.in, src/WinPos.cpp:
+
+	GTK+: еъе╫еьедбжежегеєе╔еждЄ╝┬┴ї
+
+2008-08-31 21:10  bowkenken
+
+	* src/xlnl-dows/: Dir3d.cpp, MainFrm.cpp, MessageWnd.cpp:
+
+	DX: еиещб╝бжесе├е╗б╝е╕дЄ╣ё║▌▓╜
+
+2008-08-31 19:38  bowkenken
+
+	* src/: DemoTitle.cpp, DemoTitle.h, PcgDun.h, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/Dir3d.h, xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%?%$%H%k2hLL$rJL%b%8%e!<%k$KJ,$1$?(B
+
+2008-08-19 23:50  bowkenken
+
+	* src/: DemoTitle.cpp, DemoTitle.h:
+
+	GUI: е┐еде╚еы▓ш╠╠ #6 дЄ─╔▓├
+
+2008-08-19 18:30  bowkenken
+
+	* src/DemoTitle.cpp:
+
+	GUI: е┐еде╚еы▓ш╠╠д╦═Ё┐Їд╟╩╤▓╜дЄд─д▒д┐
+
+2008-08-19 16:54  bowkenken
+
+	* src/DemoTitle.cpp:
+
+	GUI: е┐еде╚еы▓ш╠╠ #5 дЄ─╔▓├
+
+2008-08-19 15:26  bowkenken
+
+	* ChangeLog, src/DemoTitle.cpp:
+
+	GUI: е┐еде╚еы▓ш╠╠ #4 дЄ─╔▓├
+
+2008-08-19 14:43  bowkenken
+
+	* src/: DemoTitle.cpp, DemoTitle.h:
+
+	GUI: е┐еде╚еы▓ш╠╠ #3 дЄ─╔▓├
+
+2008-08-19 13:44  bowkenken
+
+	* src/DemoTitle.cpp:
+
+	GUI: е┐еде╚еы▓ш╠╠ #2 дЄ─╔▓├
+
+2008-08-19 13:18  bowkenken
+
+	* src/: DemoTitle.cpp, DemoTitle.h, GuiStat.cpp, GuiStat.h,
+	Makefile.am, Makefile.in, PcgDun.cpp, PcgDun.h, main-gtk.cpp:
+
+	GTK+: е┐еде╚еы▓ш╠╠дЄ╩╠ете╕ехб╝еыд╦╩мд▒д┐
+
+2008-08-18 17:25  bowkenken
+
+	* src/: GuiInputString.cpp, GuiMenu.cpp, GuiMessage.cpp,
+	GuiNum.cpp, GuiStat.cpp, GuiWords.cpp, WinPos.cpp, WinPos.h,
+	xlnl-dows/InputLineDlg.cpp, xlnl-dows/InputLineDlg.h,
+	xlnl-dows/InputNumDlg.cpp, xlnl-dows/InputNumDlg.h,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/MenuWnd.cpp,
+	xlnl-dows/MessageWnd.cpp, xlnl-dows/StatWnd.cpp,
+	xlnl-dows/resource.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $BBf;l%&%#%s%I%&$r<BAu(B
+
+2008-08-17 20:51  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h, GuiMenu.cpp,
+	GuiMenu.h, GuiMessage.cpp, GuiMessage.h, GuiNum.cpp, GuiNum.h,
+	GuiStat.cpp, GuiStat.h, GuiWords.cpp, GuiWords.h, SelConf.cpp,
+	WinPos.cpp, WinPos.h, main-dows.cpp, main-gtk-prot.h, main-gtk.cpp:
+
+	ежегеєе╔ежд╬░╠├╓дфе╡еде║д╬┤╔═¤дЄе╖еєе╫еыд╦д╖д┐
+
+2008-08-16 16:10  bowkenken
+
+	* configure, configure.in, src/GlobalVar.cpp, src/GlobalVar.h,
+	src/GuiNum.cpp, src/GuiWords.cpp, src/GuiWords.h, src/Makefile.am,
+	src/Makefile.in, src/WinPos.cpp, src/main-dows.cpp,
+	src/main-gtk.cpp:
+
+	GTK+: ░══ъежегеєе╔еждЄ╝┬┴ї
+
+2008-08-11 17:50  bowkenken
+
+	* src/: GuiMenu.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%a%K%e!<$N%A%'%C%/!&%\%C%/%9$N>uBV$,$*$+$7$$$N$r=$@5$7$?(B
+
+2008-05-25 11:37  bowkenken
+
+	* sh/ln-lnl-xlnl, src/PcgDun.cpp, src/xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%&%#%s%I%&%:BP1~(B
+
+2008-05-25 10:41  bowkenken
+
+	* sh/ln-lnl-xlnl, src/Makefile.am, src/Makefile.in, src/PcgDun.cpp:
+
+	GTK+: е╞ене╣е╚бжетб╝е╔дЄ╛пд╖╣т┬о▓╜
+
+2008-05-16 20:31  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h:
+
+	GTK+: е╞ене╣е╚бжетб╝е╔д╟╗ы│╨╕·▓╠дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2008-05-15 23:59  bowkenken
+
+	* src/GuiStat.cpp:
+
+	есе╦ехб╝д╬[д╜д╬┬╛]дЄ└░═¤д╖д╞[╛Ё╩є]дЄ─╔▓├д╖д┐
+
+2008-05-15 23:01  bowkenken
+
+	* src/xlnl-dows/: MainFrm.cpp, MainFrm.h, resource.h,
+	xlnl-dows.aps, xlnl-dows.ncb, xlnl-dows.rc:
+
+	DX:
+	$B%a%$%s!&%&%#%s%I%&$N%D!<%k!&%P!<$K3F%3%^%s%I!&%\%?%s$rDI2C$7$?(B
+
+2008-05-15 20:24  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: е┐еде╚еы▓ш╠╠д╬е▓б╝ер╠╛д╬┐здЄ╚∙─┤└░
+
+2008-05-15 06:04  bowkenken
+
+	* src/: main-gtk-prot.h, main-gtk.cpp, msg-jpn-sjis.h:
+
+	GTK+: еседеєбжежегеєе╔ежд╦б╓Xб╫б╓Oб╫е▄е┐еєдЄ─╔▓├д╖д┐
+
+2008-05-13 20:39  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h:
+
+	GTK+:
+	е╗б╝е╓бже╟б╝е┐д╬еэб╝е╔╗■д╦бвесеєе╨б╝д╬е┐едеыдЄеъеэб╝е╔д╣ды══д╦д╖д┐
+
+2008-05-13 15:21  bowkenken
+
+	* src/: FileList.cpp, FileList.h, MouseMap.cpp, Pcg.cpp, Pcg.h,
+	PcgDun.cpp, PcgDun.h, SelMbrGraph.cpp, SelMbrGraph.h:
+
+	GTK+:
+	есеєе╨б╝д╬е┐едеыбже╗еьепе╚д╟е└е╓еыбжепеъе├епд╖д╞└▀─ъд╟днды══д╦д╖д┐
+
+2008-05-13 09:53  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h, msg-jpn-sjis.h:
+
+	GUI: │╣┼ЇдЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2008-05-11 16:12  bowkenken
+
+	* Makefile.am, Makefile.in, play-xlnl/xlnl-english,
+	play-xlnl/xlnl-eucjp, play-xlnl/xlnl-utf-8, src/Makefile.am,
+	src/Makefile.in:
+
+	ver.3.3.3 еъеъб╝е╣
+
+2008-05-11 15:30  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, config-dows.h, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/Dir3d.h, xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc:
+
+	DX: $B%F%-%9%H!&%b!<%I$,=E$$$N$r=$@5(B
+
+2008-05-10 20:53  bowkenken
+
+	* ChangeLog, xlnl.spec, man/xlnl.jpn:
+
+	ver.3.3.3 еъеъб╝е╣
+
+2008-05-10 19:04  bowkenken
+
+	* src/PcgDun.h:
+
+	GTK+: ╠┬╡▄╞тд╟енеуещепе┐д╬╔┴▓шдм╣╣┐╖д╡дьд╩ддд╬дЄ╜д└╡
+
+2008-05-10 14:07  bowkenken
+
+	* src/xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%&%#%s%I%&%:BP1~(B
+
+2008-05-09 21:59  bowkenken
+
+	* sh/ln-lnl-xlnl, src/xlnl-dows/xlnl-dows.ncb,
+	src/xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%&%#%s%I%&%:BP1~(B
+
+2008-05-09 21:53  bowkenken
+
+	* src/: WinPos.cpp, xlnl-dows/InputNumDlg.cpp,
+	xlnl-dows/InputNumDlg.h, xlnl-dows/SelConfDlg.cpp,
+	xlnl-dows/SelConfDlg.h:
+
+	DX: е┐едеы└▀─ъд╬еъе╣е╚дЄе└е╓еыбжепеъе├епд╟┴к┬Є╝┬╣╘д╟днды══д╦д╖д┐
+
+2008-05-09 19:30  bowkenken
+
+	* ChangeLog, src/SelConf.cpp:
+
+	GTK+:
+	е░еще╒еге├еп└▀─ъд╬еъе╣е╚дЄе└е╓еыбжепеъе├епд╟┴к┬Є╝┬╣╘д╟днды══д╦д╖д┐
+
+2008-05-09 11:32  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h:
+
+	GTK+:
+	енеуещепе┐д╬╣╘╞░д╬╖ы▓╠д╦дшды▓ш╠╠╣╣┐╖дмбв╝бд╬е┐б╝еєд▐д╟╣╘дядьд╩ддд╬дЄ╜д└╡
+
+2008-05-08 19:13  bowkenken
+
+	* sh/gfile-prot, src/Makefile.am, src/Makefile.in, src/Pcg.h,
+	src/PcgDun.cpp, src/PcgDun.h, src/PcgDunTab.h:
+
+	GUI: е┐едеыбже╟б╝е┐д╬┤╔═¤дЄ╟█╬єдлдщеъе╣е╚д╦╩╤╣╣
+
+2008-05-06 12:15  bowkenken
+
+	* src/SelMbrGraph.cpp:
+
+	е│есеєе╚дме│есеєе╚бжевеже╚д╡дьд╞ддд╩длд├д┐д╬дЄ╜д└╡
+
+2008-05-06 11:59  bowkenken
+
+	* src/: PcgDun.cpp, SelMbrGraph.cpp, SelMbrGraph.h,
+	xlnl-dows/Dir3d.cpp, xlnl-dows/XlnlView.cpp,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%a%s%P!<$N%?%$%k!&%;%l%/%H$G0lMwI=<($G$-$kMM$K$7$?(B
+
+2008-05-05 21:56  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	GUI: SHIFT-JIS д╬есе├е╗б╝е╕дЄ╣╣┐╖
+
+2008-05-05 21:43  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, Makefile.am, Makefile.in,
+	MouseMap.cpp, Pcg.h, PcgDun.cpp, PcgDun.h, SelMbrGraph.cpp,
+	SelMbrGraph.h, main-gtk.cpp:
+
+	GTK+: есеєе╨б╝д╬е┐едеыбже╗еьепе╚д╟░ь═ў╔╜╝ид╟днды══д╦д╖д┐
+
+2008-05-03 15:07  bowkenken
+
+	* ChangeLog, src/msg-jpn-sjis.h:
+
+	е▐е├е╫д╬е╥еєе╚д╟бв┴ыд╚е▓б╝е╚дЄе╔евд╚╢ш╩╠д╖д╞╔╜╝ид╟днды══д╦д╖д┐
+
+2008-05-03 14:51  bowkenken
+
+	* src/: MouseMap.cpp, main-dows-prot.h, main-dows.cpp,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/MainFrm.h,
+	xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%9%F!<%?%9!&%P!<$K%-%c%i%/%?$N%R%s%H$rI=<($G$-$kMM$K$7$?(B
+
+2008-05-03 11:15  bowkenken
+
+	* src/: MouseMap.cpp, main-gtk-prot.h, main-gtk.cpp:
+
+	GTK*: е╣е╞б╝е┐е╣бже╨б╝д╦енеуещепе┐д╬е╥еєе╚╛Ё╩єдЄ╔╜╝ид╟днды══д╦д╖д┐
+
+2008-05-03 00:56  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	╩╔д╟░╧д▐дьд┐е╔евдЄ┴ыд╚д╖д╞╔┴▓шд╟днды══д╦д╖д┐
+
+2008-05-02 21:38  bowkenken
+
+	* src/GuiInputString.h:
+
+	MS-Windows д╬е│б╝е╔дм GTK+ д╬е│б╝е╔д╦д▐д╕д├д╞ддд┐д╬дЄ╜д└╡
+
+2008-05-02 21:00  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h, GuiMessage.cpp,
+	GuiMessage.h, GuiNum.cpp, GuiNum.h, WinPos.cpp, main-dows.cpp,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.cpp,
+	xlnl-dows/xlnl-dows.h, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%&%#%s%I%&$N0LCV$H%5%$%:$r%;!<%V!?%m!<%I=PMh$kMM$K$7$?(B
+
+2008-05-02 13:33  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, GuiInputString.cpp,
+	GuiInputString.h, GuiMenu.cpp, GuiMessage.cpp, GuiMessage.h,
+	GuiNum.cpp, GuiNum.h, GuiStat.cpp, GuiStat.h, Makefile.am,
+	Makefile.in, SelConf.cpp, SelConf.h, WinPos.cpp, WinPos.h,
+	main-gtk.cpp:
+
+	GTK+: ежегеєе╔ежд╬░╠├╓д╚е╡еде║дЄе╗б╝е╓б┐еэб╝е╔╜╨═шды══д╦д╖д┐
+
+2008-05-01 08:45  bowkenken
+
+	* sh/ln-lnl-xlnl, src/PcgDun.cpp:
+
+	coLinux $BBP1~(B
+
+2008-05-01 08:08  bowkenken
+
+	* man/Makefile.in:
+
+	coLinux ┬╨▒■
+
+2008-05-01 08:01  bowkenken
+
+	* sh/ln-lnl-xlnl:
+
+	coLinux ┬╨▒■
+
+2008-05-01 07:52  bowkenken
+
+	* configure, configure.in, src/config.h.in:
+
+	coLinux ┬╨▒■
+
+2008-05-01 06:31  bowkenken
+
+	* configure, configure.in, src/config.h.in:
+
+	coLinux д╦┬╨▒■
+
+2008-04-27 07:28  bowkenken
+
+	* src/xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%-!<F~NO=hM}$K%&%'%$%H$rF~$l$F(B CPU $B;HMQN($r2<$2$?(B
+
+2008-04-27 05:54  bowkenken
+
+	* play-xlnl/: xlnl-english, xlnl-eucjp, xlnl-utf-8:
+
+	GTK*:
+	╝┬╣╘е╣епеъе╫е╚дЄелеьеєе╚бже╟егеьепе╚еъд╬╝┬╣╘е╒ебедеыд╦дт┬╨▒■д╡д╗д┐
+
+2008-04-27 05:45  bowkenken
+
+	* play-xlnl/: xlnl-english, xlnl-english-l-size,
+	xlnl-english-l-size-gui, xlnl-english-s-size,
+	xlnl-english-s-size-gui, xlnl-eucjp, xlnl-eucjp-l-size,
+	xlnl-eucjp-l-size-gui, xlnl-eucjp-s-size, xlnl-eucjp-s-size-gui,
+	xlnl-utf-8, xlnl-utf-8-l-size, xlnl-utf-8-l-size-gui,
+	xlnl-utf-8-s-size, xlnl-utf-8-s-size-gui:
+
+	GTK+: ╝┬╣╘е╣епеъе╫е╚дЄ─┤└░
+
+2008-04-27 05:05  bowkenken
+
+	* src/: MfcWSDimage.h, PcgDun.cpp, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/Dir3d.h, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $BM<>F$1$dLk$G%^%C%W$N?'$rJQ2=$5$;$kMM$K$7$?(B
+
+2008-04-26 08:47  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h:
+
+	GTK+: ═╝╛╞д▒дф╠ыд╩д╔д╟е▐е├е╫д╬┐здЄ╩╤▓╜д╡д╗ды══д╦д╖д┐
+
+2008-04-26 00:39  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: 1 е╓еэе├епд╬╔¤дф╣тд╡д╬╩╔дм└╡д╖дп╔┴▓шд╡дьд╩ддд╬дЄ╜д└╡
+
+2008-04-25 16:02  bowkenken
+
+	* src/: main-gtk-prot.h, main-gtk.cpp:
+
+	GTK+:
+	е▐е├е╫бжежегеєе╔еждЄ╜╠╛о╔╜╝ид╖д┐╗■д╦е╣епеэб╝еыбже╨б╝д╬╚╧░╧дмдкдлд╖ддд╬дЄ╜д└╡
+
+2008-04-25 13:09  bowkenken
+
+	* configure, configure.in, man/xlnl.jpn, src/GraphConf.cpp,
+	src/GraphConf.h, src/GraphConfToken.h, src/PcgDun.cpp,
+	src/PcgDun.h:
+
+	GUI: ╩╔д╚▓░║мд╬екб╝е╚бже┐едеыд╬╖┴╝░д╦╩╠е╨б╝е╕ечеєдЄ─╔▓├
+
+2008-04-20 04:47  bowkenken
+
+	* src/: main-gtk-prot.h, main-gtk.cpp, msg-jpn-sjis.h:
+
+	GTK+: е▐е├е╫бжежегеєе╔ежд╦│╞е│е▐еєе╔бже▄е┐еєдЄ╝┬┴їд╖д┐
+
+2008-04-20 03:39  bowkenken
+
+	* src/: MouseMap.cpp, xlnl-dows/MainFrm.cpp, xlnl-dows/MainFrm.h,
+	xlnl-dows/resource.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc:
+
+	DX: $B%D!<%k!&%P!<$K<B9T!?O"B3<B9T%\%?%s$r<BAu$7$?(B
+
+2008-04-19 22:14  bowkenken
+
+	* src/: GuiStat.cpp, GuiStat.h:
+
+	GTK+: е╣е╞б╝е┐е╣бжежегеєе╔еждм╔┴▓шд╟днд╩ддд╬дЄ╜д└╡├ц(╩▌╬▒)
+
+2008-04-19 10:44  bowkenken
+
+	* src/: MouseMap.h, xlnl-dows/MainFrm.cpp:
+
+	GTK+: ежегеєе╔еже║┬╨▒■
+
+2008-04-19 10:31  bowkenken
+
+	* src/: MouseMap.cpp, MouseMap.h, xlnl-dows/MainFrm.cpp,
+	xlnl-dows/MainFrm.h, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%^%&%9$N1&%W%l%9$GO"B3<B9T$,=PMh$kMM$K$7$?(B
+
+2008-04-19 08:03  bowkenken
+
+	* src/: MouseMap.cpp, MouseMap.h, MouseMotion.cpp, MouseMotion.h:
+
+	GTK+: ▒же╫еье╣д╟╧в┬│╝┬╣╘д╟днды══д╦д╖д┐
+
+2008-04-19 03:32  bowkenken
+
+	* src/xlnl-dows/: XlnlView.cpp, XlnlView.h, xlnl-dows.ncb:
+
+	DX: $B%@%V%k!&%/%j%C%/$K5!G=$r3d$jEv$F$i$l$kMM$K$7$?(B
+
+2008-04-19 01:08  bowkenken
+
+	* src/: MouseMap.cpp, MouseMap.h, MouseMotion.cpp, MouseMotion.h,
+	main-gtk.cpp:
+
+	GTK+: е▐еже╣д╬е└е╓еыбжепеъе├епд╦╡б╟╜дЄ│фдъ┼Ўд╞дщдьды══д╦д╖д┐
+
+2008-04-17 06:18  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h, msg-jpn-sjis.h:
+
+	GUI: └╨┴№дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2008-04-10 18:07  bowkenken
+
+	* src/msg-jpn-sjis.h:
+
+	╖╨╕│├═д╬╝ш╞└есе├е╗б╝е╕дЄелеєе▐бже╒ейб╝е▐е├е╚д╦д╖д┐
+
+2008-04-09 20:36  bowkenken
+
+	* ChangeLog, src/main-gtk-prot.h, src/main-gtk.cpp,
+	src/msg-jpn-sjis.h:
+
+	╧в┬│╝┬╣╘енб╝дЄе╚е░еы╞░║юд╟└┌дъ┬╪дяды══д╦д╖д┐
+
+2008-04-08 18:01  bowkenken
+
+	* src/: PcgDun.cpp, xlnl-dows/Dir3d.cpp, xlnl-dows/Dir3d.h,
+	xlnl-dows/XlnlView.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $BIA2h$r9bB.2=(B
+
+2008-04-06 18:38  bowkenken
+
+	* src/: PcgDun.cpp, xlnl-dows/Dir3d.cpp, xlnl-dows/Dir3d.h,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc:
+
+	DX: $BIA2h$r9bB.2=(B
+
+2008-04-03 23:03  bowkenken
+
+	* src/: config-dows.h, xlnl-dows/xlnl-dows.ncb:
+
+	dows: $B%P!<%8%g%J%C%W(B
+
+2008-04-03 22:04  bowkenken
+
+	* src/xlnl-dows/xlnl-dows.ncb:
+
+	dows: $B%P!<%8%g%J%C%W(B
+
+2008-04-03 21:15  bowkenken
+
+	* README, README-DOS, README-MAC:
+
+	README д╬╡н╜╥дЄ lnl длдщ xlnl д╪╜д└╡
+
+2008-04-03 19:26  bowkenken
+
+	* src/: PcgDun.cpp, msg-jpn-sjis.h:
+
+	dows ╚╟д╬е│б╝е╔дм GTK+ ╚╟д╦║од╕д├д╞ддд┐д╬дЄ╜д└╡
+
+2008-02-13 08:17  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, xlnl-dows/MainFrm.cpp,
+	xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%?%$%H%k2hLL$N%M!<%`$r%"%K%a!<%7%g%s$9$kMM$K$7$?(B
+
+2008-02-13 05:23  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, main-gtk-prot.h, main-gtk.cpp:
+
+	GTK+: е┐еде╚еы▓ш╠╠д╬е▓б╝ер╠╛дЄеве╦есб╝е╖ечеєд╣ды══д╦д╖д┐
+
+2008-02-12 17:20  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/Dir3d.h, xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $BIA2h$r>/$79bB.2=!#(B DX:
+	$B%F%-%9%H!&%b!<%I$N%U%)%s%H!&%5%$%:$rJQ992DG=$K$7$?!#(B
+
+2008-02-07 07:24  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h:
+
+	GUI: ╔┴▓шдЄ╣т┬о▓╜
+
+2008-02-01 05:25  bowkenken
+
+	* configure, configure.in, man/xlnl.jpn:
+
+	е▐е╦ехевеыд╬е╨б╝е╕ече╩е├е╫
+
+2008-02-01 03:45  bowkenken
+
+	* src/: main-dows.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX:
+	$B%G%P%C%0!&%P!<%8%g%s$r%j%j!<%9$9$k$H%f!<%64D6-$G<B9T$G$-$J$$(B
+
+2008-01-11 18:13  bowkenken
+
+	* src/: FileList.cpp, FileList.h, GameThread.cpp, GameThread.h,
+	GlobalVar.cpp, GlobalVar.h, GraphConf.cpp, GraphConf.h,
+	GraphConfToken.h, GtkMisc.h, GtkWSCstring.cpp, GtkWSCstring.h,
+	GtkWSDimage.h, GtkWSDmwindowDev.cpp, GtkWSDmwindowDev.h,
+	GuiInputString.cpp, GuiInputString.h, GuiMenu.cpp, GuiMenu.h,
+	GuiMessage.cpp, GuiMessage.h, GuiMisc.cpp, GuiMisc.h, GuiNum.cpp,
+	GuiNum.h, GuiStat.cpp, GuiStat.h, Key.cpp, Key.h, MapFormDraw.cpp,
+	MapFormInit.cpp, MapFormMouseMove.cpp, MapFormMousePress.cpp,
+	MapFormMouseRellease.cpp, MapFormResize.cpp, MapScrollXDraw.cpp,
+	MapScrollXValCh.cpp, MapScrollYDraw.cpp, MapScrollYValCh.cpp,
+	MapWinInit.cpp, MenuWinInit.cpp, MfcMisc.h, MfcWSCstring.cpp,
+	MfcWSCstring.h, MfcWSDimage.h, MfcWSDmwindowDev.cpp,
+	MfcWSDmwindowDev.h, MouseMap.cpp, MouseMap.h, MouseMotion.cpp,
+	MouseMotion.h, Pcg.cpp, Pcg.h, PcgDun.cpp, PcgDun.h, PcgDunTab.h,
+	SelConf.cpp, SelConf.h, config-dows.h, config-win.h, main-dows.cpp,
+	main-gtk.cpp, main-x.c, main-x.h, msg-jpn-sjis.h:
+
+	╠└д▒д▐д╖д╞дкдсд╟д╚джд┤д╢ддд▐д╣бг║г╟пдтдшдэд╖дпдк┤ъддд╖д▐д╣бг
+
+2007-12-25 22:46  bowkenken
+
+	* src/: Makefile.am, Makefile.in:
+
+	ver.3.3.0 еъеъб╝е╣
+
+2007-12-25 19:42  bowkenken
+
+	* src/xlnl-dows/xlnl-dows.ncb:
+
+	DOS: ver.3.3.0 $B%j%j!<%9(B
+
+2007-12-25 15:38  bowkenken
+
+	* ChangeLog, man/xlnl.jpn:
+
+	ver.3.3.0 еъеъб╝е╣
+
+2007-12-25 15:13  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMessage.h, PcgDun.cpp,
+	xlnl-dows/Dir3d.cpp, xlnl-dows/Dir3d.h, xlnl-dows/MainFrm.cpp,
+	xlnl-dows/xlnl-dows.ncb:
+
+	DX:
+	$B%^%C%W!&%&%#%s%I%&$N%5%$%:$rJQ99$9$k$H%U%j!<%:$9$k$N$r=$@5(B
+
+2007-12-25 11:15  bowkenken
+
+	* src/: Key.cpp, Key.h, SelConf.cpp, main-dows.cpp,
+	xlnl-dows/Dir3d.cpp, xlnl-dows/Dir3dText.cpp,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/XlnlView.cpp,
+	xlnl-dows/XlnlView.h, xlnl-dows/xlnl-dows.cpp,
+	xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%^%C%W!&%&%#%s%I%&$G%-!<F~NO$r=hM}(B
+
+2007-12-25 08:02  bowkenken
+
+	* src/xlnl-dows/: Dir3d.cpp, Dir3d.h, XlnlView.cpp, xlnl-dows.aps,
+	xlnl-dows.ncb:
+
+	DX: $B%I%i%C%0Cf$K%&%#%s%I%&30$K=P$l$kMM$K$7$?(B
+
+2007-12-25 07:00  bowkenken
+
+	* src/: MouseMap.cpp, PcgDun.cpp:
+
+	GTK+: е╒ейеєе╚бже╡еде║д╬└▀─ъдЄ Fedora 8 д╦┬╨▒■
+
+2007-12-25 02:39  bowkenken
+
+	* Makefile.in, configure, data/Makefile.in, src/Makefile.in,
+	src/config.h.in:
+
+	OS дЄ Fedora 8 д╦е╨б╝е╕ече╩е├е╫
+
+2007-12-25 01:37  bowkenken
+
+	* src/: GameThread.cpp, GuiMessage.cpp, GuiMessage.h, GuiMisc.cpp,
+	GuiMisc.h, MfcWSCstring.cpp, MouseMap.cpp, PcgDun.cpp, PcgDun.h,
+	SelConf.cpp, SelConf.h, main-dows-prot.h, main-dows.cpp,
+	xlnl-dows/Dir3d.cpp, xlnl-dows/Dir3d.h, xlnl-dows/Dir3dText.cpp,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/MainFrm.h, xlnl-dows/XlnlView.cpp,
+	xlnl-dows/resource.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.h,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc:
+
+	DX: $BIT@5Mn$A$,IQHK$K5/$-$k$N$r=$@5(B
+
+2007-12-16 11:09  bowkenken
+
+	* src/: GraphConf.cpp, GraphConf.h, GraphConfToken.h, PcgDun.cpp,
+	PcgDun.h, SelConf.cpp, SelConf.h, main-dows.cpp, main-gtk-prot.h,
+	main-gtk.cpp:
+
+	GTK+: е░еще╒еге├епбжетб╝е╔дЄ┴к┬Єд╖д╞└▀─ъд╟днды══д╦д╖д┐
+
+2007-12-15 14:06  bowkenken
+
+	* src/GtkWSCstring.cpp:
+
+	╩╕╗·╬єепеще╣д╬├▒╕ьд╬┐Їди╩¤дЄ╜д└╡
+
+2007-12-15 13:54  bowkenken
+
+	* src/: MfcWSCstring.cpp, SelConf.cpp, SelConf.h,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%?%$%kA*Br$N@_Dj%U%!%$%k$r%m!<%I$G$-$kMM$K$7$?(B
+
+2007-12-15 08:24  bowkenken
+
+	* ChangeLog, src/GraphConf.cpp, src/GraphConf.h,
+	src/GraphConfToken.h, src/Makefile.am, src/Makefile.in,
+	src/SelConf.cpp, src/SelConf.h, src/main-dows.cpp,
+	src/main-gtk.cpp, src/main-x.c:
+
+	е┐едеы┴к┬Єд╬└▀─ъе╒ебедеыдЄеэб╝е╔д╟днды══д╦д╖д┐
+
+2007-12-14 09:02  bowkenken
+
+	* src/: SelConf.cpp, SelConf.h, main-dows.cpp,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc:
+
+	DX: $B%?%$%kA*Br$N%G%#%l%/%H%j8!:w$r<BAu(B
+
+2007-12-13 20:16  bowkenken
+
+	* configure, configure.in, xlnl.spec, src/config-dows.h:
+
+	е╨б╝е╕ече╩е├е╫
+
+2007-12-13 19:49  bowkenken
+
+	* src/: FileList.cpp, FileList.h, PcgDun.cpp, SelConf.cpp,
+	SelConf.h:
+
+	GTK+: е┐едеы┴к┬Єд╬е╟егеьепе╚еъ╕б║ўдЄ╝┬┴ї
+
+2007-12-12 11:41  bowkenken
+
+	* src/: GtkWSDmwindowDev.h, PcgDun.cpp, PcgDun.h, main-gtk.cpp:
+
+	GTK+: е╞ене╣е╚бжетб╝е╔д╟е▐е├е╫д╬░ь╔Їдм╔┴▓шд╡дьд╩ддд╬дЄ╜д└╡
+
+2007-12-12 10:03  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GUI: е▐е├е╫д╬╔┴▓шдЄ╣т┬о▓╜
+
+2007-12-11 22:15  bowkenken
+
+	* src/: GuiInputString.cpp, PcgDun.cpp, SelConf.cpp, SelConf.h,
+	main-dows-prot.h, main-dows.cpp, xlnl-dows/Dir3d.cpp,
+	xlnl-dows/InputLineDlg.cpp, xlnl-dows/resource.h,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.cpp,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc,
+	xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%?%$%H%k2hLL$KGX7J2hA|$rIA2h(B
+
+2007-12-11 18:21  bowkenken
+
+	* src/GuiStat.cpp:
+
+	GTK+:
+	е╣е╞б╝е┐е╣д╬е▄е┐еєд╟бвд╩дыд┘дпесе╦ехб╝бже│е▐еєе╔дЄ╗╚дж══д╦д╖д┐
+
+2007-12-11 17:14  bowkenken
+
+	* src/PcgDun.cpp:
+
+	▓ш┴№е╟егеьепе╚еъдЄ╩╤╣╣
+
+2007-12-10 15:52  bowkenken
+
+	* src/: FileList.h, GameThread.cpp, GlobalVar.cpp, GlobalVar.h,
+	GuiInputString.cpp, GuiMenu.cpp, GuiMessage.cpp, GuiNum.cpp,
+	GuiStat.cpp, Makefile.am, Makefile.in, PcgDun.cpp, PcgDun.h,
+	PcgDunTab.h, SelConf.cpp, SelConf.h, main-gtk-prot.h, main-gtk.cpp,
+	xlnl-dows/Dir3d.cpp:
+
+	е┐еде╚еы▓ш╠╠д╦▓ш┴№дЄ╔┴▓шд╣ды══д╦д╖д┐
+
+2007-12-09 23:29  bowkenken
+
+	* src/xlnl-dows/: Dir3d.cpp, Dir3d.h, Dir3dText.cpp, xlnl-dows.ncb:
+
+	DX: $B4GHD$NJ8;zIA2h$K$bGSB>@)8f$rF~$l$?(B
+
+2007-12-09 22:47  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GTK+: е│б╝е╔дЄ└░═¤
+
+2007-12-09 22:10  bowkenken
+
+	* src/xlnl-dows/: Dir3d.cpp, Dir3d.h, Dir3dText.cpp, Dir3dText.h:
+
+	DX: ┼╣д╬┤╟╚─дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2007-12-09 22:03  bowkenken
+
+	* src/: Dir3d.cpp, Dir3d.h, GlobalVar.h, Pcg.cpp, PcgDun.cpp,
+	PcgDun.h, xlnl-dows/MainFrm.cpp, xlnl-dows/xlnl-dows.cpp,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%9%F!<%?%9!&%&%#%s%I%&$r<BAu(B
+
+2007-12-09 02:47  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	GTK+: ┼╣д╬┤╟╚─дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2007-12-08 20:55  bowkenken
+
+	* src/: GlobalVar.cpp, GuiNum.cpp, GuiStat.cpp, GuiStat.h:
+
+	GTK+: е╣е╞б╝е┐е╣бжежегеєе╔ежд╬е│б╝е╔дЄ└░═¤бг GTK+:
+	┐Ї├═╞■╬╧ежегеєе╔еждм╦╜┴Ўд╣дыд╬дЄ╜д└╡бг
+
+2007-12-08 10:13  bowkenken
+
+	* ChangeLog, src/xlnl-dows/StatWnd.cpp, src/xlnl-dows/StatWnd.h:
+
+	ежегеєе╔еже║д╬е╒ебедеыдЄ─╔▓├
+
+2007-12-08 09:58  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, GuiMenu.cpp, GuiMessage.cpp,
+	GuiStat.cpp, GuiStat.h, main-dows.cpp, xlnl-dows/MainFrm.cpp,
+	xlnl-dows/MainFrm.h, xlnl-dows/resource.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.h,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B%9%F!<%?%9!&%&%#%s%I%&$r<BAu(B
+
+2007-12-06 07:22  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, xlnl-dows/MainFrm.cpp,
+	xlnl-dows/MainFrm.h, xlnl-dows/XlnlView.cpp, xlnl-dows/XlnlView.h,
+	xlnl-dows/xlnl-dows.ncb:
+
+	DX: GUI $B$N%F%-%9%H!&%b!<%I$r<BAu(B
+
+2007-12-06 00:50  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, GuiMisc.cpp, GuiMisc.h,
+	main-dows.cpp, xlnl-dows/MainFrm.cpp, xlnl-dows/MainFrm.h,
+	xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.ncb:
+
+	DX: $B%/%m!<%:!&%\%?%s$G=*N;3NG'$r$9$kMM$K$7$?(B
+
+2007-12-05 22:21  bowkenken
+
+	* src/: GuiNum.cpp, GuiNum.h, xlnl-dows/resource.h,
+	xlnl-dows/xlnl-dows.aps, xlnl-dows/xlnl-dows.ncb,
+	xlnl-dows/xlnl-dows.rc, xlnl-dows/xlnl-dows.vcproj:
+
+	DX: $B?tCMF~NO%&%#%s%I%&$r<BAu(B
+
+2007-12-03 15:17  bowkenken
+
+	* src/: GlobalVar.h, GuiMenu.cpp, GuiNum.cpp, GuiNum.h:
+
+	Windows file
+
+2007-12-03 14:50  bowkenken
+
+	* src/xlnl-dows/: ButtonR.cpp, ButtonR.h, InputLineDlg.cpp,
+	InputLineDlg.h, MainFrm.cpp, MainFrm.h, MenuWnd.cpp, MenuWnd.h,
+	MessageView.cpp, MessageView.h, MessageWnd.cpp, MessageWnd.h,
+	ReadMe.txt, XlnlView.cpp, XlnlView.h, resource.h, stdafx.cpp,
+	stdafx.h, xlnl-dows.aps, xlnl-dows.cpp, xlnl-dows.h, xlnl-dows.ncb,
+	xlnl-dows.rc, xlnl-dows.sln, xlnl-dows.vcproj:
+
+	Windows files
+
+2007-12-03 14:43  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h:
+
+	retry
+
+2007-12-03 14:20  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h,
+	xlnl-dows/ButtonR.cpp, xlnl-dows/ButtonR.h,
+	xlnl-dows/InputLineDlg.cpp, xlnl-dows/InputLineDlg.h,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/MainFrm.h, xlnl-dows/MenuWnd.cpp,
+	xlnl-dows/MenuWnd.h, xlnl-dows/MessageView.cpp,
+	xlnl-dows/MessageView.h, xlnl-dows/MessageWnd.cpp,
+	xlnl-dows/MessageWnd.h, xlnl-dows/XlnlView.cpp,
+	xlnl-dows/XlnlView.h, xlnl-dows/resource.h, xlnl-dows/stdafx.cpp,
+	xlnl-dows/stdafx.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.h,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc,
+	xlnl-dows/xlnl-dows.sln, xlnl-dows/xlnl-dows.vcproj:
+
+	retry
+
+2007-12-03 14:07  bowkenken
+
+	* src/GlobalVar.h:
+
+	ежегеєе╔еже║д╬е╒ебедеыдЄ┼╨╧┐
+
+2007-12-03 14:00  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h,
+	xlnl-dows/ButtonR.cpp, xlnl-dows/ButtonR.h,
+	xlnl-dows/InputLineDlg.cpp, xlnl-dows/InputLineDlg.h,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/MainFrm.h, xlnl-dows/MenuWnd.cpp,
+	xlnl-dows/MenuWnd.h, xlnl-dows/MessageView.cpp,
+	xlnl-dows/MessageView.h, xlnl-dows/MessageWnd.cpp,
+	xlnl-dows/MessageWnd.h, xlnl-dows/XlnlView.cpp,
+	xlnl-dows/XlnlView.h, xlnl-dows/resource.h, xlnl-dows/stdafx.cpp,
+	xlnl-dows/stdafx.h, xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.h:
+
+	Windows $BHG$N%U%!%$%k$rDI2C(B
+
+2007-12-03 13:05  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h, GuiMenu.cpp,
+	GuiMessage.cpp, GuiNum.cpp, GuiNum.h:
+
+	Windows $BHG$N%U%!%$%k$rDI2C(B
+
+2007-12-03 12:54  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h, GuiMenu.cpp,
+	GuiMessage.cpp, GuiNum.cpp, GuiNum.h, xlnl-dows/xlnl-dows.aps,
+	xlnl-dows/xlnl-dows.ncb, xlnl-dows/xlnl-dows.rc,
+	xlnl-dows/xlnl-dows.sln, xlnl-dows/xlnl-dows.vcproj:
+
+	Windows $BHG$N%U%!%$%k$rDI2C(B
+
+2007-12-03 12:22  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h, GuiMenu.cpp,
+	GuiMessage.cpp, xlnl-dows/ButtonR.cpp, xlnl-dows/ButtonR.h,
+	xlnl-dows/InputLineDlg.cpp, xlnl-dows/InputLineDlg.h,
+	xlnl-dows/MainFrm.cpp, xlnl-dows/MainFrm.h, xlnl-dows/MenuWnd.cpp,
+	xlnl-dows/MenuWnd.h, xlnl-dows/MessageView.cpp,
+	xlnl-dows/MessageView.h, xlnl-dows/MessageWnd.cpp,
+	xlnl-dows/MessageWnd.h, xlnl-dows/XlnlView.cpp,
+	xlnl-dows/XlnlView.h, xlnl-dows/resource.h, xlnl-dows/stdafx.cpp,
+	xlnl-dows/stdafx.h, xlnl-dows/xlnl-dows.cpp, xlnl-dows/xlnl-dows.h:
+
+	DX: 1 $B9TF~NO%&%#%s%I%&$r<BAu!#(B Windows
+	$BHG$N%U%!%$%k$rDI2C!#(B
+
+2007-11-28 09:36  bowkenken
+
+	* ChangeLog, src/GuiMenu.cpp, src/GuiNum.cpp, src/GuiNum.h:
+
+	┐Ї├═╞■╬╧д╬ GUI д╚ CUI дЄ╧в╞░д╡д╗д┐
+
+2007-11-20 10:12  bowkenken
+
+	* src/GuiMenu.cpp:
+
+	DX: $B%a%K%e!<$N%-%c%s%;%k!&%\%?%s$r<BAu(B
+
+2007-11-20 09:11  bowkenken
+
+	* src/GuiMenu.cpp:
+
+	DX: $B%a%K%e!<$N%Z!<%8?t$rI=<($9$kMM$K$7$?(B
+
+2007-11-20 08:21  bowkenken
+
+	* src/GuiMenu.cpp:
+
+	DX: $B%a%K%e!<$rA*Br!?<B9T$G$-$kMM$K$7$?(B
+
+2007-11-17 16:49  bowkenken
+
+	* src/: Dir3d.cpp, GuiMenu.cpp, GuiMenu.h, main-dows.cpp:
+
+	DX: $B%a%K%e!<!&%&%#%s%I%&$rI=<($G$-$kMM$K$7$?(B
+
+2007-11-13 03:24  bowkenken
+
+	* src/: Dir3d.cpp, Dir3d.h, GameThread.cpp, GlobalVar.cpp,
+	GlobalVar.h, GuiMessage.cpp, GuiMisc.cpp, Pcg.h, PcgDun.cpp:
+
+	DX: $B%2!<%`$N=*N;8e$N%a%b%j!<!&%j!<%/$r8:$i$7$?(B
+
+2007-11-12 19:13  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMisc.cpp, GuiMisc.h:
+
+	DX: $B%a%C%;!<%8$N%+%i!<Ey$NIA2hB0@-$r<BAu(B
+
+2007-11-12 13:13  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMessage.h, PcgDun.cpp, PcgDun.h,
+	main-dows.cpp:
+
+	DX: $B%a%C%;!<%8!&%&%#%s%I%&$r<BAu(B
+
+2007-11-09 20:28  bowkenken
+
+	* src/: GuiMessage.cpp, MouseMap.cpp, PcgDun.cpp, PcgDun.h,
+	main-dows.cpp:
+
+	DX: $B%^%&%9!&%b!<%7%g%s$rG'<1!"<B9T$G$-$kMM$K$7$?(B
+
+2007-11-09 17:06  bowkenken
+
+	* src/: GuiMisc.cpp, PcgDun.cpp:
+
+	GTK+: елещб╝бже▐е├е╫д╬│фдъ┼Ўд╞дЄ╣т┬о▓╜д╦╝║╟╘
+
+2007-11-08 22:30  bowkenken
+
+	* ChangeLog, src/PcgDun.cpp:
+
+	GTK+:
+	е╞ене╣е╚бжетб╝е╔╗■д╬евеєе└б╝бжещедеє┬░└ндм└╡д╖дп╔┴▓шд╟днд╩ддд╬дЄ╜д└╡
+
+2007-11-08 19:41  bowkenken
+
+	* src/: GuiMessage.cpp, PcgDun.cpp:
+
+	GTK+: е╞ене╣е╚бжетб╝е╔д╬е▐е├е╫дЄелещб╝д╦┬╨▒■
+
+2007-11-08 13:03  bowkenken
+
+	* src/PcgDun.cpp:
+
+	GTK+: е╞ене╣е╚бжетб╝е╔д╬е╒ейеєе╚бже╡еде║дЄ▓─╩╤д╦д╖д┐
+
+2007-11-08 12:42  bowkenken
+
+	* src/: GuiMessage.cpp, MouseMap.cpp, PcgDun.cpp, PcgDun.h,
+	main-gtk.cpp, main-x-prot.h:
+
+	GTK+: GUI д╬е╞ене╣е╚╔╜╝иетб╝е╔дЄ╝┬┴ї
+
+2007-11-07 18:10  bowkenken
+
+	* ChangeLog, src/GuiMessage.cpp, src/GuiMessage.h:
+
+	GTK+: есе├е╗б╝е╕дЄе▐еже╣бже█едб╝еыд╟е╣епеэб╝еы╜╨═шды══д╦д╖д┐
+
+2007-11-07 16:14  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMessage.h:
+
+	GTK+: е╒ейеєе╚д╬┴р║юд╦ GtkStyle дЄ╗╚дж══д╦д╖д┐
+
+2007-11-07 00:26  bowkenken
+
+	* src/GuiMessage.cpp:
+
+	GTK+ есе├е╗б╝е╕бжежегеєе╔еждЄ╜╠╛од╟днды══д╦д╖д┐
+
+2007-11-06 23:14  bowkenken
+
+	* src/GuiMessage.cpp:
+
+	GTK+
+	╚╟д╟бвесе├е╗б╝е╕бжежегеєе╔ежд╬е╒ейеєе╚бже╡еде║д╬╖╫╗╗дЄ└╡│╬д╦д╖д┐
+
+2007-11-06 12:20  bowkenken
+
+	* src/: PcgDun.cpp, PcgDunTab.h:
+
+	цлд╬╛хдЄелб╝е╜еыд╟д╩д╛дыд╚е╤е┐б╝еєдм╖чд▒дыд╬дЄ╜д└╡
+
+2007-11-05 19:16  bowkenken
+
+	* ChangeLog, src/PcgDun.cpp, src/PcgDun.h, src/PcgDunTab.h:
+
+	е╤е┐б╝еєдме┐едеыбже╡еде║дшдъ╛пд╖д╧д▀╜╨д╞дт╔┴▓шд╟днды══д╦д╖д┐
+
+2007-11-05 00:56  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	DirectX ╚╟д╟цлдЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2007-11-04 22:43  bowkenken
+
+	* src/main-dows.cpp:
+
+	DirectX $BHG$G!"%^%C%W$N=i4|0LCV$r@5$7$/$7$?(B
+
+2007-11-04 22:14  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h:
+
+	Windows └ь═╤д╬┤╪┐ЇдЄ UNIX длдщ╕лдид╩дд══д╦д╖д┐
+
+2007-11-04 21:47  bowkenken
+
+	* src/: Dir3d.cpp, Dir3d.h, GuiInputString.cpp, GuiMessage.cpp,
+	GuiNum.cpp, PcgDun.cpp, PcgDun.h:
+
+	DirectX $BHG$G!"%^%C%W!&%&%#%s%I%&$K%9%/%m!<%k!&%P!<$r$D$1$?(B
+
+2007-11-03 06:03  bowkenken
+
+	* ChangeLog, src/Key.cpp, src/Key.h, src/MouseMap.cpp:
+
+	е▐еже╣бже█едб╝еыд╬енб╝дме╨е├е╒ебд╦д┐д▐дщд╩дд══д╦д╖д┐
+
+2007-11-01 19:24  bowkenken
+
+	* src/: MouseMap.cpp, main-gtk.cpp:
+
+	е▐еже╣бже█едб╝еыд╟д╬е╣епеэб╝еыдЄ▓╛╝┬┴ї
+
+2007-11-01 11:44  bowkenken
+
+	* configure, configure.in, xlnl.spec:
+
+	е╨б╝е╕ече╩е├е╫
+
+2007-10-31 09:29  bowkenken
+
+	* src/: FileList.h, PcgDun.cpp:
+
+	GUI ╚╟д╟бве╔евд╬едесб╝е╕д╬▓╝├╧д╦╩╔дЄ╔┴▓шд╣ды══д╦д╖д┐
+
+2007-10-31 01:33  bowkenken
+
+	* ChangeLog, src/FileList.cpp, src/GameThread.cpp,
+	src/GtkWSDimage.h, src/Pcg.cpp, src/PcgDun.h, src/main-x-prot.h,
+	src/main-x.c:
+
+	GTK+ ╚╟д╟ BMP д╬╚┤дн┐здЄ╝л╞░└▀─ъд╣ды══д╦д╖д┐
+
+2007-10-30 21:21  bowkenken
+
+	* src/: Dir3d.cpp, Dir3d.h, FileList.cpp, FileList.h, Pcg.cpp,
+	PcgDun.h:
+
+	DirectX $BHG$G!"(BBMP
+	$B$NFI$_9~$_;~$K2hA|$NH4$-?'$r<+F0@_Dj$9$kMM$K$7$?(B
+
+2007-10-30 14:53  bowkenken
+
+	* src/: FileList.cpp, FileList.h, GameThread.cpp, GameThread.h,
+	MfcWSCstring.cpp, MfcWSCstring.h, Pcg.cpp, PcgDun.cpp,
+	main-dows-prot.h, main-dows.cpp:
+
+	DirectX $BHG$G!"(BCUI $BB&$N%9%l%C%I$+$i=*N;$G$-$kMM$K$7$?!#(B
+	DirectX $BHG$G!"%U%!%$%k$N8!:w$r(B MFC $B$+$i(B Win32API
+	$B$KJQ99$7$?$iF0$$$?!#(B
+
+2007-10-29 21:54  bowkenken
+
+	* src/: Dir3d.cpp, Dir3d.h, Pcg.cpp, config-dows.h:
+
+	DirectX $BHG$G!"%^%C%W$NIA2h$H99?7$NGSB>@)8f$r$9$kMM$K$7$?(B
+
+2007-10-29 19:29  bowkenken
+
+	* src/: FileList.cpp, Pcg.cpp, Pcg.h, PcgDun.cpp, main-dows.cpp:
+
+	DirectX $BHG$G!"%^%C%W$NIA2h$,%9%F!<%?%9!&%P!<Ey$r(B
+	$B>e=q$-IA2h$7$F$$$?$N$r=$@5(B
+
+2007-10-29 12:25  bowkenken
+
+	* src/: FileList.cpp, FileList.h, GlobalVar.cpp, GlobalVar.h,
+	Pcg.cpp, main-dows.cpp:
+
+	DirectX $BHG$G!"=i4|2==hM}$r%5%V!&%9%l%C%I$K$^$o$7$?(B
+
+2007-10-29 09:21  bowkenken
+
+	* src/: FileList.cpp, GameThread.cpp, MfcWSCstring.cpp,
+	MfcWSCstring.h, MfcWSDimage.h, Pcg.cpp, Pcg.h, PcgDun.cpp,
+	PcgDun.h, main-dows.cpp:
+
+	Windows $BHG$G!"%-%c%i%/%?Ey$NIA2h0LCV$,$:$l$F$$$?$N$r=$@5(B
+
+2007-10-28 11:45  bowkenken
+
+	* src/: FileList.cpp, GameThread.cpp, MfcWSCstring.cpp,
+	MfcWSCstring.h, MfcWSDimage.h, Pcg.cpp, Pcg.h, PcgDun.cpp,
+	PcgDun.h, main-dows.cpp:
+
+	Windows ╚╟д╟бве▐е├е╫дЄд╚дъдвдид║╔┴▓шд╟днды══д╦д╖д┐
+
+2007-10-26 14:31  bowkenken
+
+	* src/: MouseMap.cpp, MouseMap.h, MouseMotion.cpp, MouseMotion.h,
+	main-gtk-prot.h, main-gtk.cpp:
+
+	е▐еже╣бже█едб╝еыд╬┬╨▒■╜р╚ў
+
+2007-10-25 10:29  bowkenken
+
+	* src/: FileList.h, GameThread.cpp, GuiInputString.cpp,
+	GuiMenu.cpp, GuiMessage.cpp, GuiMessage.h, GuiMisc.cpp, GuiMisc.h,
+	GuiNum.cpp, GuiNum.h, GuiStat.cpp, GuiStat.h, Key.cpp, Key.h,
+	MfcMisc.h, MfcWSCstring.cpp, MfcWSCstring.h, MfcWSDimage.h,
+	MfcWSDmwindowDev.cpp, MfcWSDmwindowDev.h, Pcg.cpp, Pcg.h,
+	PcgDun.cpp, main-dows.cpp:
+
+	Windows
+
+2007-10-25 10:25  bowkenken
+
+	* src/: GuiMenu.h, main-gtk.cpp:
+
+	DOS ╚╟д╟╧в┬│╝┬╣╘дм╡б╟╜д╖д╞ддд╩длд├д┐д╬дЄ╜д└╡
+
+2007-10-25 08:36  bowkenken
+
+	* sh/main-dows-prot, sh/main-win-prot, src/FileList.h,
+	src/GameThread.cpp, src/GuiInputString.cpp, src/GuiMenu.cpp,
+	src/GuiMenu.h, src/GuiMessage.cpp, src/GuiMessage.h,
+	src/GuiMisc.cpp, src/GuiMisc.h, src/GuiNum.cpp, src/GuiNum.h,
+	src/GuiStat.cpp, src/GuiStat.h, src/Key.cpp, src/Key.h,
+	src/MfcMisc.h, src/MfcWSCstring.cpp, src/MfcWSCstring.h,
+	src/MfcWSDimage.h, src/MfcWSDmwindowDev.cpp,
+	src/MfcWSDmwindowDev.h, src/Pcg.cpp, src/Pcg.h, src/PcgDun.cpp,
+	src/main-dows-prot.h, src/main-dows.c, src/main-dows.cpp:
+
+	Windows $BBP1~(B
+
+2007-10-25 08:25  bowkenken
+
+	* src/GuiInputString.cpp:
+
+	Windows ┬╨▒■
+
+2007-10-24 03:26  bowkenken
+
+	* src/: FileList.cpp, GlobalVar.h:
+
+	Windows ┬╨▒■
+
+2007-10-24 03:08  bowkenken
+
+	* src/: FileList.cpp, FileList.h:
+
+	Windows ┬╨▒■
+
+2007-10-24 01:27  bowkenken
+
+	* src/: FileList.cpp, FileList.h:
+
+	Windows ┬╨▒■
+
+2007-10-24 00:27  bowkenken
+
+	* src/: FileList.cpp, FileList.h:
+
+	Windows ┬╨▒■
+
+2007-10-23 23:26  bowkenken
+
+	* src/: FileList.cpp, FileList.h, Pcg.cpp, main-ws-prot.h:
+
+	Windows ┬╨▒■
+
+2007-10-23 21:25  bowkenken
+
+	* src/FileList.h:
+
+	Windows ┬╨▒■
+
+2007-10-23 20:29  bowkenken
+
+	* src/: FileList.h, main-dows.c:
+
+	Windows ┬╨▒■
+
+2007-10-23 19:45  bowkenken
+
+	* src/: FileList.cpp, GameThread.cpp, Pcg.cpp, main-ws-prot.h:
+
+	е▐епеэ D_WIN дЄ D_DOWS д╦╩╤╣╣
+
+2007-10-23 19:09  bowkenken
+
+	* src/: main-dows-prot.h, main-dows.c, main-win-prot.h, main-win.c:
+
+	ежегеєе╔еже║╖╧д╬е╒ебедеы╠╛дЄ╩╤╣╣
+
+2007-10-20 06:31  bowkenken
+
+	* ChangeLog, src/PcgDun.cpp, src/PcgDun.h:
+
+	е▐е├е╫бжежегеєе╔ежд╬╔┴▓шдЄ╣т┬о▓╜
+
+2007-06-08 17:30  bowkenken
+
+	* src/.cvsignore:
+
+	е╒ебедеыдЄ─╔▓├
+
+2007-06-08 16:09  bowkenken
+
+	* src/: Key.cpp, MouseMap.cpp:
+
+	GUI ╚╟д╟еъе╫еьедд╬║╞└╕╗■д╦ 1 епеъе├епд╟ 2 е│е▐┴ўд├д╞д╖д▐джд╬дЄ╜д└╡
+
+2007-06-08 01:39  bowkenken
+
+	* src/: Key.cpp, Key.h, MouseMap.cpp:
+
+	е▐еже╣бжелб╝е╜еыд╬╞░дндЄеъе╫еьедд╦╡н╧┐д╟днды══д╦д╖д┐
+
+2007-06-07 13:28  bowkenken
+
+	* ChangeLog, src/main-gtk.cpp:
+
+	GUI етб╝е╔д╟д╩дд╗■д╧ GTK+ д╬╜к╬╗╜ш═¤дЄ╕╞д╨д╩дд══д╦д╖д┐
+
+2007-03-28 03:30  bowkenken
+
+	* ChangeLog, src/Makefile.am, src/Makefile.in:
+
+	еъе╫еьедд╬е╜б╝е╣дЄ─╔▓├
+
+2007-03-19 21:43  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	евеєелб╝д╬╕■днд╦дшд├д╞▓ш┴№дЄ╩╤диды══д╦д╖д┐
+
+2007-03-18 15:41  bowkenken
+
+	* ChangeLog, xlnl.spec, src/msg-jpn-sjis.h:
+
+	еЇебб╝е╕ече╩е├е╫ ver.3.1.8
+
+2007-03-14 13:37  bowkenken
+
+	* data/Makefile.am:
+
+	е▐е├еп┬╨▒■
+
+2007-03-14 13:30  bowkenken
+
+	* data/Makefile.in, src/config.h.in:
+
+	е▐е├еп┬╨▒■
+
+2007-03-14 13:16  bowkenken
+
+	* src/Makefile.in:
+
+	е▐е├еп┬╨▒■
+
+2007-03-14 13:10  bowkenken
+
+	* Makefile.in, configure, src/msg-jpn-sjis.h:
+
+	е▐е├еп┬╨▒■
+
+2007-03-02 15:34  bowkenken
+
+	* configure.in, man/xlnl.jpn:
+
+	е╨б╝е╕ече╩е├е╫
+
+2007-03-02 08:10  bowkenken
+
+	* ChangeLog, Makefile.am, man/xlnl.jpn, sh/make-rpm,
+	src/Makefile.am:
+
+	е┐едеыбже░еще╒еге├еп╚╟бв╜щ╕°│л
+
+2007-03-02 00:53  bowkenken
+
+	* ChangeLog, play-xlnl/xlnl-english-l-size,
+	play-xlnl/xlnl-english-l-size-gui, play-xlnl/xlnl-english-s-size,
+	play-xlnl/xlnl-english-s-size-gui, play-xlnl/xlnl-eucjp-l-size,
+	play-xlnl/xlnl-eucjp-l-size-gui, play-xlnl/xlnl-eucjp-s-size,
+	play-xlnl/xlnl-eucjp-s-size-gui, play-xlnl/xlnl-utf-8-l-size,
+	play-xlnl/xlnl-utf-8-l-size-gui, play-xlnl/xlnl-utf-8-s-size,
+	play-xlnl/xlnl-utf-8-s-size-gui, src/xlnl-ja_JP.UTF-8.sh,
+	src/xlnl-ja_JP.eucJP.sh, src/xlnl.sh:
+
+	╝┬╣╘═╤е╣епеъе╫е╚дЄ═╤░╒
+
+2007-03-01 00:26  bowkenken
+
+	* .cvsignore, ex-data/class-dflt-tab.csv,
+	ex-data/item-acce-tab.csv, ex-data/item-anthology-tab.csv,
+	ex-data/item-armor-tab.csv, ex-data/item-coin-tab.csv,
+	ex-data/item-food-tab.csv, ex-data/item-inst-tab.csv,
+	ex-data/item-light-tab.csv, ex-data/item-pipe-tab.csv,
+	ex-data/item-potion-tab.csv, ex-data/item-range-tab.csv,
+	ex-data/item-rare-goods-tab.csv, ex-data/item-scroll-tab.csv,
+	ex-data/item-stick-tab.csv, ex-data/item-tobacco-tab.csv,
+	ex-data/item-wpn-tab.csv, ex-data/mnstr-gen-tab.csv,
+	ex-data/spell-gen-tab.csv:
+
+	е╒ебедеыдЄ─╔▓├
+
+2007-03-01 00:24  bowkenken
+
+	* ex-data/: class-dflt-tab.csv, item-acce-tab.csv,
+	item-anthology-tab.csv, item-armor-tab.csv, item-coin-tab.csv,
+	item-food-tab.csv, item-inst-tab.csv, item-light-tab.csv,
+	item-pipe-tab.csv, item-potion-tab.csv, item-range-tab.csv,
+	item-rare-goods-tab.csv, item-scroll-tab.csv, item-stick-tab.csv,
+	item-tobacco-tab.csv, item-wpn-tab.csv, mnstr-gen-tab.csv,
+	spell-gen-tab.csv:
+
+	е╟егеьепе╚еъд╬║я╜№
+
+2007-03-01 00:21  bowkenken
+
+	* src/: GuiMenu.cpp, GuiStat.cpp, Makefile.am, MapWin.cpp:
+
+	е╣е╞б╝е┐е╣бжежегеєе╔ежд╬е╡еде║дЄ╕╟─ъд╦д╖д┐
+
+2007-02-26 09:50  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h, GuiMessage.cpp, GuiNum.cpp,
+	GuiStat.cpp, main-gtk.cpp:
+
+	есе╦ехб╝бжежегеєе╔ежд╬е╡еде║дЄ╝л╞░─┤└сд╣дыдшджд╦д╖д┐бг
+
+2007-02-25 22:15  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h:
+
+	есе╦ехб╝дЄ┴┤д╞╩─д╕дые▄е┐еєдЄ╝┬┴ї
+
+2007-02-25 21:26  bowkenken
+
+	* data/.cvsignore, man/.cvsignore, sh/.cvsignore, src/FileList.h:
+
+	дк╗юд╖╚╟д╬е┐едеыд╬е╟егеьепе╚еъ╠╛дЄ╩╤╣╣
+
+2007-02-25 20:23  bowkenken
+
+	* data/.cvsignore, Makefile.am, configure, configure.in,
+	man/.cvsignore, src/Makefile.am:
+
+	е╒ебедеыдЄ║я╜№
+
+2007-02-25 18:58  bowkenken
+
+	* data/.cvsignore:
+
+	е░еще╒еге├епбже╟б╝е┐дЄ─╔▓├
+
+2007-02-25 18:41  bowkenken
+
+	* data/: class-dflt-tab.csv, item-acce-tab.csv,
+	item-anthology-tab.csv, item-armor-tab.csv, item-coin-tab.csv,
+	item-food-tab.csv, item-inst-tab.csv, item-light-tab.csv,
+	item-pipe-tab.csv, item-potion-tab.csv, item-range-tab.csv,
+	item-rare-goods-tab.csv, item-scroll-tab.csv, item-stick-tab.csv,
+	item-tobacco-tab.csv, item-wpn-tab.csv, mnstr-gen-tab.csv,
+	spell-gen-tab.csv:
+
+	е╒ебедеыдЄ║я╜№
+
+2007-02-25 18:39  bowkenken
+
+	* AUTHORS, Makefile.am, ex-data/class-dflt-tab.csv,
+	ex-data/item-acce-tab.csv, ex-data/item-anthology-tab.csv,
+	ex-data/item-armor-tab.csv, ex-data/item-coin-tab.csv,
+	ex-data/item-food-tab.csv, ex-data/item-inst-tab.csv,
+	ex-data/item-light-tab.csv, ex-data/item-pipe-tab.csv,
+	ex-data/item-potion-tab.csv, ex-data/item-range-tab.csv,
+	ex-data/item-rare-goods-tab.csv, ex-data/item-scroll-tab.csv,
+	ex-data/item-stick-tab.csv, ex-data/item-tobacco-tab.csv,
+	ex-data/item-wpn-tab.csv, ex-data/mnstr-gen-tab.csv,
+	ex-data/spell-gen-tab.csv, sh/cv-acce, sh/cv-anthology,
+	sh/cv-armor, sh/cv-class-dflt, sh/cv-coin, sh/cv-food, sh/cv-inst,
+	sh/cv-light, sh/cv-pipe, sh/cv-potion, sh/cv-range,
+	sh/cv-rare-goods, sh/cv-scroll, sh/cv-spell, sh/cv-stick,
+	sh/cv-tobacco, sh/cv-wpn, sh/rcv-acce, sh/rcv-anthology,
+	sh/rcv-armor, sh/rcv-class-dflt, sh/rcv-coin, sh/rcv-food,
+	sh/rcv-gen-spell, sh/rcv-inst, sh/rcv-light, sh/rcv-mnstr,
+	sh/rcv-pipe, sh/rcv-potion, sh/rcv-range, sh/rcv-rare-goods,
+	sh/rcv-scroll, sh/rcv-spell, sh/rcv-stick, sh/rcv-tobacco,
+	sh/rcv-wpn:
+
+	е╟егеьепе╚еъдЄ└░═¤
+
+2007-02-25 11:13  bowkenken
+
+	* src/: GuiStat.h, Pcg.cpp, xlnl.cpp, xlnl.prj:
+
+	WideStudio ┬╨▒■
+
+2007-02-23 14:30  bowkenken
+
+	* man/.cvsignore, src/GlobalVar.cpp, src/GlobalVar.h,
+	src/GuiInputString.cpp, src/GuiInputString.h, src/GuiMenu.cpp,
+	src/GuiMessage.h, src/GuiNum.cpp, src/GuiNum.h,
+	src/InpStrWinInit.cpp, src/MapScrollXDraw.cpp,
+	src/MapScrollYDraw.cpp, src/MapWin.cpp, src/MapWin.h,
+	src/MapWin.win, src/MapWinInit.cpp, src/Pcg.cpp, src/main-x.c,
+	src/xlnl.cpp, src/xlnl.prj:
+
+	WideStudio ╚╟д╬╔№│ш
+
+2007-02-21 16:15  bowkenken
+
+	* src/: GuiInputString.cpp, GuiInputString.h:
+
+	1 ╣╘╞■╬╧ежегеєе╔ежд╦е┐еде╚еыдЄ╔╜╝и
+
+2007-02-21 14:19  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, GuiInputString.cpp,
+	GuiInputString.h, Makefile.am:
+
+	1 ╣╘╞■╬╧ежегеєе╔еждЄ╝┬┴ї
+
+2007-02-20 10:55  bowkenken
+
+	* src/: Key.cpp, MouseMap.cpp:
+
+	е▐еже╣д╬╬╛епеъе├епд╦│фдъ┼Ўд╞дщдьд┐енб╝дм╞░║юд╖д╩ддд╬дЄ╜д└╡
+
+2007-02-19 17:42  bowkenken
+
+	* src/: Pcg.cpp, PcgDun.cpp, PcgDun.h:
+
+	енеуещепе┐дЄ 1 е┐б╝еєд╦▓┐┼┘дт╔┴▓шд╖д╩дд══д╦д╖д┐
+
+2007-02-19 07:48  bowkenken
+
+	* configure, src/PcgDun.cpp, src/PcgDun.h:
+
+	енеуещепе┐д╬╔┴▓шдЄ╣т┬о▓╜
+
+2007-02-12 03:24  bowkenken
+
+	* ChangeLog, configure.in, xlnl.spec, man/xlnl.jpn:
+
+	е╨б╝е╕ече╩е├е╫ 3.1.7
+
+2007-02-06 17:18  bowkenken
+
+	* src/PcgDun.cpp:
+
+	енеуещепе┐д╬╔┴▓шдЄ╛пд╖╣т┬о▓╜
+
+2007-02-05 14:15  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	евеєелб╝д╬▓ш┴№дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2007-02-05 07:57  bowkenken
+
+	* src/GuiMessage.cpp:
+
+	GUI д╬д▀д╬етб╝е╔╗■бвесе├е╗б╝е╕д╦┐здмд─длд╩ддд╬дЄ╜д└╡
+
+2007-02-05 07:01  bowkenken
+
+	* src/GuiMessage.cpp:
+
+	есе├е╗б╝е╕бжежегеєе╔ежд╦▓╝└■дЄ╔┴▓шд╟днды══д╦д╖д┐
+
+2007-02-05 05:13  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMisc.cpp:
+
+	есе├е╗б╝е╕бжежегеєе╔ежд╟╚┐┼╛╔╜╝ид╟днды══д╦д╖д┐
+
+2007-02-05 03:52  bowkenken
+
+	* src/: main-win.c, main-x.c:
+
+	еседеє╜ш═¤дЄг▒еї╜ъд╦д▐д╚дсд┐
+
+2007-02-05 02:40  bowkenken
+
+	* src/: MouseMap.cpp, Pcg.cpp, PcgDun.cpp, PcgDun.h, main-gtk.cpp,
+	main-x.c:
+
+	▓ш┴№д╬│╚┬ч╬идЄ└▀─ъд╟днды══д╦д╖д┐
+
+2007-02-04 21:34  bowkenken
+
+	* src/: FileList.cpp, GameThread.cpp, GlobalVar.cpp,
+	GtkWSCstring.cpp, GtkWSDmwindowDev.cpp, GuiMenu.cpp,
+	GuiMessage.cpp, GuiMisc.cpp, GuiNum.cpp, GuiStat.cpp, Key.cpp,
+	MapFormDraw.cpp, MapFormInit.cpp, MapFormMouseMove.cpp,
+	MapFormMousePress.cpp, MapFormMouseRellease.cpp, MapFormResize.cpp,
+	MapScrollXDraw.cpp, MapScrollXValCh.cpp, MapScrollYDraw.cpp,
+	MapScrollYValCh.cpp, MapWinInit.cpp, MenuWinInit.cpp, MouseMap.cpp,
+	MouseMotion.cpp, Pcg.cpp, PcgDun.cpp, main-gtk.cpp:
+
+	двд▒д▐д╖д╞дкдсд╟д╚дж
+
+2007-02-04 21:24  bowkenken
+
+	* src/GuiStat.cpp:
+
+	GTK+ ╚╟д╬е╣е╞б╝е┐е╣бжежегеєе╔ежд╬╠╛┴░е▄е┐еє┼∙д╬╡б╟╜дЄ╝┬┴ї
+
+2007-02-04 20:34  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, GuiMenu.cpp, GuiMisc.cpp,
+	GuiMisc.h, GuiStat.cpp, GuiStat.h, Makefile.am, main-gtk.cpp:
+
+	GTK+ ╚╟д╬е╣е╞б╝е┐е╣бжежегеєе╔еждЄ╝┬┴ї
+
+2007-02-03 21:12  bowkenken
+
+	* src/MouseMap.cpp:
+
+	е▐е├е╫бжежегеєе╔еждЄеъе╡еде║д╣дыд╚╔╜╝ид╡дьд╩дд╔Ї╩мдмдвдыд╬дЄ╜д└╡
+
+2007-02-03 09:08  bowkenken
+
+	* src/: FileList.cpp, FileList.h, Pcg.cpp, PcgDun.cpp, PcgDun.h,
+	PcgDunTab.h:
+
+	есеєе╨б╝д╬▓ш┴№дЄ╞т╔Ї┼кд╦└▀─ъд╟днды══д╦д╖д┐
+
+2007-02-03 02:26  bowkenken
+
+	* src/: Pcg.cpp, PcgDun.cpp, PcgDun.h:
+
+	енеуещепе┐д╬е╤е┐б╝еєдм┬чднддд╚│идм╖чд▒д┐дъе┤е▀дм╗─дыд╬дЄ╜д└╡
+
+2007-02-02 21:21  bowkenken
+
+	* src/MouseMap.cpp:
+
+	е▐еже╣д╬енб╝бже╨едеєе╔дЄ╩╤╣╣
+
+2007-02-02 07:31  bowkenken
+
+	* src/: PcgDun.cpp, main-gtk.cpp:
+
+	е▐е├е╫бжежегеєе╔ежд╬еъе╡еде║д╟е▐е├е╫дмд╧д▀╜╨д╣д╬дЄ╜д└╡
+
+2007-02-02 06:03  bowkenken
+
+	* src/: GuiMenu.h, GuiMessage.cpp, GuiMessage.h:
+
+	есе├е╗б╝е╕бжежегеєе╔ежд╬╜щ┤№▓╜д╚╔╜╝ид╬е┐еде▀еєе░дЄ╜д└╡
+
+2007-02-02 03:54  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h, GuiMessage.cpp, GuiMessage.h,
+	main-gtk-prot.h, main-gtk.cpp:
+
+	ежегеєе╔еждЄ╩─д╕д╞длдщдтдж░ь┼┘│лддд╞дт║┬╔╕дЄ╡н▓▒д╣ды══д╦д╖д┐
+
+2007-02-01 15:48  bowkenken
+
+	* src/MouseMap.cpp:
+
+	есе╦ехб╝д╬╔╜╝и├цд╧е▐е├е╫бжелб╝е╜еыдЄ╞░длд╡д╩дд══д╦д╖д┐
+
+2007-01-31 18:16  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMessage.h:
+
+	есе├е╗б╝е╕дЄ╔╜╝ид╣ды╗■бв╦Ў╚°дЄ╔╜╝и├цд╩дщ╝л╞░е╣епеэб╝еыд╣ды
+
+2007-01-30 12:42  bowkenken
+
+	* src/MouseMap.cpp:
+
+	е▐еже╣д╬е▄е┐еє│фдъ┼Ўд╞дЄ╩мдъдфд╣дп╩╤╣╣д╖д┐
+
+2007-01-30 11:57  bowkenken
+
+	* src/: GuiMessage.cpp, Pcg.cpp, Pcg.h, PcgDun.cpp, PcgDun.h,
+	PcgDunTab.h:
+
+	░ь╩¤╣╘д╦╕■дн╕╟─ъд╬енеуещепе┐бже╤е┐б╝еєд╦┬╨▒■д╖д┐
+
+2007-01-27 14:48  bowkenken
+
+	* configure, configure.in:
+
+	еЇебб╝е╕ечеєе╩е├е╫
+
+2007-01-27 14:08  bowkenken
+
+	* src/: FileList.cpp, FileList.h, GlobalVar.h, main-x.c:
+
+	е┐едеыбже╤е┐б╝еєд╬е╟егеьепе╚еъдЄеке╫е╖ечеєд╟╗╪─ъ╜╨═шды══д╦д╖д┐
+
+2007-01-24 08:07  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h:
+
+	е▐е├е╫бжежегеєе╔ежд╦еведе╞ердЄ╔┴▓шд╟дндыдшджд╦д╖д┐
+
+2007-01-12 02:32  bowkenken
+
+	* src/: FileList.h, GameThread.h, GlobalVar.h, GtkMisc.h,
+	GtkWSCstring.h, GtkWSDimage.h, GtkWSDmwindowDev.h, GuiMenu.h,
+	GuiMessage.h, GuiMisc.h, GuiNum.h, Key.h, MouseMap.h,
+	MouseMotion.h, Pcg.h, PcgDun.h, PcgDunTab.h, config-win.h,
+	main-win.c, main-x.c, main-x.h, msg-jpn-sjis.h:
+
+	двд▒д▐д╖д╞дкдсд╟д╚джд┤д╢ддд▐д╣
+
+2007-01-12 00:09  bowkenken
+
+	* ChangeLog:
+
+	ver 3.1.3 еъеъб╝е╣
+
+2006-12-02 12:27  bowkenken
+
+	* src/: xlnl-ja_JP.UTF-8.sh, xlnl-ja_JP.eucJP.sh:
+
+	е▓б╝ерд╬╝┬╣╘е╣епеъе╫е╚дЄеэе▒б╝еы╦шд╦╩мд▒д┐
+
+2006-12-02 12:12  bowkenken
+
+	* ChangeLog, src/PcgDun.cpp, src/PcgDun.h, src/PcgDunTab.h,
+	src/msg-jpn-sjis.h:
+
+	е▐е├е╫бжежегеєе╔ежд╦│м├╩дЄ╔┴▓ш
+
+2006-09-27 02:57  bowkenken
+
+	* src/: GuiMisc.cpp, GuiMisc.h, GuiNum.cpp, GuiNum.h:
+
+	┐Ї├═╞■╬╧ежегеєе╔ежд╟┐Ї├═дЄ╞■╬╧д╟дндыдшджд╦д╖д┐
+
+2006-09-26 11:08  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, GuiMessage.cpp, GuiNum.cpp,
+	GuiNum.h, Makefile.am:
+
+	┐Ї├═╞■╬╧ежегеєе╔еждЄ╔╜╝ид╟дндыдшджд╦д╖д┐
+
+2006-09-26 01:57  bowkenken
+
+	* src/GuiMessage.cpp:
+
+	есе├е╗б╝е╕бжежегеєе╔еждЄ▓ге╣епеэб╝еыд╖д┐╗■д╦
+	е┤е▀дм╗─дыеиеєе╨е░дЄ╜д└╡
+
+2006-09-26 01:39  bowkenken
+
+	* src/GuiMessage.cpp:
+
+	есе├е╗б╝е╕бжежегеєе╔ежд╬е┌б╝е╕бже╣епеэб╝еыбже╡еде║дЄ  1
+	е┌б╝е╕д╦д╖д┐
+
+2006-09-25 23:18  bowkenken
+
+	* src/GuiMessage.cpp:
+
+	есе├е╗б╝е╕бжежегеєе╔ежд╟евеєе└б╝бжещедеєдЄ╔╜╝ид╟дндыдшджд╦д╖д┐
+
+2006-09-25 22:17  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMisc.cpp, GuiMisc.h:
+
+	есе├е╗б╝е╕бжежегеєе╔ежд╟╚┐┼╛╔╜╝ид╟дндыдшджд╦д╖д┐
+
+2006-09-25 04:40  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMessage.h, GuiMisc.cpp, GuiMisc.h:
+
+	есе├е╗б╝е╕дЄ┐з╔╒днд╟ежегеєе╔ежд╦╔╜╝ид╟дндыдшджд╦д╖д┐
+
+2006-09-24 22:35  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMessage.h:
+
+	есе├е╗б╝е╕д╬┬│дн╔╜╝и (-more-) дЄежегеєе╔ежд╦╔┴▓шд╟дндыдшджд╦д╖д┐
+
+2006-09-24 20:34  bowkenken
+
+	* configure, configure.in, src/GuiMessage.cpp:
+
+	есе├е╗б╝е╕бжежегеєе╔еждЄ▓ге╣епеэб╝еыд╟дндыдшджд╦д╖д┐
+
+2006-09-24 03:25  bowkenken
+
+	* src/PcgDun.cpp:
+
+	╕лдид╞ддд╩ддетеєе╣е┐б╝д╧е▐е├е╫бжежегеєе╔ежд╦╔┴▓шд╖д╩дддшджд╦д╖д┐
+
+2006-09-24 00:36  bowkenken
+
+	* src/GuiMessage.cpp:
+
+	есе├е╗б╝е╕бжежегеєе╔ежд╬е┌б╝е╕бже╣епеэб╝еыд╬╔¤дЄг▒е┌б╝е╕╩мд╦д╖д┐
+
+2006-09-23 20:23  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMessage.h:
+
+	есе├е╗б╝е╕бжежегеєе╔еждЄе╣епеэб╝еыд╟дндыдшджд╦д╖д┐
+
+2006-09-23 04:50  bowkenken
+
+	* src/: GuiMessage.cpp, GuiMessage.h, GuiMisc.cpp, GuiMisc.h,
+	main-gtk.cpp:
+
+	есе├е╗б╝е╕бжежегеєе╔ежд╦есе├е╗б╝е╕дЄ╔╜╝ид╟дндыдшджд╦д╖д┐
+
+2006-09-22 22:29  bowkenken
+
+	* configure, src/GlobalVar.cpp, src/GlobalVar.h, src/GuiMenu.cpp,
+	src/GuiMessage.cpp, src/GuiMessage.h, src/GuiMisc.cpp,
+	src/GuiMisc.h, src/Makefile.am, src/MapWin.cpp, src/MapWin.win,
+	src/Pcg.cpp, src/Pcg.h, src/PcgDun.cpp, src/main-gtk.cpp,
+	src/msg-jpn-sjis.h, src/xlnl.prj:
+
+	есе├е╗б╝е╕бжежегеєе╔еждЄ╔╜╝ид╟дндыдшджд╦д╖д┐
+
+2006-09-16 16:03  bowkenken
+
+	* ChangeLog, configure.in, xlnl.spec, src/msg-jpn-sjis.h:
+
+	е╨б╝е╕ечеє╚╓╣цдЄ╛хд▓д┐
+
+2006-09-09 08:00  bowkenken
+
+	* ChangeLog, configure, configure.in, sh/main-x-prot,
+	src/FileList.h, src/GtkWSCstring.h, src/GtkWSDimage.h,
+	src/GtkWSDmwindowDev.h, src/GuiMenu.h, src/Key.h, src/Makefile.am,
+	src/MouseMotion.h, src/Pcg.h, src/PcgDun.h, src/main-x-prot.h,
+	src/main-x.c:
+
+	G++ д╬┐╖е╨б╝е╕ечеєд╬╩╕╦бд╦┬╨▒■бг CUI ╚╟д╬еке╫е╖ечеєд╬╩╤╣╣дЄе▐б╝е╕бг
+	CUI ╚╟д╬е┐б╝е▀е╩еы└▀─ъд╬╩╤╣╣дЄе▐б╝е╕бг
+
+2006-08-20 10:49  bowkenken
+
+	* src/: main-gtk-prot.h, main-gtk.cpp:
+
+	еседеєбжежегеєе╔еждЄ╩─д╕ды╗■бве▓б╝ердЄ╜к╬╗д╣дыдл┴к┬Єд╣ды══д╦д╖д┐
+
+2006-08-19 14:12  bowkenken
+
+	* src/: PcgDun.cpp, PcgDun.h, PcgDunTab.h, main-gtk.cpp:
+
+	е▐е├е╫бжежегеєе╔ежд╦е╡е╓бжелб╝е╜еыдЄ╔┴▓ш╜╨═шды══д╦д╖д┐
+
+2006-08-19 08:40  bowkenken
+
+	* src/main-gtk.cpp:
+
+	е▐е├е╫д╬╝┬╣╘е▄е┐еєд╬еще┘еыдЄесе├е╗б╝е╕╖┐д╦д╖д┐
+
+2006-08-18 16:59  bowkenken
+
+	* ChangeLog, xlnl.spec, src/GlobalVar.cpp, src/GlobalVar.h,
+	src/GuiMenu.cpp, src/main-gtk-prot.h, src/main-gtk.cpp:
+
+	е▐е├е╫бжежегеєе╔ежд╦╝┬╣╘е▄е┐еєд╚╧в┬│╝┬╣╘е▄е┐еєдЄд╬д╗д┐
+
+2006-08-17 06:57  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h, Key.cpp, main-gtk.cpp:
+
+	есе╦ехб╝бжежегеєе╔еждЄенб╝е▄б╝е╔д╟┴р║юд╟дндыдшджд╦д╖д┐
+
+2006-08-16 13:44  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h:
+
+	есе╦ехб╝д╬е┌б╝е╕┐ЇдЄ╔╜╝ид╣ды══д╦д╖д┐
+
+2006-08-16 12:48  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h:
+
+	есе╦ехб╝д╬е┌б╝е╕└┌дъ┬╪дие▄е┐еєдм╡б╟╜д╣ды══д╦д╖д┐
+
+2006-08-16 11:55  bowkenken
+
+	* src/GuiMenu.cpp:
+
+	GTK+ д╬есе╦ехб╝д╦е┌б╝е╕└┌дъ┬╪дие▄е┐еєдЄд╬д╗д┐бг
+	дфд├д╚бвесе╦ехб╝╣р╠▄дЄ║╕┤єд╗д╟╔╜╝ид╣дыд│д╚дм╜╨═шд┐бг
+
+2006-08-15 06:53  bowkenken
+
+	* src/: GtkWSCstring.cpp, GtkWSCstring.h, GuiMenu.cpp, GuiMenu.h,
+	MapFormInit.cpp, MouseMap.cpp, xlnl.prj:
+
+	GTK+ д╦┬╨▒■д╖д┐е╜б╝е╣дЄ WideStudio д╟е│еєе╤едеы
+
+2006-08-15 04:22  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h:
+
+	есе╦ехб╝д╬е▄е┐еєдЄепеъе├епд╖д┐╗■бвелб╝е╜еыдЄе▄е┐еєд╬│░д╦░▄╞░д╖д╞длдщ
+	╩№д╣д╚епеъе├епдменеуеєе╗еы╜╨═шды══д╦д╖д┐
+
+2006-08-14 16:36  bowkenken
+
+	* src/: GuiMenu.cpp, GuiMenu.h, main-gtk-prot.h, main-gtk.cpp:
+
+	есе╦ехб╝бжежегеєе╔еждЄ╔╜╝ид╖д╞╝┬╣╘╜╨═шды══д╦д╖д┐
+
+2006-08-14 14:25  bowkenken
+
+	* src/: GtkWSCstring.cpp, GuiMenu.cpp, GuiMenu.h, main-gtk.cpp:
+
+	есе╦ехб╝бжежегеєе╔еждЄ╔╜╝и╜╨═шды══д╦д╖д┐
+
+2006-08-14 05:53  bowkenken
+
+	* src/Key.cpp:
+
+	енб╝бже╨е├е╒ебдЄепеъевд╖╦║дьд╞ддд┐д╬дЄ╜д└╡
+
+2006-08-13 05:06  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, Key.cpp, Key.h, main-gtk.cpp:
+
+	е▐е├е╫бжежегеєе╔еждменб╝╞■╬╧дЄ╝їд▒д─д▒ды══д╦д╖д┐
+
+2006-08-12 12:21  bowkenken
+
+	* sh/prot, src/MouseMap.cpp:
+
+	┤╪┐Їе╫еэе╚е┐еде╫д╬╝л╞░└╕└од╟бв╠сдъ├═д╬╖┐д╦е╣е┌б╝е╣дЄ┤▐дсдщдьды══д╦д╖д┐
+
+2006-08-11 02:22  bowkenken
+
+	* ChangeLog, configure, configure.in:
+
+	ver. 3.0.x ╖╧д╚ ver. 3.1.x ╖╧д╦е╓ещеєе┴
+
+2006-08-09 10:14  bowkenken
+
+	* src/MouseMap.cpp:
+
+	е▐е├е╫бжелб╝е╜еыд╬░▄╞░д╦╗╚дженб╝дме╨е├е╒ебд╦д┐д▐дщд╩дд══д╦д╖д┐
+
+2006-08-09 09:55  bowkenken
+
+	* src/MouseMap.cpp:
+
+	е▐еже╣д╟е▐е├е╫бжелб╝е╜еыдЄ╞░длд╖д╞дте╧еєе░дщд╩дд══д╦╜д└╡
+
+2006-08-08 04:33  bowkenken
+
+	* src/: MouseMap.cpp, PcgDun.cpp, main-gtk.cpp:
+
+	е▐е├е╫д╬е╔еще├е░д╟╚╧░╧│░д╦е╣епеэб╝еы╜╨═шд╞д╖д▐джд╬дЄ╜д└╡
+
+2006-08-08 04:06  bowkenken
+
+	* src/: Makefile.am, MapFormInit.cpp, MouseMap.cpp, MouseMap.h,
+	main-gtk-prot.h, main-gtk.cpp:
+
+	е▌едеєе╚░╩│░д╬е▐еже╣бжетб╝е╖ечеєдЄ╝┬┴їд╖д┐
+
+2006-08-07 23:28  bowkenken
+
+	* src/: PcgDun.cpp, main-gtk.cpp:
+
+	е▐е├е╫бжежегеєе╔ежд╬е╣епеэб╝еы░╠├╓д╬╜щ┤№▓╜дм╜╨═шд╞ддд╩длд├д┐д╬дЄ╜д└╡
+
+2006-08-07 22:20  bowkenken
+
+	* src/PcgDun.cpp:
+
+	е▐е├е╫бжежегеєе╔ежд╬║╕╛хд╦е┤е▀дм╔┴▓шд╡дьдыд╬дЄ╜д└╡
+
+2006-08-07 12:02  bowkenken
+
+	* src/: GlobalVar.cpp, GlobalVar.h, PcgDun.cpp, main-gtk-prot.h,
+	main-gtk.cpp:
+
+	е▐е├е╫бжежегеєе╔еждЄе╣епеэб╝еы╜╨═шды══д╦д╖д┐
+
+2006-08-07 08:27  bowkenken
+
+	* src/: main-gtk-prot.h, main-gtk.cpp:
+
+	е▐е├е╫бжежегеєе╔еждЄ╔╜╝и╜╨═шды══д╦д╖д┐
+
+2006-08-06 07:37  bowkenken
+
+	* man/.cvsignore, sh/.cvsignore:
+
+	╝┬╣╘е╒ебедеыдЄ CVS д╟╠╡╗ыд╣ды══д╦д╖д┐
+
+2006-08-06 07:34  bowkenken
+
+	* Makefile.am, src/Makefile.am, src/main-gtk.cpp, src/xlnl,
+	src/xlnld:
+
+	xlnl дЄ CVS д╬еъе▌е╕е╚еъд╦┼╨╧┐
+
+2006-08-04 21:27  bowkenken
+
+	* AUTHORS, COPYING, ChangeLog, GPL, INSTALL, NEWS, README,
+	README-DOS, README-MAC, bootstrap, configure, configure.in,
+	install.sh, xlnl.spec, config/config.guess, config/config.sub,
+	config/depcomp, config/install-sh, config/missing,
+	config/mkinstalldirs, sh/.cvsignore, sh/all-prot, sh/amenu-prot,
+	sh/call-prot, sh/chr-prot, sh/curs-prot, sh/cv-acce,
+	sh/cv-anthology, sh/cv-armor, sh/cv-class-dflt, sh/cv-coin,
+	sh/cv-food, sh/cv-inst, sh/cv-item, sh/cv-light, sh/cv-pipe,
+	sh/cv-potion, sh/cv-range, sh/cv-rare-goods, sh/cv-scroll,
+	sh/cv-spell, sh/cv-stick, sh/cv-tab.awk, sh/cv-tobacco, sh/cv-wpn,
+	sh/draw-prot, sh/dun-prot, sh/fight-prot, sh/fx-prot,
+	sh/gfile-prot, sh/gmain-prot, sh/imenu-prot, sh/item-prot,
+	sh/main-gtk-prot, sh/main-unix-prot, sh/main-win-prot,
+	sh/main-x-prot, sh/make-change-log, sh/make-rpm, sh/menu-prot,
+	sh/misc-prot, sh/mmenu-prot, sh/mnstr-act-prot, sh/mnstr-prot,
+	sh/msg-prot, sh/mv-man-jpn, sh/nest-flg-prot, sh/party-prot,
+	sh/pet-prot, sh/prot, sh/rcv-acce, sh/rcv-anthology, sh/rcv-armor,
+	sh/rcv-class-dflt, sh/rcv-coin, sh/rcv-food, sh/rcv-gen-spell,
+	sh/rcv-inst, sh/rcv-item, sh/rcv-light, sh/rcv-mnstr, sh/rcv-pipe,
+	sh/rcv-potion, sh/rcv-range, sh/rcv-rare-goods, sh/rcv-scroll,
+	sh/rcv-spell, sh/rcv-stick, sh/rcv-tab.awk, sh/rcv-tobacco,
+	sh/rcv-wpn, sh/request-prot, sh/scp-mac1, sh/scp-mac2, sh/scp-web,
+	sh/scp-web-dvd, sh/scp-web-img, sh/scp-web-misc, sh/scp-wiki-bak,
+	sh/spell-prot, sh/tmenu-prot, sh/town-prot, sh/trap-prot,
+	sh/turn-prot, src/GtkMisc.h, src/GtkWSCstring.h,
+	src/MapFormInit.cpp, src/MapFormMouseMove.cpp,
+	src/MapFormMousePress.cpp, src/MenuBtnCancelActivate.cpp,
+	src/Pcg.h, src/StatWinDADraw.cpp, src/StatWinDAInit.cpp,
+	src/StatWinIdx.h, src/main-ws-prot.h, src/xlnl.prj,
+	src/GtkWSDmwindowDev.cpp, src/MenuWin.cpp, src/MenuWinInit.cpp,
+	src/config-win.h, src/FileList.h, src/GameThread.cpp,
+	src/GameThread.h, src/GlobalVar.h, src/GtkWSCstring.cpp,
+	src/GuiMenu.cpp, src/Key.cpp, src/Key.h, src/MapFormDraw.cpp,
+	src/MapFormMouseRellease.cpp, src/MapFormResize.cpp,
+	src/MapScrollXDraw.cpp, src/MapScrollXValCh.cpp,
+	src/MapScrollYDraw.cpp, src/MapScrollYValCh.cpp, src/MapWin.cpp,
+	src/MapWin.h, src/MapWin.win, src/MenuBtnPrevPageActivate.cpp,
+	src/MenuWin.h, src/MenuWin.win, src/MouseMotion.h, src/Pcg.cpp,
+	src/PcgDun.cpp, src/PcgDunTab.h, src/StatWinResize.cpp,
+	src/main-gtk-prot.h, src/main-win-prot.h, src/main-win.c,
+	src/main-x-prot.h, src/main-x.c, src/main-x.h, src/xlnl.col,
+	src/xlnl.sh, src/xlnl.wns, src/xlnld, data/item-acce-tab.csv,
+	data/item-light-tab.csv, data/item-pipe-tab.csv, man/.cvsignore,
+	man/Makefile.am, man/xlnl.jpn, src/FileList.cpp, src/GlobalVar.cpp,
+	src/GtkWSDimage.h, src/GtkWSDmwindowDev.h, src/GuiMenu.h,
+	src/MapWinInit.cpp, src/MenuBtnNextPageActivate.cpp,
+	src/MouseMotion.cpp, src/PcgDun.h, src/main-gtk.cpp, src/xlnl,
+	src/xlnl.cpp, data/.cvsignore, data/class-dflt-tab.csv,
+	data/item-anthology-tab.csv, data/item-armor-tab.csv,
+	data/item-coin-tab.csv, data/item-food-tab.csv,
+	data/item-inst-tab.csv, data/item-potion-tab.csv,
+	data/item-range-tab.csv, data/item-rare-goods-tab.csv,
+	data/item-scroll-tab.csv, data/item-stick-tab.csv,
+	data/item-tobacco-tab.csv, data/item-wpn-tab.csv,
+	data/mnstr-gen-tab.csv, data/spell-gen-tab.csv:
+
+	Initial revision
+
+2006-08-04 21:27  bowkenken
+
+	* AUTHORS, COPYING, ChangeLog, GPL, INSTALL, NEWS, README,
+	README-DOS, README-MAC, bootstrap, configure, configure.in,
+	install.sh, xlnl.spec, config/config.guess, config/config.sub,
+	config/depcomp, config/install-sh, config/missing,
+	config/mkinstalldirs, sh/.cvsignore, sh/all-prot, sh/amenu-prot,
+	sh/call-prot, sh/chr-prot, sh/curs-prot, sh/cv-acce,
+	sh/cv-anthology, sh/cv-armor, sh/cv-class-dflt, sh/cv-coin,
+	sh/cv-food, sh/cv-inst, sh/cv-item, sh/cv-light, sh/cv-pipe,
+	sh/cv-potion, sh/cv-range, sh/cv-rare-goods, sh/cv-scroll,
+	sh/cv-spell, sh/cv-stick, sh/cv-tab.awk, sh/cv-tobacco, sh/cv-wpn,
+	sh/draw-prot, sh/dun-prot, sh/fight-prot, sh/fx-prot,
+	sh/gfile-prot, sh/gmain-prot, sh/imenu-prot, sh/item-prot,
+	sh/main-gtk-prot, sh/main-unix-prot, sh/main-win-prot,
+	sh/main-x-prot, sh/make-change-log, sh/make-rpm, sh/menu-prot,
+	sh/misc-prot, sh/mmenu-prot, sh/mnstr-act-prot, sh/mnstr-prot,
+	sh/msg-prot, sh/mv-man-jpn, sh/nest-flg-prot, sh/party-prot,
+	sh/pet-prot, sh/prot, sh/rcv-acce, sh/rcv-anthology, sh/rcv-armor,
+	sh/rcv-class-dflt, sh/rcv-coin, sh/rcv-food, sh/rcv-gen-spell,
+	sh/rcv-inst, sh/rcv-item, sh/rcv-light, sh/rcv-mnstr, sh/rcv-pipe,
+	sh/rcv-potion, sh/rcv-range, sh/rcv-rare-goods, sh/rcv-scroll,
+	sh/rcv-spell, sh/rcv-stick, sh/rcv-tab.awk, sh/rcv-tobacco,
+	sh/rcv-wpn, sh/request-prot, sh/scp-mac1, sh/scp-mac2, sh/scp-web,
+	sh/scp-web-dvd, sh/scp-web-img, sh/scp-web-misc, sh/scp-wiki-bak,
+	sh/spell-prot, sh/tmenu-prot, sh/town-prot, sh/trap-prot,
+	sh/turn-prot, src/GtkMisc.h, src/GtkWSCstring.h,
+	src/MapFormInit.cpp, src/MapFormMouseMove.cpp,
+	src/MapFormMousePress.cpp, src/MenuBtnCancelActivate.cpp,
+	src/Pcg.h, src/StatWinDADraw.cpp, src/StatWinDAInit.cpp,
+	src/StatWinIdx.h, src/main-ws-prot.h, src/xlnl.prj,
+	src/GtkWSDmwindowDev.cpp, src/MenuWin.cpp, src/MenuWinInit.cpp,
+	src/config-win.h, src/FileList.h, src/GameThread.cpp,
+	src/GameThread.h, src/GlobalVar.h, src/GtkWSCstring.cpp,
+	src/GuiMenu.cpp, src/Key.cpp, src/Key.h, src/MapFormDraw.cpp,
+	src/MapFormMouseRellease.cpp, src/MapFormResize.cpp,
+	src/MapScrollXDraw.cpp, src/MapScrollXValCh.cpp,
+	src/MapScrollYDraw.cpp, src/MapScrollYValCh.cpp, src/MapWin.cpp,
+	src/MapWin.h, src/MapWin.win, src/MenuBtnPrevPageActivate.cpp,
+	src/MenuWin.h, src/MenuWin.win, src/MouseMotion.h, src/Pcg.cpp,
+	src/PcgDun.cpp, src/PcgDunTab.h, src/StatWinResize.cpp,
+	src/main-gtk-prot.h, src/main-win-prot.h, src/main-win.c,
+	src/main-x-prot.h, src/main-x.c, src/main-x.h, src/xlnl.col,
+	src/xlnl.sh, src/xlnl.wns, src/xlnld, data/item-acce-tab.csv,
+	data/item-light-tab.csv, data/item-pipe-tab.csv, man/.cvsignore,
+	man/Makefile.am, man/xlnl.jpn, src/FileList.cpp, src/GlobalVar.cpp,
+	src/GtkWSDimage.h, src/GtkWSDmwindowDev.h, src/GuiMenu.h,
+	src/MapWinInit.cpp, src/MenuBtnNextPageActivate.cpp,
+	src/MouseMotion.cpp, src/PcgDun.h, src/main-gtk.cpp, src/xlnl,
+	src/xlnl.cpp, data/.cvsignore, data/class-dflt-tab.csv,
+	data/item-anthology-tab.csv, data/item-armor-tab.csv,
+	data/item-coin-tab.csv, data/item-food-tab.csv,
+	data/item-inst-tab.csv, data/item-potion-tab.csv,
+	data/item-range-tab.csv, data/item-rare-goods-tab.csv,
+	data/item-scroll-tab.csv, data/item-stick-tab.csv,
+	data/item-tobacco-tab.csv, data/item-wpn-tab.csv,
+	data/mnstr-gen-tab.csv, data/spell-gen-tab.csv:
+
+	xlnl е░еще╒еге├еп╚╟д╬ GTK+ ╚╟дЄ┼╨╧┐
+
