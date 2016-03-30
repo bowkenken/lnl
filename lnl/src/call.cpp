@@ -36,7 +36,11 @@ extern WSCwindow *StatWin;
 #endif
 
 #ifdef D_GTK
+# ifdef HAVE_G_THREAD_INIT
 static GStaticMutex	g_key_buf_mutex = G_STATIC_MUTEX_INIT;
+# else // HAVE_G_THREAD_INIT
+static GMutex	g_key_buf_mutex;
+# endif // HAVE_G_THREAD_INIT
 #endif // D_GTK
 
 static long g_joy_n = 0;
@@ -132,7 +136,11 @@ void	call_close_game_gui( void )
 void	key_buf_lock( void )
 {
 #ifdef D_GTK
+# ifdef HAVE_G_THREAD_INIT
 	g_static_mutex_lock( &g_key_buf_mutex );
+# else // HAVE_G_THREAD_INIT
+	g_mutex_lock( &g_key_buf_mutex );
+# endif // HAVE_G_THREAD_INIT
 #endif // D_GTK
 }
 
@@ -143,7 +151,11 @@ void	key_buf_lock( void )
 void	key_buf_unlock( void )
 {
 #ifdef D_GTK
+# ifdef HAVE_G_THREAD_INIT
 	g_static_mutex_unlock( &g_key_buf_mutex );
+# else // HAVE_G_THREAD_INIT
+	g_mutex_unlock( &g_key_buf_mutex );
+# endif // HAVE_G_THREAD_INIT
 #endif // D_GTK
 }
 

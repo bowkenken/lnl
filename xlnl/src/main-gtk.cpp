@@ -147,7 +147,9 @@ void	init_gtk_gui( int argc, char **argv )
 
 	gtk_set_locale();
 
+#if	defined( HAVE_G_THREAD_INIT )
 	g_thread_init( NULL );
+#endif
 	gdk_threads_init();
 
 	gtk_init( &argc, &argv );
@@ -212,7 +214,9 @@ void	init_gtk_cui_mouse( int argc, char **argv )
 
 	gtk_set_locale();
 
+#if	defined( HAVE_G_THREAD_INIT )
 	g_thread_init( NULL );
+#endif
 	gdk_threads_init();
 
 	gtk_init( &argc, &argv );
@@ -277,6 +281,7 @@ void	init_main_sel_conf( GraphConf *cnf )
 	gGuiMenu.init();
 	gGuiMessage.init();
 	gGuiStat.init();
+	gGuiNum.init();
 	gKey.init();
 	initMouseMotionFunc();
 

@@ -40,6 +40,9 @@
 /* Define to 1 if you have the <gpm.h> header file. */
 #define HAVE_GPM_H 1
 
+/* Define to 1 if you have the `g_thread_init' function. */
+/* #undef HAVE_G_THREAD_INIT */
+
 /* Define to 1 if you have the `has_colors' function. */
 #define HAVE_HAS_COLORS 1
 
@@ -192,6 +195,9 @@
 
 /* Define to 1 if you have the `vprintf' function. */
 #define HAVE_VPRINTF 1
+
+/* Define to 1 if you have the `XQueryPointer' function. */
+/* #undef HAVE_XQUERYPOINTER */
 
 /* Name of package */
 #define PACKAGE "xlnl"

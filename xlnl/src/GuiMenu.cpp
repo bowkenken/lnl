@@ -801,71 +801,89 @@ void GuiMenu::setMouseDfltMenu( long sel_n )
 	if( !get_flg_move_crsr_dflt() )
 		return;
 
-	long x = 0;
-	long y = 0;
-	long w = 0;
-	long h = 0;
-
 #ifdef D_WS
-	x = (long)(MenuWin->getProperty( WSNx ));
-	y = (long)(MenuWin->getProperty( WSNy ));
-	y += (long)(MenuWin->getProperty( WSNbarThickness ));
-	x += (long)(aBtnMenu[sel_n]->getProperty( WSNx ));
-	y += (long)(aBtnMenu[sel_n]->getProperty( WSNy ));
-	w = (long)(aBtnMenu[sel_n]->getProperty( WSNwidth ));
-	h = (long)(aBtnMenu[sel_n]->getProperty( WSNheight ));
+	{
+		long x = 0;
+		long y = 0;
+		long w = 0;
+		long h = 0;
 
-	x += w * 4 / 5;
-	y += h / 2;
+		x = (long)(MenuWin->getProperty( WSNx ));
+		y = (long)(MenuWin->getProperty( WSNy ));
+		y += (long)(MenuWin->getProperty( WSNbarThickness ));
+		x += (long)(aBtnMenu[sel_n]->getProperty( WSNx ));
+		y += (long)(aBtnMenu[sel_n]->getProperty( WSNy ));
+		w = (long)(aBtnMenu[sel_n]->getProperty( WSNwidth ));
+		h = (long)(aBtnMenu[sel_n]->getProperty( WSNheight ));
 
-	WSDmouse *mouse = WSGIappMouse();
-	mouse->setMousePosition( x, y );
+		x += w * 4 / 5;
+		y += h / 2;
+
+		WSDmouse *mouse = WSGIappMouse();
+		mouse->setMousePosition( x, y );
+	}
 #endif // D_WS
 
 #ifdef D_GTK
-	gint menuX = 0;
-	gint menuY = 0;
-	gdk_window_get_position( mMenuWin->window, &menuX, &menuY );
-	if( (menuX <= 32) && (menuY <= 32) )
-		return;
+# ifdef HAVE_XQUERYPOINTER
+	{
+		long x = 0;
+		long y = 0;
+		long w = 0;
+		long h = 0;
 
-	x = aBtnMenu[sel_n]->allocation.x + menuX;
-	y = aBtnMenu[sel_n]->allocation.y + menuY;
-	w = aBtnMenu[sel_n]->allocation.width;
-	h = aBtnMenu[sel_n]->allocation.height;
+		gint menuX = 0;
+		gint menuY = 0;
+		gdk_window_get_position( mMenuWin->window, &menuX, &menuY );
+		if( (menuX <= 32) && (menuY <= 32) )
+			return;
 
-	int crsrX = 0;
-	int crsrY = 0;
-	Window rootWin, childWin;
-	int winX, winY;
-	unsigned int mask;
-	XQueryPointer( gdk_x11_get_default_xdisplay(),
-			GDK_ROOT_WINDOW(), &rootWin, &childWin,
-			&crsrX, &crsrY, &winX, &winY, &mask );
+		x = aBtnMenu[sel_n]->allocation.x + menuX;
+		y = aBtnMenu[sel_n]->allocation.y + menuY;
+		w = aBtnMenu[sel_n]->allocation.width;
+		h = aBtnMenu[sel_n]->allocation.height;
 
-	x -= crsrX;
-	y -= crsrY;
+		int crsrX = 0;
+		int crsrY = 0;
+		Window rootWin, childWin;
+		int winX, winY;
+		unsigned int mask;
+		XQueryPointer( gdk_x11_get_default_xdisplay(),
+				GDK_ROOT_WINDOW(), &rootWin, &childWin,
+				&crsrX, &crsrY, &winX, &winY, &mask );
 
-	x += w * 4 / 5;
-	y += h / 2;
+		x -= crsrX;
+		y -= crsrY;
 
-	XWarpPointer( gdk_x11_get_default_xdisplay(),
-			None, None,
-			0, 0, 0, 0, x, y );
+		x += w * 4 / 5;
+		y += h / 2;
+
+		XWarpPointer( gdk_x11_get_default_xdisplay(),
+				None, None,
+				0, 0, 0, 0, x, y );
+	}
+# endif // HAVE_XQUERYPOINTER
 #endif // D_GTK
 
 #ifdef D_MFC
-	RECT rect;
-	aBtnMenu[sel_n]->GetWindowRect( &rect );
-	x = rect.left;
-	y = rect.top;
-	w = rect.right - rect.left;
-	h = rect.bottom - rect.top;
+	{
+		long x = 0;
+		long y = 0;
+		long w = 0;
+		long h = 0;
 
-	x += w * 4 / 5;
-	y += h / 2;
+		RECT rect;
+		aBtnMenu[sel_n]->GetWindowRect( &rect );
+		x = rect.left;
+		y = rect.top;
+		w = rect.right - rect.left;
+		h = rect.bottom - rect.top;
 
-	::SetCursorPos( x, y );
+		x += w * 4 / 5;
+		y += h / 2;
+
+		::SetCursorPos( x, y );
+	}
 #endif // D_MFC
 }
 

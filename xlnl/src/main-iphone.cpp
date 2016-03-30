@@ -285,6 +285,7 @@ void	init_main_sel_conf( GraphConf *cnf )
 	gGuiMenu.init();
 	gGuiMessage.init();
 	gGuiStat.init();
+	gGuiNum.init();
 	gKey.init();
 	initMouseMotionFunc();
 

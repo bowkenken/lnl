@@ -118,8 +118,6 @@ void GuiNum::newWin()
 #endif // D_WS
 
 #ifdef D_GTK
-	long	n;
-
 	// 数値入力ウィンドウの作成
 
 	mNumWin = gtk_window_new( GTK_WINDOW_TOPLEVEL );
@@ -228,7 +226,7 @@ void GuiNum::newWin()
 
 	// ボタン配列の作成
 
-	GtkWidget *vBox[10];
+	GtkWidget *vBox[GUI_NUM_BUTTON_MAX_N];
 
 	GtkWidget *hBox = gtk_hbox_new( FALSE, 0 );
 	if( hBox == NULL ){
@@ -297,6 +295,7 @@ void GuiNum::newWin()
 
 		// ボタン配列へのイベント・ハンドラを設定
 
+		long	n;
 		if( flagComma )
 			n = -1;
 		else

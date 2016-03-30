@@ -42,9 +42,9 @@ AC_CHECK_LIB([SDL], [SDL_JoystickOpen])
 # Checks for header files.
 AC_HEADER_STDC
 AC_CHECK_HEADERS([locale.h])
-AC_CHECK_HEADERS([curses.h ncurses.h ncursesw.h])
 AC_CHECK_HEADERS([stdlib.h stddef.h stdio.h stdarg.h])
 AC_CHECK_HEADERS([limits.h string.h ctype.h time.h math.h])
+AC_CHECK_HEADERS([curses.h ncurses.h ncursesw.h])
 AC_CHECK_HEADERS([sys/stat.h termio.h termios.h unistd.h])
 AC_CHECK_HEADERS([sys/fcntl.h])
 AC_CHECK_HEADERS([getopt.h])
@@ -65,8 +65,9 @@ AC_CHECK_FUNCS([sin cos tan])
 AC_CHECK_FUNCS([getopt_long getopt])
 AC_CHECK_FUNCS([sleep usleep nanosleep])
 AC_CHECK_FUNCS([has_colors start_color init_pair keypad])
-AC_CHECK_FUNCS([attrset attron attroff  getnstr])
-AC_CHECK_FUNCS([pthread_create pthread_detach])
+AC_CHECK_FUNCS([attrset attron attroff getnstr])
+AC_CHECK_FUNCS([pthread_create pthread_detach g_thread_init])
+AC_CHECK_FUNCS([XQueryPointer])
 
 # End
 
